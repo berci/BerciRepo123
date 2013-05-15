@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns="http://www.camline.com/prop/1.0"
+	targetNamespace="http://www.camline.com/prop/1.0">
+	
+	<xs:element name="equipmentConfig">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="equipment" type="equipmentType" minOccurs="1" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	
+	<xs:complexType name="equipmentType">
+		<xs:sequence>
+			<xs:element name="param" type="paramType" minOccurs="1" maxOccurs="unbounded"/>
+		</xs:sequence>
+		<xs:attribute name="id" type="xs:string" use="required"/>
+		<xs:attribute name="name" type="xs:string" use="required"/>	
+	</xs:complexType>
+	
+	<xs:complexType name="paramType">
+		<xs:attribute name="key" type="xs:string" use="required"/>
+		<xs:attribute name="name" type="xs:string" use="required"/>
+		<xs:attribute name="unit" type="xs:string" use="required"/>	
+	</xs:complexType>
+	
+</xs:schema>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p:equipmentConfig xmlns:p="http://www.camline.com/prop/1.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.camline.com/prop/1.0 equipments.xsd ">
+	
+	<equipment id="36543" name="STS Multiplex HP (Al-Kammer)">
+		<param key="[1]" name="Ar" unit="sccm" />
+		<param key="[2]" name="CF4" unit="sccm" />
+		<param key="[3]" name="O2" unit="sccm" />
+		<param key="[4]" name="CL2" unit="sccm" />
+		<param key="[5]" name="HBr" unit="sccm" />
+		<param key="[6]" name="SF6" unit="sccm" />
+		<param key="[7]" name="C4F8" unit="sccm" />
+	</equipment>
+	<equipment id="20643" name="STS Multiplex ICP (Si-Kammer)">
+		<param key="[1]" name="C4F8" unit="sccm" />
+		<param key="[2]" name="SF6" unit="sccm" />
+		<param key="[3]" name="O2" unit="sccm" />
+		<param key="[4]" name="CF4" unit="sccm" />
+	</equipment>
+		
+</p:equipmentConfig>

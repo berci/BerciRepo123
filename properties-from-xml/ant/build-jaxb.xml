@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<project name="JAXB Build Environment" basedir=".." default="jaxb-generate">
+	<!--
+		JAXB Build Environment Ant Script
+		
+		Purpose:
+		Generate JAXB classes, compile these classes including additional
+		"human" classes and make a jar. Finally, a clean target is included.
+		
+		Properties needed to be set outside:
+		schema      Path of the XML schema file
+		bindings    Path of the JAXB bindings file
+		target.jar  Name of the resulting jar file, located in ${build} dir
+		jaxbsrc     Directory where the JAXB generated classes should be put
+		src         Optional directory where human classes reside, which should
+		            be included in the build process
+		lib         Directory where the needed jars for compiling reside
+		build       Directory where the compiled classes and the resulting jar
+		            file should be put.
+		
+		Path which can be overwritten:
+		jaxb.sources Ant Path which contains all source directories.
+		               By default, it contains ${jaxbsrc} and ${src}.
+	-->
+	<!--
+		Compile classpath, should contain at least all needed JAXB classes,
+		including xerces.
+	-->
+	<path id="jaxb.compile.class.path">
+		<fileset dir="${lib}">
+			<include name ="*.jar"/>
+		</fileset>
+		<fileset dir="${lib}/build">
+			<include name ="*.jar"/>
+		</fileset>
+	</path>
+	
+	<path id="jaxb.gen.class.path">
+		<fileset dir="${lib}/build/gen-jaxbsrc">
+			<include name ="*.jar"/>
+		</fileset>
+		<path refid="jaxb.compile.class.path"/>
+	</path>
+				
+	<!--
+		Ant path jaxb.sources:
+		Source classpath, should contain all source directories, which should
+		be included in compilation and jar generation.
+	-->
+	<path id="jaxb.sources">
+		<pathelement path="${src}"/>
+		<pathelement path="${jaxbsrc}"/>
+	</path>
+	
+	<!--
+		Ant path jaxb.resources:
+		Any additional files which should be copied into the resulting jar.
+		By default it is empty, but can be overwritten in the specific ant script.
+	-->
+	<path id="jaxb.resources"/>
+	
+	<!--
+		Target jaxb-clean:
+		Deletes generated classes and build directory.
+	-->
+	<target name="jaxb-clean" description="Delete all JAXB generated stuff" unless="work.offline">
+		<echo>Deleting JAXB generated files in ${jaxbsrc} and ${build}</echo>
+		<delete dir="${jaxbsrc}"/>
+		<delete dir="${build}"/>
+		<mkdir dir="${jaxbsrc}"/>
+	</target>
+	<!--
+		Target jaxb-generate:
+		Generates JAXB classes based on schema and bindings file.
+	-->
+	
+	<target name="jaxb-generate" depends="jaxb-clean">
+		<taskdef name="xjc" classname="com.sun.tools.xjc.XJC2Task" classpathref="jaxb.gen.class.path"/>
+		<echo message="+---------------------------------+"/>
+		<echo message="| Generating JAXB classes!      |"/>
+		<echo message="+---------------------------------+"/>
+		<echo>Schema: ${schema}</echo>
+		<xjc	
+			destdir="${basedir}/${jaxbsrc}"
+			removeOldOutput="yes"
+			package="${package}">
+		  <schema dir="${basedir}/xsd" includes="*.xsd" />
+		</xjc>
+	</target>
+	<!--
+		Target jaxb-compile:
+		Compiles java classes in jaxb.sources path
+	-->
+	<target name="jaxb-compile" depends="jaxb-generate" 
+		description="Compiles the project" >
+		<mkdir dir="${build}/tmp"/>
+		<property name="echo.jaxb.sources" refid="jaxb.sources"/>
+		<echo>Compiling sources in ${echo.jaxb.sources}.</echo>
+		<echo>Classes are in ${build}/tmp</echo>
+		<javac debug="true" destdir="${build}/tmp" source="1.5" target="1.5">
+			<src refid="jaxb.sources"/>
+			<classpath refid="jaxb.compile.class.path"/>
+		</javac>
+		
+		<!--delete dir="${classes}"/>
+		<mkdir dir="${classes}"/>
+		<copy todir="${classes}" verbose="false">
+			<fileset dir="${build}/tmp" includes="**/jaxb/*.class"/>
+		</copy>
+		
+		<copy todir="${build}/tmp" verbose="true">
+			<path refid="jaxb.resources"/>
+		</copy-->
+	</target>
+	
+	<!--=====================================================================-->
+	<!-- strip CVS version and put the result into stripedVersion            -->
+	<!--=====================================================================-->
+	<target name="strip-version" unless="stripedVersion"
+		description="strip CVS version and put the result into stripedVersion">
+		
+		<!-- helper task to strip the version tag -->
+		<taskdef name="stripVersionLabel" classname="com.camline.ant.utilities.StripVersionLabel">
+			<classpath>
+				<fileset dir="${lib}/build/ant-utilities">
+					<include name="*.jar"/>
+				</fileset>
+			</classpath>
+		</taskdef>	
+		<stripVersionLabel srcPropName="server.version" desPropName="stripedVersion" noDollar="Y"/>
+		<stripVersionLabel srcPropName="server.version" desPropName="stripedVersionWithPrefix" noDollar="Y" prefix="-"/>
+		<echo message="stripedVersion=${stripedVersion}"/>
+	</target>
+	
+	<!--
+		Target jaxb-jar:
+		Creates a jar file from all compiled classes.
+	-->
+	<target name="jaxb-jar" depends="jaxb-compile,strip-version" 
+		description="JARs the project">
+		<tstamp>
+			<format property="BUILDDATE" pattern="d MMM yyyy HH:mm:ss Z"/>
+		</tstamp>
+		<jar destfile="${build}/${target.jar}${stripedVersionWithPrefix}.jar" basedir="${build}/tmp">
+			<manifest>
+				<attribute name="Built-By" value="${user.name}"/>
+				<attribute name="Specification-Title" value="${ant.project.name}"/>
+				<attribute name="Specification-Version" value="${stripedVersion}"/>
+				<attribute name="Specification-Vendor" value="camLine"/>
+				<attribute name="Implementation-Title" value="${ant.project.name}"/>
+				<attribute name="Implementation-Version" value="${stripedVersion} ${BUILDDATE}"/>
+				<attribute name="Implementation-Vendor" value="camLine"/>
+			</manifest>
+		</jar>
+		<delete dir="${build}/tmp" failonerror="false"/>
+	</target>
+</project>
