@@ -1,0 +1,75 @@
+<project name="corbaTest" basedir=".">
+
+	<property file="build.properties" />
+	<property name="server.src" value="${basedir}/src" />
+	<property name="idl.src" value="${basedir}/idl" />
+
+	<path id="corba.classpath">
+		<fileset dir="build">
+			<include name="*" />
+		</fileset>
+		<fileset dir="${lib}">
+			<include name="*.jar" />
+		</fileset>
+	</path>
+
+	<target name="copy-jars-jacorb" unless="work.offline">
+		<property name="jacorb.dir" value="${thirdparty.root}/jacorb/${JACORB_VERSION}" />
+		<copy todir="${lib}" verbose="true" failonerror="true">
+			<fileset dir="${jacorb.dir}">
+				<include name="avalon-framework-${AVALON_FRAMEWORK_VERSION}.jar" />
+				<include name="idl.jar" />
+				<include name="logkit-1.2.jar" />
+			</fileset>
+		</copy>
+		<copy verbose="true" file="${jacorb.dir}/jacorb.jar" tofile="${lib}/jacorb-${JACORB_VERSION}.jar" failonerror="true" />
+		<copy verbose="true" file="${jacorb.dir}/_license/LICENSE" tofile="${licenses}/jacorb-${JACORB_VERSION}-LICENSE" failonerror="true" />
+	</target>
+
+	<target name="gen-idl">
+		<delete dir="${server.src}/com/corba/test/server" verbose="false" />
+
+		<java classname="org.jacorb.idl.parser" fork="yes" dir="${server.src}">
+			<arg value="-fserver" />
+			<arg value="-oldImplBase" />
+			<arg value="${idl.src}/server.idl" />
+			<classpath refid="corba.classpath" />
+		</java>
+		<mkdir dir="${build}/" />
+		<java classname="org.jacorb.idl.parser" fork="yes" dir="${idl.src}">
+			<arg value="-noskel" />
+			<arg value="${idl.src}/server.idl" />
+			<classpath refid="corba.classpath" />
+		</java>
+	</target>
+
+	<target name="build">
+		<delete dir="${build}/test" />
+		<mkdir dir="${build}/test" />
+		<javac debug="true" 
+				srcdir="${server.src}" 
+				destdir="${build}/test" 
+				compiler="javac1.6" 
+				source="1.5" 
+				target="1.5" 
+				verbose="false">
+			<classpath refid="corba.classpath" />
+		</javac>
+		<jar destfile="${build}/test/test.jar" basedir="${build}/test" filesonly="true"/>
+		<copy file="${build}/test/test.jar" todir="lib"></copy>
+		
+		<delete dir="${build}/server" />
+		<mkdir dir="${build}/server" />
+		<javac debug="true" 
+				srcdir="${server.src}/com/corba/test/server" 
+				destdir="${build}/server" 
+				compiler="javac1.6" 
+				source="1.5" 
+				target="1.5" 
+				verbose="false">
+			<classpath refid="corba.classpath" />
+		</javac>
+		<jar destfile="${build}/server/testServer.jar" basedir="${build}/server" filesonly="true"/>
+	</target>
+
+</project>

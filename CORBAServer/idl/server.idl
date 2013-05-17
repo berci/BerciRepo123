@@ -1,0 +1,21 @@
+
+module com {
+	module corba {
+		module test {
+			module server {
+				
+				
+				interface functions {
+				
+					void sql(
+						in string sql
+					);
+					
+					void add(
+						in short data
+					);
+				};
+			};
+		};
+	};
+};					

@@ -1,0 +1,19 @@
+2013-03-16 12:02:07,066 INFO (Thread-1)[Version.<clinit>():37]HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2013-03-16 12:02:07,074 INFO (Thread-1)[Version.logVersion():41]HHH000412: Hibernate Core {4.0.0.Final}
+2013-03-16 12:02:07,076 INFO (Thread-1)[Environment.<clinit>():239]HHH000206: hibernate.properties not found
+2013-03-16 12:02:07,077 INFO (Thread-1)[Environment.buildBytecodeProvider():342]HHH000021: Bytecode provider name : javassist
+2013-03-16 12:02:07,222 INFO (Thread-1)[Configuration.configure():1920]HHH000043: Configuring from resource: /hibernate.cfg.xml
+2013-03-16 12:02:07,222 INFO (Thread-1)[Configuration.getConfigurationInputStream():1939]HHH000040: Configuration resource: /hibernate.cfg.xml
+2013-03-16 12:02:07,244 WARN (Thread-1)[DTDEntityResolver.resolveEntity():74]HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2013-03-16 12:02:07,270 INFO (Thread-1)[Configuration.doConfigure():2061]HHH000041: Configured SessionFactory: null
+2013-03-16 12:02:07,418 INFO (Thread-1)[DriverManagerConnectionProviderImpl.configure():90]HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2013-03-16 12:02:07,464 INFO (Thread-1)[DriverManagerConnectionProviderImpl.configure():110]HHH000115: Hibernate connection pool size: 20
+2013-03-16 12:02:07,465 INFO (Thread-1)[DriverManagerConnectionProviderImpl.configure():113]HHH000006: Autocommit mode: true
+2013-03-16 12:02:07,465 INFO (Thread-1)[DriverManagerConnectionProviderImpl.configure():127]HHH000401: using driver [oracle.jdbc.driver.OracleDriver] at URL [jdbc:oracle:thin:@eco:1521:o102]
+2013-03-16 12:02:07,466 INFO (Thread-1)[DriverManagerConnectionProviderImpl.configure():132]HHH000046: Connection properties: {user=eco_dev, password=****, autocommit=true, release_mode=auto}
+2013-03-16 12:02:09,792 WARN (Thread-1)[JdbcServicesImpl.configure():165]HHH000342: Could not obtain connection to query metadata : The Network Adapter could not establish the connection
+2013-03-16 12:02:09,802 INFO (Thread-1)[Dialect.<init>():120]HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2013-03-16 12:02:09,812 INFO (Thread-1)[LobCreatorBuilder.useContextualLobCreation():85]HHH000422: Disabling contextual LOB creation as connection was null
+2013-03-16 12:02:09,820 INFO (Thread-1)[TransactionFactoryInitiator.initiateService():73]HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+2013-03-16 12:02:09,827 INFO (Thread-1)[ASTQueryTranslatorFactory.<init>():48]HHH000397: Using ASTQueryTranslatorFactory
+2013-03-16 12:02:10,138 INFO (Thread-1)[DAOManagerImpl.<init>():24]Created entity manager factory

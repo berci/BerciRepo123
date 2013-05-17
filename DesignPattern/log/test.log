@@ -1,0 +1,51 @@
+03.12.2012 11:37:27,027 INFO  [TestLogging] sasa
+03.12.2012 11:38:35,035 INFO  [TestLogging] sasa
+03.12.2012 11:39:13,013 INFO  [TestLogging] sasa
+03.12.2012 11:41:22,022 INFO  [TestLogging] info
+03.12.2012 11:41:22,022 ERROR [TestLogging] error
+03.12.2012 11:45:27,027 ERROR [TestLogging] error
+03.12.2012 11:47:00,000 ERROR [TestLogging] error
+03.12.2012 11:47:00,000 FATAL [TestLogging] fatal
+03.12.2012 11:47:08,008 INFO  [TestLogging] info
+03.12.2012 11:47:08,008 ERROR [TestLogging] error
+03.12.2012 11:47:08,008 FATAL [TestLogging] fatal
+03.12.2012 11:47:08,008 WARN  [TestLogging] warn
+03.12.2012 11:47:38,038 INFO  [TestLogging] info
+03.12.2012 11:47:38,038 DEBUG [TestLogging] debug
+03.12.2012 11:47:38,038 ERROR [TestLogging] error
+03.12.2012 11:47:38,038 FATAL [TestLogging] fatal
+03.12.2012 11:47:38,038 WARN  [TestLogging] warn
+03.12.2012 11:47:59,059 ERROR [TestLogging] error
+03.12.2012 11:47:59,059 FATAL [TestLogging] fatal
+03.12.2012 11:48:09,009 INFO  [TestLogging] info
+03.12.2012 11:48:09,009 ERROR [TestLogging] error
+03.12.2012 11:48:09,009 FATAL [TestLogging] fatal
+03.12.2012 11:48:09,009 WARN  [TestLogging] warn
+03.12.2012 11:48:21,021 INFO  [TestLogging] info
+03.12.2012 11:48:21,021 DEBUG [TestLogging] debug
+03.12.2012 11:48:21,021 ERROR [TestLogging] error
+03.12.2012 11:48:21,021 FATAL [TestLogging] fatal
+03.12.2012 11:48:21,021 TRACE [TestLogging] trace
+03.12.2012 11:48:21,021 WARN  [TestLogging] warn
+03.12.2012 11:49:14,014 INFO  [TestLogging] info
+03.12.2012 11:49:14,014 DEBUG [TestLogging] debug
+03.12.2012 11:49:14,014 ERROR [TestLogging] error
+java.lang.NumberFormatException
+	at com.berta.java.apache.logging.TestLogging.main(TestLogging.java:11)
+03.12.2012 11:49:14,014 FATAL [TestLogging] fatal
+03.12.2012 11:49:14,014 TRACE [TestLogging] trace
+03.12.2012 11:49:14,014 WARN  [TestLogging] warn
+03.12.2012 11:49:26,026 INFO  [TestLogging] info
+03.12.2012 11:49:26,026 ERROR [TestLogging] error
+java.lang.NumberFormatException
+	at com.berta.java.apache.logging.TestLogging.main(TestLogging.java:11)
+03.12.2012 11:49:26,026 FATAL [TestLogging] fatal
+03.12.2012 11:49:26,026 WARN  [TestLogging] warn
+03.12.2012 11:50:11,011 INFO  [TestLogging] info
+03.12.2012 11:50:11,011 ERROR [TestLogging] error
+03.12.2012 11:50:11,011 FATAL [TestLogging] fatal
+03.12.2012 11:50:11,011 WARN  [TestLogging] warn
+03.12.2012 11:51:52,052 INFO  [TestLogging] info
+03.12.2012 11:51:52,052 ERROR [TestLogging] error
+03.12.2012 11:51:52,052 FATAL [TestLogging] fatal
+03.12.2012 11:51:52,052 WARN  [TestLogging] warn

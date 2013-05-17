@@ -1,0 +1,58 @@
+// Készítette: Fazekas Sándor
+// Utolsó módosítás: 2005.06.15
+
+module Halo 
+{
+  valuetype Elem;
+  valuetype ElemLista 
+  {
+    public sequence< Elem > elemek; // halozati elemek listaja
+    boolean ures(); // nincs benne elem?
+    void mutat(); // kiirja az elemek adatait
+  };
+
+  valuetype Elem 
+  {
+    public string azon; // azonosito
+    void mutat(); // kiirja az elem adatait
+  };
+
+  valuetype SzamGep : Elem 
+  {
+    public string proc; // processzor tipusa
+  };
+
+  valuetype Nyomtato : Elem 
+  {
+    public boolean szines; // igen/nem
+  };
+
+  exception HibasAzonosito {};
+  exception HibasKapcsolat {};
+
+  interface Nyilvantarto 
+  {
+    SzamGep ujSzamGep( in string proc );
+    Nyomtato ujNyomtato( in boolean szines );
+
+    void osszeKapcs( in string elAz1, in string elAz2 )
+      raises( HibasAzonosito );
+
+    void szetBont( in string elAz1, in string elAz2 )
+      raises( HibasAzonosito );
+
+    Elem torol( in string elAz ) // torol egy elemet
+      raises( HibasAzonosito );
+
+    Elem leker( in string elAz ) // leker egy elemet
+      raises( HibasAzonosito );
+
+    ElemLista lista(); // lekeri az elemek teljes listajat
+
+    ElemLista kapcs( in string elAz ) // lekeri a kapcsolt elemeket
+      raises( HibasAzonosito );
+
+    boolean vanKapcs( in string elAz1, in string elAz2 )
+      raises( HibasAzonosito, HibasKapcsolat );
+  };
+};
