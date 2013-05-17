@@ -1,0 +1,3322 @@
+{TREIBER_ID}
+336
+
+{TREIBER_NAME}
+[FHR]
+
+{FORMATS}
+# according PV 2 Standard
+ALID U4
+CEID U4
+CPNAME A
+DATAID U4
+# DATALENGTH U4
+# DSID U4
+ECID U4
+HCMD A
+LENGTH U4
+MDLN A
+# MID A
+# PPBODY B
+PPID A
+# PPIDLENGTH 0
+RCMD A
+# RCMDLENGTH 0
+RPTID U4
+# SFCD B
+SOFTREV A
+SVID U4
+VID U4
+
+{ALARMS}
+2000 [WinCC-Runtime : keine Verbindung zur SPS: Netzausfall] 1
+2001 [Anlage allgemein : keine Druckluft vorhanden] 1
+2002 [Anlage allgemein : Fehler im SPS Programm] 1
+2003 [Anlage allgemein : Fehler Phasenfolgerelais/Netzausfall] 1
+2004 [Anlage allgemein : Fehler Taktmerker CPU] 1
+2005 [Anlage allgemein : WinCC wird gestoppt 1] 1
+2006 [Anlage allgemein : WinCC wird gestoppt 2] 1
+2007 [Anlage allgemein : WinCC wird gestoppt 3] 1
+2008 [Anlage allgemein : SPS-Systemfehler: FHR anrufen] 1
+2009 [Anlage allgemein : Fehler extern 1] 1
+2010 [Anlage allgemein : Fehler extern 2] 1
+2011 [Anlage allgemein : Fehler extern 3] 1
+2012 [Anlage allgemein : Fehler extern 4] 1
+2013 [Anlage allgemein : Fehler extern 5] 1
+2014 [Anlage allgemein : Fehler extern 6] 1
+2015 [Anlage allgemein : Fehler extern 7] 1
+2016 [Anlage allgemein : Fehler extern 8] 1
+2017 [Anlage allgemein : Nummerierung der Automatikbefehle fehlerhaft] 1
+2018 [Anlage allgemein : neue Nummerierung der Automatikbefehle erfolgt] 1
+2019 [Anlage allgemein : Nummerierung der Automatikbefehle: Gerät nicht vorhanden] 1
+2020 [Anlage allgemein : Nummerierung der Automatikbefehle: Datenbankverbindungsfehler] 1
+2021 [Anlage allgemein : Automatikfunktionen deaktivert] 1
+2022 [Automatikprogramm 1 : Programmdatei ist nicht vorhanden] 1
+2023 [Automatikprogramm 1 : Fehler beim Laden des Programms] 1
+2024 [Automatikprogramm 1 : aufrufendes Programm kann nicht geladen werden] 1
+2025 [Automatikprogramm 1 : Programm mit Fehler beendet] 1
+2026 [Automatikprogramm 1 : Parameter außerhalb Bereich] 1
+2027 [Automatikprogramm 1 : Meldung] 1
+2028 [Automatikprogramm 1 : Meldet Fehler: @2%s@] 1
+2029 [Automatikprogramm 2 : Programmdatei ist nicht vorhanden] 1
+2030 [Automatikprogramm 2 : Fehler beim Laden des Programms] 1
+2031 [Automatikprogramm 2 : aufrufendes Programm kann nicht geladen werden] 1
+2032 [Automatikprogramm 2 : Programm mit Fehler beendet] 1
+2033 [Automatikprogramm 2 : Parameter außerhalb Bereich] 1
+2034 [Automatikprogramm 2 : Meldung] 1
+2035 [Automatikprogramm 2 : Meldet Fehler: @2%s@] 1
+2036 [Automatikprogramm 3 : Programmdatei ist nicht vorhanden] 1
+2037 [Automatikprogramm 3 : Fehler beim Laden des Programms] 1
+2038 [Automatikprogramm 3 : aufrufendes Programm kann nicht geladen werden] 1
+2039 [Automatikprogramm 3 : Programm mit Fehler beendet] 1
+2040 [Automatikprogramm 3 : Parameter außerhalb Bereich] 1
+2041 [Automatikprogramm 3 : Meldung] 1
+2042 [Automatikprogramm 3 : Meldet Fehler: @2%s@] 1
+2043 [Automatikprogramm 4 : Programmdatei ist nicht vorhanden] 1
+2044 [Automatikprogramm 4 : Fehler beim Laden des Programms] 1
+2045 [Automatikprogramm 4 : aufrufendes Programm kann nicht geladen werden] 1
+2046 [Automatikprogramm 4 : Programm mit Fehler beendet] 1
+2047 [Automatikprogramm 4 : Parameter außerhalb Bereich] 1
+2048 [Automatikprogramm 4 : Meldung] 1
+2049 [Automatikprogramm 4 : Meldet Fehler: @2%s@] 1
+2050 [Inkrementalmesswalze : Band schlupft] 1
+2051 [Inkrementalmesswalze : Band driftet] 1
+2052 [Wickler 1: Zugregler : Band ist gerissen] 1
+2053 [Wickler 1: Zugregler : SPS des Servocontrollers ist nicht im RUN Modus] 1
+2054 [Wickler 1: Zugregler : Fehler Profibuskommunikation] 1
+2055 [Wickler 1: Zugregler : Bandzug ist außerhalb der vorgegebenen Toleranz] 1
+2056 [Wickler 1: Zugregler : Servocontroller ist nicht im AF Modus (Antrieb Freigabe)] 1
+2057 [Wickler 1: Zugregler : Servocontroller ist nicht im Operationsmodus (OM)] 1
+2058 [Wickler 1: Zugregler : Wickeldurchmesser ist Null] 1
+2059 [Wickler 1: Zugregler : Unterspannung am Servoverstärker] 1
+2060 [Wickler 1: Zugregler : Überspannung am Servoverstärker] 1
+2061 [Wickler 1: Zugregler : Überstrom am Servoverstärker] 1
+2062 [Wickler 1: Zugregler : Fehler im Motorstromregler] 1
+2063 [Wickler 1: Zugregler : Interne Kommunikationsfehler] 1
+2064 [Wickler 1: Zugregler : Falsche Position] 1
+2065 [Wickler 1: Zugregler : Abschaltung wegen zu hoher Leistung] 1
+2066 [Wickler 1: Zugregler : Zu hohe Temperatur im Servoverstärker] 1
+2067 [Wickler 1: Zugregler : Zu hohe Motortemperatur] 1
+2068 [Wickler 1: Zugregler : Fehler in der Steuerspannung] 1
+2069 [Wickler 1: Zugregler : Fehler im Motorencoder] 1
+2070 [Wickler 1: Zugregler : Unterspannung im DC Zwischenkreis] 1
+2071 [Wickler 1: Zugregler : Istposition außerhalb der Toleranz] 1
+2072 [Wickler 1: Zugregler : Zu hohe Leistung] 1
+2073 [Wickler 1: Zugregler : Zu hohe Temperatur im Servoverstärker] 1
+2074 [Wickler 1: Zugregler : Zu hohe Motortemperatur] 1
+2075 [Wickler 1: Zugregler : Gerätefehler laut Verstärker- Display] 1
+2076 [Wickler 2: Zugregler : Band ist gerissen] 1
+2077 [Wickler 2: Zugregler : SPS des Servocontrollers ist nicht im RUN Modus] 1
+2078 [Wickler 2: Zugregler : Fehler Profibuskommunikation] 1
+2079 [Wickler 2: Zugregler : Bandzug ist außerhalb der vorgegebenen Toleranz] 1
+2080 [Wickler 2: Zugregler : Servocontroller ist nicht im AF Modus (Antrieb Freigabe)] 1
+2081 [Wickler 2: Zugregler : Servocontroller ist nicht im Operationsmodus (OM)] 1
+2082 [Wickler 2: Zugregler : Wickeldurchmesser ist Null] 1
+2083 [Wickler 2: Zugregler : Unterspannung am Servoverstärker] 1
+2084 [Wickler 2: Zugregler : Überspannung am Servoverstärker] 1
+2085 [Wickler 2: Zugregler : Überstrom am Servoverstärker] 1
+2086 [Wickler 2: Zugregler : Fehler im Motorstromregler] 1
+2087 [Wickler 2: Zugregler : Interne Kommunikationsfehler] 1
+2088 [Wickler 2: Zugregler : Falsche Position] 1
+2089 [Wickler 2: Zugregler : Abschaltung wegen zu hoher Leistung] 1
+2090 [Wickler 2: Zugregler : Zu hohe Temperatur im Servoverstärker] 1
+2091 [Wickler 2: Zugregler : Zu hohe Motortemperatur] 1
+2092 [Wickler 2: Zugregler : Fehler in der Steuerspannung] 1
+2093 [Wickler 2: Zugregler : Fehler im Motorencoder] 1
+2094 [Wickler 2: Zugregler : Unterspannung im DC Zwischenkreis] 1
+2095 [Wickler 2: Zugregler : Istposition außerhalb der Toleranz] 1
+2096 [Wickler 2: Zugregler : Zu hohe Leistung] 1
+2097 [Wickler 2: Zugregler : Zu hohe Temperatur im Servoverstärker] 1
+2098 [Wickler 2: Zugregler : Zu hohe Motortemperatur] 1
+2099 [Wickler 2: Zugregler : Gerätefehler laut Verstärker- Display] 1
+2100 [Antrieb Umlenkwalze M2.1.1 : Fehler Profibuskommunikation] 1
+2101 [Antrieb Umlenkwalze M2.1.1 : Servocontroller ist nicht im AF Modus (Antrieb Freigabe)] 1
+2102 [Antrieb Umlenkwalze M2.1.1 : Servocontroller ist nicht im Operationsmodus (OM)] 1
+2103 [Antrieb Umlenkwalze M2.1.1 : Unterspannung am Servoverstärker] 1
+2104 [Antrieb Umlenkwalze M2.1.1 : Überspannung am Servoverstärker] 1
+2105 [Antrieb Umlenkwalze M2.1.1 : Überstrom am Servoverstärker] 1
+2106 [Antrieb Umlenkwalze M2.1.1 : Fehler im Motorstromregler] 1
+2107 [Antrieb Umlenkwalze M2.1.1 : Interne Kommunikationsfehler] 1
+2108 [Antrieb Umlenkwalze M2.1.1 : Falsche Position] 1
+2109 [Antrieb Umlenkwalze M2.1.1 : Abschaltung wegen zu hoher Leistung] 1
+2110 [Antrieb Umlenkwalze M2.1.1 : Zu hohe Temperatur im Servoverstärker] 1
+2111 [Antrieb Umlenkwalze M2.1.1 : Zu hohe Motortemperatur] 1
+2112 [Antrieb Umlenkwalze M2.1.1 : Fehler in der Steuerspannung] 1
+2113 [Antrieb Umlenkwalze M2.1.1 : Fehler im Motorencoder] 1
+2114 [Antrieb Umlenkwalze M2.1.1 : Unterspannung im DC Zwischenkreis] 1
+2115 [Antrieb Umlenkwalze M2.1.1 : Istposition außerhalb der Toleranz] 1
+2116 [Antrieb Umlenkwalze M2.1.1 : Zu hohe Leistung] 1
+2117 [Antrieb Umlenkwalze M2.1.1 : Zu hohe Temperatur im Servoverstärker] 1
+2118 [Antrieb Umlenkwalze M2.1.1 : Zu hohe Motortemperatur] 1
+2119 [Antrieb Umlenkwalze M2.1.1 : Gerätefehler laut Verstärker- Display] 1
+2120 [Antrieb Umlenkwalze M2.1.2 : Fehler Profibuskommunikation] 1
+2121 [Antrieb Umlenkwalze M2.1.2 : Servocontroller ist nicht im AF Modus (Antrieb Freigabe)] 1
+2122 [Antrieb Umlenkwalze M2.1.2 : Servocontroller ist nicht im Operationsmodus (OM)] 1
+2123 [Antrieb Umlenkwalze M2.1.2 : Unterspannung am Servoverstärker] 1
+2124 [Antrieb Umlenkwalze M2.1.2 : Überspannung am Servoverstärker] 1
+2125 [Antrieb Umlenkwalze M2.1.2 : Überstrom am Servoverstärker] 1
+2126 [Antrieb Umlenkwalze M2.1.2 : Fehler im Motorstromregler] 1
+2127 [Antrieb Umlenkwalze M2.1.2 : Interne Kommunikationsfehler] 1
+2128 [Antrieb Umlenkwalze M2.1.2 : Falsche Position] 1
+2129 [Antrieb Umlenkwalze M2.1.2 : Abschaltung wegen zu hoher Leistung] 1
+2130 [Antrieb Umlenkwalze M2.1.2 : Zu hohe Temperatur im Servoverstärker] 1
+2131 [Antrieb Umlenkwalze M2.1.2 : Zu hohe Motortemperatur] 1
+2132 [Antrieb Umlenkwalze M2.1.2 : Fehler in der Steuerspannung] 1
+2133 [Antrieb Umlenkwalze M2.1.2 : Fehler im Motorencoder] 1
+2134 [Antrieb Umlenkwalze M2.1.2 : Unterspannung im DC Zwischenkreis] 1
+2135 [Antrieb Umlenkwalze M2.1.2 : Istposition außerhalb der Toleranz] 1
+2136 [Antrieb Umlenkwalze M2.1.2 : Zu hohe Leistung] 1
+2137 [Antrieb Umlenkwalze M2.1.2 : Zu hohe Temperatur im Servoverstärker] 1
+2138 [Antrieb Umlenkwalze M2.1.2 : Zu hohe Motortemperatur] 1
+2139 [Antrieb Umlenkwalze M2.1.2 : Gerätefehler laut Verstärker- Display] 1
+2140 [Antrieb Umlenkwalze M2.1.4 : Fehler Profibuskommunikation] 1
+2141 [Antrieb Umlenkwalze M2.1.4 : Servocontroller ist nicht im AF Modus (Antrieb Freigabe)] 1
+2142 [Antrieb Umlenkwalze M2.1.4 : Servocontroller ist nicht im Operationsmodus (OM)] 1
+2143 [Antrieb Umlenkwalze M2.1.4 : Unterspannung am Servoverstärker] 1
+2144 [Antrieb Umlenkwalze M2.1.4 : Überspannung am Servoverstärker] 1
+2145 [Antrieb Umlenkwalze M2.1.4 : Überstrom am Servoverstärker] 1
+2146 [Antrieb Umlenkwalze M2.1.4 : Fehler im Motorstromregler] 1
+2147 [Antrieb Umlenkwalze M2.1.4 : Interne Kommunikationsfehler] 1
+2148 [Antrieb Umlenkwalze M2.1.4 : Falsche Position] 1
+2149 [Antrieb Umlenkwalze M2.1.4 : Abschaltung wegen zu hoher Leistung] 1
+2150 [Antrieb Umlenkwalze M2.1.4 : Zu hohe Temperatur im Servoverstärker] 1
+2151 [Antrieb Umlenkwalze M2.1.4 : Zu hohe Motortemperatur] 1
+2152 [Antrieb Umlenkwalze M2.1.4 : Fehler in der Steuerspannung] 1
+2153 [Antrieb Umlenkwalze M2.1.4 : Fehler im Motorencoder] 1
+2154 [Antrieb Umlenkwalze M2.1.4 : Unterspannung im DC Zwischenkreis] 1
+2155 [Antrieb Umlenkwalze M2.1.4 : Istposition außerhalb der Toleranz] 1
+2156 [Antrieb Umlenkwalze M2.1.4 : Zu hohe Leistung] 1
+2157 [Antrieb Umlenkwalze M2.1.4 : Zu hohe Temperatur im Servoverstärker] 1
+2158 [Antrieb Umlenkwalze M2.1.4 : Zu hohe Motortemperatur] 1
+2159 [Antrieb Umlenkwalze M2.1.4 : Gerätefehler laut Verstärker- Display] 1
+2160 [Antrieb Schwingarm Wickler 1 : Fehler Profibuskommunikation] 1
+2161 [Antrieb Schwingarm Wickler 1 : Servocontroller ist nicht im AF Modus (Antrieb Freigabe)] 1
+2162 [Antrieb Schwingarm Wickler 1 : Servocontroller ist nicht im Operationsmodus (OM)] 1
+2163 [Antrieb Schwingarm Wickler 1 : Unterspannung am Servoverstärker] 1
+2164 [Antrieb Schwingarm Wickler 1 : Überspannung am Servoverstärker] 1
+2165 [Antrieb Schwingarm Wickler 1 : Überstrom am Servoverstärker] 1
+2166 [Antrieb Schwingarm Wickler 1 : Fehler im Motorstromregler] 1
+2167 [Antrieb Schwingarm Wickler 1 : Interne Kommunikationsfehler] 1
+2168 [Antrieb Schwingarm Wickler 1 : Falsche Position] 1
+2169 [Antrieb Schwingarm Wickler 1 : Abschaltung wegen zu hoher Leistung] 1
+2170 [Antrieb Schwingarm Wickler 1 : Zu hohe Temperatur im Servoverstärker] 1
+2171 [Antrieb Schwingarm Wickler 1 : Zu hohe Motortemperatur] 1
+2172 [Antrieb Schwingarm Wickler 1 : Fehler in der Steuerspannung] 1
+2173 [Antrieb Schwingarm Wickler 1 : Fehler im Motorencoder] 1
+2174 [Antrieb Schwingarm Wickler 1 : Unterspannung im DC Zwischenkreis] 1
+2175 [Antrieb Schwingarm Wickler 1 : Istposition außerhalb der Toleranz] 1
+2176 [Antrieb Schwingarm Wickler 1 : Zu hohe Leistung] 1
+2177 [Antrieb Schwingarm Wickler 1 : Zu hohe Temperatur im Servoverstärker] 1
+2178 [Antrieb Schwingarm Wickler 1 : Zu hohe Motortemperatur] 1
+2179 [Antrieb Schwingarm Wickler 1 : Gerätefehler laut Verstärker- Display] 1
+2180 [Antrieb Schwingarm Wickler 2 : Fehler Profibuskommunikation] 1
+2181 [Antrieb Schwingarm Wickler 2 : Servocontroller ist nicht im AF Modus (Antrieb Freigabe)] 1
+2182 [Antrieb Schwingarm Wickler 2 : Servocontroller ist nicht im Operationsmodus (OM)] 1
+2183 [Antrieb Schwingarm Wickler 2 : Unterspannung am Servoverstärker] 1
+2184 [Antrieb Schwingarm Wickler 2 : Überspannung am Servoverstärker] 1
+2185 [Antrieb Schwingarm Wickler 2 : Überstrom am Servoverstärker] 1
+2186 [Antrieb Schwingarm Wickler 2 : Fehler im Motorstromregler] 1
+2187 [Antrieb Schwingarm Wickler 2 : Interne Kommunikationsfehler] 1
+2188 [Antrieb Schwingarm Wickler 2 : Falsche Position] 1
+2189 [Antrieb Schwingarm Wickler 2 : Abschaltung wegen zu hoher Leistung] 1
+2190 [Antrieb Schwingarm Wickler 2 : Zu hohe Temperatur im Servoverstärker] 1
+2191 [Antrieb Schwingarm Wickler 2 : Zu hohe Motortemperatur] 1
+2192 [Antrieb Schwingarm Wickler 2 : Fehler in der Steuerspannung] 1
+2193 [Antrieb Schwingarm Wickler 2 : Fehler im Motorencoder] 1
+2194 [Antrieb Schwingarm Wickler 2 : Unterspannung im DC Zwischenkreis] 1
+2195 [Antrieb Schwingarm Wickler 2 : Istposition außerhalb der Toleranz] 1
+2196 [Antrieb Schwingarm Wickler 2 : Zu hohe Leistung] 1
+2197 [Antrieb Schwingarm Wickler 2 : Zu hohe Temperatur im Servoverstärker] 1
+2198 [Antrieb Schwingarm Wickler 2 : Zu hohe Motortemperatur] 1
+2199 [Antrieb Schwingarm Wickler 2 : Gerätefehler laut Verstärker- Display] 1
+2200 [Kammersteuerung Anlage : Standby-Druck wird nicht erreicht] 1
+2201 [Kammersteuerung Anlage : Fehler beim Abpumpen: Process Standby 1 Zustand wird nicht erreicht] 1
+2202 [Kammersteuerung Anlage : Fehler beim Abpumpen: Process Standby 2 Zustand wird nicht erreicht] 1
+2203 [Kammersteuerung Anlage : Fehler beim Abpumpen: Process Standby 3 Zustand wird nicht erreicht] 1
+2204 [Kammersteuerung Anlage : Fehler: Bedingung 1 um Kammer zu pumpen nicht erfüllt] 1
+2205 [Kammersteuerung Anlage : Fehler: Bedingung 2 um Kammer zu pumpen nicht erfüllt] 1
+2206 [Kammersteuerung Anlage : Fehler: Bedingung 3 um Kammer zu pumpen nicht erfüllt] 1
+2207 [Kammersteuerung Anlage : Fehler beim Uebergang in den Prozess-Modus: Bedingung 1] 1
+2208 [Kammersteuerung Anlage : Fehler beim Uebergang in den Prozess-Modus: Bedingung 2] 1
+2209 [Kammersteuerung Anlage : Fehler beim Uebergang in den Prozess-Modus: Bedingung 3] 1
+2210 [Kammersteuerung Anlage : Verlassen Prozess- Modus: Bedingung 1 nicht erfuellt.] 1
+2211 [Kammersteuerung Anlage : Verlassen Prozess- Modus: Bedingung 2 nicht erfuellt.] 1
+2212 [Kammersteuerung Anlage : Verlassen Prozess- Modus: Bedingung 3 nicht erfuellt.] 1
+2213 [Kammersteuerung Anlage : Fehler: Abschalten nicht moeglich: Bedingung 1 nicht erfüllt] 1
+2214 [Kammersteuerung Anlage : Fehler: Abschalten nicht moeglich: Bedingung 2 nicht erfüllt] 1
+2215 [Kammersteuerung Anlage : Fehler: Abschalten nicht moeglich: Bedingung 3 nicht erfüllt] 1
+2216 [Kammersteuerung Anlage : Fehler: Belüftungsfreigabe nicht vorhanden: Bedingung 1 nicht erfüllt] 1
+2217 [Kammersteuerung Anlage : Fehler: Belüftungsfreigabe nicht vorhanden: Bedingung 2 nicht erfüllt] 1
+2218 [Kammersteuerung Anlage : Fehler: Belüftungsfreigabe nicht vorhanden: Bedingung 3 nicht erfüllt] 1
+2219 [Kammersteuerung Anlage : Fehler: Standby noch nicht erreicht, um in Prozess-Mode zu wechseln] 1
+2220 [Kammersteuerung Anlage : Kammer ist ohne Strom / Phasenfolgefehler] 1
+2221 [Kammersteuerung Anlage : Service Modus Vakuum ist aktiv.] 1
+2222 [Kammersteuerung Anlage : Service Modus Technologie, Gas ist aktiv.] 1
+2223 [VE 1.1: Vakuumventil Wickelsektion : Ventil öffnet nicht] 1
+2224 [VE 1.1: Vakuumventil Wickelsektion : Ventil schließt nicht] 1
+2225 [VE 1.1: Vakuumventil Wickelsektion : Ventil öffnen nicht möglich: Vorpumpe nicht an] 1
+2226 [VE 1.1: Vakuumventil Wickelsektion : Ventil öffnen nicht möglich: Belüftungsventil ist nicht geschlossen] 1
+2227 [VE 1.1: Vakuumventil Wickelsektion : Ventil öffnen nicht möglich: Kammer ist nicht geschlossen] 1
+2228 [VE 1.1: Vakuumventil Wickelsektion : Ventil öffnen nicht möglich: Druck für Rootspumpen zu hoch] 1
+2229 [VE 1.2: Vakuumventil Wickelsektion : Ventil öffnet nicht] 1
+2230 [VE 1.2: Vakuumventil Wickelsektion : Ventil schließt nicht] 1
+2231 [VE 1.2: Vakuumventil Wickelsektion : Ventil öffnen nicht möglich: Vorpumpe nicht an] 1
+2232 [VE 1.2: Vakuumventil Wickelsektion : Ventil öffnen nicht möglich: Belüftungsventil ist nicht geschlossen] 1
+2233 [VE 1.2: Vakuumventil Wickelsektion : Ventil öffnen nicht möglich: Kammer ist nicht geschlossen] 1
+2234 [VE 1.2: Vakuumventil Wickelsektion : Ventil öffnen nicht möglich: Druck für Rootspumpen zu hoch] 1
+2235 [VE 1.3: Vakuumventil Wickelsektion : Ventil öffnet nicht] 1
+2236 [VE 1.3: Vakuumventil Wickelsektion : Ventil schließt nicht] 1
+2237 [VE 1.3: Vakuumventil Wickelsektion : Ventil öffnen nicht möglich: Vorpumpe nicht an] 1
+2238 [VE 1.3: Vakuumventil Wickelsektion : Ventil öffnen nicht möglich: Belüftungsventil ist nicht geschlossen] 1
+2239 [VE 1.3: Vakuumventil Wickelsektion : Ventil öffnen nicht möglich: Kammer ist nicht geschlossen] 1
+2240 [VE 1.3: Vakuumventil Wickelsektion : Ventil öffnen nicht möglich: Druck für Rootspumpen zu hoch] 1
+2241 [VE 1.4: Vakuumventil Wickelsektion : Ventil öffnet nicht] 1
+2242 [VE 1.4: Vakuumventil Wickelsektion : Ventil schließt nicht] 1
+2243 [VE 1.4: Vakuumventil Wickelsektion : Ventil öffnen nicht möglich: Vorpumpe nicht an] 1
+2244 [VE 1.4: Vakuumventil Wickelsektion : Ventil öffnen nicht möglich: Belüftungsventil ist nicht geschlossen] 1
+2245 [VE 1.4: Vakuumventil Wickelsektion : Ventil öffnen nicht möglich: Kammer ist nicht geschlossen] 1
+2246 [VE 1.4: Vakuumventil Wickelsektion : Ventil öffnen nicht möglich: Druck für Rootspumpen zu hoch] 1
+2247 [VE 1.5: Vakuumventil Wickelsektion : Ventil öffnet nicht] 1
+2248 [VE 1.5: Vakuumventil Wickelsektion : Ventil schließt nicht] 1
+2249 [VE 1.5: Vakuumventil Wickelsektion : Ventil öffnen nicht möglich: Vorpumpe nicht an] 1
+2250 [VE 1.5: Vakuumventil Wickelsektion : Ventil öffnen nicht möglich: Belüftungsventil ist nicht geschlossen] 1
+2251 [VE 1.5: Vakuumventil Wickelsektion : Ventil öffnen nicht möglich: Kammer ist nicht geschlossen] 1
+2252 [VE 1.5: Vakuumventil Wickelsektion : Ventil öffnen nicht möglich: Druck für Rootspumpen zu hoch] 1
+2253 [VE 1.6: Vakuumventil Wickelsektion : Ventil öffnet nicht] 1
+2254 [VE 1.6: Vakuumventil Wickelsektion : Ventil schließt nicht] 1
+2255 [VE 1.6: Vakuumventil Wickelsektion : Ventil öffnen nicht möglich: Vorpumpe nicht an] 1
+2256 [VE 1.6: Vakuumventil Wickelsektion : Ventil öffnen nicht möglich: Belüftungsventil ist nicht geschlossen] 1
+2257 [VE 1.6: Vakuumventil Wickelsektion : Ventil öffnen nicht möglich: Kammer ist nicht geschlossen] 1
+2258 [VE 1.6: Vakuumventil Wickelsektion : Ventil öffnen nicht möglich: Druck für Rootspumpen zu hoch] 1
+2259 [VE 3.1: Vakuumventil BS 1 : Ventil öffnet nicht] 1
+2260 [VE 3.1: Vakuumventil BS 1 : Ventil schließt nicht] 1
+2261 [VE 3.1: Vakuumventil BS 1 : Ventil öffnen nicht möglich: Vorpumpe nicht an] 1
+2262 [VE 3.1: Vakuumventil BS 1 : Ventil öffnen nicht möglich: Belüftungsventil ist nicht geschlossen] 1
+2263 [VE 3.1: Vakuumventil BS 1 : Ventil öffnen nicht möglich: Kammer ist nicht geschlossen] 1
+2264 [VE 3.1: Vakuumventil BS 1 : Ventil öffnen nicht möglich: Druck für Rootspumpen zu hoch] 1
+2265 [VE 3.2: Vakuumventil BS 1 : Ventil öffnet nicht] 1
+2266 [VE 3.2: Vakuumventil BS 1 : Ventil schließt nicht] 1
+2267 [VE 3.2: Vakuumventil BS 1 : Ventil öffnen nicht möglich: Vorpumpe nicht an] 1
+2268 [VE 3.2: Vakuumventil BS 1 : Ventil öffnen nicht möglich: Belüftungsventil ist nicht geschlossen] 1
+2269 [VE 3.2: Vakuumventil BS 1 : Ventil öffnen nicht möglich: Kammer ist nicht geschlossen] 1
+2270 [VE 3.2: Vakuumventil BS 1 : Ventil öffnen nicht möglich: Druck für Rootspumpen zu hoch] 1
+2271 [VE 4.1: Vakuumventil BS 2 : Ventil öffnet nicht] 1
+2272 [VE 4.1: Vakuumventil BS 2 : Ventil schließt nicht] 1
+2273 [VE 4.1: Vakuumventil BS 2 : Ventil öffnen nicht möglich: Vorpumpe nicht an] 1
+2274 [VE 4.1: Vakuumventil BS 2 : Ventil öffnen nicht möglich: Belüftungsventil ist nicht geschlossen] 1
+2275 [VE 4.1: Vakuumventil BS 2 : Ventil öffnen nicht möglich: Kammer ist nicht geschlossen] 1
+2276 [VE 4.1: Vakuumventil BS 2 : Ventil öffnen nicht möglich: Druck für Rootspumpen zu hoch] 1
+2277 [VE 4.2: Vakuumventil BS 2 : Ventil öffnet nicht] 1
+2278 [VE 4.2: Vakuumventil BS 2 : Ventil schließt nicht] 1
+2279 [VE 4.2: Vakuumventil BS 2 : Ventil öffnen nicht möglich: Vorpumpe nicht an] 1
+2280 [VE 4.2: Vakuumventil BS 2 : Ventil öffnen nicht möglich: Belüftungsventil ist nicht geschlossen] 1
+2281 [VE 4.2: Vakuumventil BS 2 : Ventil öffnen nicht möglich: Kammer ist nicht geschlossen] 1
+2282 [VE 4.2: Vakuumventil BS 2 : Ventil öffnen nicht möglich: Druck für Rootspumpen zu hoch] 1
+2283 [VE 5.1: Vakuumventil BS 3 : Ventil öffnet nicht] 1
+2284 [VE 5.1: Vakuumventil BS 3 : Ventil schließt nicht] 1
+2285 [VE 5.1: Vakuumventil BS 3 : Ventil öffnen nicht möglich: Vorpumpe nicht an] 1
+2286 [VE 5.1: Vakuumventil BS 3 : Ventil öffnen nicht möglich: Belüftungsventil ist nicht geschlossen] 1
+2287 [VE 5.1: Vakuumventil BS 3 : Ventil öffnen nicht möglich: Kammer ist nicht geschlossen] 1
+2288 [VE 5.1: Vakuumventil BS 3 : Ventil öffnen nicht möglich: Druck für Rootspumpen zu hoch] 1
+2289 [VE 5.2: Vakuumventil BS 3 : Ventil öffnet nicht] 1
+2290 [VE 5.2: Vakuumventil BS 3 : Ventil schließt nicht] 1
+2291 [VE 5.2: Vakuumventil BS 3 : Ventil öffnen nicht möglich: Vorpumpe nicht an] 1
+2292 [VE 5.2: Vakuumventil BS 3 : Ventil öffnen nicht möglich: Belüftungsventil ist nicht geschlossen] 1
+2293 [VE 5.2: Vakuumventil BS 3 : Ventil öffnen nicht möglich: Kammer ist nicht geschlossen] 1
+2294 [VE 5.2: Vakuumventil BS 3 : Ventil öffnen nicht möglich: Druck für Rootspumpen zu hoch] 1
+2295 [VE 6.1: Vakuumventil BS 4 : Ventil öffnet nicht] 1
+2296 [VE 6.1: Vakuumventil BS 4 : Ventil schließt nicht] 1
+2297 [VE 6.1: Vakuumventil BS 4 : Ventil öffnen nicht möglich: Vorpumpe nicht an] 1
+2298 [VE 6.1: Vakuumventil BS 4 : Ventil öffnen nicht möglich: Belüftungsventil ist nicht geschlossen] 1
+2299 [VE 6.1: Vakuumventil BS 4 : Ventil öffnen nicht möglich: Kammer ist nicht geschlossen] 1
+2300 [VE 6.1: Vakuumventil BS 4 : Ventil öffnen nicht möglich: Druck für Rootspumpen zu hoch] 1
+2301 [VE 6.2: Vakuumventil BS 4 : Ventil öffnet nicht] 1
+2302 [VE 6.2: Vakuumventil BS 4 : Ventil schließt nicht] 1
+2303 [VE 6.2: Vakuumventil BS 4 : Ventil öffnen nicht möglich: Vorpumpe nicht an] 1
+2304 [VE 6.2: Vakuumventil BS 4 : Ventil öffnen nicht möglich: Belüftungsventil ist nicht geschlossen] 1
+2305 [VE 6.2: Vakuumventil BS 4 : Ventil öffnen nicht möglich: Kammer ist nicht geschlossen] 1
+2306 [VE 6.2: Vakuumventil BS 4 : Ventil öffnen nicht möglich: Druck für Rootspumpen zu hoch] 1
+2307 [VE 7.1: Vakuumventil BS 5 : Ventil öffnet nicht] 1
+2308 [VE 7.1: Vakuumventil BS 5 : Ventil schließt nicht] 1
+2309 [VE 7.1: Vakuumventil BS 5 : Ventil öffnen nicht möglich: Vorpumpe nicht an] 1
+2310 [VE 7.1: Vakuumventil BS 5 : Ventil öffnen nicht möglich: Belüftungsventil ist nicht geschlossen] 1
+2311 [VE 7.1: Vakuumventil BS 5 : Ventil öffnen nicht möglich: Kammer ist nicht geschlossen] 1
+2312 [VE 7.1: Vakuumventil BS 5 : Ventil öffnen nicht möglich: Druck für Rootspumpen zu hoch] 1
+2313 [VE 7.2: Vakuumventil BS 5 : Ventil öffnet nicht] 1
+2314 [VE 7.2: Vakuumventil BS 5 : Ventil schließt nicht] 1
+2315 [VE 7.2: Vakuumventil BS 5 : Ventil öffnen nicht möglich: Vorpumpe nicht an] 1
+2316 [VE 7.2: Vakuumventil BS 5 : Ventil öffnen nicht möglich: Belüftungsventil ist nicht geschlossen] 1
+2317 [VE 7.2: Vakuumventil BS 5 : Ventil öffnen nicht möglich: Kammer ist nicht geschlossen] 1
+2318 [VE 7.2: Vakuumventil BS 5 : Ventil öffnen nicht möglich: Druck für Rootspumpen zu hoch] 1
+2319 [VE 8.1: Vakuumventil BS 6 : Ventil öffnet nicht] 1
+2320 [VE 8.1: Vakuumventil BS 6 : Ventil schließt nicht] 1
+2321 [VE 8.1: Vakuumventil BS 6 : Ventil öffnen nicht möglich: Vorpumpe nicht an] 1
+2322 [VE 8.1: Vakuumventil BS 6 : Ventil öffnen nicht möglich: Belüftungsventil ist nicht geschlossen] 1
+2323 [VE 8.1: Vakuumventil BS 6 : Ventil öffnen nicht möglich: Kammer ist nicht geschlossen] 1
+2324 [VE 8.1: Vakuumventil BS 6 : Ventil öffnen nicht möglich: Druck für Rootspumpen zu hoch] 1
+2325 [VE 8.2: Vakuumventil BS 6 : Ventil öffnet nicht] 1
+2326 [VE 8.2: Vakuumventil BS 6 : Ventil schließt nicht] 1
+2327 [VE 8.2: Vakuumventil BS 6 : Ventil öffnen nicht möglich: Vorpumpe nicht an] 1
+2328 [VE 8.2: Vakuumventil BS 6 : Ventil öffnen nicht möglich: Belüftungsventil ist nicht geschlossen] 1
+2329 [VE 8.2: Vakuumventil BS 6 : Ventil öffnen nicht möglich: Kammer ist nicht geschlossen] 1
+2330 [VE 8.2: Vakuumventil BS 6 : Ventil öffnen nicht möglich: Druck für Rootspumpen zu hoch] 1
+2331 [PT 1.1: Turbo Pumpe Wickelsektion : Pumpe läuft nicht ordnungsgemäß hoch] 1
+2332 [PT 1.1: Turbo Pumpe Wickelsektion : Pump darf nicht eingeschalten werden: Evakuierungsventil ist nicht offen oder Vorpumpe nicht an] 1
+2333 [PT 1.1: Turbo Pumpe Wickelsektion : Pump darf nicht ausgeschalten werden: Kammer noch im Prozess oder Evakuierungsventil schließt nicht] 1
+2334 [PT 1.1: Turbo Pumpe Wickelsektion : Pumpe meldet interne Störung] 1
+2335 [PT 1.1: Turbo Pumpe Wickelsektion : Vorvakuumdruck ist zu hoch] 1
+2336 [PT 1.1: Turbo Pumpe Wickelsektion : Fluten ist nicht freigegeben] 1
+2337 [PT 1.1: Turbo Pumpe Wickelsektion : Fluten nicht erlaubt! Vakuumventil ist nicht zu] 1
+2338 [PT 1.1: Turbo Pumpe Wickelsektion : Betriebsstundenzähler ist abgelaufen. Wartung erforferlich] 1
+2339 [PT 1.1: Turbo Pumpe Wickelsektion : Sicherung hat ausgelöst] 1
+2340 [PT 1.1: Turbo Pumpe Wickelsektion : Pumpe meldet Überlast oder Übertemperatur] 1
+2341 [PT 1.1: Turbo Pumpe Wickelsektion : Vorvakuumdruck ist zu hoch] 1
+2342 [PT 1.1: Turbo Pumpe Wickelsektion : Keine Profibuskommunikation] 1
+2343 [PT 1.2: Turbo Pumpe Wickelsektion : Pumpe läuft nicht ordnungsgemäß hoch] 1
+2344 [PT 1.2: Turbo Pumpe Wickelsektion : Pump darf nicht eingeschalten werden: Evakuierungsventil ist nicht offen oder Vorpumpe nicht an] 1
+2345 [PT 1.2: Turbo Pumpe Wickelsektion : Pump darf nicht ausgeschalten werden: Kammer noch im Prozess oder Evakuierungsventil schließt nicht] 1
+2346 [PT 1.2: Turbo Pumpe Wickelsektion : Pumpe meldet interne Störung] 1
+2347 [PT 1.2: Turbo Pumpe Wickelsektion : Vorvakuumdruck ist zu hoch] 1
+2348 [PT 1.2: Turbo Pumpe Wickelsektion : Fluten ist nicht freigegeben] 1
+2349 [PT 1.2: Turbo Pumpe Wickelsektion : Fluten nicht erlaubt! Vakuumventil ist nicht zu] 1
+2350 [PT 1.2: Turbo Pumpe Wickelsektion : Betriebsstundenzähler ist abgelaufen. Wartung erforferlich] 1
+2351 [PT 1.2: Turbo Pumpe Wickelsektion : Sicherung hat ausgelöst] 1
+2352 [PT 1.2: Turbo Pumpe Wickelsektion : Pumpe meldet Überlast oder Übertemperatur] 1
+2353 [PT 1.2: Turbo Pumpe Wickelsektion : Vorvakuumdruck ist zu hoch] 1
+2354 [PT 1.2: Turbo Pumpe Wickelsektion : Keine Profibuskommunikation] 1
+2355 [PT 1.3: Turbo Pumpe Wickelsektion : Pumpe läuft nicht ordnungsgemäß hoch] 1
+2356 [PT 1.3: Turbo Pumpe Wickelsektion : Pump darf nicht eingeschalten werden: Evakuierungsventil ist nicht offen oder Vorpumpe nicht an] 1
+2357 [PT 1.3: Turbo Pumpe Wickelsektion : Pump darf nicht ausgeschalten werden: Kammer noch im Prozess oder Evakuierungsventil schließt nicht] 1
+2358 [PT 1.3: Turbo Pumpe Wickelsektion : Pumpe meldet interne Störung] 1
+2359 [PT 1.3: Turbo Pumpe Wickelsektion : Vorvakuumdruck ist zu hoch] 1
+2360 [PT 1.3: Turbo Pumpe Wickelsektion : Fluten ist nicht freigegeben] 1
+2361 [PT 1.3: Turbo Pumpe Wickelsektion : Fluten nicht erlaubt! Vakuumventil ist nicht zu] 1
+2362 [PT 1.3: Turbo Pumpe Wickelsektion : Betriebsstundenzähler ist abgelaufen. Wartung erforferlich] 1
+2363 [PT 1.3: Turbo Pumpe Wickelsektion : Sicherung hat ausgelöst] 1
+2364 [PT 1.3: Turbo Pumpe Wickelsektion : Pumpe meldet Überlast oder Übertemperatur] 1
+2365 [PT 1.3: Turbo Pumpe Wickelsektion : Vorvakuumdruck ist zu hoch] 1
+2366 [PT 1.3: Turbo Pumpe Wickelsektion : Keine Profibuskommunikation] 1
+2367 [PT 1.4: Turbo Pumpe Wickelsektion : Pumpe läuft nicht ordnungsgemäß hoch] 1
+2368 [PT 1.4: Turbo Pumpe Wickelsektion : Pump darf nicht eingeschalten werden: Evakuierungsventil ist nicht offen oder Vorpumpe nicht an] 1
+2369 [PT 1.4: Turbo Pumpe Wickelsektion : Pump darf nicht ausgeschalten werden: Kammer noch im Prozess oder Evakuierungsventil schließt nicht] 1
+2370 [PT 1.4: Turbo Pumpe Wickelsektion : Pumpe meldet interne Störung] 1
+2371 [PT 1.4: Turbo Pumpe Wickelsektion : Vorvakuumdruck ist zu hoch] 1
+2372 [PT 1.4: Turbo Pumpe Wickelsektion : Fluten ist nicht freigegeben] 1
+2373 [PT 1.4: Turbo Pumpe Wickelsektion : Fluten nicht erlaubt! Vakuumventil ist nicht zu] 1
+2374 [PT 1.4: Turbo Pumpe Wickelsektion : Betriebsstundenzähler ist abgelaufen. Wartung erforferlich] 1
+2375 [PT 1.4: Turbo Pumpe Wickelsektion : Sicherung hat ausgelöst] 1
+2376 [PT 1.4: Turbo Pumpe Wickelsektion : Pumpe meldet Überlast oder Übertemperatur] 1
+2377 [PT 1.4: Turbo Pumpe Wickelsektion : Vorvakuumdruck ist zu hoch] 1
+2378 [PT 1.4: Turbo Pumpe Wickelsektion : Keine Profibuskommunikation] 1
+2379 [PT 1.5: Turbo Pumpe Wickelsektion : Pumpe läuft nicht ordnungsgemäß hoch] 1
+2380 [PT 1.5: Turbo Pumpe Wickelsektion : Pump darf nicht eingeschalten werden: Evakuierungsventil ist nicht offen oder Vorpumpe nicht an] 1
+2381 [PT 1.5: Turbo Pumpe Wickelsektion : Pump darf nicht ausgeschalten werden: Kammer noch im Prozess oder Evakuierungsventil schließt nicht] 1
+2382 [PT 1.5: Turbo Pumpe Wickelsektion : Pumpe meldet interne Störung] 1
+2383 [PT 1.5: Turbo Pumpe Wickelsektion : Vorvakuumdruck ist zu hoch] 1
+2384 [PT 1.5: Turbo Pumpe Wickelsektion : Fluten ist nicht freigegeben] 1
+2385 [PT 1.5: Turbo Pumpe Wickelsektion : Fluten nicht erlaubt! Vakuumventil ist nicht zu] 1
+2386 [PT 1.5: Turbo Pumpe Wickelsektion : Betriebsstundenzähler ist abgelaufen. Wartung erforferlich] 1
+2387 [PT 1.5: Turbo Pumpe Wickelsektion : Sicherung hat ausgelöst] 1
+2388 [PT 1.5: Turbo Pumpe Wickelsektion : Pumpe meldet Überlast oder Übertemperatur] 1
+2389 [PT 1.5: Turbo Pumpe Wickelsektion : Vorvakuumdruck ist zu hoch] 1
+2390 [PT 1.5: Turbo Pumpe Wickelsektion : Keine Profibuskommunikation] 1
+2391 [PT 1.6: Turbo Pumpe Wickelsektion : Pumpe läuft nicht ordnungsgemäß hoch] 1
+2392 [PT 1.6: Turbo Pumpe Wickelsektion : Pump darf nicht eingeschalten werden: Evakuierungsventil ist nicht offen oder Vorpumpe nicht an] 1
+2393 [PT 1.6: Turbo Pumpe Wickelsektion : Pump darf nicht ausgeschalten werden: Kammer noch im Prozess oder Evakuierungsventil schließt nicht] 1
+2394 [PT 1.6: Turbo Pumpe Wickelsektion : Pumpe meldet interne Störung] 1
+2395 [PT 1.6: Turbo Pumpe Wickelsektion : Vorvakuumdruck ist zu hoch] 1
+2396 [PT 1.6: Turbo Pumpe Wickelsektion : Fluten ist nicht freigegeben] 1
+2397 [PT 1.6: Turbo Pumpe Wickelsektion : Fluten nicht erlaubt! Vakuumventil ist nicht zu] 1
+2398 [PT 1.6: Turbo Pumpe Wickelsektion : Betriebsstundenzähler ist abgelaufen. Wartung erforferlich] 1
+2399 [PT 1.6: Turbo Pumpe Wickelsektion : Sicherung hat ausgelöst] 1
+2400 [PT 1.6: Turbo Pumpe Wickelsektion : Pumpe meldet Überlast oder Übertemperatur] 1
+2401 [PT 1.6: Turbo Pumpe Wickelsektion : Vorvakuumdruck ist zu hoch] 1
+2402 [PT 1.6: Turbo Pumpe Wickelsektion : Keine Profibuskommunikation] 1
+2403 [PT 3.1: Turbo Pumpe BS 1 : Pumpe läuft nicht ordnungsgemäß hoch] 1
+2404 [PT 3.1: Turbo Pumpe BS 1 : Pump darf nicht eingeschalten werden: Evakuierungsventil ist nicht offen oder Vorpumpe nicht an] 1
+2405 [PT 3.1: Turbo Pumpe BS 1 : Pump darf nicht ausgeschalten werden: Kammer noch im Prozess oder Evakuierungsventil schließt nicht] 1
+2406 [PT 3.1: Turbo Pumpe BS 1 : Pumpe meldet interne Störung] 1
+2407 [PT 3.1: Turbo Pumpe BS 1 : Vorvakuumdruck ist zu hoch] 1
+2408 [PT 3.1: Turbo Pumpe BS 1 : Fluten ist nicht freigegeben] 1
+2409 [PT 3.1: Turbo Pumpe BS 1 : Fluten nicht erlaubt! Vakuumventil ist nicht zu] 1
+2410 [PT 3.1: Turbo Pumpe BS 1 : Betriebsstundenzähler ist abgelaufen. Wartung erforferlich] 1
+2411 [PT 3.1: Turbo Pumpe BS 1 : Sicherung hat ausgelöst] 1
+2412 [PT 3.1: Turbo Pumpe BS 1 : Pumpe meldet Überlast oder Übertemperatur] 1
+2413 [PT 3.1: Turbo Pumpe BS 1 : Vorvakuumdruck ist zu hoch] 1
+2414 [PT 3.1: Turbo Pumpe BS 1 : Keine Profibuskommunikation] 1
+2415 [PT 3.2: Turbo Pumpe BS 1 : Pumpe läuft nicht ordnungsgemäß hoch] 1
+2416 [PT 3.2: Turbo Pumpe BS 1 : Pump darf nicht eingeschalten werden: Evakuierungsventil ist nicht offen oder Vorpumpe nicht an] 1
+2417 [PT 3.2: Turbo Pumpe BS 1 : Pump darf nicht ausgeschalten werden: Kammer noch im Prozess oder Evakuierungsventil schließt nicht] 1
+2418 [PT 3.2: Turbo Pumpe BS 1 : Pumpe meldet interne Störung] 1
+2419 [PT 3.2: Turbo Pumpe BS 1 : Vorvakuumdruck ist zu hoch] 1
+2420 [PT 3.2: Turbo Pumpe BS 1 : Fluten ist nicht freigegeben] 1
+2421 [PT 3.2: Turbo Pumpe BS 1 : Fluten nicht erlaubt! Vakuumventil ist nicht zu] 1
+2422 [PT 3.2: Turbo Pumpe BS 1 : Betriebsstundenzähler ist abgelaufen. Wartung erforferlich] 1
+2423 [PT 3.2: Turbo Pumpe BS 1 : Sicherung hat ausgelöst] 1
+2424 [PT 3.2: Turbo Pumpe BS 1 : Pumpe meldet Überlast oder Übertemperatur] 1
+2425 [PT 3.2: Turbo Pumpe BS 1 : Vorvakuumdruck ist zu hoch] 1
+2426 [PT 3.2: Turbo Pumpe BS 1 : Keine Profibuskommunikation] 1
+2427 [PT 4.1: Turbo Pumpe BS 2 : Pumpe läuft nicht ordnungsgemäß hoch] 1
+2428 [PT 4.1: Turbo Pumpe BS 2 : Pump darf nicht eingeschalten werden: Evakuierungsventil ist nicht offen oder Vorpumpe nicht an] 1
+2429 [PT 4.1: Turbo Pumpe BS 2 : Pump darf nicht ausgeschalten werden: Kammer noch im Prozess oder Evakuierungsventil schließt nicht] 1
+2430 [PT 4.1: Turbo Pumpe BS 2 : Pumpe meldet interne Störung] 1
+2431 [PT 4.1: Turbo Pumpe BS 2 : Vorvakuumdruck ist zu hoch] 1
+2432 [PT 4.1: Turbo Pumpe BS 2 : Fluten ist nicht freigegeben] 1
+2433 [PT 4.1: Turbo Pumpe BS 2 : Fluten nicht erlaubt! Vakuumventil ist nicht zu] 1
+2434 [PT 4.1: Turbo Pumpe BS 2 : Betriebsstundenzähler ist abgelaufen. Wartung erforferlich] 1
+2435 [PT 4.1: Turbo Pumpe BS 2 : Sicherung hat ausgelöst] 1
+2436 [PT 4.1: Turbo Pumpe BS 2 : Pumpe meldet Überlast oder Übertemperatur] 1
+2437 [PT 4.1: Turbo Pumpe BS 2 : Vorvakuumdruck ist zu hoch] 1
+2438 [PT 4.1: Turbo Pumpe BS 2 : Keine Profibuskommunikation] 1
+2439 [PT 4.2: Turbo Pumpe BS 2 : Pumpe läuft nicht ordnungsgemäß hoch] 1
+2440 [PT 4.2: Turbo Pumpe BS 2 : Pump darf nicht eingeschalten werden: Evakuierungsventil ist nicht offen oder Vorpumpe nicht an] 1
+2441 [PT 4.2: Turbo Pumpe BS 2 : Pump darf nicht ausgeschalten werden: Kammer noch im Prozess oder Evakuierungsventil schließt nicht] 1
+2442 [PT 4.2: Turbo Pumpe BS 2 : Pumpe meldet interne Störung] 1
+2443 [PT 4.2: Turbo Pumpe BS 2 : Vorvakuumdruck ist zu hoch] 1
+2444 [PT 4.2: Turbo Pumpe BS 2 : Fluten ist nicht freigegeben] 1
+2445 [PT 4.2: Turbo Pumpe BS 2 : Fluten nicht erlaubt! Vakuumventil ist nicht zu] 1
+2446 [PT 4.2: Turbo Pumpe BS 2 : Betriebsstundenzähler ist abgelaufen. Wartung erforferlich] 1
+2447 [PT 4.2: Turbo Pumpe BS 2 : Sicherung hat ausgelöst] 1
+2448 [PT 4.2: Turbo Pumpe BS 2 : Pumpe meldet Überlast oder Übertemperatur] 1
+2449 [PT 4.2: Turbo Pumpe BS 2 : Vorvakuumdruck ist zu hoch] 1
+2450 [PT 4.2: Turbo Pumpe BS 2 : Keine Profibuskommunikation] 1
+2451 [PT 5.1: Turbo Pumpe BS 3 : Pumpe läuft nicht ordnungsgemäß hoch] 1
+2452 [PT 5.1: Turbo Pumpe BS 3 : Pump darf nicht eingeschalten werden: Evakuierungsventil ist nicht offen oder Vorpumpe nicht an] 1
+2453 [PT 5.1: Turbo Pumpe BS 3 : Pump darf nicht ausgeschalten werden: Kammer noch im Prozess oder Evakuierungsventil schließt nicht] 1
+2454 [PT 5.1: Turbo Pumpe BS 3 : Pumpe meldet interne Störung] 1
+2455 [PT 5.1: Turbo Pumpe BS 3 : Vorvakuumdruck ist zu hoch] 1
+2456 [PT 5.1: Turbo Pumpe BS 3 : Fluten ist nicht freigegeben] 1
+2457 [PT 5.1: Turbo Pumpe BS 3 : Fluten nicht erlaubt! Vakuumventil ist nicht zu] 1
+2458 [PT 5.1: Turbo Pumpe BS 3 : Betriebsstundenzähler ist abgelaufen. Wartung erforferlich] 1
+2459 [PT 5.1: Turbo Pumpe BS 3 : Sicherung hat ausgelöst] 1
+2460 [PT 5.1: Turbo Pumpe BS 3 : Pumpe meldet Überlast oder Übertemperatur] 1
+2461 [PT 5.1: Turbo Pumpe BS 3 : Vorvakuumdruck ist zu hoch] 1
+2462 [PT 5.1: Turbo Pumpe BS 3 : Keine Profibuskommunikation] 1
+2463 [PT 5.2: Turbo Pumpe BS 3 : Pumpe läuft nicht ordnungsgemäß hoch] 1
+2464 [PT 5.2: Turbo Pumpe BS 3 : Pump darf nicht eingeschalten werden: Evakuierungsventil ist nicht offen oder Vorpumpe nicht an] 1
+2465 [PT 5.2: Turbo Pumpe BS 3 : Pump darf nicht ausgeschalten werden: Kammer noch im Prozess oder Evakuierungsventil schließt nicht] 1
+2466 [PT 5.2: Turbo Pumpe BS 3 : Pumpe meldet interne Störung] 1
+2467 [PT 5.2: Turbo Pumpe BS 3 : Vorvakuumdruck ist zu hoch] 1
+2468 [PT 5.2: Turbo Pumpe BS 3 : Fluten ist nicht freigegeben] 1
+2469 [PT 5.2: Turbo Pumpe BS 3 : Fluten nicht erlaubt! Vakuumventil ist nicht zu] 1
+2470 [PT 5.2: Turbo Pumpe BS 3 : Betriebsstundenzähler ist abgelaufen. Wartung erforferlich] 1
+2471 [PT 5.2: Turbo Pumpe BS 3 : Sicherung hat ausgelöst] 1
+2472 [PT 5.2: Turbo Pumpe BS 3 : Pumpe meldet Überlast oder Übertemperatur] 1
+2473 [PT 5.2: Turbo Pumpe BS 3 : Vorvakuumdruck ist zu hoch] 1
+2474 [PT 5.2: Turbo Pumpe BS 3 : Keine Profibuskommunikation] 1
+2475 [PT 6.1: Turbo Pumpe BS 4 : Pumpe läuft nicht ordnungsgemäß hoch] 1
+2476 [PT 6.1: Turbo Pumpe BS 4 : Pump darf nicht eingeschalten werden: Evakuierungsventil ist nicht offen oder Vorpumpe nicht an] 1
+2477 [PT 6.1: Turbo Pumpe BS 4 : Pump darf nicht ausgeschalten werden: Kammer noch im Prozess oder Evakuierungsventil schließt nicht] 1
+2478 [PT 6.1: Turbo Pumpe BS 4 : Pumpe meldet interne Störung] 1
+2479 [PT 6.1: Turbo Pumpe BS 4 : Vorvakuumdruck ist zu hoch] 1
+2480 [PT 6.1: Turbo Pumpe BS 4 : Fluten ist nicht freigegeben] 1
+2481 [PT 6.1: Turbo Pumpe BS 4 : Fluten nicht erlaubt! Vakuumventil ist nicht zu] 1
+2482 [PT 6.1: Turbo Pumpe BS 4 : Betriebsstundenzähler ist abgelaufen. Wartung erforferlich] 1
+2483 [PT 6.1: Turbo Pumpe BS 4 : Sicherung hat ausgelöst] 1
+2484 [PT 6.1: Turbo Pumpe BS 4 : Pumpe meldet Überlast oder Übertemperatur] 1
+2485 [PT 6.1: Turbo Pumpe BS 4 : Vorvakuumdruck ist zu hoch] 1
+2486 [PT 6.1: Turbo Pumpe BS 4 : Keine Profibuskommunikation] 1
+2487 [PT 6.2: Turbo Pumpe BS 4 : Pumpe läuft nicht ordnungsgemäß hoch] 1
+2488 [PT 6.2: Turbo Pumpe BS 4 : Pump darf nicht eingeschalten werden: Evakuierungsventil ist nicht offen oder Vorpumpe nicht an] 1
+2489 [PT 6.2: Turbo Pumpe BS 4 : Pump darf nicht ausgeschalten werden: Kammer noch im Prozess oder Evakuierungsventil schließt nicht] 1
+2490 [PT 6.2: Turbo Pumpe BS 4 : Pumpe meldet interne Störung] 1
+2491 [PT 6.2: Turbo Pumpe BS 4 : Vorvakuumdruck ist zu hoch] 1
+2492 [PT 6.2: Turbo Pumpe BS 4 : Fluten ist nicht freigegeben] 1
+2493 [PT 6.2: Turbo Pumpe BS 4 : Fluten nicht erlaubt! Vakuumventil ist nicht zu] 1
+2494 [PT 6.2: Turbo Pumpe BS 4 : Betriebsstundenzähler ist abgelaufen. Wartung erforferlich] 1
+2495 [PT 6.2: Turbo Pumpe BS 4 : Sicherung hat ausgelöst] 1
+2496 [PT 6.2: Turbo Pumpe BS 4 : Pumpe meldet Überlast oder Übertemperatur] 1
+2497 [PT 6.2: Turbo Pumpe BS 4 : Vorvakuumdruck ist zu hoch] 1
+2498 [PT 6.2: Turbo Pumpe BS 4 : Keine Profibuskommunikation] 1
+2499 [PT 7.1: Turbo Pumpe BS 5 : Pumpe läuft nicht ordnungsgemäß hoch] 1
+2500 [PT 7.1: Turbo Pumpe BS 5 : Pump darf nicht eingeschalten werden: Evakuierungsventil ist nicht offen oder Vorpumpe nicht an] 1
+2501 [PT 7.1: Turbo Pumpe BS 5 : Pump darf nicht ausgeschalten werden: Kammer noch im Prozess oder Evakuierungsventil schließt nicht] 1
+2502 [PT 7.1: Turbo Pumpe BS 5 : Pumpe meldet interne Störung] 1
+2503 [PT 7.1: Turbo Pumpe BS 5 : Vorvakuumdruck ist zu hoch] 1
+2504 [PT 7.1: Turbo Pumpe BS 5 : Fluten ist nicht freigegeben] 1
+2505 [PT 7.1: Turbo Pumpe BS 5 : Fluten nicht erlaubt! Vakuumventil ist nicht zu] 1
+2506 [PT 7.1: Turbo Pumpe BS 5 : Betriebsstundenzähler ist abgelaufen. Wartung erforferlich] 1
+2507 [PT 7.1: Turbo Pumpe BS 5 : Sicherung hat ausgelöst] 1
+2508 [PT 7.1: Turbo Pumpe BS 5 : Pumpe meldet Überlast oder Übertemperatur] 1
+2509 [PT 7.1: Turbo Pumpe BS 5 : Vorvakuumdruck ist zu hoch] 1
+2510 [PT 7.1: Turbo Pumpe BS 5 : Keine Profibuskommunikation] 1
+2511 [PT 7.2: Turbo Pumpe BS 5 : Pumpe läuft nicht ordnungsgemäß hoch] 1
+2512 [PT 7.2: Turbo Pumpe BS 5 : Pump darf nicht eingeschalten werden: Evakuierungsventil ist nicht offen oder Vorpumpe nicht an] 1
+2513 [PT 7.2: Turbo Pumpe BS 5 : Pump darf nicht ausgeschalten werden: Kammer noch im Prozess oder Evakuierungsventil schließt nicht] 1
+2514 [PT 7.2: Turbo Pumpe BS 5 : Pumpe meldet interne Störung] 1
+2515 [PT 7.2: Turbo Pumpe BS 5 : Vorvakuumdruck ist zu hoch] 1
+2516 [PT 7.2: Turbo Pumpe BS 5 : Fluten ist nicht freigegeben] 1
+2517 [PT 7.2: Turbo Pumpe BS 5 : Fluten nicht erlaubt! Vakuumventil ist nicht zu] 1
+2518 [PT 7.2: Turbo Pumpe BS 5 : Betriebsstundenzähler ist abgelaufen. Wartung erforferlich] 1
+2519 [PT 7.2: Turbo Pumpe BS 5 : Sicherung hat ausgelöst] 1
+2520 [PT 7.2: Turbo Pumpe BS 5 : Pumpe meldet Überlast oder Übertemperatur] 1
+2521 [PT 7.2: Turbo Pumpe BS 5 : Vorvakuumdruck ist zu hoch] 1
+2522 [PT 7.2: Turbo Pumpe BS 5 : Keine Profibuskommunikation] 1
+2523 [PT 8.1: Turbo Pumpe BS 6 : Pumpe läuft nicht ordnungsgemäß hoch] 1
+2524 [PT 8.1: Turbo Pumpe BS 6 : Pump darf nicht eingeschalten werden: Evakuierungsventil ist nicht offen oder Vorpumpe nicht an] 1
+2525 [PT 8.1: Turbo Pumpe BS 6 : Pump darf nicht ausgeschalten werden: Kammer noch im Prozess oder Evakuierungsventil schließt nicht] 1
+2526 [PT 8.1: Turbo Pumpe BS 6 : Pumpe meldet interne Störung] 1
+2527 [PT 8.1: Turbo Pumpe BS 6 : Vorvakuumdruck ist zu hoch] 1
+2528 [PT 8.1: Turbo Pumpe BS 6 : Fluten ist nicht freigegeben] 1
+2529 [PT 8.1: Turbo Pumpe BS 6 : Fluten nicht erlaubt! Vakuumventil ist nicht zu] 1
+2530 [PT 8.1: Turbo Pumpe BS 6 : Betriebsstundenzähler ist abgelaufen. Wartung erforferlich] 1
+2531 [PT 8.1: Turbo Pumpe BS 6 : Sicherung hat ausgelöst] 1
+2532 [PT 8.1: Turbo Pumpe BS 6 : Pumpe meldet Überlast oder Übertemperatur] 1
+2533 [PT 8.1: Turbo Pumpe BS 6 : Vorvakuumdruck ist zu hoch] 1
+2534 [PT 8.1: Turbo Pumpe BS 6 : Keine Profibuskommunikation] 1
+2535 [PT 8.2: Turbo Pumpe BS 6 : Pumpe läuft nicht ordnungsgemäß hoch] 1
+2536 [PT 8.2: Turbo Pumpe BS 6 : Pump darf nicht eingeschalten werden: Evakuierungsventil ist nicht offen oder Vorpumpe nicht an] 1
+2537 [PT 8.2: Turbo Pumpe BS 6 : Pump darf nicht ausgeschalten werden: Kammer noch im Prozess oder Evakuierungsventil schließt nicht] 1
+2538 [PT 8.2: Turbo Pumpe BS 6 : Pumpe meldet interne Störung] 1
+2539 [PT 8.2: Turbo Pumpe BS 6 : Vorvakuumdruck ist zu hoch] 1
+2540 [PT 8.2: Turbo Pumpe BS 6 : Fluten ist nicht freigegeben] 1
+2541 [PT 8.2: Turbo Pumpe BS 6 : Fluten nicht erlaubt! Vakuumventil ist nicht zu] 1
+2542 [PT 8.2: Turbo Pumpe BS 6 : Betriebsstundenzähler ist abgelaufen. Wartung erforferlich] 1
+2543 [PT 8.2: Turbo Pumpe BS 6 : Sicherung hat ausgelöst] 1
+2544 [PT 8.2: Turbo Pumpe BS 6 : Pumpe meldet Überlast oder Übertemperatur] 1
+2545 [PT 8.2: Turbo Pumpe BS 6 : Vorvakuumdruck ist zu hoch] 1
+2546 [PT 8.2: Turbo Pumpe BS 6 : Keine Profibuskommunikation] 1
+2547 [DC 2.1: DC- Gen. BS 2 : Profibus-Connection Error] 1
+2548 [DC 2.1: DC- Gen. BS 2 : Targetlife exceeded] 1
+2549 [DC 2.1: DC- Gen. BS 2 : Device Error] 1
+2550 [DC 2.1: DC- Gen. BS 2 : Setpoint not reached or out of Tolerance] 1
+2551 [DC 2.1: DC- Gen. BS 2 : Plasma does not burn] 1
+2552 [DC 2.1: DC- Gen. BS 2 : User Limit reached] 1
+2553 [DC 2.1: DC- Gen. BS 2 : Interlock Error] 1
+2554 [DC 2.1: DC- Gen. BS 2 : Device: Overload] 1
+2555 [DC 2.1: DC- Gen. BS 2 : Warning nop] 1
+2556 [DC 2.1: DC- Gen. BS 2 : ERROR 10] 1
+2557 [DC 2.1: DC- Gen. BS 2 : No cooling water] 1
+2558 [DC 2.1: DC- Gen. BS 2 : No DC-Switch selected] 1
+2559 [DC 2.1: DC- Gen. BS 2 : Arclimit reached] 1
+2560 [DC 2.1: DC- Gen. BS 2 : Profibus-Connection Error DC1] 1
+2561 [DC 2.1: DC- Gen. BS 2 : Profibus-Connection Error DC2] 1
+2562 [DC 2.1: DC- Gen. BS 2 : Profibus-Connection Error DC3] 1
+2563 [DC 2.1: DC- Gen. BS 2 : Profibus-Connection Error DC4] 1
+2564 [DC 2.1: DC- Gen. BS 2 : Profibus-Connection Error DC5] 1
+2565 [DC 2.1: DC- Gen. BS 2 : Profibus-Connection Error DC6] 1
+2566 [DC 2.2: DC- Gen. BS 2 : Profibus-Connection Error] 1
+2567 [DC 2.2: DC- Gen. BS 2 : Targetlife exceeded] 1
+2568 [DC 2.2: DC- Gen. BS 2 : Device Error] 1
+2569 [DC 2.2: DC- Gen. BS 2 : Setpoint not reached or out of Tolerance] 1
+2570 [DC 2.2: DC- Gen. BS 2 : Plasma does not burn] 1
+2571 [DC 2.2: DC- Gen. BS 2 : User Limit reached] 1
+2572 [DC 2.2: DC- Gen. BS 2 : Interlock Error] 1
+2573 [DC 2.2: DC- Gen. BS 2 : Device: Overload] 1
+2574 [DC 2.2: DC- Gen. BS 2 : Warning nop] 1
+2575 [DC 2.2: DC- Gen. BS 2 : ERROR 10] 1
+2576 [DC 2.2: DC- Gen. BS 2 : No cooling water] 1
+2577 [DC 2.2: DC- Gen. BS 2 : No DC-Switch selected] 1
+2578 [DC 2.2: DC- Gen. BS 2 : Arclimit reached] 1
+2579 [DC 2.2: DC- Gen. BS 2 : Profibus-Connection Error DC1] 1
+2580 [DC 2.2: DC- Gen. BS 2 : Profibus-Connection Error DC2] 1
+2581 [DC 2.2: DC- Gen. BS 2 : Profibus-Connection Error DC3] 1
+2582 [DC 2.2: DC- Gen. BS 2 : Profibus-Connection Error DC4] 1
+2583 [DC 2.2: DC- Gen. BS 2 : Profibus-Connection Error DC5] 1
+2584 [DC 2.2: DC- Gen. BS 2 : Profibus-Connection Error DC6] 1
+2585 [DC 3.1: DC- Gen. BS 3 : Profibus-Connection Error] 1
+2586 [DC 3.1: DC- Gen. BS 3 : Targetlife exceeded] 1
+2587 [DC 3.1: DC- Gen. BS 3 : Device Error] 1
+2588 [DC 3.1: DC- Gen. BS 3 : Setpoint not reached or out of Tolerance] 1
+2589 [DC 3.1: DC- Gen. BS 3 : Plasma does not burn] 1
+2590 [DC 3.1: DC- Gen. BS 3 : User Limit reached] 1
+2591 [DC 3.1: DC- Gen. BS 3 : Interlock Error] 1
+2592 [DC 3.1: DC- Gen. BS 3 : Device: Overload] 1
+2593 [DC 3.1: DC- Gen. BS 3 : Warning nop] 1
+2594 [DC 3.1: DC- Gen. BS 3 : ERROR 10] 1
+2595 [DC 3.1: DC- Gen. BS 3 : No cooling water] 1
+2596 [DC 3.1: DC- Gen. BS 3 : No DC-Switch selected] 1
+2597 [DC 3.1: DC- Gen. BS 3 : Arclimit reached] 1
+2598 [DC 3.1: DC- Gen. BS 3 : Profibus-Connection Error DC1] 1
+2599 [DC 3.1: DC- Gen. BS 3 : Profibus-Connection Error DC2] 1
+2600 [DC 3.1: DC- Gen. BS 3 : Profibus-Connection Error DC3] 1
+2601 [DC 3.1: DC- Gen. BS 3 : Profibus-Connection Error DC4] 1
+2602 [DC 3.1: DC- Gen. BS 3 : Profibus-Connection Error DC5] 1
+2603 [DC 3.1: DC- Gen. BS 3 : Profibus-Connection Error DC6] 1
+2604 [DC 3.2: DC- Gen. BS 3 : Profibus-Connection Error] 1
+2605 [DC 3.2: DC- Gen. BS 3 : Targetlife exceeded] 1
+2606 [DC 3.2: DC- Gen. BS 3 : Device Error] 1
+2607 [DC 3.2: DC- Gen. BS 3 : Setpoint not reached or out of Tolerance] 1
+2608 [DC 3.2: DC- Gen. BS 3 : Plasma does not burn] 1
+2609 [DC 3.2: DC- Gen. BS 3 : User Limit reached] 1
+2610 [DC 3.2: DC- Gen. BS 3 : Interlock Error] 1
+2611 [DC 3.2: DC- Gen. BS 3 : Device: Overload] 1
+2612 [DC 3.2: DC- Gen. BS 3 : Warning nop] 1
+2613 [DC 3.2: DC- Gen. BS 3 : ERROR 10] 1
+2614 [DC 3.2: DC- Gen. BS 3 : No cooling water] 1
+2615 [DC 3.2: DC- Gen. BS 3 : No DC-Switch selected] 1
+2616 [DC 3.2: DC- Gen. BS 3 : Arclimit reached] 1
+2617 [DC 3.2: DC- Gen. BS 3 : Profibus-Connection Error DC1] 1
+2618 [DC 3.2: DC- Gen. BS 3 : Profibus-Connection Error DC2] 1
+2619 [DC 3.2: DC- Gen. BS 3 : Profibus-Connection Error DC3] 1
+2620 [DC 3.2: DC- Gen. BS 3 : Profibus-Connection Error DC4] 1
+2621 [DC 3.2: DC- Gen. BS 3 : Profibus-Connection Error DC5] 1
+2622 [DC 3.2: DC- Gen. BS 3 : Profibus-Connection Error DC6] 1
+2623 [DC 4.1: DC- Gen. BS 4 : Profibus-Connection Error] 1
+2624 [DC 4.1: DC- Gen. BS 4 : Targetlife exceeded] 1
+2625 [DC 4.1: DC- Gen. BS 4 : Device Error] 1
+2626 [DC 4.1: DC- Gen. BS 4 : Setpoint not reached or out of Tolerance] 1
+2627 [DC 4.1: DC- Gen. BS 4 : Plasma does not burn] 1
+2628 [DC 4.1: DC- Gen. BS 4 : User Limit reached] 1
+2629 [DC 4.1: DC- Gen. BS 4 : Interlock Error] 1
+2630 [DC 4.1: DC- Gen. BS 4 : Device: Overload] 1
+2631 [DC 4.1: DC- Gen. BS 4 : Warning nop] 1
+2632 [DC 4.1: DC- Gen. BS 4 : ERROR 10] 1
+2633 [DC 4.1: DC- Gen. BS 4 : No cooling water] 1
+2634 [DC 4.1: DC- Gen. BS 4 : No DC-Switch selected] 1
+2635 [DC 4.1: DC- Gen. BS 4 : Arclimit reached] 1
+2636 [DC 4.1: DC- Gen. BS 4 : Profibus-Connection Error DC1] 1
+2637 [DC 4.1: DC- Gen. BS 4 : Profibus-Connection Error DC2] 1
+2638 [DC 4.1: DC- Gen. BS 4 : Profibus-Connection Error DC3] 1
+2639 [DC 4.1: DC- Gen. BS 4 : Profibus-Connection Error DC4] 1
+2640 [DC 4.1: DC- Gen. BS 4 : Profibus-Connection Error DC5] 1
+2641 [DC 4.1: DC- Gen. BS 4 : Profibus-Connection Error DC6] 1
+2642 [DC 4.2: DC- Gen. BS 4 : Profibus-Connection Error] 1
+2643 [DC 4.2: DC- Gen. BS 4 : Targetlife exceeded] 1
+2644 [DC 4.2: DC- Gen. BS 4 : Device Error] 1
+2645 [DC 4.2: DC- Gen. BS 4 : Setpoint not reached or out of Tolerance] 1
+2646 [DC 4.2: DC- Gen. BS 4 : Plasma does not burn] 1
+2647 [DC 4.2: DC- Gen. BS 4 : User Limit reached] 1
+2648 [DC 4.2: DC- Gen. BS 4 : Interlock Error] 1
+2649 [DC 4.2: DC- Gen. BS 4 : Device: Overload] 1
+2650 [DC 4.2: DC- Gen. BS 4 : Warning nop] 1
+2651 [DC 4.2: DC- Gen. BS 4 : ERROR 10] 1
+2652 [DC 4.2: DC- Gen. BS 4 : No cooling water] 1
+2653 [DC 4.2: DC- Gen. BS 4 : No DC-Switch selected] 1
+2654 [DC 4.2: DC- Gen. BS 4 : Arclimit reached] 1
+2655 [DC 4.2: DC- Gen. BS 4 : Profibus-Connection Error DC1] 1
+2656 [DC 4.2: DC- Gen. BS 4 : Profibus-Connection Error DC2] 1
+2657 [DC 4.2: DC- Gen. BS 4 : Profibus-Connection Error DC3] 1
+2658 [DC 4.2: DC- Gen. BS 4 : Profibus-Connection Error DC4] 1
+2659 [DC 4.2: DC- Gen. BS 4 : Profibus-Connection Error DC5] 1
+2660 [DC 4.2: DC- Gen. BS 4 : Profibus-Connection Error DC6] 1
+2661 [DC 5.1: DC- Gen. BS 5 : Profibus-Connection Error] 1
+2662 [DC 5.1: DC- Gen. BS 5 : Targetlife exceeded] 1
+2663 [DC 5.1: DC- Gen. BS 5 : Device Error] 1
+2664 [DC 5.1: DC- Gen. BS 5 : Setpoint not reached or out of Tolerance] 1
+2665 [DC 5.1: DC- Gen. BS 5 : Plasma does not burn] 1
+2666 [DC 5.1: DC- Gen. BS 5 : User Limit reached] 1
+2667 [DC 5.1: DC- Gen. BS 5 : Interlock Error] 1
+2668 [DC 5.1: DC- Gen. BS 5 : Device: Overload] 1
+2669 [DC 5.1: DC- Gen. BS 5 : Warning nop] 1
+2670 [DC 5.1: DC- Gen. BS 5 : ERROR 10] 1
+2671 [DC 5.1: DC- Gen. BS 5 : No cooling water] 1
+2672 [DC 5.1: DC- Gen. BS 5 : No DC-Switch selected] 1
+2673 [DC 5.1: DC- Gen. BS 5 : Arclimit reached] 1
+2674 [DC 5.1: DC- Gen. BS 5 : Profibus-Connection Error DC1] 1
+2675 [DC 5.1: DC- Gen. BS 5 : Profibus-Connection Error DC2] 1
+2676 [DC 5.1: DC- Gen. BS 5 : Profibus-Connection Error DC3] 1
+2677 [DC 5.1: DC- Gen. BS 5 : Profibus-Connection Error DC4] 1
+2678 [DC 5.1: DC- Gen. BS 5 : Profibus-Connection Error DC5] 1
+2679 [DC 5.1: DC- Gen. BS 5 : Profibus-Connection Error DC6] 1
+2680 [DC 5.2: DC- Gen. BS 5 : Profibus-Connection Error] 1
+2681 [DC 5.2: DC- Gen. BS 5 : Targetlife exceeded] 1
+2682 [DC 5.2: DC- Gen. BS 5 : Device Error] 1
+2683 [DC 5.2: DC- Gen. BS 5 : Setpoint not reached or out of Tolerance] 1
+2684 [DC 5.2: DC- Gen. BS 5 : Plasma does not burn] 1
+2685 [DC 5.2: DC- Gen. BS 5 : User Limit reached] 1
+2686 [DC 5.2: DC- Gen. BS 5 : Interlock Error] 1
+2687 [DC 5.2: DC- Gen. BS 5 : Device: Overload] 1
+2688 [DC 5.2: DC- Gen. BS 5 : Warning nop] 1
+2689 [DC 5.2: DC- Gen. BS 5 : ERROR 10] 1
+2690 [DC 5.2: DC- Gen. BS 5 : No cooling water] 1
+2691 [DC 5.2: DC- Gen. BS 5 : No DC-Switch selected] 1
+2692 [DC 5.2: DC- Gen. BS 5 : Arclimit reached] 1
+2693 [DC 5.2: DC- Gen. BS 5 : Profibus-Connection Error DC1] 1
+2694 [DC 5.2: DC- Gen. BS 5 : Profibus-Connection Error DC2] 1
+2695 [DC 5.2: DC- Gen. BS 5 : Profibus-Connection Error DC3] 1
+2696 [DC 5.2: DC- Gen. BS 5 : Profibus-Connection Error DC4] 1
+2697 [DC 5.2: DC- Gen. BS 5 : Profibus-Connection Error DC5] 1
+2698 [DC 5.2: DC- Gen. BS 5 : Profibus-Connection Error DC6] 1
+2699 [SRC 2.1: Quelle BS 2 : Targetlebensdauer läuft ab] 1
+2700 [SRC 2.1: Quelle BS 2 : Targetlebensdauer ist abgelaufen] 1
+2701 [SRC 2.1: Quelle BS 2 : Rotation ist ausgefallen] 1
+2702 [SRC 2.2: Quelle BS 2 : Targetlebensdauer läuft ab] 1
+2703 [SRC 2.2: Quelle BS 2 : Targetlebensdauer ist abgelaufen] 1
+2704 [SRC 2.2: Quelle BS 2 : Rotation ist ausgefallen] 1
+2705 [SRC 3.1: Quelle BS 3 : Targetlebensdauer läuft ab] 1
+2706 [SRC 3.1: Quelle BS 3 : Targetlebensdauer ist abgelaufen] 1
+2707 [SRC 3.1: Quelle BS 3 : Rotation ist ausgefallen] 1
+2708 [SRC 3.2: Quelle BS 3 : Targetlebensdauer läuft ab] 1
+2709 [SRC 3.2: Quelle BS 3 : Targetlebensdauer ist abgelaufen] 1
+2710 [SRC 3.2: Quelle BS 3 : Rotation ist ausgefallen] 1
+2711 [SRC 4.1: Quelle BS 4 : Targetlebensdauer läuft ab] 1
+2712 [SRC 4.1: Quelle BS 4 : Targetlebensdauer ist abgelaufen] 1
+2713 [SRC 4.1: Quelle BS 4 : Rotation ist ausgefallen] 1
+2714 [SRC 4.2: Quelle BS 4 : Targetlebensdauer läuft ab] 1
+2715 [SRC 4.2: Quelle BS 4 : Targetlebensdauer ist abgelaufen] 1
+2716 [SRC 4.2: Quelle BS 4 : Rotation ist ausgefallen] 1
+2717 [SRC 5.1: Quelle BS 5 : Targetlebensdauer läuft ab] 1
+2718 [SRC 5.1: Quelle BS 5 : Targetlebensdauer ist abgelaufen] 1
+2719 [SRC 5.1: Quelle BS 5 : Rotation ist ausgefallen] 1
+2720 [SRC 5.2: Quelle BS 5 : Targetlebensdauer läuft ab] 1
+2721 [SRC 5.2: Quelle BS 5 : Targetlebensdauer ist abgelaufen] 1
+2722 [SRC 5.2: Quelle BS 5 : Rotation ist ausgefallen] 1
+2723 [SRC 6.1: Quelle BS 6 : Targetlebensdauer läuft ab] 1
+2724 [SRC 6.1: Quelle BS 6 : Targetlebensdauer ist abgelaufen] 1
+2725 [SRC 6.1: Quelle BS 6 : Rotation ist ausgefallen] 1
+2726 [SRC 6.2: Quelle BS 6 : Targetlebensdauer läuft ab] 1
+2727 [SRC 6.2: Quelle BS 6 : Targetlebensdauer ist abgelaufen] 1
+2728 [SRC 6.2: Quelle BS 6 : Rotation ist ausgefallen] 1
+2729 [HE 1.1: Heizer Wickelsektion : Heizer darf nicht eingeschaltet werden: Kammer ist nicht verschlossen oder Heizer ist nicht Verriegelt] 1
+2730 [HE 1.1: Heizer Wickelsektion : Heizer darf nicht eingeschaltet werden: Druck in Kammer ist zu hoch] 1
+2731 [HE 1.1: Heizer Wickelsektion : Maximal Temperatur erreicht] 1
+2732 [HE 1.1: Heizer Wickelsektion : Istwert ist nicht in Toleranz] 1
+2733 [HE 1.1: Heizer Wickelsektion : Maximal Temperatur erreicht] 1
+2734 [HE 1.1: Heizer Wickelsektion : Kein Kühlwasser] 1
+2735 [HE 2.1: Heizer Wickelsektion : Heizer darf nicht eingeschaltet werden: Kammer ist nicht verschlossen oder Heizer ist nicht Verriegelt] 1
+2736 [HE 2.1: Heizer Wickelsektion : Heizer darf nicht eingeschaltet werden: Druck in Kammer ist zu hoch] 1
+2737 [HE 2.1: Heizer Wickelsektion : Maximal Temperatur erreicht] 1
+2738 [HE 2.1: Heizer Wickelsektion : Istwert ist nicht in Toleranz] 1
+2739 [HE 2.1: Heizer Wickelsektion : Maximal Temperatur erreicht] 1
+2740 [HE 2.1: Heizer Wickelsektion : Kein Kühlwasser] 1
+2741 [HE 2.2: Heizer Wickelsektion : Heizer darf nicht eingeschaltet werden: Kammer ist nicht verschlossen oder Heizer ist nicht Verriegelt] 1
+2742 [HE 2.2: Heizer Wickelsektion : Heizer darf nicht eingeschaltet werden: Druck in Kammer ist zu hoch] 1
+2743 [HE 2.2: Heizer Wickelsektion : Maximal Temperatur erreicht] 1
+2744 [HE 2.2: Heizer Wickelsektion : Istwert ist nicht in Toleranz] 1
+2745 [HE 2.2: Heizer Wickelsektion : Maximal Temperatur erreicht] 1
+2746 [HE 2.2: Heizer Wickelsektion : Kein Kühlwasser] 1
+2747 [HE 3.1: Heizer Wickelsektion : Heizer darf nicht eingeschaltet werden: Kammer ist nicht verschlossen oder Heizer ist nicht Verriegelt] 1
+2748 [HE 3.1: Heizer Wickelsektion : Heizer darf nicht eingeschaltet werden: Druck in Kammer ist zu hoch] 1
+2749 [HE 3.1: Heizer Wickelsektion : Maximal Temperatur erreicht] 1
+2750 [HE 3.1: Heizer Wickelsektion : Istwert ist nicht in Toleranz] 1
+2751 [HE 3.1: Heizer Wickelsektion : Maximal Temperatur erreicht] 1
+2752 [HE 3.1: Heizer Wickelsektion : Kein Kühlwasser] 1
+2753 [HE 3.2: Heizer Wickelsektion : Heizer darf nicht eingeschaltet werden: Kammer ist nicht verschlossen oder Heizer ist nicht Verriegelt] 1
+2754 [HE 3.2: Heizer Wickelsektion : Heizer darf nicht eingeschaltet werden: Druck in Kammer ist zu hoch] 1
+2755 [HE 3.2: Heizer Wickelsektion : Maximal Temperatur erreicht] 1
+2756 [HE 3.2: Heizer Wickelsektion : Istwert ist nicht in Toleranz] 1
+2757 [HE 3.2: Heizer Wickelsektion : Maximal Temperatur erreicht] 1
+2758 [HE 3.2: Heizer Wickelsektion : Kein Kühlwasser] 1
+2759 [HE 4.1: Heizer Wickelsektion : Heizer darf nicht eingeschaltet werden: Kammer ist nicht verschlossen oder Heizer ist nicht Verriegelt] 1
+2760 [HE 4.1: Heizer Wickelsektion : Heizer darf nicht eingeschaltet werden: Druck in Kammer ist zu hoch] 1
+2761 [HE 4.1: Heizer Wickelsektion : Maximal Temperatur erreicht] 1
+2762 [HE 4.1: Heizer Wickelsektion : Istwert ist nicht in Toleranz] 1
+2763 [HE 4.1: Heizer Wickelsektion : Maximal Temperatur erreicht] 1
+2764 [HE 4.1: Heizer Wickelsektion : Kein Kühlwasser] 1
+2765 [HE 4.2: Heizer Wickelsektion : Heizer darf nicht eingeschaltet werden: Kammer ist nicht verschlossen oder Heizer ist nicht Verriegelt] 1
+2766 [HE 4.2: Heizer Wickelsektion : Heizer darf nicht eingeschaltet werden: Druck in Kammer ist zu hoch] 1
+2767 [HE 4.2: Heizer Wickelsektion : Maximal Temperatur erreicht] 1
+2768 [HE 4.2: Heizer Wickelsektion : Istwert ist nicht in Toleranz] 1
+2769 [HE 4.2: Heizer Wickelsektion : Maximal Temperatur erreicht] 1
+2770 [HE 4.2: Heizer Wickelsektion : Kein Kühlwasser] 1
+2771 [HE 5.1: Heizer Wickelsektion : Heizer darf nicht eingeschaltet werden: Kammer ist nicht verschlossen oder Heizer ist nicht Verriegelt] 1
+2772 [HE 5.1: Heizer Wickelsektion : Heizer darf nicht eingeschaltet werden: Druck in Kammer ist zu hoch] 1
+2773 [HE 5.1: Heizer Wickelsektion : Maximal Temperatur erreicht] 1
+2774 [HE 5.1: Heizer Wickelsektion : Istwert ist nicht in Toleranz] 1
+2775 [HE 5.1: Heizer Wickelsektion : Maximal Temperatur erreicht] 1
+2776 [HE 5.1: Heizer Wickelsektion : Kein Kühlwasser] 1
+2777 [HE 5.2: Heizer Wickelsektion : Heizer darf nicht eingeschaltet werden: Kammer ist nicht verschlossen oder Heizer ist nicht Verriegelt] 1
+2778 [HE 5.2: Heizer Wickelsektion : Heizer darf nicht eingeschaltet werden: Druck in Kammer ist zu hoch] 1
+2779 [HE 5.2: Heizer Wickelsektion : Maximal Temperatur erreicht] 1
+2780 [HE 5.2: Heizer Wickelsektion : Istwert ist nicht in Toleranz] 1
+2781 [HE 5.2: Heizer Wickelsektion : Maximal Temperatur erreicht] 1
+2782 [HE 5.2: Heizer Wickelsektion : Kein Kühlwasser] 1
+2783 [HE 6.1: Heizer Wickelsektion : Heizer darf nicht eingeschaltet werden: Kammer ist nicht verschlossen oder Heizer ist nicht Verriegelt] 1
+2784 [HE 6.1: Heizer Wickelsektion : Heizer darf nicht eingeschaltet werden: Druck in Kammer ist zu hoch] 1
+2785 [HE 6.1: Heizer Wickelsektion : Maximal Temperatur erreicht] 1
+2786 [HE 6.1: Heizer Wickelsektion : Istwert ist nicht in Toleranz] 1
+2787 [HE 6.1: Heizer Wickelsektion : Maximal Temperatur erreicht] 1
+2788 [HE 6.1: Heizer Wickelsektion : Kein Kühlwasser] 1
+2789 [HE 6.2: Heizer Wickelsektion : Heizer darf nicht eingeschaltet werden: Kammer ist nicht verschlossen oder Heizer ist nicht Verriegelt] 1
+2790 [HE 6.2: Heizer Wickelsektion : Heizer darf nicht eingeschaltet werden: Druck in Kammer ist zu hoch] 1
+2791 [HE 6.2: Heizer Wickelsektion : Maximal Temperatur erreicht] 1
+2792 [HE 6.2: Heizer Wickelsektion : Istwert ist nicht in Toleranz] 1
+2793 [HE 6.2: Heizer Wickelsektion : Maximal Temperatur erreicht] 1
+2794 [HE 6.2: Heizer Wickelsektion : Kein Kühlwasser] 1
+2795 [E01: 1A16 Beckhoff E/A : Spannungsfehler] 1
+2796 [E01: 1A16 Beckhoff E/A : Sicherung defekt] 1
+2797 [E02: 1A2 Beckhoff E/A : Spannungsfehler] 1
+2798 [E01: 1A2 Beckhoff E/A : Sicherung defekt] 1
+2799 [N11: 1A2 Beckhoff E/A : Spannungsfehler] 1
+2800 [N11: 1A2 Beckhoff E/A : Sicherung defekt] 1
+2801 [E11: 1A17 Beckhoff E/A : Spannungsfehler] 1
+2802 [E11: 1A17 Beckhoff E/A : Sicherung defekt] 1
+2803 [N11: 1A29 Beckhoff E/A : Spannungsfehler] 1
+2804 [N11: 1A29 Beckhoff E/A : Sicherung defekt] 1
+2805 [N12: 1A2 Beckhoff E/A : Spannungsfehler] 1
+2806 [N12: 1A2 Beckhoff E/A : Sicherung defekt] 1
+2807 [N12: 1A15 Beckhoff E/A : Spannungsfehler] 1
+2808 [N12: 1A15 Beckhoff E/A : Sicherung defekt] 1
+2809 [N12: 1A20 Beckhoff E/A : Spannungsfehler] 1
+2810 [N12: 1A20 Beckhoff E/A : Sicherung defekt] 1
+2811 [N13: 1A2 Beckhoff E/A : Spannungsfehler] 1
+2812 [N13: 1A2 Beckhoff E/A : Sicherung defekt] 1
+2813 [N13: 1A11 Beckhoff E/A : Spannungsfehler] 1
+2814 [N13: 1A11 Beckhoff E/A : Sicherung defekt] 1
+2815 [N13: 1A18 Beckhoff E/A : Spannungsfehler] 1
+2816 [N13: 1A18 Beckhoff E/A : Sicherung defekt] 1
+2817 [N13: 1A23 Beckhoff E/A : Spannungsfehler] 1
+2818 [N13: 1A23 Beckhoff E/A : Sicherung defekt] 1
+2819 [N14: 1A2 Beckhoff E/A : Spannungsfehler] 1
+2820 [N14: 1A2 Beckhoff E/A : Sicherung defekt] 1
+2821 [N14: 1A15 Beckhoff E/A : Spannungsfehler] 1
+2822 [N14: 1A15 Beckhoff E/A : Sicherung defekt] 1
+2823 [N14: 1A22 Beckhoff E/A : Spannungsfehler] 1
+2824 [N14: 1A22 Beckhoff E/A : Sicherung defekt] 1
+2825 [N15: 1A2 Beckhoff E/A : Spannungsfehler] 1
+2826 [N15: 1A2 Beckhoff E/A : Sicherung defekt] 1
+2827 [N16: 1A2 Beckhoff E/A : Spannungsfehler] 1
+2828 [N16: 1A2 Beckhoff E/A : Sicherung defekt] 1
+2829 [N17: 1A2 Beckhoff E/A : Spannungsfehler] 1
+2830 [N17: 1A2 Beckhoff E/A : Sicherung defekt] 1
+2831 [N18: 1A2 Beckhoff E/A : Spannungsfehler] 1
+2832 [N18: 1A2 Beckhoff E/A : Sicherung defekt] 1
+2833 [E02: 8F2 : Spannungsfehler] 1
+2834 [E02: 8F2 : Sicherung defekt] 1
+2835 [E02: 8F1 : Spannungsfehler] 1
+2836 [E02: 8F1 : Sicherung defekt] 1
+2837 [E02: 9F2 : Spannungsfehler] 1
+2838 [E02: 9F2 : Sicherung defekt] 1
+2839 [E02: 10F1 : Spannungsfehler] 1
+2840 [E02: 10F1 : Sicherung defekt] 1
+2841 [E02: 10F2 : Spannungsfehler] 1
+2842 [E02: 10F2 : Sicherung defekt] 1
+2843 [reserve : Spannungsfehler] 1
+2844 [reserve : Sicherung defekt] 1
+2845 [reserve : Spannungsfehler] 1
+2846 [reserve : Sicherung defekt] 1
+2847 [reserve : Spannungsfehler] 1
+2848 [reserve : Sicherung defekt] 1
+2849 [reserve : Spannungsfehler] 1
+2850 [reserve : Sicherung defekt] 1
+2851 [reserve : Spannungsfehler] 1
+2852 [reserve : Sicherung defekt] 1
+2853 [reserve : Spannungsfehler] 1
+2854 [reserve : Sicherung defekt] 1
+2855 [reserve : Spannungsfehler] 1
+2856 [reserve : Sicherung defekt] 1
+2857 [reserve : Spannungsfehler] 1
+2858 [reserve : Sicherung defekt] 1
+2859 [MFC 2.1: Mass Flow Controller BS 2 : Fluss darf nicht eingeschalten werden: Kammer ist nicht im Prozess] 1
+2860 [MFC 2.1: Mass Flow Controller BS 2 : Fluss darf nicht eingeschalten werden: Kammerdruck zu hoch] 1
+2861 [MFC 2.1: Mass Flow Controller BS 2 : Fluss darf nicht eingeschalten werden: Bedingung 4] 1
+2862 [MFC 2.1: Mass Flow Controller BS 2 : Fluss darf nicht ausgeschalten werden: Kammer wird gespült] 1
+2863 [MFC 2.1: Mass Flow Controller BS 2 : Istwert ist außerhalb Toleranz] 1
+2864 [MFC 2.1: Mass Flow Controller BS 2 : Keine Profibusverbindung] 1
+2865 [MFC 2.1: Mass Flow Controller BS 2 : Kein Master für Slavemode ausgewählt] 1
+2866 [MFC 2.1: Mass Flow Controller BS 2 : Wartung erforderlich] 1
+2867 [MFC 2.2: Mass Flow Controller BS 2 : Fluss darf nicht eingeschalten werden: Kammer ist nicht im Prozess] 1
+2868 [MFC 2.2: Mass Flow Controller BS 2 : Fluss darf nicht eingeschalten werden: Kammerdruck zu hoch] 1
+2869 [MFC 2.2: Mass Flow Controller BS 2 : Fluss darf nicht eingeschalten werden: Bedingung 4] 1
+2870 [MFC 2.2: Mass Flow Controller BS 2 : Fluss darf nicht ausgeschalten werden: Kammer wird gespült] 1
+2871 [MFC 2.2: Mass Flow Controller BS 2 : Istwert ist außerhalb Toleranz] 1
+2872 [MFC 2.2: Mass Flow Controller BS 2 : Keine Profibusverbindung] 1
+2873 [MFC 2.2: Mass Flow Controller BS 2 : Kein Master für Slavemode ausgewählt] 1
+2874 [MFC 2.2: Mass Flow Controller BS 2 : Wartung erforderlich] 1
+2875 [MFC 2.3: Mass Flow Controller BS 2 : Fluss darf nicht eingeschalten werden: Kammer ist nicht im Prozess] 1
+2876 [MFC 2.3: Mass Flow Controller BS 2 : Fluss darf nicht eingeschalten werden: Kammerdruck zu hoch] 1
+2877 [MFC 2.3: Mass Flow Controller BS 2 : Fluss darf nicht eingeschalten werden: Bedingung 4] 1
+2878 [MFC 2.3: Mass Flow Controller BS 2 : Fluss darf nicht ausgeschalten werden: Kammer wird gespült] 1
+2879 [MFC 2.3: Mass Flow Controller BS 2 : Istwert ist außerhalb Toleranz] 1
+2880 [MFC 2.3: Mass Flow Controller BS 2 : Keine Profibusverbindung] 1
+2881 [MFC 2.3: Mass Flow Controller BS 2 : Kein Master für Slavemode ausgewählt] 1
+2882 [MFC 2.3: Mass Flow Controller BS 2 : Wartung erforderlich] 1
+2883 [MFC 3.1: Mass Flow Controller BS 3 : Fluss darf nicht eingeschalten werden: Kammer ist nicht im Prozess] 1
+2884 [MFC 3.1: Mass Flow Controller BS 3 : Fluss darf nicht eingeschalten werden: Kammerdruck zu hoch] 1
+2885 [MFC 3.1: Mass Flow Controller BS 3 : Fluss darf nicht eingeschalten werden: Bedingung 4] 1
+2886 [MFC 3.1: Mass Flow Controller BS 3 : Fluss darf nicht ausgeschalten werden: Kammer wird gespült] 1
+2887 [MFC 3.1: Mass Flow Controller BS 3 : Istwert ist außerhalb Toleranz] 1
+2888 [MFC 3.1: Mass Flow Controller BS 3 : Keine Profibusverbindung] 1
+2889 [MFC 3.1: Mass Flow Controller BS 3 : Kein Master für Slavemode ausgewählt] 1
+2890 [MFC 3.1: Mass Flow Controller BS 3 : Wartung erforderlich] 1
+2891 [MFC 3.2: Mass Flow Controller BS 3 : Fluss darf nicht eingeschalten werden: Kammer ist nicht im Prozess] 1
+2892 [MFC 3.2: Mass Flow Controller BS 3 : Fluss darf nicht eingeschalten werden: Kammerdruck zu hoch] 1
+2893 [MFC 3.2: Mass Flow Controller BS 3 : Fluss darf nicht eingeschalten werden: Bedingung 4] 1
+2894 [MFC 3.2: Mass Flow Controller BS 3 : Fluss darf nicht ausgeschalten werden: Kammer wird gespült] 1
+2895 [MFC 3.2: Mass Flow Controller BS 3 : Istwert ist außerhalb Toleranz] 1
+2896 [MFC 3.2: Mass Flow Controller BS 3 : Keine Profibusverbindung] 1
+2897 [MFC 3.2: Mass Flow Controller BS 3 : Kein Master für Slavemode ausgewählt] 1
+2898 [MFC 3.2: Mass Flow Controller BS 3 : Wartung erforderlich] 1
+2899 [MFC 3.3: Mass Flow Controller BS 3 : Fluss darf nicht eingeschalten werden: Kammer ist nicht im Prozess] 1
+2900 [MFC 3.3: Mass Flow Controller BS 3 : Fluss darf nicht eingeschalten werden: Kammerdruck zu hoch] 1
+2901 [MFC 3.3: Mass Flow Controller BS 3 : Fluss darf nicht eingeschalten werden: Bedingung 4] 1
+2902 [MFC 3.3: Mass Flow Controller BS 3 : Fluss darf nicht ausgeschalten werden: Kammer wird gespült] 1
+2903 [MFC 3.3: Mass Flow Controller BS 3 : Istwert ist außerhalb Toleranz] 1
+2904 [MFC 3.3: Mass Flow Controller BS 3 : Keine Profibusverbindung] 1
+2905 [MFC 3.3: Mass Flow Controller BS 3 : Kein Master für Slavemode ausgewählt] 1
+2906 [MFC 3.3: Mass Flow Controller BS 3 : Wartung erforderlich] 1
+2907 [MFC 4.1: Mass Flow Controller BS 4 : Fluss darf nicht eingeschalten werden: Kammer ist nicht im Prozess] 1
+2908 [MFC 4.1: Mass Flow Controller BS 4 : Fluss darf nicht eingeschalten werden: Kammerdruck zu hoch] 1
+2909 [MFC 4.1: Mass Flow Controller BS 4 : Fluss darf nicht eingeschalten werden: Bedingung 4] 1
+2910 [MFC 4.1: Mass Flow Controller BS 4 : Fluss darf nicht ausgeschalten werden: Kammer wird gespült] 1
+2911 [MFC 4.1: Mass Flow Controller BS 4 : Istwert ist außerhalb Toleranz] 1
+2912 [MFC 4.1: Mass Flow Controller BS 4 : Keine Profibusverbindung] 1
+2913 [MFC 4.1: Mass Flow Controller BS 4 : Kein Master für Slavemode ausgewählt] 1
+2914 [MFC 4.1: Mass Flow Controller BS 4 : Wartung erforderlich] 1
+2915 [MFC 4.2: Mass Flow Controller BS 4 : Fluss darf nicht eingeschalten werden: Kammer ist nicht im Prozess] 1
+2916 [MFC 4.2: Mass Flow Controller BS 4 : Fluss darf nicht eingeschalten werden: Kammerdruck zu hoch] 1
+2917 [MFC 4.2: Mass Flow Controller BS 4 : Fluss darf nicht eingeschalten werden: Bedingung 4] 1
+2918 [MFC 4.2: Mass Flow Controller BS 4 : Fluss darf nicht ausgeschalten werden: Kammer wird gespült] 1
+2919 [MFC 4.2: Mass Flow Controller BS 4 : Istwert ist außerhalb Toleranz] 1
+2920 [MFC 4.2: Mass Flow Controller BS 4 : Keine Profibusverbindung] 1
+2921 [MFC 4.2: Mass Flow Controller BS 4 : Kein Master für Slavemode ausgewählt] 1
+2922 [MFC 4.2: Mass Flow Controller BS 4 : Wartung erforderlich] 1
+2923 [MFC 4.3: Mass Flow Controller BS 4 : Fluss darf nicht eingeschalten werden: Kammer ist nicht im Prozess] 1
+2924 [MFC 4.3: Mass Flow Controller BS 4 : Fluss darf nicht eingeschalten werden: Kammerdruck zu hoch] 1
+2925 [MFC 4.3: Mass Flow Controller BS 4 : Fluss darf nicht eingeschalten werden: Bedingung 4] 1
+2926 [MFC 4.3: Mass Flow Controller BS 4 : Fluss darf nicht ausgeschalten werden: Kammer wird gespült] 1
+2927 [MFC 4.3: Mass Flow Controller BS 4 : Istwert ist außerhalb Toleranz] 1
+2928 [MFC 4.3: Mass Flow Controller BS 4 : Keine Profibusverbindung] 1
+2929 [MFC 4.3: Mass Flow Controller BS 4 : Kein Master für Slavemode ausgewählt] 1
+2930 [MFC 4.3: Mass Flow Controller BS 4 : Wartung erforderlich] 1
+2931 [MFC 5.1: Mass Flow Controller BS 5 : Fluss darf nicht eingeschalten werden: Kammer ist nicht im Prozess] 1
+2932 [MFC 5.1: Mass Flow Controller BS 5 : Fluss darf nicht eingeschalten werden: Kammerdruck zu hoch] 1
+2933 [MFC 5.1: Mass Flow Controller BS 5 : Fluss darf nicht eingeschalten werden: Bedingung 4] 1
+2934 [MFC 5.1: Mass Flow Controller BS 5 : Fluss darf nicht ausgeschalten werden: Kammer wird gespült] 1
+2935 [MFC 5.1: Mass Flow Controller BS 5 : Istwert ist außerhalb Toleranz] 1
+2936 [MFC 5.1: Mass Flow Controller BS 5 : Keine Profibusverbindung] 1
+2937 [MFC 5.1: Mass Flow Controller BS 5 : Kein Master für Slavemode ausgewählt] 1
+2938 [MFC 5.1: Mass Flow Controller BS 5 : Wartung erforderlich] 1
+2939 [MFC 5.2: Mass Flow Controller BS 5 : Fluss darf nicht eingeschalten werden: Kammer ist nicht im Prozess] 1
+2940 [MFC 5.2: Mass Flow Controller BS 5 : Fluss darf nicht eingeschalten werden: Kammerdruck zu hoch] 1
+2941 [MFC 5.2: Mass Flow Controller BS 5 : Fluss darf nicht eingeschalten werden: Bedingung 4] 1
+2942 [MFC 5.2: Mass Flow Controller BS 5 : Fluss darf nicht ausgeschalten werden: Kammer wird gespült] 1
+2943 [MFC 5.2: Mass Flow Controller BS 5 : Istwert ist außerhalb Toleranz] 1
+2944 [MFC 5.2: Mass Flow Controller BS 5 : Keine Profibusverbindung] 1
+2945 [MFC 5.2: Mass Flow Controller BS 5 : Kein Master für Slavemode ausgewählt] 1
+2946 [MFC 5.2: Mass Flow Controller BS 5 : Wartung erforderlich] 1
+2947 [MFC 5.3: Mass Flow Controller BS 5 : Fluss darf nicht eingeschalten werden: Kammer ist nicht im Prozess] 1
+2948 [MFC 5.3: Mass Flow Controller BS 5 : Fluss darf nicht eingeschalten werden: Kammerdruck zu hoch] 1
+2949 [MFC 5.3: Mass Flow Controller BS 5 : Fluss darf nicht eingeschalten werden: Bedingung 4] 1
+2950 [MFC 5.3: Mass Flow Controller BS 5 : Fluss darf nicht ausgeschalten werden: Kammer wird gespült] 1
+2951 [MFC 5.3: Mass Flow Controller BS 5 : Istwert ist außerhalb Toleranz] 1
+2952 [MFC 5.3: Mass Flow Controller BS 5 : Keine Profibusverbindung] 1
+2953 [MFC 5.3: Mass Flow Controller BS 5 : Kein Master für Slavemode ausgewählt] 1
+2954 [MFC 5.3: Mass Flow Controller BS 5 : Wartung erforderlich] 1
+2955 [MFC 1.1: Mass Flow Controller BS 1 : Fluss darf nicht eingeschalten werden: Kammer ist nicht im Prozess] 1
+2956 [MFC 1.1: Mass Flow Controller BS 1 : Fluss darf nicht eingeschalten werden: Kammerdruck zu hoch] 1
+2957 [MFC 1.1: Mass Flow Controller BS 1 : Fluss darf nicht eingeschalten werden: Bedingung 4] 1
+2958 [MFC 1.1: Mass Flow Controller BS 1 : Fluss darf nicht ausgeschalten werden: Kammer wird gespült] 1
+2959 [MFC 1.1: Mass Flow Controller BS 1 : Istwert ist außerhalb Toleranz] 1
+2960 [MFC 1.1: Mass Flow Controller BS 1 : Keine Profibusverbindung] 1
+2961 [MFC 1.1: Mass Flow Controller BS 1 : Kein Master für Slavemode ausgewählt] 1
+2962 [MFC 1.1: Mass Flow Controller BS 1 : Wartung erforderlich] 1
+2963 [MFC 1.2: Mass Flow Controller BS 1 : Fluss darf nicht eingeschalten werden: Kammer ist nicht im Prozess] 1
+2964 [MFC 1.2: Mass Flow Controller BS 1 : Fluss darf nicht eingeschalten werden: Kammerdruck zu hoch] 1
+2965 [MFC 1.2: Mass Flow Controller BS 1 : Fluss darf nicht eingeschalten werden: Bedingung 4] 1
+2966 [MFC 1.2: Mass Flow Controller BS 1 : Fluss darf nicht ausgeschalten werden: Kammer wird gespült] 1
+2967 [MFC 1.2: Mass Flow Controller BS 1 : Istwert ist außerhalb Toleranz] 1
+2968 [MFC 1.2: Mass Flow Controller BS 1 : Keine Profibusverbindung] 1
+2969 [MFC 1.2: Mass Flow Controller BS 1 : Kein Master für Slavemode ausgewählt] 1
+2970 [MFC 1.2: Mass Flow Controller BS 1 : Wartung erforderlich] 1
+2971 [MFC 1.3: Mass Flow Controller BS 1 : Fluss darf nicht eingeschalten werden: Kammer ist nicht im Prozess] 1
+2972 [MFC 1.3: Mass Flow Controller BS 1 : Fluss darf nicht eingeschalten werden: Kammerdruck zu hoch] 1
+2973 [MFC 1.3: Mass Flow Controller BS 1 : Fluss darf nicht eingeschalten werden: Bedingung 4] 1
+2974 [MFC 1.3: Mass Flow Controller BS 1 : Fluss darf nicht ausgeschalten werden: Kammer wird gespült] 1
+2975 [MFC 1.3: Mass Flow Controller BS 1 : Istwert ist außerhalb Toleranz] 1
+2976 [MFC 1.3: Mass Flow Controller BS 1 : Keine Profibusverbindung] 1
+2977 [MFC 1.3: Mass Flow Controller BS 1 : Kein Master für Slavemode ausgewählt] 1
+2978 [MFC 1.3: Mass Flow Controller BS 1 : Wartung erforderlich] 1
+2979 [MFC 6.1: Mass Flow Controller BS 6 : Fluss darf nicht eingeschalten werden: Kammer ist nicht im Prozess] 1
+2980 [MFC 6.1: Mass Flow Controller BS 6 : Fluss darf nicht eingeschalten werden: Kammerdruck zu hoch] 1
+2981 [MFC 6.1: Mass Flow Controller BS 6 : Fluss darf nicht eingeschalten werden: Bedingung 4] 1
+2982 [MFC 6.1: Mass Flow Controller BS 6 : Fluss darf nicht ausgeschalten werden: Kammer wird gespült] 1
+2983 [MFC 6.1: Mass Flow Controller BS 6 : Istwert ist außerhalb Toleranz] 1
+2984 [MFC 6.1: Mass Flow Controller BS 6 : Keine Profibusverbindung] 1
+2985 [MFC 6.1: Mass Flow Controller BS 6 : Kein Master für Slavemode ausgewählt] 1
+2986 [MFC 6.1: Mass Flow Controller BS 6 : Wartung erforderlich] 1
+2987 [MFC 6.2: Mass Flow Controller BS 6 : Fluss darf nicht eingeschalten werden: Kammer ist nicht im Prozess] 1
+2988 [MFC 6.2: Mass Flow Controller BS 6 : Fluss darf nicht eingeschalten werden: Kammerdruck zu hoch] 1
+2989 [MFC 6.2: Mass Flow Controller BS 6 : Fluss darf nicht eingeschalten werden: Bedingung 4] 1
+2990 [MFC 6.2: Mass Flow Controller BS 6 : Fluss darf nicht ausgeschalten werden: Kammer wird gespült] 1
+2991 [MFC 6.2: Mass Flow Controller BS 6 : Istwert ist außerhalb Toleranz] 1
+2992 [MFC 6.2: Mass Flow Controller BS 6 : Keine Profibusverbindung] 1
+2993 [MFC 6.2: Mass Flow Controller BS 6 : Kein Master für Slavemode ausgewählt] 1
+2994 [MFC 6.2: Mass Flow Controller BS 6 : Wartung erforderlich] 1
+2995 [MFC 6.3: Mass Flow Controller BS 6 : Fluss darf nicht eingeschalten werden: Kammer ist nicht im Prozess] 1
+2996 [MFC 6.3: Mass Flow Controller BS 6 : Fluss darf nicht eingeschalten werden: Kammerdruck zu hoch] 1
+2997 [MFC 6.3: Mass Flow Controller BS 6 : Fluss darf nicht eingeschalten werden: Bedingung 4] 1
+2998 [MFC 6.3: Mass Flow Controller BS 6 : Fluss darf nicht ausgeschalten werden: Kammer wird gespült] 1
+2999 [MFC 6.3: Mass Flow Controller BS 6 : Istwert ist außerhalb Toleranz] 1
+3000 [MFC 6.3: Mass Flow Controller BS 6 : Keine Profibusverbindung] 1
+3001 [MFC 6.3: Mass Flow Controller BS 6 : Kein Master für Slavemode ausgewählt] 1
+3002 [MFC 6.3: Mass Flow Controller BS 6 : Wartung erforderlich] 1
+3003 [MFC 232: Mass Flow Controller Marker : Fluss darf nicht eingeschalten werden: Kammer ist nicht im Prozess] 1
+3004 [MFC 232: Mass Flow Controller Marker : Fluss darf nicht eingeschalten werden: Kammerdruck zu hoch] 1
+3005 [MFC 232: Mass Flow Controller Marker : Fluss darf nicht eingeschalten werden: Bedingung 4] 1
+3006 [MFC 232: Mass Flow Controller Marker : Fluss darf nicht ausgeschalten werden: Kammer wird gespült] 1
+3007 [MFC 232: Mass Flow Controller Marker : Istwert ist außerhalb Toleranz] 1
+3008 [MFC 232: Mass Flow Controller Marker : Keine Profibusverbindung] 1
+3009 [MFC 232: Mass Flow Controller Marker : Kein Master für Slavemode ausgewählt] 1
+3010 [MFC 232: Mass Flow Controller Marker : Wartung erforderlich] 1
+3011 [Bandlaufwerk: Lesen : Lesen der Marke fehlerhaft] 1
+3012 [Bandlaufwerk: Schreiben : Schreiben der Marke fehlerhaft] 1
+3013 [Bandlaufwerk: Schreiben : Kodierung fehlerhaft] 1
+3014 [Bandlaufwerk: Schreiben : Maximal darstellbare Marke erreicht/überschritten] 1
+3015 [Bandlaufwerk: Schreiben : Intervall zu klein] 1
+3016 [Bandlaufwerk: Schreiben : Schreiben der Positionen in den Puffer fehlerhaft] 1
+3017 [Bandlaufwerk: Schreiben : Lesen der Positionen aus dem Puffer fehlerhaft] 1
+3018 [Bandlaufwerk: Schreiben : Puffer für Positionen voll] 1
+
+{DATACOLLECTIONEVENTS}
+[0][ControlStateLocal]
+[1][ControlStateRemote]
+[2][EquipmentOffline]
+[14][SpoolingActivated]
+[15][SpoolingDeactivated]
+[13][SpoolTransmitFailure]
+[11][ProcessingStateChange]
+[108][E10StateChange]
+[10000][SendData]
+[10001][Coil1recieved]
+[10002][Coil1removed]
+[10003][Coil2recieved]
+[10004][Coil2removed]
+[10005][WindingStarted]
+[10006][WindingStopped]
+
+#alarm set
+[12001][al2000Set]
+[12002][al2001Set]
+[12003][al2002Set]
+[12004][al2003Set]
+[12005][al2004Set]
+[12006][al2005Set]
+[12007][al2006Set]
+[12008][al2007Set]
+[12009][al2008Set]
+[12010][al2009Set]
+[12011][al2010Set]
+[12012][al2011Set]
+[12013][al2012Set]
+[12014][al2013Set]
+[12015][al2014Set]
+[12016][al2015Set]
+[12017][al2016Set]
+[12018][al2017Set]
+[12019][al2018Set]
+[12020][al2019Set]
+[12021][al2020Set]
+[12022][al2021Set]
+[12023][al2022Set]
+[12024][al2023Set]
+[12025][al2024Set]
+[12026][al2025Set]
+[12027][al2026Set]
+[12028][al2027Set]
+[12029][al2028Set]
+[12030][al2029Set]
+[12031][al2030Set]
+[12032][al2031Set]
+[12033][al2032Set]
+[12034][al2033Set]
+[12035][al2034Set]
+[12036][al2035Set]
+[12037][al2036Set]
+[12038][al2037Set]
+[12039][al2038Set]
+[12040][al2039Set]
+[12041][al2040Set]
+[12042][al2041Set]
+[12043][al2042Set]
+[12044][al2043Set]
+[12045][al2044Set]
+[12046][al2045Set]
+[12047][al2046Set]
+[12048][al2047Set]
+[12049][al2048Set]
+[12050][al2049Set]
+[12051][al2050Set]
+[12052][al2051Set]
+[12053][al2052Set]
+[12054][al2053Set]
+[12055][al2054Set]
+[12056][al2055Set]
+[12057][al2056Set]
+[12058][al2057Set]
+[12059][al2058Set]
+[12060][al2059Set]
+[12061][al2060Set]
+[12062][al2061Set]
+[12063][al2062Set]
+[12064][al2063Set]
+[12065][al2064Set]
+[12066][al2065Set]
+[12067][al2066Set]
+[12068][al2067Set]
+[12069][al2068Set]
+[12070][al2069Set]
+[12071][al2070Set]
+[12072][al2071Set]
+[12073][al2072Set]
+[12074][al2073Set]
+[12075][al2074Set]
+[12076][al2075Set]
+[12077][al2076Set]
+[12078][al2077Set]
+[12079][al2078Set]
+[12080][al2079Set]
+[12081][al2080Set]
+[12082][al2081Set]
+[12083][al2082Set]
+[12084][al2083Set]
+[12085][al2084Set]
+[12086][al2085Set]
+[12087][al2086Set]
+[12088][al2087Set]
+[12089][al2088Set]
+[12090][al2089Set]
+[12091][al2090Set]
+[12092][al2091Set]
+[12093][al2092Set]
+[12094][al2093Set]
+[12095][al2094Set]
+[12096][al2095Set]
+[12097][al2096Set]
+[12098][al2097Set]
+[12099][al2098Set]
+[12100][al2099Set]
+[12101][al2100Set]
+[12102][al2101Set]
+[12103][al2102Set]
+[12104][al2103Set]
+[12105][al2104Set]
+[12106][al2105Set]
+[12107][al2106Set]
+[12108][al2107Set]
+[12109][al2108Set]
+[12110][al2109Set]
+[12111][al2110Set]
+[12112][al2111Set]
+[12113][al2112Set]
+[12114][al2113Set]
+[12115][al2114Set]
+[12116][al2115Set]
+[12117][al2116Set]
+[12118][al2117Set]
+[12119][al2118Set]
+[12120][al2119Set]
+[12121][al2120Set]
+[12122][al2121Set]
+[12123][al2122Set]
+[12124][al2123Set]
+[12125][al2124Set]
+[12126][al2125Set]
+[12127][al2126Set]
+[12128][al2127Set]
+[12129][al2128Set]
+[12130][al2129Set]
+[12131][al2130Set]
+[12132][al2131Set]
+[12133][al2132Set]
+[12134][al2133Set]
+[12135][al2134Set]
+[12136][al2135Set]
+[12137][al2136Set]
+[12138][al2137Set]
+[12139][al2138Set]
+[12140][al2139Set]
+[12141][al2140Set]
+[12142][al2141Set]
+[12143][al2142Set]
+[12144][al2143Set]
+[12145][al2144Set]
+[12146][al2145Set]
+[12147][al2146Set]
+[12148][al2147Set]
+[12149][al2148Set]
+[12150][al2149Set]
+[12151][al2150Set]
+[12152][al2151Set]
+[12153][al2152Set]
+[12154][al2153Set]
+[12155][al2154Set]
+[12156][al2155Set]
+[12157][al2156Set]
+[12158][al2157Set]
+[12159][al2158Set]
+[12160][al2159Set]
+[12161][al2160Set]
+[12162][al2161Set]
+[12163][al2162Set]
+[12164][al2163Set]
+[12165][al2164Set]
+[12166][al2165Set]
+[12167][al2166Set]
+[12168][al2167Set]
+[12169][al2168Set]
+[12170][al2169Set]
+[12171][al2170Set]
+[12172][al2171Set]
+[12173][al2172Set]
+[12174][al2173Set]
+[12175][al2174Set]
+[12176][al2175Set]
+[12177][al2176Set]
+[12178][al2177Set]
+[12179][al2178Set]
+[12180][al2179Set]
+[12181][al2180Set]
+[12182][al2181Set]
+[12183][al2182Set]
+[12184][al2183Set]
+[12185][al2184Set]
+[12186][al2185Set]
+[12187][al2186Set]
+[12188][al2187Set]
+[12189][al2188Set]
+[12190][al2189Set]
+[12191][al2190Set]
+[12192][al2191Set]
+[12193][al2192Set]
+[12194][al2193Set]
+[12195][al2194Set]
+[12196][al2195Set]
+[12197][al2196Set]
+[12198][al2197Set]
+[12199][al2198Set]
+[12200][al2199Set]
+[12201][al2200Set]
+[12202][al2201Set]
+[12203][al2202Set]
+[12204][al2203Set]
+[12205][al2204Set]
+[12206][al2205Set]
+[12207][al2206Set]
+[12208][al2207Set]
+[12209][al2208Set]
+[12210][al2209Set]
+[12211][al2210Set]
+[12212][al2211Set]
+[12213][al2212Set]
+[12214][al2213Set]
+[12215][al2214Set]
+[12216][al2215Set]
+[12217][al2216Set]
+[12218][al2217Set]
+[12219][al2218Set]
+[12220][al2219Set]
+[12221][al2220Set]
+[12222][al2221Set]
+[12223][al2222Set]
+[12224][al2223Set]
+[12225][al2224Set]
+[12226][al2225Set]
+[12227][al2226Set]
+[12228][al2227Set]
+[12229][al2228Set]
+[12230][al2229Set]
+[12231][al2230Set]
+[12232][al2231Set]
+[12233][al2232Set]
+[12234][al2233Set]
+[12235][al2234Set]
+[12236][al2235Set]
+[12237][al2236Set]
+[12238][al2237Set]
+[12239][al2238Set]
+[12240][al2239Set]
+[12241][al2240Set]
+[12242][al2241Set]
+[12243][al2242Set]
+[12244][al2243Set]
+[12245][al2244Set]
+[12246][al2245Set]
+[12247][al2246Set]
+[12248][al2247Set]
+[12249][al2248Set]
+[12250][al2249Set]
+[12251][al2250Set]
+[12252][al2251Set]
+[12253][al2252Set]
+[12254][al2253Set]
+[12255][al2254Set]
+[12256][al2255Set]
+[12257][al2256Set]
+[12258][al2257Set]
+[12259][al2258Set]
+[12260][al2259Set]
+[12261][al2260Set]
+[12262][al2261Set]
+[12263][al2262Set]
+[12264][al2263Set]
+[12265][al2264Set]
+[12266][al2265Set]
+[12267][al2266Set]
+[12268][al2267Set]
+[12269][al2268Set]
+[12270][al2269Set]
+[12271][al2270Set]
+[12272][al2271Set]
+[12273][al2272Set]
+[12274][al2273Set]
+[12275][al2274Set]
+[12276][al2275Set]
+[12277][al2276Set]
+[12278][al2277Set]
+[12279][al2278Set]
+[12280][al2279Set]
+[12281][al2280Set]
+[12282][al2281Set]
+[12283][al2282Set]
+[12284][al2283Set]
+[12285][al2284Set]
+[12286][al2285Set]
+[12287][al2286Set]
+[12288][al2287Set]
+[12289][al2288Set]
+[12290][al2289Set]
+[12291][al2290Set]
+[12292][al2291Set]
+[12293][al2292Set]
+[12294][al2293Set]
+[12295][al2294Set]
+[12296][al2295Set]
+[12297][al2296Set]
+[12298][al2297Set]
+[12299][al2298Set]
+[12300][al2299Set]
+[12301][al2300Set]
+[12302][al2301Set]
+[12303][al2302Set]
+[12304][al2303Set]
+[12305][al2304Set]
+[12306][al2305Set]
+[12307][al2306Set]
+[12308][al2307Set]
+[12309][al2308Set]
+[12310][al2309Set]
+[12311][al2310Set]
+[12312][al2311Set]
+[12313][al2312Set]
+[12314][al2313Set]
+[12315][al2314Set]
+[12316][al2315Set]
+[12317][al2316Set]
+[12318][al2317Set]
+[12319][al2318Set]
+[12320][al2319Set]
+[12321][al2320Set]
+[12322][al2321Set]
+[12323][al2322Set]
+[12324][al2323Set]
+[12325][al2324Set]
+[12326][al2325Set]
+[12327][al2326Set]
+[12328][al2327Set]
+[12329][al2328Set]
+[12330][al2329Set]
+[12331][al2330Set]
+[12332][al2331Set]
+[12333][al2332Set]
+[12334][al2333Set]
+[12335][al2334Set]
+[12336][al2335Set]
+[12337][al2336Set]
+[12338][al2337Set]
+[12339][al2338Set]
+[12340][al2339Set]
+[12341][al2340Set]
+[12342][al2341Set]
+[12343][al2342Set]
+[12344][al2343Set]
+[12345][al2344Set]
+[12346][al2345Set]
+[12347][al2346Set]
+[12348][al2347Set]
+[12349][al2348Set]
+[12350][al2349Set]
+[12351][al2350Set]
+[12352][al2351Set]
+[12353][al2352Set]
+[12354][al2353Set]
+[12355][al2354Set]
+[12356][al2355Set]
+[12357][al2356Set]
+[12358][al2357Set]
+[12359][al2358Set]
+[12360][al2359Set]
+[12361][al2360Set]
+[12362][al2361Set]
+[12363][al2362Set]
+[12364][al2363Set]
+[12365][al2364Set]
+[12366][al2365Set]
+[12367][al2366Set]
+[12368][al2367Set]
+[12369][al2368Set]
+[12370][al2369Set]
+[12371][al2370Set]
+[12372][al2371Set]
+[12373][al2372Set]
+[12374][al2373Set]
+[12375][al2374Set]
+[12376][al2375Set]
+[12377][al2376Set]
+[12378][al2377Set]
+[12379][al2378Set]
+[12380][al2379Set]
+[12381][al2380Set]
+[12382][al2381Set]
+[12383][al2382Set]
+[12384][al2383Set]
+[12385][al2384Set]
+[12386][al2385Set]
+[12387][al2386Set]
+[12388][al2387Set]
+[12389][al2388Set]
+[12390][al2389Set]
+[12391][al2390Set]
+[12392][al2391Set]
+[12393][al2392Set]
+[12394][al2393Set]
+[12395][al2394Set]
+[12396][al2395Set]
+[12397][al2396Set]
+[12398][al2397Set]
+[12399][al2398Set]
+[12400][al2399Set]
+[12401][al2400Set]
+[12402][al2401Set]
+[12403][al2402Set]
+[12404][al2403Set]
+[12405][al2404Set]
+[12406][al2405Set]
+[12407][al2406Set]
+[12408][al2407Set]
+[12409][al2408Set]
+[12410][al2409Set]
+[12411][al2410Set]
+[12412][al2411Set]
+[12413][al2412Set]
+[12414][al2413Set]
+[12415][al2414Set]
+[12416][al2415Set]
+[12417][al2416Set]
+[12418][al2417Set]
+[12419][al2418Set]
+[12420][al2419Set]
+[12421][al2420Set]
+[12422][al2421Set]
+[12423][al2422Set]
+[12424][al2423Set]
+[12425][al2424Set]
+[12426][al2425Set]
+[12427][al2426Set]
+[12428][al2427Set]
+[12429][al2428Set]
+[12430][al2429Set]
+[12431][al2430Set]
+[12432][al2431Set]
+[12433][al2432Set]
+[12434][al2433Set]
+[12435][al2434Set]
+[12436][al2435Set]
+[12437][al2436Set]
+[12438][al2437Set]
+[12439][al2438Set]
+[12440][al2439Set]
+[12441][al2440Set]
+[12442][al2441Set]
+[12443][al2442Set]
+[12444][al2443Set]
+[12445][al2444Set]
+[12446][al2445Set]
+[12447][al2446Set]
+[12448][al2447Set]
+[12449][al2448Set]
+[12450][al2449Set]
+[12451][al2450Set]
+[12452][al2451Set]
+[12453][al2452Set]
+[12454][al2453Set]
+[12455][al2454Set]
+[12456][al2455Set]
+[12457][al2456Set]
+[12458][al2457Set]
+[12459][al2458Set]
+[12460][al2459Set]
+[12461][al2460Set]
+[12462][al2461Set]
+[12463][al2462Set]
+[12464][al2463Set]
+[12465][al2464Set]
+[12466][al2465Set]
+[12467][al2466Set]
+[12468][al2467Set]
+[12469][al2468Set]
+[12470][al2469Set]
+[12471][al2470Set]
+[12472][al2471Set]
+[12473][al2472Set]
+[12474][al2473Set]
+[12475][al2474Set]
+[12476][al2475Set]
+[12477][al2476Set]
+[12478][al2477Set]
+[12479][al2478Set]
+[12480][al2479Set]
+[12481][al2480Set]
+[12482][al2481Set]
+[12483][al2482Set]
+[12484][al2483Set]
+[12485][al2484Set]
+[12486][al2485Set]
+[12487][al2486Set]
+[12488][al2487Set]
+[12489][al2488Set]
+[12490][al2489Set]
+[12491][al2490Set]
+[12492][al2491Set]
+[12493][al2492Set]
+[12494][al2493Set]
+[12495][al2494Set]
+[12496][al2495Set]
+[12497][al2496Set]
+[12498][al2497Set]
+[12499][al2498Set]
+[12500][al2499Set]
+[12501][al2500Set]
+[12502][al2501Set]
+[12503][al2502Set]
+[12504][al2503Set]
+[12505][al2504Set]
+[12506][al2505Set]
+[12507][al2506Set]
+[12508][al2507Set]
+[12509][al2508Set]
+[12510][al2509Set]
+[12511][al2510Set]
+[12512][al2511Set]
+[12513][al2512Set]
+[12514][al2513Set]
+[12515][al2514Set]
+[12516][al2515Set]
+[12517][al2516Set]
+[12518][al2517Set]
+[12519][al2518Set]
+[12520][al2519Set]
+[12521][al2520Set]
+[12522][al2521Set]
+[12523][al2522Set]
+[12524][al2523Set]
+[12525][al2524Set]
+[12526][al2525Set]
+[12527][al2526Set]
+[12528][al2527Set]
+[12529][al2528Set]
+[12530][al2529Set]
+[12531][al2530Set]
+[12532][al2531Set]
+[12533][al2532Set]
+[12534][al2533Set]
+[12535][al2534Set]
+[12536][al2535Set]
+[12537][al2536Set]
+[12538][al2537Set]
+[12539][al2538Set]
+[12540][al2539Set]
+[12541][al2540Set]
+[12542][al2541Set]
+[12543][al2542Set]
+[12544][al2543Set]
+[12545][al2544Set]
+[12546][al2545Set]
+[12547][al2546Set]
+[12548][al2547Set]
+[12549][al2548Set]
+[12550][al2549Set]
+[12551][al2550Set]
+[12552][al2551Set]
+[12553][al2552Set]
+[12554][al2553Set]
+[12555][al2554Set]
+[12556][al2555Set]
+[12557][al2556Set]
+[12558][al2557Set]
+[12559][al2558Set]
+[12560][al2559Set]
+[12561][al2560Set]
+[12562][al2561Set]
+[12563][al2562Set]
+[12564][al2563Set]
+[12565][al2564Set]
+[12566][al2565Set]
+[12567][al2566Set]
+[12568][al2567Set]
+[12569][al2568Set]
+[12570][al2569Set]
+[12571][al2570Set]
+[12572][al2571Set]
+[12573][al2572Set]
+[12574][al2573Set]
+[12575][al2574Set]
+[12576][al2575Set]
+[12577][al2576Set]
+[12578][al2577Set]
+[12579][al2578Set]
+[12580][al2579Set]
+[12581][al2580Set]
+[12582][al2581Set]
+[12583][al2582Set]
+[12584][al2583Set]
+[12585][al2584Set]
+[12586][al2585Set]
+[12587][al2586Set]
+[12588][al2587Set]
+[12589][al2588Set]
+[12590][al2589Set]
+[12591][al2590Set]
+[12592][al2591Set]
+[12593][al2592Set]
+[12594][al2593Set]
+[12595][al2594Set]
+[12596][al2595Set]
+[12597][al2596Set]
+[12598][al2597Set]
+[12599][al2598Set]
+[12600][al2599Set]
+[12601][al2600Set]
+[12602][al2601Set]
+[12603][al2602Set]
+[12604][al2603Set]
+[12605][al2604Set]
+[12606][al2605Set]
+[12607][al2606Set]
+[12608][al2607Set]
+[12609][al2608Set]
+[12610][al2609Set]
+[12611][al2610Set]
+[12612][al2611Set]
+[12613][al2612Set]
+[12614][al2613Set]
+[12615][al2614Set]
+[12616][al2615Set]
+[12617][al2616Set]
+[12618][al2617Set]
+[12619][al2618Set]
+[12620][al2619Set]
+[12621][al2620Set]
+[12622][al2621Set]
+[12623][al2622Set]
+[12624][al2623Set]
+[12625][al2624Set]
+[12626][al2625Set]
+[12627][al2626Set]
+[12628][al2627Set]
+[12629][al2628Set]
+[12630][al2629Set]
+[12631][al2630Set]
+[12632][al2631Set]
+[12633][al2632Set]
+[12634][al2633Set]
+[12635][al2634Set]
+[12636][al2635Set]
+[12637][al2636Set]
+[12638][al2637Set]
+[12639][al2638Set]
+[12640][al2639Set]
+[12641][al2640Set]
+[12642][al2641Set]
+[12643][al2642Set]
+[12644][al2643Set]
+[12645][al2644Set]
+[12646][al2645Set]
+[12647][al2646Set]
+[12648][al2647Set]
+[12649][al2648Set]
+[12650][al2649Set]
+[12651][al2650Set]
+[12652][al2651Set]
+[12653][al2652Set]
+[12654][al2653Set]
+[12655][al2654Set]
+[12656][al2655Set]
+[12657][al2656Set]
+[12658][al2657Set]
+[12659][al2658Set]
+[12660][al2659Set]
+[12661][al2660Set]
+[12662][al2661Set]
+[12663][al2662Set]
+[12664][al2663Set]
+[12665][al2664Set]
+[12666][al2665Set]
+[12667][al2666Set]
+[12668][al2667Set]
+[12669][al2668Set]
+[12670][al2669Set]
+[12671][al2670Set]
+[12672][al2671Set]
+[12673][al2672Set]
+[12674][al2673Set]
+[12675][al2674Set]
+[12676][al2675Set]
+[12677][al2676Set]
+[12678][al2677Set]
+[12679][al2678Set]
+[12680][al2679Set]
+[12681][al2680Set]
+[12682][al2681Set]
+[12683][al2682Set]
+[12684][al2683Set]
+[12685][al2684Set]
+[12686][al2685Set]
+[12687][al2686Set]
+[12688][al2687Set]
+[12689][al2688Set]
+[12690][al2689Set]
+[12691][al2690Set]
+[12692][al2691Set]
+[12693][al2692Set]
+[12694][al2693Set]
+[12695][al2694Set]
+[12696][al2695Set]
+[12697][al2696Set]
+[12698][al2697Set]
+[12699][al2698Set]
+[12700][al2699Set]
+[12701][al2700Set]
+[12702][al2701Set]
+[12703][al2702Set]
+[12704][al2703Set]
+[12705][al2704Set]
+[12706][al2705Set]
+[12707][al2706Set]
+[12708][al2707Set]
+[12709][al2708Set]
+[12710][al2709Set]
+[12711][al2710Set]
+[12712][al2711Set]
+[12713][al2712Set]
+[12714][al2713Set]
+[12715][al2714Set]
+[12716][al2715Set]
+[12717][al2716Set]
+[12718][al2717Set]
+[12719][al2718Set]
+[12720][al2719Set]
+[12721][al2720Set]
+[12722][al2721Set]
+[12723][al2722Set]
+[12724][al2723Set]
+[12725][al2724Set]
+[12726][al2725Set]
+[12727][al2726Set]
+[12728][al2727Set]
+[12729][al2728Set]
+[12730][al2729Set]
+[12731][al2730Set]
+[12732][al2731Set]
+[12733][al2732Set]
+[12734][al2733Set]
+[12735][al2734Set]
+[12736][al2735Set]
+[12737][al2736Set]
+[12738][al2737Set]
+[12739][al2738Set]
+[12740][al2739Set]
+[12741][al2740Set]
+[12742][al2741Set]
+[12743][al2742Set]
+[12744][al2743Set]
+[12745][al2744Set]
+[12746][al2745Set]
+[12747][al2746Set]
+[12748][al2747Set]
+[12749][al2748Set]
+[12750][al2749Set]
+[12751][al2750Set]
+[12752][al2751Set]
+[12753][al2752Set]
+[12754][al2753Set]
+[12755][al2754Set]
+[12756][al2755Set]
+[12757][al2756Set]
+[12758][al2757Set]
+[12759][al2758Set]
+[12760][al2759Set]
+[12761][al2760Set]
+[12762][al2761Set]
+[12763][al2762Set]
+[12764][al2763Set]
+[12765][al2764Set]
+[12766][al2765Set]
+[12767][al2766Set]
+[12768][al2767Set]
+[12769][al2768Set]
+[12770][al2769Set]
+[12771][al2770Set]
+[12772][al2771Set]
+[12773][al2772Set]
+[12774][al2773Set]
+[12775][al2774Set]
+[12776][al2775Set]
+[12777][al2776Set]
+[12778][al2777Set]
+[12779][al2778Set]
+[12780][al2779Set]
+[12781][al2780Set]
+[12782][al2781Set]
+[12783][al2782Set]
+[12784][al2783Set]
+[12785][al2784Set]
+[12786][al2785Set]
+[12787][al2786Set]
+[12788][al2787Set]
+[12789][al2788Set]
+[12790][al2789Set]
+[12791][al2790Set]
+[12792][al2791Set]
+[12793][al2792Set]
+[12794][al2793Set]
+[12795][al2794Set]
+[12796][al2795Set]
+[12797][al2796Set]
+[12798][al2797Set]
+[12799][al2798Set]
+[12800][al2799Set]
+[12801][al2800Set]
+[12802][al2801Set]
+[12803][al2802Set]
+[12804][al2803Set]
+[12805][al2804Set]
+[12806][al2805Set]
+[12807][al2806Set]
+[12808][al2807Set]
+[12809][al2808Set]
+[12810][al2809Set]
+[12811][al2810Set]
+[12812][al2811Set]
+[12813][al2812Set]
+[12814][al2813Set]
+[12815][al2814Set]
+[12816][al2815Set]
+[12817][al2816Set]
+[12818][al2817Set]
+[12819][al2818Set]
+[12820][al2819Set]
+[12821][al2820Set]
+[12822][al2821Set]
+[12823][al2822Set]
+[12824][al2823Set]
+[12825][al2824Set]
+[12826][al2825Set]
+[12827][al2826Set]
+[12828][al2827Set]
+[12829][al2828Set]
+[12830][al2829Set]
+[12831][al2830Set]
+[12832][al2831Set]
+[12833][al2832Set]
+[12834][al2833Set]
+[12835][al2834Set]
+[12836][al2835Set]
+[12837][al2836Set]
+[12838][al2837Set]
+[12839][al2838Set]
+[12840][al2839Set]
+[12841][al2840Set]
+[12842][al2841Set]
+[12843][al2842Set]
+[12844][al2843Set]
+[12845][al2844Set]
+[12846][al2845Set]
+[12847][al2846Set]
+[12848][al2847Set]
+[12849][al2848Set]
+[12850][al2849Set]
+[12851][al2850Set]
+[12852][al2851Set]
+[12853][al2852Set]
+[12854][al2853Set]
+[12855][al2854Set]
+[12856][al2855Set]
+[12857][al2856Set]
+[12858][al2857Set]
+[12859][al2858Set]
+[12860][al2859Set]
+[12861][al2860Set]
+[12862][al2861Set]
+[12863][al2862Set]
+[12864][al2863Set]
+[12865][al2864Set]
+[12866][al2865Set]
+[12867][al2866Set]
+[12868][al2867Set]
+[12869][al2868Set]
+[12870][al2869Set]
+[12871][al2870Set]
+[12872][al2871Set]
+[12873][al2872Set]
+[12874][al2873Set]
+[12875][al2874Set]
+[12876][al2875Set]
+[12877][al2876Set]
+[12878][al2877Set]
+[12879][al2878Set]
+[12880][al2879Set]
+[12881][al2880Set]
+[12882][al2881Set]
+[12883][al2882Set]
+[12884][al2883Set]
+[12885][al2884Set]
+[12886][al2885Set]
+[12887][al2886Set]
+[12888][al2887Set]
+[12889][al2888Set]
+[12890][al2889Set]
+[12891][al2890Set]
+[12892][al2891Set]
+[12893][al2892Set]
+[12894][al2893Set]
+[12895][al2894Set]
+[12896][al2895Set]
+[12897][al2896Set]
+[12898][al2897Set]
+[12899][al2898Set]
+[12900][al2899Set]
+[12901][al2900Set]
+[12902][al2901Set]
+[12903][al2902Set]
+[12904][al2903Set]
+[12905][al2904Set]
+[12906][al2905Set]
+[12907][al2906Set]
+[12908][al2907Set]
+[12909][al2908Set]
+[12910][al2909Set]
+[12911][al2910Set]
+[12912][al2911Set]
+[12913][al2912Set]
+[12914][al2913Set]
+[12915][al2914Set]
+[12916][al2915Set]
+[12917][al2916Set]
+[12918][al2917Set]
+[12919][al2918Set]
+[12920][al2919Set]
+[12921][al2920Set]
+[12922][al2921Set]
+[12923][al2922Set]
+[12924][al2923Set]
+[12925][al2924Set]
+[12926][al2925Set]
+[12927][al2926Set]
+[12928][al2927Set]
+[12929][al2928Set]
+[12930][al2929Set]
+[12931][al2930Set]
+[12932][al2931Set]
+[12933][al2932Set]
+[12934][al2933Set]
+[12935][al2934Set]
+[12936][al2935Set]
+[12937][al2936Set]
+[12938][al2937Set]
+[12939][al2938Set]
+[12940][al2939Set]
+[12941][al2940Set]
+[12942][al2941Set]
+[12943][al2942Set]
+[12944][al2943Set]
+[12945][al2944Set]
+[12946][al2945Set]
+[12947][al2946Set]
+[12948][al2947Set]
+[12949][al2948Set]
+[12950][al2949Set]
+[12951][al2950Set]
+[12952][al2951Set]
+[12953][al2952Set]
+[12954][al2953Set]
+[12955][al2954Set]
+[12956][al2955Set]
+[12957][al2956Set]
+[12958][al2957Set]
+[12959][al2958Set]
+[12960][al2959Set]
+[12961][al2960Set]
+[12962][al2961Set]
+[12963][al2962Set]
+[12964][al2963Set]
+[12965][al2964Set]
+[12966][al2965Set]
+[12967][al2966Set]
+[12968][al2967Set]
+[12969][al2968Set]
+[12970][al2969Set]
+[12971][al2970Set]
+[12972][al2971Set]
+[12973][al2972Set]
+[12974][al2973Set]
+[12975][al2974Set]
+[12976][al2975Set]
+[12977][al2976Set]
+[12978][al2977Set]
+[12979][al2978Set]
+[12980][al2979Set]
+[12981][al2980Set]
+[12982][al2981Set]
+[12983][al2982Set]
+[12984][al2983Set]
+[12985][al2984Set]
+[12986][al2985Set]
+[12987][al2986Set]
+[12988][al2987Set]
+[12989][al2988Set]
+[12990][al2989Set]
+[12991][al2990Set]
+[12992][al2991Set]
+[12993][al2992Set]
+[12994][al2993Set]
+[12995][al2994Set]
+[12996][al2995Set]
+[12997][al2996Set]
+[12998][al2997Set]
+[12999][al2998Set]
+[13000][al2999Set]
+[13001][al3000Set]
+[13002][al3001Set]
+[13003][al3002Set]
+[13004][al3003Set]
+[13005][al3004Set]
+[13006][al3005Set]
+[13007][al3006Set]
+[13008][al3007Set]
+[13009][al3008Set]
+[13010][al3009Set]
+[13011][al3010Set]
+[13012][al3011Set]
+[13013][al3012Set]
+[13014][al3013Set]
+[13015][al3014Set]
+[13016][al3015Set]
+[13017][al3016Set]
+[13018][al3017Set]
+[13019][al3018Set]
+
+#alarm clear
+[22001][al2000Clear]
+[22002][al2001Clear]
+[22003][al2002Clear]
+[22004][al2003Clear]
+[22005][al2004Clear]
+[22006][al2005Clear]
+[22007][al2006Clear]
+[22008][al2007Clear]
+[22009][al2008Clear]
+[22010][al2009Clear]
+[22011][al2010Clear]
+[22012][al2011Clear]
+[22013][al2012Clear]
+[22014][al2013Clear]
+[22015][al2014Clear]
+[22016][al2015Clear]
+[22017][al2016Clear]
+[22018][al2017Clear]
+[22019][al2018Clear]
+[22020][al2019Clear]
+[22021][al2020Clear]
+[22022][al2021Clear]
+[22023][al2022Clear]
+[22024][al2023Clear]
+[22025][al2024Clear]
+[22026][al2025Clear]
+[22027][al2026Clear]
+[22028][al2027Clear]
+[22029][al2028Clear]
+[22030][al2029Clear]
+[22031][al2030Clear]
+[22032][al2031Clear]
+[22033][al2032Clear]
+[22034][al2033Clear]
+[22035][al2034Clear]
+[22036][al2035Clear]
+[22037][al2036Clear]
+[22038][al2037Clear]
+[22039][al2038Clear]
+[22040][al2039Clear]
+[22041][al2040Clear]
+[22042][al2041Clear]
+[22043][al2042Clear]
+[22044][al2043Clear]
+[22045][al2044Clear]
+[22046][al2045Clear]
+[22047][al2046Clear]
+[22048][al2047Clear]
+[22049][al2048Clear]
+[22050][al2049Clear]
+[22051][al2050Clear]
+[22052][al2051Clear]
+[22053][al2052Clear]
+[22054][al2053Clear]
+[22055][al2054Clear]
+[22056][al2055Clear]
+[22057][al2056Clear]
+[22058][al2057Clear]
+[22059][al2058Clear]
+[22060][al2059Clear]
+[22061][al2060Clear]
+[22062][al2061Clear]
+[22063][al2062Clear]
+[22064][al2063Clear]
+[22065][al2064Clear]
+[22066][al2065Clear]
+[22067][al2066Clear]
+[22068][al2067Clear]
+[22069][al2068Clear]
+[22070][al2069Clear]
+[22071][al2070Clear]
+[22072][al2071Clear]
+[22073][al2072Clear]
+[22074][al2073Clear]
+[22075][al2074Clear]
+[22076][al2075Clear]
+[22077][al2076Clear]
+[22078][al2077Clear]
+[22079][al2078Clear]
+[22080][al2079Clear]
+[22081][al2080Clear]
+[22082][al2081Clear]
+[22083][al2082Clear]
+[22084][al2083Clear]
+[22085][al2084Clear]
+[22086][al2085Clear]
+[22087][al2086Clear]
+[22088][al2087Clear]
+[22089][al2088Clear]
+[22090][al2089Clear]
+[22091][al2090Clear]
+[22092][al2091Clear]
+[22093][al2092Clear]
+[22094][al2093Clear]
+[22095][al2094Clear]
+[22096][al2095Clear]
+[22097][al2096Clear]
+[22098][al2097Clear]
+[22099][al2098Clear]
+[22100][al2099Clear]
+[22101][al2100Clear]
+[22102][al2101Clear]
+[22103][al2102Clear]
+[22104][al2103Clear]
+[22105][al2104Clear]
+[22106][al2105Clear]
+[22107][al2106Clear]
+[22108][al2107Clear]
+[22109][al2108Clear]
+[22110][al2109Clear]
+[22111][al2110Clear]
+[22112][al2111Clear]
+[22113][al2112Clear]
+[22114][al2113Clear]
+[22115][al2114Clear]
+[22116][al2115Clear]
+[22117][al2116Clear]
+[22118][al2117Clear]
+[22119][al2118Clear]
+[22120][al2119Clear]
+[22121][al2120Clear]
+[22122][al2121Clear]
+[22123][al2122Clear]
+[22124][al2123Clear]
+[22125][al2124Clear]
+[22126][al2125Clear]
+[22127][al2126Clear]
+[22128][al2127Clear]
+[22129][al2128Clear]
+[22130][al2129Clear]
+[22131][al2130Clear]
+[22132][al2131Clear]
+[22133][al2132Clear]
+[22134][al2133Clear]
+[22135][al2134Clear]
+[22136][al2135Clear]
+[22137][al2136Clear]
+[22138][al2137Clear]
+[22139][al2138Clear]
+[22140][al2139Clear]
+[22141][al2140Clear]
+[22142][al2141Clear]
+[22143][al2142Clear]
+[22144][al2143Clear]
+[22145][al2144Clear]
+[22146][al2145Clear]
+[22147][al2146Clear]
+[22148][al2147Clear]
+[22149][al2148Clear]
+[22150][al2149Clear]
+[22151][al2150Clear]
+[22152][al2151Clear]
+[22153][al2152Clear]
+[22154][al2153Clear]
+[22155][al2154Clear]
+[22156][al2155Clear]
+[22157][al2156Clear]
+[22158][al2157Clear]
+[22159][al2158Clear]
+[22160][al2159Clear]
+[22161][al2160Clear]
+[22162][al2161Clear]
+[22163][al2162Clear]
+[22164][al2163Clear]
+[22165][al2164Clear]
+[22166][al2165Clear]
+[22167][al2166Clear]
+[22168][al2167Clear]
+[22169][al2168Clear]
+[22170][al2169Clear]
+[22171][al2170Clear]
+[22172][al2171Clear]
+[22173][al2172Clear]
+[22174][al2173Clear]
+[22175][al2174Clear]
+[22176][al2175Clear]
+[22177][al2176Clear]
+[22178][al2177Clear]
+[22179][al2178Clear]
+[22180][al2179Clear]
+[22181][al2180Clear]
+[22182][al2181Clear]
+[22183][al2182Clear]
+[22184][al2183Clear]
+[22185][al2184Clear]
+[22186][al2185Clear]
+[22187][al2186Clear]
+[22188][al2187Clear]
+[22189][al2188Clear]
+[22190][al2189Clear]
+[22191][al2190Clear]
+[22192][al2191Clear]
+[22193][al2192Clear]
+[22194][al2193Clear]
+[22195][al2194Clear]
+[22196][al2195Clear]
+[22197][al2196Clear]
+[22198][al2197Clear]
+[22199][al2198Clear]
+[22200][al2199Clear]
+[22201][al2200Clear]
+[22202][al2201Clear]
+[22203][al2202Clear]
+[22204][al2203Clear]
+[22205][al2204Clear]
+[22206][al2205Clear]
+[22207][al2206Clear]
+[22208][al2207Clear]
+[22209][al2208Clear]
+[22210][al2209Clear]
+[22211][al2210Clear]
+[22212][al2211Clear]
+[22213][al2212Clear]
+[22214][al2213Clear]
+[22215][al2214Clear]
+[22216][al2215Clear]
+[22217][al2216Clear]
+[22218][al2217Clear]
+[22219][al2218Clear]
+[22220][al2219Clear]
+[22221][al2220Clear]
+[22222][al2221Clear]
+[22223][al2222Clear]
+[22224][al2223Clear]
+[22225][al2224Clear]
+[22226][al2225Clear]
+[22227][al2226Clear]
+[22228][al2227Clear]
+[22229][al2228Clear]
+[22230][al2229Clear]
+[22231][al2230Clear]
+[22232][al2231Clear]
+[22233][al2232Clear]
+[22234][al2233Clear]
+[22235][al2234Clear]
+[22236][al2235Clear]
+[22237][al2236Clear]
+[22238][al2237Clear]
+[22239][al2238Clear]
+[22240][al2239Clear]
+[22241][al2240Clear]
+[22242][al2241Clear]
+[22243][al2242Clear]
+[22244][al2243Clear]
+[22245][al2244Clear]
+[22246][al2245Clear]
+[22247][al2246Clear]
+[22248][al2247Clear]
+[22249][al2248Clear]
+[22250][al2249Clear]
+[22251][al2250Clear]
+[22252][al2251Clear]
+[22253][al2252Clear]
+[22254][al2253Clear]
+[22255][al2254Clear]
+[22256][al2255Clear]
+[22257][al2256Clear]
+[22258][al2257Clear]
+[22259][al2258Clear]
+[22260][al2259Clear]
+[22261][al2260Clear]
+[22262][al2261Clear]
+[22263][al2262Clear]
+[22264][al2263Clear]
+[22265][al2264Clear]
+[22266][al2265Clear]
+[22267][al2266Clear]
+[22268][al2267Clear]
+[22269][al2268Clear]
+[22270][al2269Clear]
+[22271][al2270Clear]
+[22272][al2271Clear]
+[22273][al2272Clear]
+[22274][al2273Clear]
+[22275][al2274Clear]
+[22276][al2275Clear]
+[22277][al2276Clear]
+[22278][al2277Clear]
+[22279][al2278Clear]
+[22280][al2279Clear]
+[22281][al2280Clear]
+[22282][al2281Clear]
+[22283][al2282Clear]
+[22284][al2283Clear]
+[22285][al2284Clear]
+[22286][al2285Clear]
+[22287][al2286Clear]
+[22288][al2287Clear]
+[22289][al2288Clear]
+[22290][al2289Clear]
+[22291][al2290Clear]
+[22292][al2291Clear]
+[22293][al2292Clear]
+[22294][al2293Clear]
+[22295][al2294Clear]
+[22296][al2295Clear]
+[22297][al2296Clear]
+[22298][al2297Clear]
+[22299][al2298Clear]
+[22300][al2299Clear]
+[22301][al2300Clear]
+[22302][al2301Clear]
+[22303][al2302Clear]
+[22304][al2303Clear]
+[22305][al2304Clear]
+[22306][al2305Clear]
+[22307][al2306Clear]
+[22308][al2307Clear]
+[22309][al2308Clear]
+[22310][al2309Clear]
+[22311][al2310Clear]
+[22312][al2311Clear]
+[22313][al2312Clear]
+[22314][al2313Clear]
+[22315][al2314Clear]
+[22316][al2315Clear]
+[22317][al2316Clear]
+[22318][al2317Clear]
+[22319][al2318Clear]
+[22320][al2319Clear]
+[22321][al2320Clear]
+[22322][al2321Clear]
+[22323][al2322Clear]
+[22324][al2323Clear]
+[22325][al2324Clear]
+[22326][al2325Clear]
+[22327][al2326Clear]
+[22328][al2327Clear]
+[22329][al2328Clear]
+[22330][al2329Clear]
+[22331][al2330Clear]
+[22332][al2331Clear]
+[22333][al2332Clear]
+[22334][al2333Clear]
+[22335][al2334Clear]
+[22336][al2335Clear]
+[22337][al2336Clear]
+[22338][al2337Clear]
+[22339][al2338Clear]
+[22340][al2339Clear]
+[22341][al2340Clear]
+[22342][al2341Clear]
+[22343][al2342Clear]
+[22344][al2343Clear]
+[22345][al2344Clear]
+[22346][al2345Clear]
+[22347][al2346Clear]
+[22348][al2347Clear]
+[22349][al2348Clear]
+[22350][al2349Clear]
+[22351][al2350Clear]
+[22352][al2351Clear]
+[22353][al2352Clear]
+[22354][al2353Clear]
+[22355][al2354Clear]
+[22356][al2355Clear]
+[22357][al2356Clear]
+[22358][al2357Clear]
+[22359][al2358Clear]
+[22360][al2359Clear]
+[22361][al2360Clear]
+[22362][al2361Clear]
+[22363][al2362Clear]
+[22364][al2363Clear]
+[22365][al2364Clear]
+[22366][al2365Clear]
+[22367][al2366Clear]
+[22368][al2367Clear]
+[22369][al2368Clear]
+[22370][al2369Clear]
+[22371][al2370Clear]
+[22372][al2371Clear]
+[22373][al2372Clear]
+[22374][al2373Clear]
+[22375][al2374Clear]
+[22376][al2375Clear]
+[22377][al2376Clear]
+[22378][al2377Clear]
+[22379][al2378Clear]
+[22380][al2379Clear]
+[22381][al2380Clear]
+[22382][al2381Clear]
+[22383][al2382Clear]
+[22384][al2383Clear]
+[22385][al2384Clear]
+[22386][al2385Clear]
+[22387][al2386Clear]
+[22388][al2387Clear]
+[22389][al2388Clear]
+[22390][al2389Clear]
+[22391][al2390Clear]
+[22392][al2391Clear]
+[22393][al2392Clear]
+[22394][al2393Clear]
+[22395][al2394Clear]
+[22396][al2395Clear]
+[22397][al2396Clear]
+[22398][al2397Clear]
+[22399][al2398Clear]
+[22400][al2399Clear]
+[22401][al2400Clear]
+[22402][al2401Clear]
+[22403][al2402Clear]
+[22404][al2403Clear]
+[22405][al2404Clear]
+[22406][al2405Clear]
+[22407][al2406Clear]
+[22408][al2407Clear]
+[22409][al2408Clear]
+[22410][al2409Clear]
+[22411][al2410Clear]
+[22412][al2411Clear]
+[22413][al2412Clear]
+[22414][al2413Clear]
+[22415][al2414Clear]
+[22416][al2415Clear]
+[22417][al2416Clear]
+[22418][al2417Clear]
+[22419][al2418Clear]
+[22420][al2419Clear]
+[22421][al2420Clear]
+[22422][al2421Clear]
+[22423][al2422Clear]
+[22424][al2423Clear]
+[22425][al2424Clear]
+[22426][al2425Clear]
+[22427][al2426Clear]
+[22428][al2427Clear]
+[22429][al2428Clear]
+[22430][al2429Clear]
+[22431][al2430Clear]
+[22432][al2431Clear]
+[22433][al2432Clear]
+[22434][al2433Clear]
+[22435][al2434Clear]
+[22436][al2435Clear]
+[22437][al2436Clear]
+[22438][al2437Clear]
+[22439][al2438Clear]
+[22440][al2439Clear]
+[22441][al2440Clear]
+[22442][al2441Clear]
+[22443][al2442Clear]
+[22444][al2443Clear]
+[22445][al2444Clear]
+[22446][al2445Clear]
+[22447][al2446Clear]
+[22448][al2447Clear]
+[22449][al2448Clear]
+[22450][al2449Clear]
+[22451][al2450Clear]
+[22452][al2451Clear]
+[22453][al2452Clear]
+[22454][al2453Clear]
+[22455][al2454Clear]
+[22456][al2455Clear]
+[22457][al2456Clear]
+[22458][al2457Clear]
+[22459][al2458Clear]
+[22460][al2459Clear]
+[22461][al2460Clear]
+[22462][al2461Clear]
+[22463][al2462Clear]
+[22464][al2463Clear]
+[22465][al2464Clear]
+[22466][al2465Clear]
+[22467][al2466Clear]
+[22468][al2467Clear]
+[22469][al2468Clear]
+[22470][al2469Clear]
+[22471][al2470Clear]
+[22472][al2471Clear]
+[22473][al2472Clear]
+[22474][al2473Clear]
+[22475][al2474Clear]
+[22476][al2475Clear]
+[22477][al2476Clear]
+[22478][al2477Clear]
+[22479][al2478Clear]
+[22480][al2479Clear]
+[22481][al2480Clear]
+[22482][al2481Clear]
+[22483][al2482Clear]
+[22484][al2483Clear]
+[22485][al2484Clear]
+[22486][al2485Clear]
+[22487][al2486Clear]
+[22488][al2487Clear]
+[22489][al2488Clear]
+[22490][al2489Clear]
+[22491][al2490Clear]
+[22492][al2491Clear]
+[22493][al2492Clear]
+[22494][al2493Clear]
+[22495][al2494Clear]
+[22496][al2495Clear]
+[22497][al2496Clear]
+[22498][al2497Clear]
+[22499][al2498Clear]
+[22500][al2499Clear]
+[22501][al2500Clear]
+[22502][al2501Clear]
+[22503][al2502Clear]
+[22504][al2503Clear]
+[22505][al2504Clear]
+[22506][al2505Clear]
+[22507][al2506Clear]
+[22508][al2507Clear]
+[22509][al2508Clear]
+[22510][al2509Clear]
+[22511][al2510Clear]
+[22512][al2511Clear]
+[22513][al2512Clear]
+[22514][al2513Clear]
+[22515][al2514Clear]
+[22516][al2515Clear]
+[22517][al2516Clear]
+[22518][al2517Clear]
+[22519][al2518Clear]
+[22520][al2519Clear]
+[22521][al2520Clear]
+[22522][al2521Clear]
+[22523][al2522Clear]
+[22524][al2523Clear]
+[22525][al2524Clear]
+[22526][al2525Clear]
+[22527][al2526Clear]
+[22528][al2527Clear]
+[22529][al2528Clear]
+[22530][al2529Clear]
+[22531][al2530Clear]
+[22532][al2531Clear]
+[22533][al2532Clear]
+[22534][al2533Clear]
+[22535][al2534Clear]
+[22536][al2535Clear]
+[22537][al2536Clear]
+[22538][al2537Clear]
+[22539][al2538Clear]
+[22540][al2539Clear]
+[22541][al2540Clear]
+[22542][al2541Clear]
+[22543][al2542Clear]
+[22544][al2543Clear]
+[22545][al2544Clear]
+[22546][al2545Clear]
+[22547][al2546Clear]
+[22548][al2547Clear]
+[22549][al2548Clear]
+[22550][al2549Clear]
+[22551][al2550Clear]
+[22552][al2551Clear]
+[22553][al2552Clear]
+[22554][al2553Clear]
+[22555][al2554Clear]
+[22556][al2555Clear]
+[22557][al2556Clear]
+[22558][al2557Clear]
+[22559][al2558Clear]
+[22560][al2559Clear]
+[22561][al2560Clear]
+[22562][al2561Clear]
+[22563][al2562Clear]
+[22564][al2563Clear]
+[22565][al2564Clear]
+[22566][al2565Clear]
+[22567][al2566Clear]
+[22568][al2567Clear]
+[22569][al2568Clear]
+[22570][al2569Clear]
+[22571][al2570Clear]
+[22572][al2571Clear]
+[22573][al2572Clear]
+[22574][al2573Clear]
+[22575][al2574Clear]
+[22576][al2575Clear]
+[22577][al2576Clear]
+[22578][al2577Clear]
+[22579][al2578Clear]
+[22580][al2579Clear]
+[22581][al2580Clear]
+[22582][al2581Clear]
+[22583][al2582Clear]
+[22584][al2583Clear]
+[22585][al2584Clear]
+[22586][al2585Clear]
+[22587][al2586Clear]
+[22588][al2587Clear]
+[22589][al2588Clear]
+[22590][al2589Clear]
+[22591][al2590Clear]
+[22592][al2591Clear]
+[22593][al2592Clear]
+[22594][al2593Clear]
+[22595][al2594Clear]
+[22596][al2595Clear]
+[22597][al2596Clear]
+[22598][al2597Clear]
+[22599][al2598Clear]
+[22600][al2599Clear]
+[22601][al2600Clear]
+[22602][al2601Clear]
+[22603][al2602Clear]
+[22604][al2603Clear]
+[22605][al2604Clear]
+[22606][al2605Clear]
+[22607][al2606Clear]
+[22608][al2607Clear]
+[22609][al2608Clear]
+[22610][al2609Clear]
+[22611][al2610Clear]
+[22612][al2611Clear]
+[22613][al2612Clear]
+[22614][al2613Clear]
+[22615][al2614Clear]
+[22616][al2615Clear]
+[22617][al2616Clear]
+[22618][al2617Clear]
+[22619][al2618Clear]
+[22620][al2619Clear]
+[22621][al2620Clear]
+[22622][al2621Clear]
+[22623][al2622Clear]
+[22624][al2623Clear]
+[22625][al2624Clear]
+[22626][al2625Clear]
+[22627][al2626Clear]
+[22628][al2627Clear]
+[22629][al2628Clear]
+[22630][al2629Clear]
+[22631][al2630Clear]
+[22632][al2631Clear]
+[22633][al2632Clear]
+[22634][al2633Clear]
+[22635][al2634Clear]
+[22636][al2635Clear]
+[22637][al2636Clear]
+[22638][al2637Clear]
+[22639][al2638Clear]
+[22640][al2639Clear]
+[22641][al2640Clear]
+[22642][al2641Clear]
+[22643][al2642Clear]
+[22644][al2643Clear]
+[22645][al2644Clear]
+[22646][al2645Clear]
+[22647][al2646Clear]
+[22648][al2647Clear]
+[22649][al2648Clear]
+[22650][al2649Clear]
+[22651][al2650Clear]
+[22652][al2651Clear]
+[22653][al2652Clear]
+[22654][al2653Clear]
+[22655][al2654Clear]
+[22656][al2655Clear]
+[22657][al2656Clear]
+[22658][al2657Clear]
+[22659][al2658Clear]
+[22660][al2659Clear]
+[22661][al2660Clear]
+[22662][al2661Clear]
+[22663][al2662Clear]
+[22664][al2663Clear]
+[22665][al2664Clear]
+[22666][al2665Clear]
+[22667][al2666Clear]
+[22668][al2667Clear]
+[22669][al2668Clear]
+[22670][al2669Clear]
+[22671][al2670Clear]
+[22672][al2671Clear]
+[22673][al2672Clear]
+[22674][al2673Clear]
+[22675][al2674Clear]
+[22676][al2675Clear]
+[22677][al2676Clear]
+[22678][al2677Clear]
+[22679][al2678Clear]
+[22680][al2679Clear]
+[22681][al2680Clear]
+[22682][al2681Clear]
+[22683][al2682Clear]
+[22684][al2683Clear]
+[22685][al2684Clear]
+[22686][al2685Clear]
+[22687][al2686Clear]
+[22688][al2687Clear]
+[22689][al2688Clear]
+[22690][al2689Clear]
+[22691][al2690Clear]
+[22692][al2691Clear]
+[22693][al2692Clear]
+[22694][al2693Clear]
+[22695][al2694Clear]
+[22696][al2695Clear]
+[22697][al2696Clear]
+[22698][al2697Clear]
+[22699][al2698Clear]
+[22700][al2699Clear]
+[22701][al2700Clear]
+[22702][al2701Clear]
+[22703][al2702Clear]
+[22704][al2703Clear]
+[22705][al2704Clear]
+[22706][al2705Clear]
+[22707][al2706Clear]
+[22708][al2707Clear]
+[22709][al2708Clear]
+[22710][al2709Clear]
+[22711][al2710Clear]
+[22712][al2711Clear]
+[22713][al2712Clear]
+[22714][al2713Clear]
+[22715][al2714Clear]
+[22716][al2715Clear]
+[22717][al2716Clear]
+[22718][al2717Clear]
+[22719][al2718Clear]
+[22720][al2719Clear]
+[22721][al2720Clear]
+[22722][al2721Clear]
+[22723][al2722Clear]
+[22724][al2723Clear]
+[22725][al2724Clear]
+[22726][al2725Clear]
+[22727][al2726Clear]
+[22728][al2727Clear]
+[22729][al2728Clear]
+[22730][al2729Clear]
+[22731][al2730Clear]
+[22732][al2731Clear]
+[22733][al2732Clear]
+[22734][al2733Clear]
+[22735][al2734Clear]
+[22736][al2735Clear]
+[22737][al2736Clear]
+[22738][al2737Clear]
+[22739][al2738Clear]
+[22740][al2739Clear]
+[22741][al2740Clear]
+[22742][al2741Clear]
+[22743][al2742Clear]
+[22744][al2743Clear]
+[22745][al2744Clear]
+[22746][al2745Clear]
+[22747][al2746Clear]
+[22748][al2747Clear]
+[22749][al2748Clear]
+[22750][al2749Clear]
+[22751][al2750Clear]
+[22752][al2751Clear]
+[22753][al2752Clear]
+[22754][al2753Clear]
+[22755][al2754Clear]
+[22756][al2755Clear]
+[22757][al2756Clear]
+[22758][al2757Clear]
+[22759][al2758Clear]
+[22760][al2759Clear]
+[22761][al2760Clear]
+[22762][al2761Clear]
+[22763][al2762Clear]
+[22764][al2763Clear]
+[22765][al2764Clear]
+[22766][al2765Clear]
+[22767][al2766Clear]
+[22768][al2767Clear]
+[22769][al2768Clear]
+[22770][al2769Clear]
+[22771][al2770Clear]
+[22772][al2771Clear]
+[22773][al2772Clear]
+[22774][al2773Clear]
+[22775][al2774Clear]
+[22776][al2775Clear]
+[22777][al2776Clear]
+[22778][al2777Clear]
+[22779][al2778Clear]
+[22780][al2779Clear]
+[22781][al2780Clear]
+[22782][al2781Clear]
+[22783][al2782Clear]
+[22784][al2783Clear]
+[22785][al2784Clear]
+[22786][al2785Clear]
+[22787][al2786Clear]
+[22788][al2787Clear]
+[22789][al2788Clear]
+[22790][al2789Clear]
+[22791][al2790Clear]
+[22792][al2791Clear]
+[22793][al2792Clear]
+[22794][al2793Clear]
+[22795][al2794Clear]
+[22796][al2795Clear]
+[22797][al2796Clear]
+[22798][al2797Clear]
+[22799][al2798Clear]
+[22800][al2799Clear]
+[22801][al2800Clear]
+[22802][al2801Clear]
+[22803][al2802Clear]
+[22804][al2803Clear]
+[22805][al2804Clear]
+[22806][al2805Clear]
+[22807][al2806Clear]
+[22808][al2807Clear]
+[22809][al2808Clear]
+[22810][al2809Clear]
+[22811][al2810Clear]
+[22812][al2811Clear]
+[22813][al2812Clear]
+[22814][al2813Clear]
+[22815][al2814Clear]
+[22816][al2815Clear]
+[22817][al2816Clear]
+[22818][al2817Clear]
+[22819][al2818Clear]
+[22820][al2819Clear]
+[22821][al2820Clear]
+[22822][al2821Clear]
+[22823][al2822Clear]
+[22824][al2823Clear]
+[22825][al2824Clear]
+[22826][al2825Clear]
+[22827][al2826Clear]
+[22828][al2827Clear]
+[22829][al2828Clear]
+[22830][al2829Clear]
+[22831][al2830Clear]
+[22832][al2831Clear]
+[22833][al2832Clear]
+[22834][al2833Clear]
+[22835][al2834Clear]
+[22836][al2835Clear]
+[22837][al2836Clear]
+[22838][al2837Clear]
+[22839][al2838Clear]
+[22840][al2839Clear]
+[22841][al2840Clear]
+[22842][al2841Clear]
+[22843][al2842Clear]
+[22844][al2843Clear]
+[22845][al2844Clear]
+[22846][al2845Clear]
+[22847][al2846Clear]
+[22848][al2847Clear]
+[22849][al2848Clear]
+[22850][al2849Clear]
+[22851][al2850Clear]
+[22852][al2851Clear]
+[22853][al2852Clear]
+[22854][al2853Clear]
+[22855][al2854Clear]
+[22856][al2855Clear]
+[22857][al2856Clear]
+[22858][al2857Clear]
+[22859][al2858Clear]
+[22860][al2859Clear]
+[22861][al2860Clear]
+[22862][al2861Clear]
+[22863][al2862Clear]
+[22864][al2863Clear]
+[22865][al2864Clear]
+[22866][al2865Clear]
+[22867][al2866Clear]
+[22868][al2867Clear]
+[22869][al2868Clear]
+[22870][al2869Clear]
+[22871][al2870Clear]
+[22872][al2871Clear]
+[22873][al2872Clear]
+[22874][al2873Clear]
+[22875][al2874Clear]
+[22876][al2875Clear]
+[22877][al2876Clear]
+[22878][al2877Clear]
+[22879][al2878Clear]
+[22880][al2879Clear]
+[22881][al2880Clear]
+[22882][al2881Clear]
+[22883][al2882Clear]
+[22884][al2883Clear]
+[22885][al2884Clear]
+[22886][al2885Clear]
+[22887][al2886Clear]
+[22888][al2887Clear]
+[22889][al2888Clear]
+[22890][al2889Clear]
+[22891][al2890Clear]
+[22892][al2891Clear]
+[22893][al2892Clear]
+[22894][al2893Clear]
+[22895][al2894Clear]
+[22896][al2895Clear]
+[22897][al2896Clear]
+[22898][al2897Clear]
+[22899][al2898Clear]
+[22900][al2899Clear]
+[22901][al2900Clear]
+[22902][al2901Clear]
+[22903][al2902Clear]
+[22904][al2903Clear]
+[22905][al2904Clear]
+[22906][al2905Clear]
+[22907][al2906Clear]
+[22908][al2907Clear]
+[22909][al2908Clear]
+[22910][al2909Clear]
+[22911][al2910Clear]
+[22912][al2911Clear]
+[22913][al2912Clear]
+[22914][al2913Clear]
+[22915][al2914Clear]
+[22916][al2915Clear]
+[22917][al2916Clear]
+[22918][al2917Clear]
+[22919][al2918Clear]
+[22920][al2919Clear]
+[22921][al2920Clear]
+[22922][al2921Clear]
+[22923][al2922Clear]
+[22924][al2923Clear]
+[22925][al2924Clear]
+[22926][al2925Clear]
+[22927][al2926Clear]
+[22928][al2927Clear]
+[22929][al2928Clear]
+[22930][al2929Clear]
+[22931][al2930Clear]
+[22932][al2931Clear]
+[22933][al2932Clear]
+[22934][al2933Clear]
+[22935][al2934Clear]
+[22936][al2935Clear]
+[22937][al2936Clear]
+[22938][al2937Clear]
+[22939][al2938Clear]
+[22940][al2939Clear]
+[22941][al2940Clear]
+[22942][al2941Clear]
+[22943][al2942Clear]
+[22944][al2943Clear]
+[22945][al2944Clear]
+[22946][al2945Clear]
+[22947][al2946Clear]
+[22948][al2947Clear]
+[22949][al2948Clear]
+[22950][al2949Clear]
+[22951][al2950Clear]
+[22952][al2951Clear]
+[22953][al2952Clear]
+[22954][al2953Clear]
+[22955][al2954Clear]
+[22956][al2955Clear]
+[22957][al2956Clear]
+[22958][al2957Clear]
+[22959][al2958Clear]
+[22960][al2959Clear]
+[22961][al2960Clear]
+[22962][al2961Clear]
+[22963][al2962Clear]
+[22964][al2963Clear]
+[22965][al2964Clear]
+[22966][al2965Clear]
+[22967][al2966Clear]
+[22968][al2967Clear]
+[22969][al2968Clear]
+[22970][al2969Clear]
+[22971][al2970Clear]
+[22972][al2971Clear]
+[22973][al2972Clear]
+[22974][al2973Clear]
+[22975][al2974Clear]
+[22976][al2975Clear]
+[22977][al2976Clear]
+[22978][al2977Clear]
+[22979][al2978Clear]
+[22980][al2979Clear]
+[22981][al2980Clear]
+[22982][al2981Clear]
+[22983][al2982Clear]
+[22984][al2983Clear]
+[22985][al2984Clear]
+[22986][al2985Clear]
+[22987][al2986Clear]
+[22988][al2987Clear]
+[22989][al2988Clear]
+[22990][al2989Clear]
+[22991][al2990Clear]
+[22992][al2991Clear]
+[22993][al2992Clear]
+[22994][al2993Clear]
+[22995][al2994Clear]
+[22996][al2995Clear]
+[22997][al2996Clear]
+[22998][al2997Clear]
+[22999][al2998Clear]
+[23000][al2999Clear]
+[23001][al3000Clear]
+[23002][al3001Clear]
+[23003][al3002Clear]
+[23004][al3003Clear]
+[23005][al3004Clear]
+[23006][al3005Clear]
+[23007][al3006Clear]
+[23008][al3007Clear]
+[23009][al3008Clear]
+[23010][al3009Clear]
+[23011][al3010Clear]
+[23012][al3011Clear]
+[23013][al3012Clear]
+[23014][al3013Clear]
+[23015][al3014Clear]
+[23016][al3015Clear]
+[23017][al3016Clear]
+[23018][al3017Clear]
+[23019][al3018Clear]
+
+{HOSTCOMMANDS}
+
+{VARIABLES}
+[0][AlarmID] D U4
+[4029][DataID] D U4
+[2052][ECChangeName] D A
+[2053][ECChangeValue] D A
+[7][ECID] D U4
+[1][EventLimit] D L
+[4027][LastCEID] D U4
+[2][LimitVariable] D U4
+[5][TransitionType] D B
+
+[2026][AlarmsEnabled] S L
+[2027][AlarmsSet] S L
+[2054][AlarmState] S U1
+[2050][ASer] S U4
+[2004][Clock] S A
+[4026][ClockOffset] S I4
+[2035][CommEnableSwitch] S U4
+[2036][CommState] S U4
+[2028][ControlState] S U1
+[2034][CtrlOnlineSwitch] S U4
+[2033][CtrlStateSwitch] S U4
+[2046][ECSetEnable] S Bool
+[2029][EventsEnabled] S L
+[2043][GEMEnable] S Bool
+[2008][MDLN] S A
+[2039][NVSPath] S A
+[2032][PREVIOIOUSCONTROLSTATE] S B
+[2010][PreviousCommand] S A
+[2011][PreviousControlState] S A
+[4030][PreviousControlState] S U1
+[2031][PROCESSSTATE] S U1
+[2032][ProcessState] S A
+[2015][SOFTREV] S A
+[2016][SpoolCountActual] S U4
+[2017][SpoolCountTotal] S U4
+[2018][SpoolFullTime] S A
+[2019][SpoolStartTime] S A
+[2037][SpoolState] S U4
+[2051][Time] S A
+[50000][CCB_ECD] S I4
+[50001][CCB_ETX] S A
+[6000][E10State] S U1
+[10000][webcounter_unwinding] S F4
+[10001][blw.av_zug_w1] S F4
+[10002][bahnreglerw1.av_bahnkante] S F4
+[10003][bahnreglerw1.av_coilpos] S F4
+[10004][blw.av_w1schwing_pos] S F4
+[10005][wickler1.av_durchmesser] S F4
+[10006][blw.av_speed] S F4
+[10007][blw.av_pos] S F4
+[10008][blwdirection] S Bool
+[11000][webcounter_heater] S F4
+[11001][he11.av_temp1] S F4
+[11002][he11.av_p] S F4
+[11003][he21.av_temp1] S F4
+[11004][he21.av_p] S F4
+[11005][he22.av_temp1] S F4
+[11006][he22.av_p] S F4
+[11007][he31.av_temp1] S F4
+[11008][he31.av_p] S F4
+[11009][he32.av_temp1] S F4
+[11010][he32.av_p] S F4
+[11011][he41.av_temp1] S F4
+[11012][he41.av_p] S F4
+[11013][he42.av_temp1] S F4
+[11014][he42.av_p] S F4
+[11015][he51.av_temp1] S F4
+[11016][he51.av_p] S F4
+[11017][he52.av_temp1] S F4
+[11018][he52.av_p] S F4
+[11019][he61.av_temp1] S F4
+[11020][he61.av_p] S F4
+[12000][webcounter_src21] S F4
+[12001][pt41.av_speed] S F4
+[12002][mfc21.av_flow] S F4
+[12003][mfc22.av_flow] S F4
+[12004][mfc23.av_flow] S F4
+[12005][src21.av] S F4
+[12006][src21.av_tgl] S F4
+[12007][dc211.av_u] S F4
+[12008][dc211.av_i] S F4
+[12009][dc211.av_p] S F4
+[12010][dc211.av_ramptime] S F4
+[12011][dc211.av_hardarcs] S F4
+[12012][dc211.av_microarcs] S F4
+[12013][dc211.sp_mod] S U2
+[12014][xxx] S F4
+[13000][webcounter_src22] S F4
+[13001][pt42.av_speed] S F4
+[13002][src22.av] S F4
+[13003][src22.av_tgl] S F4
+[13004][dc221.av_u] S F4
+[13005][dc221.av_i] S F4
+[13006][dc221.av_p] S F4
+[13007][dc221.av_ramptime] S F4
+[13008][dc221.av_hardarcs] S F4
+[13009][dc221.av_microarcs] S F4
+[13010][dc221.sp_mod] S U2
+[14000][webcounter_src31] S F4
+[14001][pt51.av_speed] S F4
+[14002][mfc31.av_flow] S F4
+[14003][mfc32.av_flow] S F4
+[14004][mfc33.av_flow] S F4
+[14005][src31.av] S F4
+[14006][src31.av_tgl] S F4
+[14007][dc311.av_u] S F4
+[14008][dc311.av_i] S F4
+[14009][dc311.av_p] S F4
+[14010][dc311.av_ramptime] S F4
+[14011][dc311.av_hardarcs] S F4
+[14012][dc311.av_microarcs] S F4
+[14013][dc311.sp_mod] S U2
+[15000][webcounter_src32] S F4
+[15001][pt52.av_speed] S F4
+[15002][src32.av] S F4
+[15003][src32.av_tgl] S F4
+[15004][dc321.av_u] S F4
+[15005][dc321.av_i] S F4
+[15006][dc321.av_p] S F4
+[15007][dc321.av_ramptime] S F4
+[15008][dc321.av_hardarcs] S F4
+[15009][dc321.av_microarcs] S F4
+[15010][dc321.sp_mod] S U2
+[16000][webcounter_src41] S F4
+[16001][pt61.av_speed] S F4
+[16002][mfc41.av_flow] S F4
+[16003][mfc42.av_flow] S F4
+[16004][mfc43.av_flow] S F4
+[16005][src41.av] S F4
+[16006][src41.av_tgl] S F4
+[16007][dc411.av_u] S F4
+[16008][dc411.av_i] S F4
+[16009][dc411.av_p] S F4
+[16010][dc411.av_ramptime] S F4
+[16011][dc411.av_hardarcs] S F4
+[16012][dc411.av_microarcs] S F4
+[16013][dc411.sp_mod] S U2
+[17000][webcounter_src42] S F4
+[17001][tp62.av_speed] S F4
+[17002][src42.av] S F4
+[17003][src42.av_tgl] S F4
+[17004][dc421.av_u] S F4
+[17005][dc421.av_i] S F4
+[17006][dc421.av_p] S F4
+[17007][dc421.av_ramptime] S F4
+[17008][dc421.av_hardarcs] S F4
+[17009][dc421.av_microarcs] S F4
+[17010][dc421.sp_mod] S U2
+[18000][webcounter_src51] S F4
+[18001][pt71.av_speed] S F4
+[18002][mfc51.av_flow] S F4
+[18003][mfc52.av_flow] S F4
+[18004][mfc53.av_flow] S F4
+[18005][src51.av] S F4
+[18006][src51.av_tgl] S F4
+[18007][dc511.av_u] S F4
+[18008][dc511.av_i] S F4
+[18009][dc511.av_p] S F4
+[18010][dc511.av_ramptime] S F4
+[18011][dc511.av_hardarcs] S F4
+[18012][dc511.av_microarcs] S F4
+[18013][dc511.sp_mod] S U2
+[19000][webcounter_src52] S F4
+[19001][pt72.av_speed] S F4
+[19002][src52.av] S F4
+[19003][src52.av_tgl] S F4
+[19004][dc521.av_u] S F4
+[19005][dc521.av_i] S F4
+[19006][dc521.av_p] S F4
+[19007][dc521.av_ramptime] S F4
+[19008][dc521.av_hardarcs] S F4
+[19009][dc521.av_microarcs] S F4
+[19010][dc521.sp_mod] S U2
+[20000][webcounter_marking] S F4
+[20001][mfc232.av_flow] S F4
+[20002][src7.av_tgl] S F4
+[20003][dc23.sp_joule] S F4
+[20004][dc23.av_u] S F4
+[20005][dc23.av_i] S F4
+[20006][dc23.av_p] S F4
+[20007][dc23.av_hardarcs] S F4
+[20008][dc23.av_microarcs] S F4
+[20000][webcounter_nagi] S F4
+[20001][xxx] S F4
+[20002][xxx] S F4
+[20003][xxx] S F4
+[21000][webcounter_rewinding] S F4
+[21001][blw.av_zug_w2] S F4
+[21002][bahnreglerw2.av_bahnkante] S F4
+[21003][bahnreglerw2.av_coilpos] S F4
+[21004][blw.av_w2schwing_pos] S F4
+[21005][wickler2.av_durchmesser] S F4
+
+[4023][DefaultCommState] E U4
+[4024][DefaultCtrlState] E U1
+[4021][DefCtrlOfflineState] E U1
+[4000][EstablishCommunicationsTimeout] E U2
+[4022][EventReportMsg] E U4
+[4025][Heartbeat] E U2
+[4028][LimitFreq] E U2
+[4004][MaxSpoolMessages] E U4
+[4005][MaxSpoolTransmit] E U4
+[4009][OverwriteSpool] E Bool
+[4010][SpoolEnabled] E Bool
+[4020][TimeFormat] E U4
+[4011][WBitS10] E Bool
+[4012][WBitS5] E Bool
+[4013][WBitS6] E Bool
+[4][EnableAlarmReportSend] E Bool

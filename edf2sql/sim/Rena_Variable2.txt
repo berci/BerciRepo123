@@ -1,0 +1,139 @@
+100101;Transpportgeschwindigkeit Istwert;F4
+100151;Transpportgeschwindigkeit Sollwert;F4
+100201;Durchfluß Düsenstock Bürste Istwert;F4
+100251;Durchfluß Düsenstock Bürste Sollwert;F4
+100301;Spüler 1 Durchfluß Umwälzung Kammer 1 Istwert;F4
+100302;Spüler 1 Durchfluss Zulauf DI-Wasser Istwert;F4
+100351;Spüler 1 Durchfluß Umwälzung Kammer 1 Sollwert;F4
+100352;Spüler 1 Durchfluss Zulauf DI-Wasser Sollwert;F4
+100401;CDS Heisswassertank 1 Leitfähigkeismessung Istwert;F4
+100402;Durchfluss Zulauf DI-Wasser Istwert;F4
+100403;Durchfluss Dosierung TH Vorratstank Istwert;F4
+100404;Durchfluss Dosierung CD Vorratstank Istwert;F4
+100405;Durchfluss Dosierung NH3 Vorratstank Istwert;F4
+100406;Temperatur Heizrampe 1 Kammer 1 Istwert;F4
+100407;Temperatur Heizrampe 1 Kammer 2 Istwert;F4
+100408;Temperatur Heizrampe 1 Kammer 3 Istwert;F4
+100409;Temperatur Ausgiesser Istwert;F4
+100410;Temperatur Heisswassertank 1 Istwert;F4
+100411;CDS Durchlauferhitzer 1 Temperatur Istwert;F4
+100412;CDS Durchlauferhitzer 2 Temperatur Istwert;F4
+100413;CDS Heizrampe Ablauf pH Wert Istwert;F4
+100415;CDS Spüler Durchfluss Sprühdüsen Umlenkrollen Istwert;F4
+100416;CDS Spüler Durchfluss Sprühdüsen Auslauf Istwert;F4
+100417;CDS Heisswassertank 2 Leitfähigkeismessung Istwert;F4
+100418;Temperatur Heizrampe 2 Kammer 1 Istwert;F4
+100419;Temperatur Heizrampe 2 Kammer 2 Istwert;F4
+100420;Temperatur Heizrampe 2 Kammer 3 Istwert;F4
+100422;Temperatur Heisswassertank 2 Istwert;F4
+100451;CDS Heisswassertank 1 Leitfähigkeismessung Sollwert;F4
+100452;Durchfluss Zulauf DI-Wasser Sollwert;F4
+100453;Durchfluss Dosierung TH Vorratstank Sollwert;F4
+100454;Durchfluss Dosierung CD Vorratstank Sollwert;F4
+100455;Durchfluss Dosierung NH3 Vorratstank Sollwert;F4
+100456;Temperatur Heizrampe 1 Kammer 1 Sollwert;F4
+100457;Temperatur Heizrampe 1 Kammer 2 Sollwert;F4
+100458;Temperatur Heizrampe 1 Kammer 3 Sollwert;F4
+100459;Temperatur Ausgiesser Sollwert;F4
+100460;Temperatur Heisswassertank 1 Sollwert;F4
+100461;CDS Durchlauferhitzer 1 Temperatur Sollwert;F4
+100462;CDS Durchlauferhitzer 2 Temperatur Sollwert;F4
+100463;CDS Heizrampe Ablauf pH Wert Sollwert;F4
+100465;CDS Spüler Durchfluss Sprühdüsen Umlenkrollen Sollwert;F4
+100466;CDS Spüler Durchfluss Sprühdüsen Auslauf Sollwert;F4
+100467;CDS Heisswassertank 2 Leitfähigkeismessung Sollwert;F4
+100468;Temperatur Heizrampe 2 Kammer 1 Sollwert;F4
+100469;Temperatur Heizrampe 2 Kammer 2 Sollwert;F4
+100470;Temperatur Heizrampe 2 Kammer 3 Sollwert;F4
+100472;Temperatur Heisswassertank 2 Sollwert;F4
+100501;Spüler 2 Durchfluß Umwälzung Kammer 1 Istwert;F4
+100502;Spüler 2 Durchfluss Zulauf DI-Wasser Istwert;F4
+100551;Spüler 2 Durchfluß Umwälzung Kammer 1 Sollwert;F4
+100552;Spüler 2 Durchfluss Zulauf DI-Wasser Sollwert;F4
+100601;Spüler 3 Durchfluß Umwälzung Kammer 1 Istwert;F4
+100602;Spüler 3 Durchfluß Umwälzung Kammer 2 Istwert;F4
+100603;Spüler 3 Durchfluß Umwälzung Kammer 3 Istwert;F4
+100604;Spüler 3 Durchfluss Zulauf DI-Wasser Istwert;F4
+100605;Spüler 3 Leitwert Istwert;F4
+100651;Spüler 3 Durchfluß Umwälzung Kammer 1 Sollwert;F4
+100652;Spüler 3 Durchfluß Umwälzung Kammer 2 Sollwert;F4
+100653;Spüler 3 Durchfluß Umwälzung Kammer 3 Sollwert;F4
+100654;Spüler 3 Durchfluss Zulauf DI-Wasser Sollwert;F4
+100655;Spüler 3 Leitwert Sollwert;F4
+100701;Geschwindigkeit Prozessluft Trockner oben Istwert;F4
+100702;Temperatur Prozessluft Trockner oben Istwert;F4
+100703;Geschwindigkeit Prozessluft Trockner unten Istwert;F4
+100704;Temperatur Prozessluft Trockner unten Istwert;F4
+100705;Geschwindigkeit Prozessluft Trockner Medientrennung 1 Istwert;F4
+100706;Temperatur Prozessluft Trockner Medientrennung 1 Istwert;F4
+100707;Geschwindigkeit Prozessluft Trockner Medientrennung 2 Istwert;F4
+100708;Temperatur Prozessluft Trockner Medientrennung 2 Istwert;F4
+100751;Geschwindigkeit Prozessluft Trockner oben Sollwert;F4
+100752;Temperatur Prozessluft Trockner oben Sollwert;F4
+100753;Geschwindigkeit Prozessluft Trockner unten Sollwert;F4
+100754;Temperatur Prozessluft Trockner unten Sollwert;F4
+100755;Geschwindigkeit Prozessluft Trockner Medientrennung 1;F4
+100756;Temperatur Prozessluft Trockner Medientrennung 1 Sollwert;F4
+100757;Geschwindigkeit Prozessluft Trockner Medientrennung 2 Sollwert;F4
+100758;Temperatur Prozessluft Trockner Medientrennung 2 Sollwert;F4
+100801;THAT Füllstandsmessung Istwert;F4
+100802;THAT Durchfluss Zulauf DI-Wasser Istwert;F4
+100803;Temperatumessung THAT 1 Istwert;F4
+100804;Temperatumessung THAT 2 Istwert;F4
+100805;THVT Temperatumessung 1 Istwert;F4
+100806;THVT Temperatumessung 2 Istwert;F4
+100807;THVT Füllstandsmessung Istwert;F4
+100808;CDAT Durchfluss Zulauf DI-Wasser Istwert;F4
+100809;CDAT Temperatumessung 1 Istwert;F4
+100810;CDAT Temperatumessung 2 Istwert;F4
+100811;CDAT Füllstandsmessung Istwert;F4
+100812;CDAT PH-Messung Istwert;F4
+100813;CDST Temperatumessung 1 Istwert;F4
+100814;CDST Temperatumessung 2 Istwert;F4
+100815;CDST Füllstandsmessung Istwert;F4
+100817;NH3VT Durchfluss Zulauf DI-Wasser Istwert;F4
+100818;CLEANER PP Zulauf DI-Wasser Istwert;F4
+100851;THAT Füllstandsmessung Sollwert;F4
+100852;THAT Durchfluss Zulauf DI-Wasser Sollwert;F4
+100853;Temperatumessung THAT 1 Sollwert;F4
+100854;Temperatumessung THAT 12 Sollwert;F4
+100855;THVT Temperatumessung 1 Sollwert;F4
+100856;THVT Temperatumessung 2 Sollwert;F4
+100857;THVT Füllstandsmessung Sollwert;F4
+100858;CDAT Durchfluss Zulauf DI-Wasser Sollwert;F4
+100859;CDAT Temperatumessung 1 Sollwert;F4
+100860;CDAT Temperatumessung 2 Sollwert;F4
+100861;CDAT Füllstandsmessung Sollwert;F4
+100862;CDAT PH-Messung Sollwert;F4
+100863;CDST Temperatumessung 1 Sollwert;F4
+100864;CDST Temperatumessung 2 Sollwert;F4
+100865;CDST Füllstandsmessung Sollwert;F4
+100867;NH3VT Durchfluss Zulauf DI-Wasser Sollwert;F4
+100878;CLEANER PP Zulauf DI-Wasser Sollwert;F4
+102001;Luftstromsensor 1 Abluft Istwert;F4
+102002;Differenzdruckschalter 1 Abluft Istwert;F4
+102003;Luftstromsensor 2 Abluft Istwert;F4
+102004;Differenzdruckschalter 2 Abluft Istwert;F4
+102009;Strömungssensor 3 Abluft Istwert;F4
+102010;Versorgung DI-Wasser Istwert;F4
+102011;Versorgung Kühl-Wasser Istwert;F4
+102012;Versorgung Stadt-Wasser Istwert;F4
+102013;Durchfluss UV-Desinfektion Istwert;F4
+102015;Rezeptnummer Istwert;F4
+102016;Bandzähler akt Charge Istwert;F4
+102017;Bandzähler gesamt Istwert;F4
+102018;Bandzähler korrektur (an der entsprechenden Markierung im Band) Istwert;Bool
+102051;Luftstromsensor 1 Abluft Sollwert;F4
+102052;Differenzdruckschalter 1 Abluft Sollwert;F4
+102053;Luftstromsensor 2 Abluft Sollwert;F4
+102054;Differenzdruckschalter 2 Abluft Sollwert;F4
+102059;Strömungssensor 3 Abluft Sollwert;F4
+102060;Versorgung DI-Wasser Sollwert;F4
+102061;Versorgung Kühl-Wasser Sollwert;F4
+102062;Versorgung Stadt-Wasser Sollwert;F4
+102063;Durchfluss UV-Desinfektion Sollwert;F4
+102065;Rezeptnummer Sollwert;F4
+102066;Bandzähler akt Charge Sollwert;F4
+102067;Bandzähler gesamt Sollwert;F4
+102068;Bandzähler korrektur (an der entsprechenden Markierung im Band) Sollwert;Bool
+102070;Rezeptname;A

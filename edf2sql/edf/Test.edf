@@ -1,0 +1,67 @@
+{TREIBER_ID}
+297
+
+{TREIBER_NAME}
+[XY_Tisch]
+
+{FORMATS}
+ALID A
+CEID A
+CPNAME A
+DATAID U4
+DATALENGTH U4
+ECID A
+LENGTH U4
+MDLN A
+PPBODY B
+PPID A
+RPTID U4
+SOFTREV A
+SVID A
+VID A
+SFCD B
+DSID U4
+RCMD A
+HCMD A
+MID A
+PPIDLENGTH 0
+RCMDLENGTH 0
+
+{VARIABLES}	
+[1001][TimeStamp] D A
+[1002][Device] D A
+[1003][Carrier] D A
+[1004][PosInCarrier] D A
+[1005][X_Pos] D F8
+[1006][Y_Pos] D F8
+[1007][Strom] D F8
+[1008][Operator] D A
+
+[1040][MessNr] D I4
+
+{ALARMS}
+100000000 [Undefined variable] 1
+100000005 [No report linked to event] 1
+
+102000301 [Source folder does not exist] 1
+102000302 [Unable to move file] 1
+102000303 [Unable to create folders] 1
+102000304 [Parse error] 1
+102000305 [PKS error] 1
+
+102000921 [IVL file has invalid format] 1
+
+{DATACOLLECTIONEVENTS}
+[6001][XY_Tisch_Data]
+[6002][XY_Tisch_Device_Finish]
+
+{DATASETS}
+
+{HOSTCOMMANDS}
+
+{COMMANDCODES}
+
+
+
+
+

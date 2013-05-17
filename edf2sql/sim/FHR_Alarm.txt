@@ -1,0 +1,12 @@
+alWinCC108;108;108;9999;0;Event : Event E10StateChange
+alWinCC1000;1000;10000;9999;0;Event : Event SendData
+alWinCC1001;1001;10001;9999;0;Event : Event Coil 1 recieved
+alWinCC1002;1002;10002;9999;0;Event : Event Coil 1 removed
+alWinCC1003;1003;10003;9999;0;Event : Event Coil 2 recieved
+alWinCC1004;1004;10004;9999;0;Event : Event Coil 2 removed
+alWinCC1005;1005;10005;9999;0;Event : Event Winding Started
+alWinCC1006;1006;10006;9999;0;Event : Event Winding Stopped
+alWinCC1007;1007;10007;9999;0;Event : Event PP1Changed
+alWinCC1008;1008;10008;9999;0;Event : Event PP2Changed
+alWinCC1009;1009;10009;9999;0;Event : Event PP3Changed
+alWinCC1010;1010;10010;9999;0;Event : Event PP4Changed

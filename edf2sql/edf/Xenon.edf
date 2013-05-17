@@ -1,0 +1,553 @@
+{TREIBER_ID}
+335
+
+{TREIBER_NAME}
+[Xenon]
+
+{FORMATS}
+# according PV 2 Standard
+ALID U4
+CEID U4
+CPNAME A
+DATAID U4
+# DATALENGTH U4
+# DSID U4
+ECID U4
+HCMD A
+LENGTH U4
+MDLN A
+# MID A
+# PPBODY B
+PPID A
+# PPIDLENGTH 0
+RCMD A
+# RCMDLENGTH 0
+RPTID U4
+# SFCD B
+SOFTREV A
+SVID U4
+VID U4
+
+{ALARMS}
+0 [St00 Türen verriegeln nicht (E1.4->1)] 1
+1 [St00 Türen entriegeln nicht (E1.4->0)] 1
+2 [St00 Notaus wegen Über- oder Unterdruck am Hauptluftventil (E1.0->1)] 1
+3 [St00 Alles zurückgesetzt, Maschine ausräumen.] 1
+4 [St00 Notaus weil verriegelte Türen geöffnet wurden (E1.3->1)] 1
+5 [St00 Profibus-Teilnehmer ausgefallen, siehe Diagnose-Seite.] 1
+64 [St.01 Tisch: Timeout Tisch] 1
+65 [St.01 Tisch: Sensorfehler E63.2/E63.3] 1
+66 [St.01 Tisch: Sensorfehler E63.0/E63.1] 1
+68 [St.01 Tisch: Schott nicht geöffnet (E63.0->0, E63.1->1)] 1
+69 [St.01 Tisch: Schott nicht geschlossen (E63.0->1, E63.1->0)] 1
+70 [St.01 Tisch: Vlies nicht geschnitten] 1
+71 [St.01 Tisch: fährt nicht aus (E63.2->1, E63.3->0)] 1
+74 [St.01 Tisch: fährt nicht ein (E63.2->0, E63.3->1)] 1
+96 [St.02 Zuschnitt: Messer fährt nicht in Grundstellung (E63.6->0, E63.7->1)] 1
+97 [St.02 Zuschnitt: Messer fährt nicht in Arbeitstellung (E63.6->1, E63.7->0)] 1
+160 [St.03 Vlieszuführung: Vlies Ende/Abriss während Transport] 1
+161 [St.03 Vlieszuführung: Timeout Transport] 1
+162 [St.03 Vlieszuführung: Fehler/Timeout Anlagekante] 1
+163 [St.03 Vlieszuführung: Fehler/Timeout Andruckrollen] 1
+164 [St.03 Vlieszuführung: Fehler/Timeout Kantensteuerung] 1
+165 [St.03 Vlieszuführung: Fehler Transportantrieb nicht bereit] 1
+166 [St.03 Vlieszuführung: Verkleidung offen] 1
+168 [St.03 Vlieszuführung: Rollenende erkannt] 1
+1000 [St00 Türen verriegeln nicht (E1.4->1)] 1
+1001 [St00 Türen entriegeln nicht (E1.4->0)] 1
+1002 [St00 Notaus wegen Über- oder Unterdruck am Hauptluftventil (E1.0->1)] 1
+1003 [St00 Alles zurückgesetzt, Maschine ausräumen.] 1
+1004 [St00 Notaus weil verriegelte Türen geöffnet wurden (E1.3->1)] 1
+1005 [St00 Profibus-Teilnehmer ausgefallen, siehe Diagnose-Seite.] 1
+1032 [Notabschaltung durch Station 01] 1
+1033 [Notabschaltung durch Station 02] 1
+1034 [Notabschaltung durch Station 03] 1
+1035 [Notabschaltung durch Station 04] 1
+1036 [Notabschaltung durch Station 05] 1
+1037 [Notabschaltung durch Station 06] 1
+1038 [Notabschaltung durch Station 07] 1
+1064 [St.01 Tisch: Antrieb nicht bereit] 1
+1065 [St.01 Tisch: Antrieb meldet Fehler] 1
+1066 [St.01 Tisch: Schott schließt nicht ] 1
+1067 [St.01 Tisch: Schott öffnet nicht ] 1
+1068 [St.01 Tisch: Vakuumadapter geht nicht hoch] 1
+1069 [St.01 Tisch: Vakuumadapter geht nicht runter] 1
+1070 [St.01 Tisch: Spannleiste hinten geht nicht hoch] 1
+1071 [St.01 Tisch: Spannleiste hinten geht nicht runter] 1
+1072 [St.01 Tisch: Spannleisten Seite 1 gehen nicht hoch] 1
+1073 [St.01 Tisch: Spannleisten Seite 1 gehen nicht runter] 1
+1074 [St.01 Tisch: Spannleisten Seite 2 gehen nicht hoch] 1
+1075 [St.01 Tisch: Spannleisten Seite 2 gehen nicht runter] 1
+1096 [St.02 Zellenvereinzelung 1: Antrieb für Kante nicht bereit] 1
+1097 [St.02 Zellenvereinzelung 1: Antrieb für Kante meldet Fehler] 1
+1098 [St.02 Zellenvereinzelung 1: Antrieb für Band nicht bereit] 1
+1099 [St.02 Zellenvereinzelung 1: Antrieb für Band meldet Fehler] 1
+1102 [St.02 Zellenvereinzelung 1: Antrieb_Kante hinten nicht auf "stumpf"] 1
+1103 [St.02 Zellenvereinzelung 1: Antrieb_Kante hinten nicht auf "scharf"] 1
+1104 [St.02 Zellenvereinzelung 1: Antrieb_Kante vorn nicht auf "stumpf"] 1
+1105 [St.02 Zellenvereinzelung 1: Antrieb_Kante vorn nicht auf "scharf"] 1
+1106 [St.02 Zellenvereinzelung 1: keine Freigabe für Schlitten von den Dreheinheiten] 1
+1107 [St.02 Zellenvereinzelung 1: keine Zelle erkannt] 1
+1128 [St.02 Abwickler 1: Antrieb nicht bereit] 1
+1129 [St.02 Abwickler 1: Antrieb meldet Fehler] 1
+1130 [St.02 Abwickler 1: Abwickelzeit überschritten] 1
+1131 [St.02 Abwickler 1: Aufwickelzeit überschritten] 1
+1160 [St.03 Roboter 1: nicht bereit] 1
+1161 [St.03 Roboter 1: wird nicht fertig] 1
+1163 [St.03 Roboter 1: Anrollzylinder geht nicht in Grundstellung] 1
+1164 [St.03 Roboter 1: Anrollzylinder geht nicht in Arbeitsstellung] 1
+1165 [St.03 Roboter 1: Zelle nicht angesaugt] 1
+1166 [St.03 Roboter 1: Zelle verloren] 1
+1167 [St.03 Roboter 1: Vakuum geht nicht weg] 1
+1169 [St.03 Roboter 1: NIO-Ablage geht nicht runter] 1
+1170 [St.03 Roboter 1: NIO-Ablage geht nicht hoch] 1
+1171 [St.03 Roboter 1: Kamera nicht bereit] 1
+1172 [St.03 Roboter 1: Kamera wird nicht fertig] 1
+1173 [St.03 Roboter 1: Kamera meldet Fehler] 1
+1174 [St.03 Roboter 1: Wandlungsfehler bei Kamera-Ergebnis] 1
+1175 [St.03 Roboter 1: Messung Loch an Ecke nicht erkannt] 1
+1176 [St.03 Roboter 1: Loch an Ecke nicht messbar] 1
+1177 [St.03 Roboter 1: Messung Loch an Kante nicht erkannt] 1
+1178 [St.03 Roboter 1: Loch an Kante nicht messbar] 1
+1179 [St.03 Roboter 1: Zelle nicht messbar] 1
+1180 [St.03 Roboter 1: Kalibrieren mit IO beendet] 1
+1181 [St.03 Roboter 1: Kalibrieren mit NIO beendet] 1
+1192 [St.04 Verbinder: Antrieb für Kante nicht bereit] 1
+1193 [St.05 Verbinder: Antrieb für Kante meldet Fehler] 1
+1194 [St.04 Verbinder: Lochwerkzeug geht nicht auf] 1
+1195 [St.04 Verbinder: Lochwerkzeug geht nicht zu] 1
+1196 [St.04 Verbinder: Stanzrestabsaugung nicht ok] 1
+1197 [St.04 Verbinder: Undefinierter Verbindertyp] 1
+1198 [St.04 Verbinder: Werkzeuggreifer geht nicht auf] 1
+1199 [St.04 Verbinder: Werkzeuggreifer geht nicht zu] 1
+1200 [St.04 Verbinder: Messer geht nicht auf ] 1
+1201 [St.04 Verbinder: Messer geht nicht zu] 1
+1202 [St.04 Verbinder: Trenngreifer geht nicht auf] 1
+1203 [St.04 Verbinder: Trenngreifer geht nicht zu] 1
+1204 [St.04 Verbinder: Trenngreifer geht nicht hoch] 1
+1205 [St.04 Verbinder: Trenngreifer geht nicht runter] 1
+1206 [St.04 Verbinder: Trenngreifer geht nicht zur Warteposition] 1
+1207 [St.04 Verbinder: Trenngreifer geht nicht zum Verbinder] 1
+1208 [St.04 Verbinder: Anrollgreifer geht nicht auf] 1
+1209 [St.04 Verbinder: Anrollgreifer geht nicht zu] 1
+1210 [St.04 Verbinder: Anrollgreifer geht nicht hoch] 1
+1211 [St.04 Verbinder: Anrollgreifer geht nicht runter] 1
+1212 [St.04 Verbinder: Anrollgreifer schwenkt nicht in Greifposition] 1
+1213 [St.04 Verbinder: Anrollgreifer schwenkt nicht in Anrollposition] 1
+1214 [St.04 Verbinder: Zustand Verbinder nicht definierbar (-->EZA)] 1
+1215 [St.04 Verbinder: Anrollgreifer nicht sicher --> GSTF notwendig] 1
+1216 [St.04 Verbinder: Vakuumsauger meldet Fehler, Verbinder verloren?] 1
+1217 [St.04 Verbinder: Sollposition außerhalb des Fahrbereiches] 1
+1224 [St.05 Zellenvereinzelung 2: Antrieb für Kante nicht bereit] 1
+1225 [St.05 Zellenvereinzelung 2: Antrieb für Kante meldet Fehler] 1
+1226 [St.05 Zellenvereinzelung 2: Antrieb für Band nicht bereit] 1
+1227 [St.05 Zellenvereinzelung 2: Antrieb für Band meldet Fehler] 1
+1230 [St.05 Zellenvereinzelung 2: Antrieb_Kante hinten nicht auf "stumpf"] 1
+1231 [St.05 Zellenvereinzelung 2: Antrieb_Kante hinten nicht auf "scharf"] 1
+1232 [St.05 Zellenvereinzelung 2: Antrieb_Kante vorn nicht auf "stumpf"] 1
+1233 [St.05 Zellenvereinzelung 2: Antrieb_Kante vorn nicht auf "scharf"] 1
+1234 [St.05 Zellenvereinzelung 2: keine Freigabe für Schlitten von den Dreheinheiten] 1
+1235 [St.05 Zellenvereinzelung 1: keine Zelle erkannt] 1
+1257 [St.05 Abwickler 2: Antrieb nicht bereit] 1
+1258 [St.05 Abwickler 2: Antrieb meldet Fehler] 1
+1259 [St.05 Abwickler 2: Abwicklezeit überschritten] 1
+1260 [St.05 Abwickler 2: Aufwicklezeit überschritten] 1
+1288 [St.06 Roboter 2: nicht bereit] 1
+1289 [St.06 Roboter 2: wird nicht fertig] 1
+1291 [St.06 Roboter 2: Anrollzylinder geht nicht in Grundstellung] 1
+1292 [St.06 Roboter 2: Anrollzylinder geht nicht in Arbeitsstellung] 1
+1293 [St.06 Roboter 2: Zelle nicht angesaugt] 1
+1294 [St.06 Roboter 2: Zelle verloren] 1
+1295 [St.06 Roboter 2: Vakuum geht nicht weg] 1
+1297 [St.06 Roboter 2: NIO-Ablage geht nicht runter] 1
+1298 [St.06 Roboter 2: NIO-Ablage geht nicht hoch] 1
+1299 [St.06 Roboter 2: Kamera nicht bereit] 1
+1300 [St.06 Roboter 2: Kamera wird nicht fertig] 1
+1301 [St.06 Roboter 2: Kamera meldet Fehler] 1
+1302 [St.06 Roboter 2: Wandlungsfehler bei Kamera-Ergebnis] 1
+1303 [St.06 Roboter 2: Messung Loch an Ecke nicht erkannt] 1
+1304 [St.06 Roboter 2: Loch an Ecke nicht messbar] 1
+1305 [St.06 Roboter 2: Messung Loch an Kante nicht erkannt] 1
+1306 [St.06 Roboter 2: Loch an Kante nicht messbar] 1
+1307 [St.06 Roboter 2: Zelle nicht messbar] 1
+1308 [St.06 Roboter 2: Kalibrieren mit IO beendet] 1
+1309 [St.06 Roboter 2: Kalibrieren mit NIO beendet] 1
+1320 [St.07 Etikettierer: nicht bereit] 1
+1321 [St.07 Etikettierer: meldet Fehler] 1
+1322 [St.07 Etikettierer: wird nicht fertig] 1
+1353 [Robotercontroller: Robotercontroller nicht im AUTO-Mode] 1
+1354 [Robotercontroller: Robotercontroller meldet Fehler] 1
+1355 [Robotercontroller: Tasks werden nicht beendet] 1
+1356 [Robotercontroller: Tasks werden nicht gestartet] 1
+1357 [Robotercontroller: Schutztüren nicht geschlossen] 1
+1358 [Robotercontroller: Not-Aus ausgelöst] 1
+1359 [Robotercontroller: Tasks werden nicht fortgesetzt] 1
+1360 [Robotercontroller: zum Start des Robotercontrollers Türen schliessen !] 1
+2000 [alle Meldungen siehe Zappa 1 von 2000 bis 2360] 1
+3000 [alle Meldungen siehe Zappa 1 von 3000 bis 3360] 1
+4000 [alle Meldungen siehe Zappa 1 von 4000 bis 4360] 1
+5000 [St00 Türen verriegeln nicht (E1.4->1)] 1
+5001 [St00 Türen entriegeln nicht (E1.4->0)] 1
+5002 [St00 Notaus wegen Über- oder Unterdruck am Hauptluftventil (E1.0->1)] 1
+5003 [St00 Alles zurückgesetzt, Maschine ausräumen.] 1
+5004 [St00 Notaus weil verriegelte Türen geöffnet wurden (E1.3->1)] 1
+5005 [St00 Profibus-Teilnehmer ausgefallen, siehe Diagnose-Seite.] 1
+5064 [St.01 Tisch: Antrieb Time-Out] 1
+5065 [St.01 Tisch: Antrieb meldet Fehler] 1
+5066 [St.01 Schott nicht geschlossen (E64.0->1. E64.1->0)] 1
+5067 [St.01 Schott nicht offen (E64.0->0. E64.1->1)] 1
+5068 [St.01 Kamera wird nicht fertig] 1
+5069 [St.01 St. 2 und 3 werden nicht fertig] 1
+5070 [St.01 Multicodereader meldet Fehler] 1
+5071 [St.01 Multicodereader Time-Out] 1
+5072 [St.01 Multicodereader findet keinen Code] 1
+5073 [St.01 Datenübergabe ans Transfer: keine Bereitschaft] 1
+5074 [St.01 Datenübergabe ans Transfer: wird nicht fertig] 1
+5075 [St.01 Datenübergabe ans Transfer: keine Quittierung] 1
+5076 [St.01 Übergabe ans Transfer: Anforderung 2 fehlt] 1
+5077 [St.01 Übergabe ans Transfer: Anforderung 3 fehlt] 1
+5078 [St.01 Übergabe ans Transfer: Anforderung 4 fehlt] 1
+5096 [St.01 Kamera: Ethernet-Verbindung kann nicht hergestellt werden] 1
+5097 [St.01 Kamera: Umschaltung der Scene nicht gestartet] 1
+5098 [St.01 Kamera: Kameraprüfung nicht gestartet] 1
+5099 [St.01 Kamera: Kamera antwortet nicht] 1
+5100 [St.01 Kamera: zu kurzes Antwort-Telegramm] 1
+5101 [St.01 Kamera: Konvertierungsfehler] 1
+5102 [St.01 Kamera: Löcher nicht gefunden] 1
+5128 [St.02 X-Achse Time-Out] 1
+5129 [St.02 X-Achse meldet Fehler (siehe EZA-Diagnose-Bild)] 1
+5130 [St.02 Y-Achse Time-Out] 1
+5131 [St.02 Y-Achse meldet Fehler (siehe EZA-Diagnose-Bild)] 1
+5132 [St.02 Reinigungseinheit nicht oben (E66.0->1, E66.1->0)] 1
+5133 [St.02 Reinigungseinheit nicht unten (E66.0->0, E66.1->1)] 1
+5134 [St.02 Dispensgerät nicht bereit (E66.4->1)] 1
+5135 [St.02 Dispensgerät wird nicht fertig (E66.5->1)] 1
+5136 [St.02 Dispensgerät: Temperatur nicht ok (E66.6->1)] 1
+5137 [St.02 Dispensgerät meldet Fehler (E66.7->0)] 1
+5138 [St.02 Dispensgerät startet nicht (E66.4->0)] 1
+5139 [St.02 Kamera wird nicht fertig] 1
+5140 [St.02 Fehler in der Zellendefinition] 1
+5141 [St.02 Reinigungspapier wechseln] 1
+5160 [St.02/03 Kamera nicht bereit (E70.0->1, E70.1->0, E70.2->0, E70.4->1)] 1
+5161 [St.02/03 Kamera startet nicht (E70.0->1, E70.2->1, E70.4->0)] 1
+5162 [St.02/03 Kamera wird nicht fertig (E70.1->1)] 1
+5163 [St.02/03 Kamera meldet Fehler (E70.3->0)] 1
+5192 [St.03 X-Achse Time-Out] 1
+5193 [St.03 X-Achse meldet Fehler (siehe EZA-Diagnose-Bild)] 1
+5194 [St.03 Y-Achse Time-Out] 1
+5195 [St.03 Y-Achse meldet Fehler (siehe EZA-Diagnose-Bild)] 1
+5196 [St.03 Reinigungseinheit nicht oben (E68.0->1, E68.1->0)] 1
+5197 [St.03 Reinigungseinheit nicht unten (E68.0->0, E68.1->1)] 1
+5198 [St.03 Dispensgerät nicht bereit (E68.4->1)] 1
+5199 [St.03 Dispensgerät wird nicht fertig (E68.5->1)] 1
+5200 [St.03 Dispensgerät: Temperatur nicht ok (E68.6->1)] 1
+5201 [St.03 Dispensgerät meldet Fehler (E68.7->0)] 1
+5202 [St.03 Dispensgerät startet nicht (E68.4->0)] 1
+5203 [St.03 Kamera wird nicht fertig] 1
+5204 [St.03 Fehler in der Zellendefinition] 1
+5205 [St.03 Reinigungspapier wechseln] 1
+6000 [alle Meldungen siehe Kappa 1 von 6000 bis 6205] 1
+7000 [...] 1
+8000 [St00 Türen verriegeln nicht (E1.4->1)] 1
+8001 [St00 Türen entriegeln nicht (E1.4->0)] 1
+8002 [St00 Notaus wegen Über- oder Unterdruck am Hauptluftventil (E1.0->1)] 1
+8003 [St00 Alles zurückgesetzt, Maschine ausräumen.] 1
+8004 [St00 Notaus weil verriegelte Türen geöffnet wurden (E1.3->1)] 1
+8005 [St00 Profibus-Teilnehmer ausgefallen, siehe Diagnose-Seite.] 1
+8064 [St.01 Tisch: Timeout Tisch] 1
+8065 [St.01 Tisch: Sensorfehler E63.2/E63.3] 1
+8066 [St.01 Tisch: Sensorfehler E63.0/E63.1] 1
+8160 [St.03 Vlieszuführung: Vlies Ende/Abriss während Transport] 1
+8161 [St.03 Vlieszuführung: Timeout Transport] 1
+8162 [St.03 Vlieszuführung: Fehler/Timeout Anlagekante] 1
+8163 [St.03 Vlieszuführung: Fehler/Timeout Andruckrollen] 1
+8164 [St.03 Vlieszuführung: Fehler/Timeout Kantensteuerung] 1
+8165 [St.03 Vlieszuführung: Fehler Transportantrieb nicht bereit] 1
+8166 [St.03 Vlieszuführung: Verkleidung offen] 1
+8168 [St.03 Vlieszuführung: Rollenende erkannt] 1
+9000 [nocht nicht vorhanden] 1
+10000 [St00 Türen verriegeln nicht (E4.0->1, E4.4->1)] 1
+10001 [St00 Türen entriegeln nicht (E4.0->0, E4.4->0)] 1
+10002 [St00 Notaus wegen Über- oder Unterdruck am Hauptluftventil (E1.0->1)] 1
+10003 [St00 Alles zurückgesetzt, Maschine ausräumen.] 1
+10004 [St00 Notaus weil verriegelte Türen geöffnet wurden (E1.3->1)] 1
+10005 [St00 Profibus-Teilnehmer ausgefallen, siehe Diagnose-Seite.] 1
+10006 [St00 Notaus wegen Kollisionegefahr beim Verfahren] 1
+10008 [St00 Fehler im Linkbus links] 1
+10009 [St00 Fehler im Linkbus rechts] 1
+10010 [St00 Lifebit auf dem Linkbus fehlt] 1
+10011 [St00 Transfertür hinten bitte schließen und quittieren] 1
+10012 [St00 Transfertür vorn bitte schließen und quittieren] 1
+10016 [eSM: ESTOP aktiv] 1
+10017 [eSM: Guard nicht aktiv] 1
+10018 [eSM: Endstufe wird kurz abgeschaltet] 1
+10019 [eSM: Starten schlug fehl. Bitte Endstufe, Verkabelung und Motor überprüfen.] 1
+10020 [eSM: kein Stationswiederkehr nach dem ausschalten. Bitte Profibus überprüfen.] 1
+10032 [Hauptachse: kein Fehlerreset der Achse] 1
+10033 [Hauptachse: Achse initialisiert nicht] 1
+10034 [Hauptachse: Achse nicht enabled] 1
+10035 [Hauptachse: Achse nicht busy (fährt nicht)] 1
+10036 [Hauptachse: Achse nicht bereit] 1
+10037 [Hauptachse: Achse referenziert nicht] 1
+10053 [Transfer referenziert nicht vor Modul] 1
+10064 [Übergabe: Zelle ist nicht mehr bereit] 1
+10065 [Übergabe: Zelle ist nicht mehr fertig] 1
+10066 [Übergabe: Vliesbahn ist zu kurz] 1
+10072 [Modul öffnet Schott nicht] 1
+10073 [Modul fährt Vakuumtisch nicht aus] 1
+10074 [Modul öffnet Bänder nicht] 1
+10075 [Modul öffnet Kralle nicht] 1
+10076 [Modul schließt Klemmung nicht] 1
+10077 [Modul fährt Vakuumtisch nicht ein] 1
+10078 [Modul fährt Vließ nicht ein] 1
+10079 [Modul zieht Vließ nicht ein] 1
+10080 [Antrieb 11: kein Fehlerreset der Achse] 1
+10081 [Antrieb 12: kein Fehlerreset der Achse] 1
+10082 [Antrieb 21: kein Fehlerreset der Achse] 1
+10083 [Antrieb 22: kein Fehlerreset der Achse] 1
+10084 [Antrieb 11: Achse initialisiert nicht] 1
+10085 [Antrieb 12: Achse initialisiert nicht] 1
+10086 [Antrieb 21: Achse initialisiert nicht] 1
+10087 [Antrieb 22: Achse initialisiert nicht] 1
+10088 [Antrieb 11: Achse nicht enabled] 1
+10089 [Antrieb 12: Achse nicht enabled] 1
+10090 [Antrieb 21: Achse nicht enabled] 1
+10091 [Antrieb 22: Achse nicht enabled] 1
+10092 [Antrieb 11: Achse nicht busy (fährt nicht)] 1
+10093 [Antrieb 12: Achse nicht busy (fährt nicht)] 1
+10094 [Antrieb 21: Achse nicht busy (fährt nicht)] 1
+10095 [Antrieb 22: Achse nicht busy (fährt nicht)] 1
+10096 [Antrieb 11: Achse nicht bereit] 1
+10097 [Antrieb 12: Achse nicht bereit] 1
+10098 [Antrieb 21: Achse nicht bereit] 1
+10099 [Antrieb 22: Achse nicht bereit] 1
+10100 [Antrieb 11: Achse referenziert nicht] 1
+10101 [Antrieb 12: Achse referenziert nicht] 1
+10102 [Antrieb 21: Achse referenziert nicht] 1
+10103 [Antrieb 22: Achse referenziert nicht] 1
+10104 [Antrieb 12: Achse nicht im Gear-Mode] 1
+10105 [Antrieb 22: Achse nicht im Gear-Mode] 1
+10112 [Zahnriementransport am Wagen 1 nicht geöffent] 1
+10113 [Zahnriementransport am Wagen 2 nicht geöffnet] 1
+10114 [Zahnriementransport am Wagen 1 nicht geschlossen] 1
+10115 [Zahnriementransport am Wagen 2 nicht geschlossen] 1
+10116 [Auflageblech 1 von Wagen 1 nicht ausgefahren] 1
+10117 [Auflageblech 2 von Wagen 1 nicht ausgefahren] 1
+10118 [Auflageblech 1 von Wagen 2 nicht ausgefahren] 1
+10119 [Auflageblech 2 von Wagen 2 nicht ausgefahren] 1
+10120 [Fehler bei Vliesübergabe Transfer -> Modul: zulässiger Fahrweg überschritten] 1
+
+{DATACOLLECTIONEVENTS}
+[0][AlarmDetected]
+[1][AlarmCleared]
+[2][ControlStateLocal]
+[3][ControlStateRemote]
+[4][E10StateChange]
+[5][EquipmentOffline]
+[6][MaterialReceived]
+[7][MaterialRemoved]
+[8][MessageRecognition]
+[9][OperatorEquipmentConstantChange]
+[10][ProcessingCompleted]
+[11][ProcessingStarted]
+[12][ProcessingStateChange]
+[13][ProcessingStopped]
+[14][ProcessProgramChange]
+[15][ProcessProgramCreate]
+[16][ProcessProgramDelete]
+[17][ProcessProgramRecipeSelected]
+[18][SpoolingActivated]
+[19][SpoolingDeactivated]
+[20][SpoolingTransmitFailure]
+[1000][E10StateChangeCutter]
+[1001][E10StateChangeZappa1]
+[1002][E10StateChangeZappa2]
+[1003][E10StateChangeZappa3]
+[1004][E10StateChangeZappa4]
+[1005][E10StateChangeKappa1]
+[1006][E10StateChangeKappa2]
+[1007][E10StateChangeFurnace]
+[1008][E10StateChangeFinalIO]
+[1009][E10StateChangeFinalNIO]
+[1010][E10StateChangeTransfer]
+[2000][ProcessingCompletedCutter]
+[2001][ProcessingCompletedZappaLabeling]
+[2002][ProcessingCompletedZappaAdhesion1]
+[2003][ProcessingCompletedZappaCells]
+[2004][ProcessingCompletedZappaAdhesion2]
+[2005][ProcessingCompletedKappa]
+[2007][ProcessingCompletedFurnace]
+[2008][ProcessingCompletedFinalIO]
+[2009][ProcessingCompletedFinalNIO]
+[2010][ProcessingCompletedTransfer]
+[3000][ProcessingStateChangeCutter]
+[3001][ProcessingStateChangeZappa1]
+[3002][ProcessingStateChangeZappa2]
+[3003][ProcessingStateChangeZappa3]
+[3004][ProcessingStateChangeZappa4]
+[3005][ProcessingStateChangeKappa1]
+[3006][ProcessingStateChangeKappa2]
+[3007][ProcessingStateChangeFurnace]
+[3008][ProcessingStateChangeFinalIO]
+[3009][ProcessingStateChangeFinalNIO]
+[3010][ProcessingStateChangeTransfer]
+
+{HOSTCOMMANDS}
+
+
+
+{VARIABLES}
+[0][AlarmCode] D B
+[1][AlarmID] D U4
+[2][AlarmsEnabled] S List
+[3][AlarmsSet] S List
+[4][AlarmText] D A
+[5][AppSoftRev] S A
+[6][Clock] S A
+[7][CommunicationState] S U1
+[8][ControlState] S U1
+[9][DeviceID] E U2
+[10][E10State] S U1
+[11][EnableSpooling] E Bool
+[12][EqConstID] D U4
+[13][EqpModel] S A
+[14][EqpName] E A
+[15][EqpSerialNum] S A
+[16][EstablishCommunicationsTimeout] E U2
+[17][EventsEnabled] S List
+[18][GEMRev] S A
+[19][Heartbeat] E U2
+[20][InitCommState] E U1
+[21][InitControlState] E U1
+[22][InitOnlineSubstate] E U1
+[23][LocationID] D A
+[24][MaterialID] D A
+[25][MaterialState] D Bool
+[26][MaxSpoolTransmit] E U4
+[27][OfflineSubstate] E U1
+[28][OnlineFailState] E U1
+[29][OnlineSubstate] E U1
+[30][OperatorAction] D A
+[31][OperatorCommand] D U1
+[32][OverWriteSpool] E Bool
+[33][PPChangeName] D A
+[34][PPChangeStatus] D U1
+[35][PPError] S A
+[36][PPExecName] S A
+[37][PPFormat] S U1
+[38][PPUsedName] D A
+[39][PreviousControlState] S U1
+[40][PreviousE10State] S U1
+[41][PreviousProcessState] S U1
+[42][ProcessingResults] D List
+[43][ProcessState] S U1
+[44][ReplyBitS10] E Bool
+[45][ReplyBitS5] E Bool
+[46][ReplyBitS6] E Bool
+[47][SpoolCountActual] S U4
+[48][SpoolCountTotal] S U4
+[49][SpooledRptID] E U4
+[50][SpoolFullTime] S A
+[51][SpoolLoadSubstate] S U1
+[52][SpoolStartTime] S A
+[53][SpoolState] S U1
+[54][SpoolUnloadSubstate] S U1
+[55][TimeFormat] E U1
+[56][UseTimeSync] E Bool
+[1000][XE_KappaID] D A
+[1001][XE_M01FleeceLot] D A
+[1002][XE_M11EqCheckSub] D A
+[1003][XE_M11FleeceLot] D A
+[1004][XE_M11Labeled] D Bool
+[1005][XE_M11LabelLot] D A
+[1006][XE_M11ModuleID] D A
+[1007][XE_M11Recipe] D A
+[1008][XE_M11State] D Bool
+[1009][XE_M11SubID] D A
+[1010][XE_M12Con1Lot] D A
+[1011][XE_M12ModuleID] D A
+[1012][XE_M12Recipe] D A
+[1013][XE_M12State] D Bool
+[1014][XE_M12SubID] D A
+[1015][XE_M13Coil1ID] D A
+[1016][XE_M13Coil2ID] D A
+[1017][XE_M13ModuleID] D A
+[1018][XE_M13Recipe] D A
+[1019][XE_M13State] D Bool
+[1020][XE_M13SubID] D A
+[1021][XE_M13UsedCellIDs] D List
+[1022][XE_M14Con2Lot] D A
+[1023][XE_M14ModuleID] D A
+[1024][XE_M14Recipe] D A
+[1025][XE_M14State] D Bool
+[1026][XE_M14SubID] D A
+[1027][XE_M21MetRecipe] D A
+[1028][XE_M21MetPosOk] D List
+[1029][XE_M21ModuleID] D A
+[1030][XE_M21Paste1Lot] D A
+[1031][XE_M21Paste2Lot] D A
+[1032][XE_M21SubID] D A
+[1033][XE_M31ActualTmp] D List
+[1034][XE_M31DryDur] D U4
+[1035][XE_M31DryRecipe] D A
+[1036][XE_M31SubID] D A
+[1037][XE_M32OutputWell] D U1
+[1038][XE_M32SubID] D A
+[1039][XE_M33ErrorCat] D U1
+[1040][XE_M33ModuleCls] D U1
+[1041][XE_M33SubID] D A
+[1042][XE_ZappaID] D A
+[2000][E10StateCutter] S U1
+[2001][E10StateZappa1] S U1
+[2002][E10StateZappa2] S U1
+[2003][E10StateZappa3] S U1
+[2004][E10StateZappa4] S U1
+[2005][E10StateKappa1] S U1
+[2006][E10StateKappa2] S U1
+[2007][E10StateFurnace] S U1
+[2008][E10StateFinalNIO] S U1
+[2009][E10StateFinalIO] S U1
+[2010][E10StateTransfer] S U1
+[3000][PreviousE10StateCutter] S U1
+[3001][PreviousE10StateZappa1] S U1
+[3002][PreviousE10StateZappa2] S U1
+[3003][PreviousE10StateZappa3] S U1
+[3004][PreviousE10StateZappa4] S U1
+[3005][PreviousE10StateKappa1] S U1
+[3006][PreviousE10StateKappa2] S U1
+[3007][PreviousE10StateFurnace] S U1
+[3008][PreviousE10StateFinalNIO] S U1
+[3009][PreviousE10StateFinalIO] S U1
+[3010][PreviousE10StateTransfer] S U1
+[4000][PreviousProcessStateCutter] S U1
+[4001][PreviousProcessStateZappa1] S U1
+[4002][PreviousProcessStateZappa2] S U1
+[4003][PreviousProcessStateZappa3] S U1
+[4004][PreviousProcessStateZappa4] S U1
+[4005][PreviousProcessStateKappa1] S U1
+[4006][PreviousProcessStateKappa2] S U1
+[4007][PreviousProcessStateFurnace] S U1
+[4008][PreviousProcessStateFinalNIO] S U1
+[4009][PreviousProcessStateFinalIO] S U1
+[4010][PreviousProcessStateTransfer] S U1
+[5000][ProcessingResultCutter] D List
+[5001][ProcessingResultZappaLabeling] D List
+[5002][ProcessingResultZappaAdhesion1] D List
+[5003][ProcessingResultZappaCells] D List
+[5004][ProcessingResultZappaAdhesion2] D List
+[5005][ProcessingResultKappa] D List
+[5006][ProcessingResultFurnace] D List
+[5007][ProcessingResultFinalNIO] D List
+[5008][ProcessingResultFinalIO] D List
+[6000][ProcessStateCutter] S U1
+[6001][ProcessStateZappa1] S U1
+[6002][ProcessStateZappa2] S U1
+[6003][ProcessStateZappa3] S U1
+[6004][ProcessStateZappa4] S U1
+[6005][ProcessStateKappa1] S U1
+[6006][ProcessStateKappa2] S U1
+[6007][ProcessStateFurnace] S U1
+[6008][ProcessStateFinalNIO] S U1
+[6009][ProcessStateFinalIO] S U1
+[6010][ProcessStateTransfer] S U1
+

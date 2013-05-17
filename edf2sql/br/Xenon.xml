@@ -1,0 +1,994 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<drvConfig xmlns="http://www.camline.com/so/eco/drv" xmlns:c="http://www.camline.com/so/api/commons" xmlns:le="http://www.camline.com/soc/dispatcher"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.camline.com/so/eco/drv ../config/xsd/driver.xsd ">
+	<services>
+		<service id="bpe" messageFormat="xml" protocol="iiop">
+			<c:objref host="solarion" port="13000" objectKey="StandardImplName/soc-bpe/soc-bpe" />
+		</service>
+		<service id="explorer" messageFormat="xml" protocol="iiop">
+			<c:objref host="solarion" port="13000" objectKey="StandardImplName/soc-dispatcher/soc-dispatcher" />
+		</service>
+	</services>
+	
+	<queries>
+		<query plugin="iGate" serviceId="explorer" id="ecoclients">
+			<c:arg name="file" value="solarion/br/eco_server_address.xml"/>
+			<c:key name="eqId" value="remoteEqId"/>
+		</query>
+	</queries>
+	
+	<!--
+	LocationID
+		0 = Cutter
+		
+		11 = Zappa 1
+		111 = Zappa 1: Labeling
+		114 = Zappa 1: Adhesion 2
+		12 = Zappa 2
+		121 = Zappa 2: Labeling
+		124 = Zappa 2: Adhesion 2
+		13 = Zappa 3
+		131 = Zappa 3: Labeling
+		134 = Zappa 3: Adhesion 2
+		14 = Zappa 4
+		141 = Zappa 4: Labeling
+		144 = Zappa 4: Adhesion 2
+		
+		21 = Kappa 1
+		22 = Kappa 2
+		
+		3 = Furnace
+		5 = Final IO
+		4 = Final NIO			
+	-->
+	
+	<brEvents>
+	
+	<!--=====================================================================-->
+	<!-- Cutter                          									 -->
+	<!--=====================================================================-->
+		
+		<remoteDriverAction actionName="raiseEvent" eventName="MaterialReceived">
+			<conditionBlock>
+				<c:condition name="EventVar:LocationID" value="0" operator="eq" valueType="string"/>
+			</conditionBlock>
+			<remoteEqId varName="GFC_01_01" varSource="literal"/>
+			<args keyName="eventName" varName="zzCL_MaterialReceived" varSource="literal"/>
+			<args keyName="zzCL_MaterialID" varName="MaterialID" />
+			<args keyName="zzCL_Operator" varName="eqId" varSource="constant"/>
+			<args keyName="zzCL_UserComment" varName="" varSource="literal"/>
+		</remoteDriverAction>
+
+		<remoteDriverAction actionName="raiseEvent" eventName="ProcessingStarted">
+			<conditionBlock>
+				<c:condition name="EventVar:LocationID" value="0" operator="eq" valueType="string"/>
+			</conditionBlock>
+			<remoteEqId varName="GFC_01_01" varSource="literal"/>
+			<args keyName="eventName" varName="zzCL_ProcessingStarted" varSource="literal"/>
+			<args keyName="zzCL_MaterialID" varName="MaterialID" />
+			<args keyName="zzCL_Operator" varName="eqId" varSource="constant"/>
+			<args keyName="zzCL_UserComment" varName="" varSource="literal"/>
+		</remoteDriverAction>
+
+		<remoteDriverAction actionName="raiseEvent" eventName="ProcessingCompletedCutter">
+			<remoteEqId varName="GFC_01_01" varSource="literal"/>
+			<args keyName="eventName" varName="zzCL_ProcessingFinished" varSource="literal"/>
+			<args keyName="zzCL_MaterialID" varName="MaterialID" />
+			<args keyName="zzCL_Operator" varName="eqId" varSource="constant"/>
+			<args keyName="zzCL_UserComment" varName="" varSource="literal"/>
+		</remoteDriverAction>
+
+		<remoteDriverAction actionName="raiseEvent" eventName="MaterialRemoved">
+			<conditionBlock>
+				<c:condition name="EventVar:LocationID" value="0" operator="eq" valueType="string"/>
+			</conditionBlock>
+			<remoteEqId varName="GFC_01_01" varSource="literal"/>
+			<args keyName="eventName" varName="zzCL_MaterialSent" varSource="literal"/>
+			<args keyName="zzCL_MaterialID" varName="MaterialID" />
+			<args keyName="zzCL_Operator" varName="eqId" varSource="constant"/>
+			<args keyName="zzCL_UserComment" varName="" varSource="literal"/>
+		</remoteDriverAction>
+<!-- 
+		<checkIn eventName="MaterialReceived">
+			<conditionBlock>
+				<c:condition name="EventVar:LocationID" value="0" operator="eq" valueType="string"/>
+			</conditionBlock>
+			<requestControl keyName="eqType" varName="gross_cut" varSource="literal" />
+			<operator varName="eqId" varSource="constant"/>
+			<trackingEqId varName="GFC_01_01" varSource="literal"/>
+			<carrierId>
+				<id keyName="unitId" varName="MaterialID" />
+				<id keyName="unitIdType" varName="MODULE" varSource="literal" />
+				<id keyName="psName" varName="Glass Fleece Cutter" varSource="literal" />
+			</carrierId>
+		</checkIn>
+
+		<processStart eventName="ProcessingStarted">
+			<conditionBlock>
+				<c:condition name="EventVar:LocationID" value="0" operator="eq" valueType="string"/>
+			</conditionBlock>
+			<operator varName="eqId" varSource="constant"/>
+			<trackingEqId varName="GFC_01_01" varSource="literal"/>
+			<carrierId>
+				<id keyName="unitId" varName="MaterialID" />
+				<id keyName="unitIdType" varName="MODULE" varSource="literal" />
+			</carrierId>
+		</processStart>
+
+		<processEnd eventName="ProcessingCompletedCutter">
+			<operator varName="eqId" varSource="constant"/>
+			<trackingEqId varName="GFC_01_01" varSource="literal"/>
+			<carrierId>
+				<id keyName="unitId" varName="MaterialID" />
+				<id keyName="unitIdType" varName="MODULE" varSource="literal" />
+			</carrierId>
+		</processEnd>
+
+		<checkOut eventName="MaterialRemoved">
+			<conditionBlock>
+				<c:condition name="EventVar:LocationID" value="0" operator="eq" valueType="string"/>
+			</conditionBlock>
+			<operator varName="eqId" varSource="constant"/>
+			<trackingEqId varName="GFC_01_01" varSource="literal"/>
+			<carrierId>
+				<id keyName="unitId" varName="MaterialID" />
+				<id keyName="unitIdType" varName="MODULE" varSource="literal" />
+			</carrierId>
+		</checkOut>
+-->		
+	<!--=====================================================================-->
+	<!-- Zappa 1                          									 -->
+	<!--=====================================================================-->
+	
+		<remoteDriverAction actionName="raiseEvent" eventName="MaterialReceived">
+			<conditionBlock>
+				<c:condition name="EventVar:LocationID" value="11" operator="eq" valueType="string"/>
+			</conditionBlock>
+			<remoteEqId varName="CAT_01_01" varSource="literal"/>
+			<args keyName="eventName" varName="zzCL_MaterialReceived" varSource="literal"/>
+			<args keyName="zzCL_MaterialID" varName="MaterialID" />
+			<args keyName="zzCL_Operator" varName="eqId" varSource="constant"/>
+			<args keyName="zzCL_UserComment" varName="" varSource="literal"/>
+		</remoteDriverAction>
+
+		<remoteDriverAction actionName="raiseEvent" eventName="ProcessingStarted">
+			<conditionBlock>
+				<c:condition name="EventVar:LocationID" value="111" operator="eq" valueType="string"/>
+			</conditionBlock>
+			<remoteEqId varName="CAT_01_01" varSource="literal"/>
+			<args keyName="eventName" varName="zzCL_ProcessingStarted" varSource="literal"/>
+			<args keyName="zzCL_MaterialID" varName="MaterialID" />
+			<args keyName="zzCL_Operator" varName="eqId" varSource="constant"/>
+			<args keyName="zzCL_UserComment" varName="" varSource="literal"/>
+		</remoteDriverAction>
+
+		<remoteDriverAction actionName="raiseEvent" eventName="ProcessingCompletedZappaAdhesion2">
+			<conditionBlock>
+				<c:condition name="Internal:LocID" value="CAT_01_01" />
+			</conditionBlock>
+			<remoteEqId varName="CAT_01_01" varSource="literal"/>
+			<args keyName="eventName" varName="zzCL_ProcessingFinished" varSource="literal"/>
+			<args keyName="zzCL_MaterialID" varName="MaterialID" />
+			<args keyName="zzCL_Operator" varName="eqId" varSource="constant"/>
+			<args keyName="zzCL_UserComment" varName="" varSource="literal"/>
+		</remoteDriverAction>
+
+		<remoteDriverAction actionName="raiseEvent" eventName="MaterialRemoved">
+			<conditionBlock>
+				<c:condition name="EventVar:LocationID" value="11" operator="eq" valueType="string"/>
+			</conditionBlock>
+			<remoteEqId varName="CAT_01_01" varSource="literal"/>
+			<args keyName="eventName" varName="zzCL_MaterialSent" varSource="literal"/>
+			<args keyName="zzCL_MaterialID" varName="MaterialID" />
+			<args keyName="zzCL_Operator" varName="eqId" varSource="constant"/>
+			<args keyName="zzCL_UserComment" varName="" varSource="literal"/>
+		</remoteDriverAction>
+		
+		<!--checkIn eventName="MaterialReceived">
+			<conditionBlock>
+				<c:condition name="EventVar:LocationID" value="11" operator="eq" valueType="string"/>
+			</conditionBlock>
+			<operator varName="eqId" varSource="constant"/>
+			<trackingEqId varName="CAT_01_01" varSource="literal"/>
+			<carrierId>
+				<id keyName="unitId" varName="MaterialID" />
+				<id keyName="unitIdType" varName="MODULE" varSource="literal" />
+				<id keyName="psName" varName="Cell Application Tool" varSource="literal" />
+			</carrierId>
+		</checkIn>
+		
+		<processStart eventName="ProcessingStarted">
+			<conditionBlock>
+				<c:condition name="EventVar:LocationID" value="111" operator="eq" valueType="string"/>
+			</conditionBlock>
+			<operator varName="eqId" varSource="constant"/>
+			<trackingEqId varName="CAT_01_01" varSource="literal"/>
+			<carrierId>
+				<id keyName="unitId" varName="MaterialID" />
+				<id keyName="unitIdType" varName="MODULE" varSource="literal" />
+			</carrierId>
+		</processStart>
+		
+		<processEnd eventName="ProcessingCompletedZappaAdhesion2">
+			<conditionBlock>
+				<c:condition name="Internal:LocID" value="CAT_01_01" />
+			</conditionBlock>
+			<operator varName="eqId" varSource="constant"/>
+			<trackingEqId varName="CAT_01_01" varSource="literal"/>
+			<carrierId>
+				<id keyName="unitId" varName="MaterialID" />
+				<id keyName="unitIdType" varName="MODULE" varSource="literal" />
+			</carrierId>
+		</processEnd>
+
+		<checkOut eventName="MaterialRemoved">
+			<conditionBlock>
+				<c:condition name="EventVar:LocationID" value="11" operator="eq" valueType="string"/>
+			</conditionBlock>
+			<operator varName="eqId" varSource="constant"/>
+			<trackingEqId varName="CAT_01_01" varSource="literal"/>
+			<carrierId>
+				<id keyName="unitId" varName="MaterialID" />
+				<id keyName="unitIdType" varName="MODULE" varSource="literal" />
+			</carrierId>
+		</checkOut-->
+		
+	<!--=====================================================================-->
+	<!-- Zappa 2                          									 -->
+	<!--=====================================================================-->
+		
+		<remoteDriverAction actionName="raiseEvent" eventName="MaterialReceived">
+			<conditionBlock>
+				<c:condition name="EventVar:LocationID" value="12" operator="eq" valueType="string"/>
+			</conditionBlock>
+			<remoteEqId varName="CAT_01_02" varSource="literal"/>
+			<args keyName="eventName" varName="zzCL_MaterialReceived" varSource="literal"/>
+			<args keyName="zzCL_MaterialID" varName="MaterialID" />
+			<args keyName="zzCL_Operator" varName="eqId" varSource="constant"/>
+			<args keyName="zzCL_UserComment" varName="" varSource="literal"/>
+		</remoteDriverAction>
+
+		<remoteDriverAction actionName="raiseEvent" eventName="ProcessingStarted">
+			<conditionBlock>
+				<c:condition name="EventVar:LocationID" value="121" operator="eq" valueType="string"/>
+			</conditionBlock>
+			<remoteEqId varName="CAT_01_02" varSource="literal"/>
+			<args keyName="eventName" varName="zzCL_ProcessingStarted" varSource="literal"/>
+			<args keyName="zzCL_MaterialID" varName="MaterialID" />
+			<args keyName="zzCL_Operator" varName="eqId" varSource="constant"/>
+			<args keyName="zzCL_UserComment" varName="" varSource="literal"/>
+		</remoteDriverAction>
+
+		<remoteDriverAction actionName="raiseEvent" eventName="ProcessingCompletedZappaAdhesion2">
+			<conditionBlock>
+				<c:condition name="Internal:LocID" value="CAT_01_02" />
+			</conditionBlock>
+			<remoteEqId varName="CAT_01_02" varSource="literal"/>
+			<args keyName="eventName" varName="zzCL_ProcessingFinished" varSource="literal"/>
+			<args keyName="zzCL_MaterialID" varName="MaterialID" />
+			<args keyName="zzCL_Operator" varName="eqId" varSource="constant"/>
+			<args keyName="zzCL_UserComment" varName="" varSource="literal"/>
+		</remoteDriverAction>
+
+		<remoteDriverAction actionName="raiseEvent" eventName="MaterialRemoved">
+			<conditionBlock>
+				<c:condition name="EventVar:LocationID" value="12" operator="eq" valueType="string"/>
+			</conditionBlock>
+			<remoteEqId varName="CAT_01_02" varSource="literal"/>
+			<args keyName="eventName" varName="zzCL_MaterialSent" varSource="literal"/>
+			<args keyName="zzCL_MaterialID" varName="MaterialID" />
+			<args keyName="zzCL_Operator" varName="eqId" varSource="constant"/>
+			<args keyName="zzCL_UserComment" varName="" varSource="literal"/>
+		</remoteDriverAction>
+		
+		<!--checkIn eventName="MaterialReceived">
+			<conditionBlock>
+				<c:condition name="EventVar:LocationID" value="12" operator="eq" valueType="string"/>
+			</conditionBlock>
+			<operator varName="eqId" varSource="constant"/>
+			<trackingEqId varName="CAT_01_02" varSource="literal"/>
+			<carrierId>
+				<id keyName="unitId" varName="MaterialID" />
+				<id keyName="unitIdType" varName="MODULE" varSource="literal" />
+				<id keyName="psName" varName="Cell Application Tool" varSource="literal" />
+			</carrierId>
+		</checkIn>
+		
+		<processStart eventName="ProcessingStarted">
+			<conditionBlock>
+				<c:condition name="EventVar:LocationID" value="121" operator="eq" valueType="string"/>
+			</conditionBlock>
+			<operator varName="eqId" varSource="constant"/>
+			<trackingEqId varName="CAT_01_02" varSource="literal"/>
+			<carrierId>
+				<id keyName="unitId" varName="MaterialID" />
+				<id keyName="unitIdType" varName="MODULE" varSource="literal" />
+			</carrierId>
+		</processStart>
+		
+		<processEnd eventName="ProcessingCompletedZappaAdhesion2">
+			<conditionBlock>
+				<c:condition name="Internal:LocID" value="CAT_01_02" />
+			</conditionBlock>
+			<operator varName="eqId" varSource="constant"/>
+			<trackingEqId varName="CAT_01_02" varSource="literal"/>
+			<carrierId>
+				<id keyName="unitId" varName="MaterialID" />
+				<id keyName="unitIdType" varName="MODULE" varSource="literal" />
+			</carrierId>
+		</processEnd>
+
+		<checkOut eventName="MaterialRemoved">
+			<conditionBlock>
+				<c:condition name="EventVar:LocationID" value="12" operator="eq" valueType="string"/>
+			</conditionBlock>
+			<operator varName="eqId" varSource="constant"/>
+			<trackingEqId varName="CAT_01_02" varSource="literal"/>
+			<carrierId>
+				<id keyName="unitId" varName="MaterialID" />
+				<id keyName="unitIdType" varName="MODULE" varSource="literal" />
+			</carrierId>
+		</checkOut-->
+		
+	<!--=====================================================================-->
+	<!-- Zappa 3                          									 -->
+	<!--=====================================================================-->
+		<remoteDriverAction actionName="raiseEvent" eventName="MaterialReceived">
+			<conditionBlock>
+				<c:condition name="EventVar:LocationID" value="13" operator="eq" valueType="string"/>
+			</conditionBlock>
+			<remoteEqId varName="CAT_01_03" varSource="literal"/>
+			<args keyName="eventName" varName="zzCL_MaterialReceived" varSource="literal"/>
+			<args keyName="zzCL_MaterialID" varName="MaterialID" />
+			<args keyName="zzCL_Operator" varName="eqId" varSource="constant"/>
+			<args keyName="zzCL_UserComment" varName="" varSource="literal"/>
+		</remoteDriverAction>
+
+		<remoteDriverAction actionName="raiseEvent" eventName="ProcessingStarted">
+			<conditionBlock>
+				<c:condition name="EventVar:LocationID" value="131" operator="eq" valueType="string"/>
+			</conditionBlock>
+			<remoteEqId varName="CAT_01_03" varSource="literal"/>
+			<args keyName="eventName" varName="zzCL_ProcessingStarted" varSource="literal"/>
+			<args keyName="zzCL_MaterialID" varName="MaterialID" />
+			<args keyName="zzCL_Operator" varName="eqId" varSource="constant"/>
+			<args keyName="zzCL_UserComment" varName="" varSource="literal"/>
+		</remoteDriverAction>
+
+		<remoteDriverAction actionName="raiseEvent" eventName="ProcessingCompletedZappaAdhesion2">
+			<conditionBlock>
+				<c:condition name="Internal:LocID" value="CAT_01_03" />
+			</conditionBlock>
+			<remoteEqId varName="CAT_01_03" varSource="literal"/>
+			<args keyName="eventName" varName="zzCL_ProcessingFinished" varSource="literal"/>
+			<args keyName="zzCL_MaterialID" varName="MaterialID" />
+			<args keyName="zzCL_Operator" varName="eqId" varSource="constant"/>
+			<args keyName="zzCL_UserComment" varName="" varSource="literal"/>
+		</remoteDriverAction>
+
+		<remoteDriverAction actionName="raiseEvent" eventName="MaterialRemoved">
+			<conditionBlock>
+				<c:condition name="EventVar:LocationID" value="13" operator="eq" valueType="string"/>
+			</conditionBlock>
+			<remoteEqId varName="CAT_01_03" varSource="literal"/>
+			<args keyName="eventName" varName="zzCL_MaterialSent" varSource="literal"/>
+			<args keyName="zzCL_MaterialID" varName="MaterialID" />
+			<args keyName="zzCL_Operator" varName="eqId" varSource="constant"/>
+			<args keyName="zzCL_UserComment" varName="" varSource="literal"/>
+		</remoteDriverAction>
+<!-- 
+		<checkIn eventName="MaterialReceived">
+			<conditionBlock>
+				<c:condition name="EventVar:LocationID" value="13" operator="eq" valueType="string"/>
+			</conditionBlock>
+			<operator varName="eqId" varSource="constant"/>
+			<trackingEqId varName="CAT_01_03" varSource="literal"/>
+			<carrierId>
+				<id keyName="unitId" varName="MaterialID" />
+				<id keyName="unitIdType" varName="MODULE" varSource="literal" />
+				<id keyName="psName" varName="Cell Application Tool" varSource="literal" />
+			</carrierId>
+		</checkIn>
+		
+		<processStart eventName="ProcessingStarted">
+			<conditionBlock>
+				<c:condition name="EventVar:LocationID" value="131" operator="eq" valueType="string"/>
+			</conditionBlock>
+			<operator varName="eqId" varSource="constant"/>
+			<trackingEqId varName="CAT_01_03" varSource="literal"/>
+			<carrierId>
+				<id keyName="unitId" varName="MaterialID" />
+				<id keyName="unitIdType" varName="MODULE" varSource="literal" />
+			</carrierId>
+		</processStart>
+		
+		<processEnd eventName="ProcessingCompletedZappaAdhesion2">
+			<conditionBlock>
+				<c:condition name="Internal:LocID" value="CAT_01_03" />
+			</conditionBlock>
+			<operator varName="eqId" varSource="constant"/>
+			<trackingEqId varName="CAT_01_03" varSource="literal"/>
+			<carrierId>
+				<id keyName="unitId" varName="MaterialID" />
+				<id keyName="unitIdType" varName="MODULE" varSource="literal" />
+			</carrierId>
+		</processEnd>
+
+		<checkOut eventName="MaterialRemoved">
+			<conditionBlock>
+				<c:condition name="EventVar:LocationID" value="13" operator="eq" valueType="string"/>
+			</conditionBlock>
+			<operator varName="eqId" varSource="constant"/>
+			<trackingEqId varName="CAT_01_03" varSource="literal"/>
+			<carrierId>
+				<id keyName="unitId" varName="MaterialID" />
+				<id keyName="unitIdType" varName="MODULE" varSource="literal" />
+			</carrierId>
+		</checkOut>
+-->
+	<!--=====================================================================-->
+	<!-- Zappa 4                          									 -->
+	<!--=====================================================================-->
+		
+		<remoteDriverAction actionName="raiseEvent" eventName="MaterialReceived">
+			<conditionBlock>
+				<c:condition name="EventVar:LocationID" value="14" operator="eq" valueType="string"/>
+			</conditionBlock>
+			<remoteEqId varName="CAT_01_04" varSource="literal"/>
+			<args keyName="eventName" varName="zzCL_MaterialReceived" varSource="literal"/>
+			<args keyName="zzCL_MaterialID" varName="MaterialID" />
+			<args keyName="zzCL_Operator" varName="eqId" varSource="constant"/>
+			<args keyName="zzCL_UserComment" varName="" varSource="literal"/>
+		</remoteDriverAction>
+
+		<remoteDriverAction actionName="raiseEvent" eventName="ProcessingStarted">
+			<conditionBlock>
+				<c:condition name="EventVar:LocationID" value="141" operator="eq" valueType="string"/>
+			</conditionBlock>
+			<remoteEqId varName="CAT_01_04" varSource="literal"/>
+			<args keyName="eventName" varName="zzCL_ProcessingStarted" varSource="literal"/>
+			<args keyName="zzCL_MaterialID" varName="MaterialID" />
+			<args keyName="zzCL_Operator" varName="eqId" varSource="constant"/>
+			<args keyName="zzCL_UserComment" varName="" varSource="literal"/>
+		</remoteDriverAction>
+
+		<remoteDriverAction actionName="raiseEvent" eventName="ProcessingCompletedZappaAdhesion2">
+			<conditionBlock>
+				<c:condition name="Internal:LocID" value="CAT_01_04" />
+			</conditionBlock>
+			<remoteEqId varName="CAT_01_04" varSource="literal"/>
+			<args keyName="eventName" varName="zzCL_ProcessingFinished" varSource="literal"/>
+			<args keyName="zzCL_MaterialID" varName="MaterialID" />
+			<args keyName="zzCL_Operator" varName="eqId" varSource="constant"/>
+			<args keyName="zzCL_UserComment" varName="" varSource="literal"/>
+		</remoteDriverAction>
+
+		<remoteDriverAction actionName="raiseEvent" eventName="MaterialRemoved">
+			<conditionBlock>
+				<c:condition name="EventVar:LocationID" value="14" operator="eq" valueType="string"/>
+			</conditionBlock>
+			<remoteEqId varName="CAT_01_04" varSource="literal"/>
+			<args keyName="eventName" varName="zzCL_MaterialSent" varSource="literal"/>
+			<args keyName="zzCL_MaterialID" varName="MaterialID" />
+			<args keyName="zzCL_Operator" varName="eqId" varSource="constant"/>
+			<args keyName="zzCL_UserComment" varName="" varSource="literal"/>
+		</remoteDriverAction>
+		
+		<!--checkIn eventName="MaterialReceived">
+			<conditionBlock>
+				<c:condition name="EventVar:LocationID" value="14" operator="eq" valueType="string"/>
+			</conditionBlock>
+			<operator varName="eqId" varSource="constant"/>
+			<trackingEqId varName="CAT_01_04" varSource="literal"/>
+			<carrierId>
+				<id keyName="unitId" varName="MaterialID" />
+				<id keyName="unitIdType" varName="MODULE" varSource="literal" />
+				<id keyName="psName" varName="Cell Application Tool" varSource="literal" />
+			</carrierId>
+		</checkIn>
+		
+		<processStart eventName="ProcessingStarted">
+			<conditionBlock>
+				<c:condition name="EventVar:LocationID" value="141" operator="eq" valueType="string"/>
+			</conditionBlock>
+			<operator varName="eqId" varSource="constant"/>
+			<trackingEqId varName="CAT_01_04" varSource="literal"/>
+			<carrierId>
+				<id keyName="unitId" varName="MaterialID" />
+				<id keyName="unitIdType" varName="MODULE" varSource="literal" />
+			</carrierId>
+		</processStart>
+		
+		<processEnd eventName="ProcessingCompletedZappaAdhesion2">
+			<conditionBlock>
+				<c:condition name="Internal:LocID" value="CAT_01_04" />
+			</conditionBlock>
+			<operator varName="eqId" varSource="constant"/>
+			<trackingEqId varName="CAT_01_04" varSource="literal"/>
+			<carrierId>
+				<id keyName="unitId" varName="MaterialID" />
+				<id keyName="unitIdType" varName="MODULE" varSource="literal" />
+			</carrierId>
+		</processEnd>
+
+		<checkOut eventName="MaterialRemoved">
+			<conditionBlock>
+				<c:condition name="EventVar:LocationID" value="14" operator="eq" valueType="string"/>
+			</conditionBlock>
+			<operator varName="eqId" varSource="constant"/>
+			<trackingEqId varName="CAT_01_04" varSource="literal"/>
+			<carrierId>
+				<id keyName="unitId" varName="MaterialID" />
+				<id keyName="unitIdType" varName="MODULE" varSource="literal" />
+			</carrierId>
+		</checkOut-->
+		
+	<!--=====================================================================-->
+	<!-- Kappa 1                          									 -->
+	<!--=====================================================================-->	
+		
+		<remoteDriverAction actionName="raiseEvent" eventName="MaterialReceived">
+			<conditionBlock>
+				<c:condition name="EventVar:LocationID" value="21" operator="eq" valueType="string"/>
+			</conditionBlock>
+			<remoteEqId varName="AAT_01_01" varSource="literal"/>
+			<args keyName="eventName" varName="zzCL_MaterialReceived" varSource="literal"/>
+			<args keyName="zzCL_MaterialID" varName="MaterialID" />
+			<args keyName="zzCL_Operator" varName="eqId" varSource="constant"/>
+			<args keyName="zzCL_UserComment" varName="" varSource="literal"/>
+		</remoteDriverAction>
+
+		<remoteDriverAction actionName="raiseEvent" eventName="ProcessingStarted">
+			<conditionBlock>
+				<c:condition name="EventVar:LocationID" value="21" operator="eq" valueType="string"/>
+			</conditionBlock>
+			<remoteEqId varName="AAT_01_01" varSource="literal"/>
+			<args keyName="eventName" varName="zzCL_ProcessingStarted" varSource="literal"/>
+			<args keyName="zzCL_MaterialID" varName="MaterialID" />
+			<args keyName="zzCL_Operator" varName="eqId" varSource="constant"/>
+			<args keyName="zzCL_UserComment" varName="" varSource="literal"/>
+		</remoteDriverAction>
+
+		<remoteDriverAction actionName="raiseEvent" eventName="ProcessingCompletedKappa">
+			<conditionBlock>
+				<c:condition name="Internal:LocID" value="AAT_01_01" />
+			</conditionBlock>
+			<remoteEqId varName="AAT_01_01" varSource="literal"/>
+			<args keyName="eventName" varName="zzCL_ProcessingFinished" varSource="literal"/>
+			<args keyName="zzCL_MaterialID" varName="MaterialID" />
+			<args keyName="zzCL_Operator" varName="eqId" varSource="constant"/>
+			<args keyName="zzCL_UserComment" varName="" varSource="literal"/>
+		</remoteDriverAction>
+
+		<remoteDriverAction actionName="raiseEvent" eventName="MaterialRemoved">
+			<conditionBlock>
+				<c:condition name="EventVar:LocationID" value="21" operator="eq" valueType="string"/>
+			</conditionBlock>
+			<remoteEqId varName="AAT_01_01" varSource="literal"/>
+			<args keyName="eventName" varName="zzCL_MaterialSent" varSource="literal"/>
+			<args keyName="zzCL_MaterialID" varName="MaterialID" />
+			<args keyName="zzCL_Operator" varName="eqId" varSource="constant"/>
+			<args keyName="zzCL_UserComment" varName="" varSource="literal"/>
+		</remoteDriverAction>
+		
+		<!--checkIn eventName="MaterialReceived">
+			<conditionBlock>
+				<c:condition name="EventVar:LocationID" value="21" operator="eq" valueType="string"/>
+			</conditionBlock>
+			<operator varName="eqId" varSource="constant"/>
+			<trackingEqId varName="AAT_01_01" varSource="literal"/>
+			<carrierId>
+				<id keyName="unitId" varName="MaterialID" />
+				<id keyName="unitIdType" varName="MODULE" varSource="literal" />
+				<id keyName="psName" varName="Adhesive Application Tool" varSource="literal" />
+			</carrierId>
+		</checkIn>
+
+		<processStart eventName="ProcessingStarted">
+			<conditionBlock>
+				<c:condition name="EventVar:LocationID" value="21" operator="eq" valueType="string"/>
+			</conditionBlock>
+			<operator varName="eqId" varSource="constant"/>
+			<trackingEqId varName="AAT_01_01" varSource="literal"/>
+			<carrierId>
+				<id keyName="unitId" varName="MaterialID" />
+				<id keyName="unitIdType" varName="MODULE" varSource="literal" />
+			</carrierId>
+		</processStart>
+
+		<processEnd eventName="ProcessingCompletedKappa">
+			<conditionBlock>
+				<c:condition name="Internal:LocID" value="AAT_01_01" />
+			</conditionBlock>
+			<operator varName="eqId" varSource="constant"/>
+			<trackingEqId varName="AAT_01_01" varSource="literal"/>
+			<carrierId>
+				<id keyName="unitId" varName="MaterialID" />
+				<id keyName="unitIdType" varName="MODULE" varSource="literal" />
+			</carrierId>
+		</processEnd>
+
+		<checkOut eventName="MaterialRemoved">
+			<conditionBlock>
+				<c:condition name="EventVar:LocationID" value="21" operator="eq" valueType="string"/>
+			</conditionBlock>
+			<operator varName="eqId" varSource="constant"/>
+			<trackingEqId varName="AAT_01_01" varSource="literal"/>
+			<carrierId>
+				<id keyName="unitId" varName="MaterialID" />
+				<id keyName="unitIdType" varName="MODULE" varSource="literal" />
+			</carrierId>
+		</checkOut-->
+		
+	<!--=====================================================================-->
+	<!-- Kappa 2                          									 -->
+	<!--=====================================================================-->	
+		
+		<remoteDriverAction actionName="raiseEvent" eventName="MaterialReceived">
+			<conditionBlock>
+				<c:condition name="EventVar:LocationID" value="22" operator="eq" valueType="string"/>
+			</conditionBlock>
+			<remoteEqId varName="AAT_01_02" varSource="literal"/>
+			<args keyName="eventName" varName="zzCL_MaterialReceived" varSource="literal"/>
+			<args keyName="zzCL_MaterialID" varName="MaterialID" />
+			<args keyName="zzCL_Operator" varName="eqId" varSource="constant"/>
+			<args keyName="zzCL_UserComment" varName="" varSource="literal"/>
+		</remoteDriverAction>
+
+		<remoteDriverAction actionName="raiseEvent" eventName="ProcessingStarted">
+			<conditionBlock>
+				<c:condition name="EventVar:LocationID" value="22" operator="eq" valueType="string"/>
+			</conditionBlock>
+			<remoteEqId varName="AAT_01_02" varSource="literal"/>
+			<args keyName="eventName" varName="zzCL_ProcessingStarted" varSource="literal"/>
+			<args keyName="zzCL_MaterialID" varName="MaterialID" />
+			<args keyName="zzCL_Operator" varName="eqId" varSource="constant"/>
+			<args keyName="zzCL_UserComment" varName="" varSource="literal"/>
+		</remoteDriverAction>
+
+		<remoteDriverAction actionName="raiseEvent" eventName="ProcessingCompletedKappa">
+			<conditionBlock>
+				<c:condition name="Internal:LocID" value="AAT_01_02" />
+			</conditionBlock>
+			<remoteEqId varName="AAT_01_02" varSource="literal"/>
+			<args keyName="eventName" varName="zzCL_ProcessingFinished" varSource="literal"/>
+			<args keyName="zzCL_MaterialID" varName="MaterialID" />
+			<args keyName="zzCL_Operator" varName="eqId" varSource="constant"/>
+			<args keyName="zzCL_UserComment" varName="" varSource="literal"/>
+		</remoteDriverAction>
+
+		<remoteDriverAction actionName="raiseEvent" eventName="MaterialRemoved">
+			<conditionBlock>
+				<c:condition name="EventVar:LocationID" value="22" operator="eq" valueType="string"/>
+			</conditionBlock>
+			<remoteEqId varName="AAT_01_02" varSource="literal"/>
+			<args keyName="eventName" varName="zzCL_MaterialSent" varSource="literal"/>
+			<args keyName="zzCL_MaterialID" varName="MaterialID" />
+			<args keyName="zzCL_Operator" varName="eqId" varSource="constant"/>
+			<args keyName="zzCL_UserComment" varName="" varSource="literal"/>
+		</remoteDriverAction>
+		
+		<!--checkIn eventName="MaterialReceived">
+			<conditionBlock>
+				<c:condition name="EventVar:LocationID" value="22" operator="eq" valueType="string"/>
+			</conditionBlock>
+			<operator varName="eqId" varSource="constant"/>
+			<trackingEqId varName="AAT_01_02" varSource="literal"/>
+			<carrierId>
+				<id keyName="unitId" varName="MaterialID" />
+				<id keyName="unitIdType" varName="MODULE" varSource="literal" />
+				<id keyName="psName" varName="Adhesive Application Tool" varSource="literal" />
+			</carrierId>
+		</checkIn>
+
+		<processStart eventName="ProcessingStarted">
+			<conditionBlock>
+				<c:condition name="EventVar:LocationID" value="22" operator="eq" valueType="string"/>
+			</conditionBlock>
+			<operator varName="eqId" varSource="constant"/>
+			<trackingEqId varName="AAT_01_02" varSource="literal"/>
+			<carrierId>
+				<id keyName="unitId" varName="MaterialID" />
+				<id keyName="unitIdType" varName="MODULE" varSource="literal" />
+			</carrierId>
+		</processStart>
+
+		<processEnd eventName="ProcessingCompletedKappa">
+			<conditionBlock>
+				<c:condition name="Internal:LocID" value="AAT_01_02" />
+			</conditionBlock>
+			<operator varName="eqId" varSource="constant"/>
+			<trackingEqId varName="AAT_01_02" varSource="literal"/>
+			<carrierId>
+				<id keyName="unitId" varName="MaterialID" />
+				<id keyName="unitIdType" varName="MODULE" varSource="literal" />
+			</carrierId>
+		</processEnd>
+
+		<checkOut eventName="MaterialRemoved">
+			<conditionBlock>
+				<c:condition name="EventVar:LocationID" value="22" operator="eq" valueType="string"/>
+			</conditionBlock>
+			<operator varName="eqId" varSource="constant"/>
+			<trackingEqId varName="AAT_01_02" varSource="literal"/>
+			<carrierId>
+				<id keyName="unitId" varName="MaterialID" />
+				<id keyName="unitIdType" varName="MODULE" varSource="literal" />
+			</carrierId>
+		</checkOut-->	
+		
+	<!--=====================================================================-->
+	<!-- Furnace                          									 -->
+	<!--=====================================================================-->
+		
+		<remoteDriverAction actionName="raiseEvent" eventName="MaterialReceived">
+			<conditionBlock>
+				<c:condition name="EventVar:LocationID" value="3" operator="eq" valueType="string"/>
+			</conditionBlock>
+			<remoteEqId varName="FUR_01_01" varSource="literal"/>
+			<args keyName="eventName" varName="zzCL_MaterialReceived" varSource="literal"/>
+			<args keyName="zzCL_MaterialID" varName="MaterialID" />
+			<args keyName="zzCL_Operator" varName="eqId" varSource="constant"/>
+			<args keyName="zzCL_UserComment" varName="" varSource="literal"/>
+		</remoteDriverAction>
+
+		<remoteDriverAction actionName="raiseEvent" eventName="ProcessingStarted">
+			<conditionBlock>
+				<c:condition name="EventVar:LocationID" value="3" operator="eq" valueType="string"/>
+			</conditionBlock>
+			<remoteEqId varName="FUR_01_01" varSource="literal"/>
+			<args keyName="eventName" varName="zzCL_ProcessingStarted" varSource="literal"/>
+			<args keyName="zzCL_MaterialID" varName="MaterialID" />
+			<args keyName="zzCL_Operator" varName="eqId" varSource="constant"/>
+			<args keyName="zzCL_UserComment" varName="" varSource="literal"/>
+		</remoteDriverAction>
+
+		<remoteDriverAction actionName="raiseEvent" eventName="ProcessingCompletedFurnace">
+			<remoteEqId varName="FUR_01_01" varSource="literal"/>
+			<args keyName="eventName" varName="zzCL_ProcessingFinished" varSource="literal"/>
+			<args keyName="zzCL_MaterialID" varName="MaterialID" />
+			<args keyName="zzCL_Operator" varName="eqId" varSource="constant"/>
+			<args keyName="zzCL_UserComment" varName="" varSource="literal"/>
+		</remoteDriverAction>
+
+		<remoteDriverAction actionName="raiseEvent" eventName="MaterialRemoved">
+			<conditionBlock>
+				<c:condition name="EventVar:LocationID" value="3" operator="eq" valueType="string"/>
+			</conditionBlock>
+			<remoteEqId varName="FUR_01_01" varSource="literal"/>
+			<args keyName="eventName" varName="zzCL_MaterialSent" varSource="literal"/>
+			<args keyName="zzCL_MaterialID" varName="MaterialID" />
+			<args keyName="zzCL_Operator" varName="eqId" varSource="constant"/>
+			<args keyName="zzCL_UserComment" varName="" varSource="literal"/>
+		</remoteDriverAction>
+		
+		<!--checkIn eventName="MaterialReceived">
+			<conditionBlock>
+				<c:condition name="EventVar:LocationID" value="3" operator="eq" valueType="string"/>
+			</conditionBlock>
+			<operator varName="eqId" varSource="constant"/>
+			<trackingEqId varName="FUR_01_01" varSource="literal"/>
+			<carrierId>
+				<id keyName="unitId" varName="MaterialID" />
+				<id keyName="unitIdType" varName="MODULE" varSource="literal" />
+				<id keyName="psName" varName="Furnace" varSource="literal" />
+			</carrierId>
+		</checkIn>
+
+		<processStart eventName="ProcessingStarted">
+			<conditionBlock>
+				<c:condition name="EventVar:LocationID" value="3" operator="eq" valueType="string"/>
+			</conditionBlock>
+			<operator varName="eqId" varSource="constant"/>
+			<trackingEqId varName="FUR_01_01" varSource="literal"/>
+			<carrierId>
+				<id keyName="unitId" varName="MaterialID" />
+				<id keyName="unitIdType" varName="MODULE" varSource="literal" />
+			</carrierId>
+		</processStart>
+
+		<processEnd eventName="ProcessingCompletedFurnace">
+			<operator varName="eqId" varSource="constant"/>
+			<trackingEqId varName="FUR_01_01" varSource="literal"/>
+			<carrierId>
+				<id keyName="unitId" varName="MaterialID" />
+				<id keyName="unitIdType" varName="MODULE" varSource="literal" />
+			</carrierId>
+		</processEnd>
+
+		<checkOut eventName="MaterialRemoved">
+			<conditionBlock>
+				<c:condition name="EventVar:LocationID" value="3" operator="eq" valueType="string"/>
+			</conditionBlock>
+			<operator varName="eqId" varSource="constant"/>
+			<trackingEqId varName="FUR_01_01" varSource="literal"/>
+			<carrierId>
+				<id keyName="unitId" varName="MaterialID" />
+				<id keyName="unitIdType" varName="MODULE" varSource="literal" />
+			</carrierId>
+		</checkOut-->
+		
+	<!--=====================================================================-->
+	<!-- FinalIO                          									 -->
+	<!--=====================================================================-->
+		
+		<remoteDriverAction actionName="raiseEvent" eventName="MaterialReceived">
+			<conditionBlock>
+				<c:condition name="EventVar:LocationID" value="5" operator="eq" valueType="string"/>
+			</conditionBlock>
+			<remoteEqId varName="GFF_01_01" varSource="literal"/>
+			<args keyName="eventName" varName="zzCL_MaterialReceived" varSource="literal"/>
+			<args keyName="zzCL_MaterialID" varName="MaterialID" />
+			<args keyName="zzCL_Operator" varName="eqId" varSource="constant"/>
+			<args keyName="zzCL_UserComment" varName="" varSource="literal"/>
+		</remoteDriverAction>
+
+		<remoteDriverAction actionName="raiseEvent" eventName="ProcessingStarted">
+			<conditionBlock>
+				<c:condition name="EventVar:LocationID" value="5" operator="eq" valueType="string"/>
+			</conditionBlock>
+			<remoteEqId varName="GFF_01_01" varSource="literal"/>
+			<args keyName="eventName" varName="zzCL_ProcessingStarted" varSource="literal"/>
+			<args keyName="zzCL_MaterialID" varName="MaterialID" />
+			<args keyName="zzCL_Operator" varName="eqId" varSource="constant"/>
+			<args keyName="zzCL_UserComment" varName="" varSource="literal"/>
+		</remoteDriverAction>
+
+		<remoteDriverAction actionName="raiseEvent" eventName="ProcessingCompletedFinalIO">
+			<remoteEqId varName="GFF_01_01" varSource="literal"/>
+			<args keyName="eventName" varName="zzCL_ProcessingFinished" varSource="literal"/>
+			<args keyName="zzCL_MaterialID" varName="MaterialID" />
+			<args keyName="zzCL_Operator" varName="eqId" varSource="constant"/>
+			<args keyName="zzCL_UserComment" varName="" varSource="literal"/>
+		</remoteDriverAction>
+
+		<remoteDriverAction actionName="raiseEvent" eventName="MaterialRemoved">
+			<conditionBlock>
+				<c:condition name="EventVar:LocationID" value="5" operator="eq" valueType="string"/>
+			</conditionBlock>
+			<remoteEqId varName="GFF_01_01" varSource="literal"/>
+			<args keyName="eventName" varName="zzCL_MaterialSent" varSource="literal"/>
+			<args keyName="zzCL_MaterialID" varName="MaterialID" />
+			<args keyName="zzCL_Operator" varName="eqId" varSource="constant"/>
+			<args keyName="zzCL_UserComment" varName="" varSource="literal"/>
+		</remoteDriverAction>
+		
+		<!--checkIn eventName="MaterialReceived">
+			<conditionBlock>
+				<c:condition name="EventVar:LocationID" value="5" operator="eq" valueType="string"/>
+			</conditionBlock>
+			<operator varName="eqId" varSource="constant"/>
+			<trackingEqId varName="GFF_01_01" varSource="literal"/>
+			<carrierId>
+				<id keyName="unitId" varName="MaterialID" />
+				<id keyName="unitIdType" varName="MODULE" varSource="literal" />
+				<id keyName="psName" varName="Glass Fleece Final" varSource="literal" />
+			</carrierId>
+		</checkIn>
+
+		<processStart eventName="ProcessingStarted">
+			<conditionBlock>
+				<c:condition name="EventVar:LocationID" value="5" operator="eq" valueType="string"/>
+			</conditionBlock>
+			<operator varName="eqId" varSource="constant"/>
+			<trackingEqId varName="GFF_01_01" varSource="literal"/>
+			<carrierId>
+				<id keyName="unitId" varName="MaterialID" />
+				<id keyName="unitIdType" varName="MODULE" varSource="literal" />
+			</carrierId>
+		</processStart>
+
+		<processEnd eventName="ProcessingCompletedFinalIO">
+			<operator varName="eqId" varSource="constant"/>
+			<trackingEqId varName="GFF_01_01" varSource="literal"/>
+			<carrierId>
+				<id keyName="unitId" varName="MaterialID" />
+				<id keyName="unitIdType" varName="MODULE" varSource="literal" />
+			</carrierId>
+		</processEnd>
+
+		<checkOut eventName="MaterialRemoved">
+			<conditionBlock>
+				<c:condition name="EventVar:LocationID" value="5" operator="eq" valueType="string"/>
+			</conditionBlock>
+			<operator varName="eqId" varSource="constant"/>
+			<trackingEqId varName="GFF_01_01" varSource="literal"/>
+			<carrierId>
+				<id keyName="unitId" varName="MaterialID" />
+				<id keyName="unitIdType" varName="MODULE" varSource="literal" />
+			</carrierId>
+		</checkOut-->
+		
+	<!--=====================================================================-->
+	<!-- Cutter E10State                          							 -->
+	<!--=====================================================================-->
+	
+		<remoteDriverAction actionName="raiseEvent" eventName="E10StateChangeCutter">
+			<remoteEqId varName="GFC_01_01" varSource="literal"/>
+			<args keyName="eventName" varName="zzCL_E10StateChange" varSource="literal"/>
+			<args keyName="zzCL_E10State" varName="E10StateCutter" />
+		</remoteDriverAction>
+		
+	<!--=====================================================================-->
+	<!-- Zappa 1 E10State                          							 -->
+	<!--=====================================================================-->
+	
+		<remoteDriverAction actionName="raiseEvent" eventName="E10StateChangeZappa1">
+			<remoteEqId varName="CAT_01_01" varSource="literal"/>
+			<args keyName="eventName" varName="zzCL_E10StateChange" varSource="literal"/>
+			<args keyName="zzCL_E10State" varName="E10StateZappa1" />
+		</remoteDriverAction>
+		
+	<!--=====================================================================-->
+	<!-- Zappa 2 E10State                          							 -->
+	<!--=====================================================================-->
+	
+		<remoteDriverAction actionName="raiseEvent" eventName="E10StateChangeZappa2">
+			<remoteEqId varName="CAT_01_02" varSource="literal" />
+			<args keyName="eventName" varName="zzCL_E10StateChange" varSource="literal"/>
+			<args keyName="zzCL_E10State" varName="E10StateZappa2" />
+		</remoteDriverAction>
+		
+	<!--=====================================================================-->
+	<!-- Zappa 3 E10State                          							 -->
+	<!--=====================================================================-->
+	
+		<remoteDriverAction actionName="raiseEvent" eventName="E10StateChangeZappa3">
+			<remoteEqId varName="CAT_01_03" varSource="literal" />
+			<args keyName="eventName" varName="zzCL_E10StateChange" varSource="literal"/>
+			<args keyName="zzCL_E10State" varName="E10StateZappa3" />
+		</remoteDriverAction>
+		
+	<!--=====================================================================-->
+	<!-- Zappa 4 E10State                          							 -->
+	<!--=====================================================================-->
+	
+		<remoteDriverAction actionName="raiseEvent" eventName="E10StateChangeZappa4">
+			<remoteEqId varName="CAT_01_04" varSource="literal"/>
+			<args keyName="eventName" varName="zzCL_E10StateChange" varSource="literal"/>
+			<args keyName="zzCL_E10State" varName="E10StateZappa4" />
+		</remoteDriverAction>
+		
+	<!--=====================================================================-->
+	<!-- Kappa 1 E10State                          							 -->
+	<!--=====================================================================-->
+	
+		<remoteDriverAction actionName="raiseEvent" eventName="E10StateChangeKappa1">
+			<remoteEqId varName="AAT_01_01" varSource="literal"/>
+			<args keyName="eventName" varName="zzCL_E10StateChange" varSource="literal"/>
+			<args keyName="zzCL_E10State" varName="E10StateKappa1" />
+		</remoteDriverAction>
+		
+	<!--=====================================================================-->
+	<!-- Kappa 2 E10State                          							 -->
+	<!--=====================================================================-->
+	
+		<remoteDriverAction actionName="raiseEvent" eventName="E10StateChangeKappa2">
+			<remoteEqId varName="AAT_01_02" varSource="literal"/>
+			<args keyName="eventName" varName="zzCL_E10StateChange" varSource="literal"/>
+			<args keyName="zzCL_E10State" varName="E10StateKappa2" />
+		</remoteDriverAction>
+		
+	<!--=====================================================================-->
+	<!-- Furnace E10State                          							 -->
+	<!--=====================================================================-->
+	
+		<remoteDriverAction actionName="raiseEvent" eventName="E10StateChangeFurnace">
+			<remoteEqId varName="FUR_01_01" varSource="literal"/>
+			<args keyName="eventName" varName="zzCL_E10StateChange" varSource="literal"/>
+			<args keyName="zzCL_E10State" varName="E10StateFurnace" />
+		</remoteDriverAction>
+		
+	<!--=====================================================================-->
+	<!-- FinalIO E10State                          							 -->
+	<!--=====================================================================-->
+	
+		<remoteDriverAction actionName="raiseEvent" eventName="E10StateChangeFinalIO">
+			<remoteEqId varName="GFF_01_01" varSource="literal"/>
+			<args keyName="eventName" varName="zzCL_E10StateChange" varSource="literal"/>
+			<args keyName="zzCL_E10State" varName="E10StateFinalIO" />
+		</remoteDriverAction>
+		
+	</brEvents>
+	
+</drvConfig>

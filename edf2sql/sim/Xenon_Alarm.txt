@@ -1,0 +1,446 @@
+0	Türen verriegeln nicht
+1	Türen entriegeln nicht
+2	Notaus wegen Über- oder Unterdruck am Hauptluftventil
+3	Alles zurückgesetzt, Maschine ausräumen.
+4	Notaus weil verriegelte Türen geöffnet wurden
+5	Profibus-Teilnehmer ausgefallen, siehe Diagnoseseite.
+6	Notaus wegen Kollisionegefahr beim Verfahren
+64	Tisch: Timeout Tisch
+65	Tisch: Sensorfehler E63.2/E63.3
+66	Tisch: Sensorfehler E63.0/E63.1
+68	Tisch: Schott nicht geöffnet
+69	Tisch: Schott nicht geschlossen
+70	Tisch: Vlies nicht geschnitten
+71	Tisch: fährt nicht aus
+74	Tisch: fährt nicht ein
+76	Tisch: Zuschnitt reagiert nicht
+77	Tisch: Vlieszufuhr gestört
+78	Tisch: Aktualisierung Substratabbild nicht erfolgreich
+79	Störung Handshake (erwartet Befehl Nr. 2)
+80	Störung Handshake (erwartet Befehl Nr. 6)
+81	Störung Handshake (erwartet Befehl Nr. 4)
+82	Störung Handshake (erwartet Befehl Nr. 5)
+83	Störung Handshake (erwartet Befehl Nr. 0)
+84	Störung: Aktualisierung Zelldaten fehlgeschlagen
+96	Zuschnitt: Messer fährt nicht in Grundstellung
+97	Zuschnitt: Messer fährt nicht in Arbeitsstellung
+98	Zuschnitt: Fehler Vlieszufuhr
+99	Zuschnitt: Kein Schnittauftrag von St01
+100	Zuschnitt: Timeout Vlieszuschnitt
+101	Zuschnitt: Vlieszufuhr nicht bereit
+102	Zuschnitt: Vlieszufuhr gestört
+103	Zuschnitt: Schnittrest entnehmen!
+160	Vlieszuführung: Vlies Ende/Abriss während Transport
+161	Vlieszuführung: Timeout Transport
+162	Vlieszuführung: Fehler/Timeout Anlagekante
+163	Vlieszuführung: Fehler/Timeout Andruckrollen
+164	Vlieszuführung: Fehler/Timeout Kantensteuerung
+165	Vlieszuführung: Fehler Transportantrieb nicht bereit
+166	Vlieszuführung: Verkleidung offen
+167	Vlieszuführung: Rollenende 1
+168	Vlieszuführung: Rollenende 2
+169	Vlieszuführung: Rollenende
+170	Vlieszuführung: Vliesanwesenheit nicht erkennbar
+1032	Notabschaltung durch Station 01
+1033	Notabschaltung durch Station 02
+1034	Notabschaltung durch Station 03
+1035	Notabschaltung durch Station 04
+1036	Notabschaltung durch Station 05
+1037	Notabschaltung durch Station 06
+1038	Notabschaltung durch Station 07
+1064	Tisch: Antrieb nicht bereit
+1065	Tisch: Antrieb meldet Fehler
+1066	Tisch: Schott schließt nicht
+1067	Tisch: Schott öffnet nicht 
+1068	Tisch: Vakuumadapter geht nicht hoch
+1069	Tisch: Vakuumadapter geht nicht runter
+1070	Tisch: Spannleiste hinten geht nicht hoch
+1071	Tisch: Spannleiste hinten geht nicht runter
+1072	Tisch: Spannleisten Seite 1 gehen nicht hoch
+1073	Tisch: Spannleisten Seite 1 gehen nicht runter
+1074	Tisch: Spannleisten Seite 2 gehen nicht hoch
+1075	Tisch: Spannleisten Seite 2 gehen nicht runter
+1076	Tisch: Vlies aufnehmen - wartet auf Kommando "Tisch raus"
+1077	Tisch: Vlies aufnehmen - wartet auf Kommando "Vlies klemmen"
+1078	Tisch: Vlies aufnehmen - wartet auf Kommando "Tisch rein"
+1079	Tisch: Vlies aufnehmen - wartet auf Kommando "Ende"
+1080	Tisch: Vlies abgeben - wartet auf Kommando "Tisch raus"
+1081	Tisch: Vlies abgeben - wartet auf Kommando "Vlies lösen"
+1082	Tisch: Vlies abgeben - wartet auf Kommando "Tisch rein"
+1083	Tisch: Vlies abgeben - wartet auf Kommando "Ende"
+1084	Tisch: keine Freigabe von den Handlings
+1093	Tisch: Leitrechner Timeout
+1094	Tisch: Fehler beim Auslösen des MES-Events
+1096	Zellenvereinzelung 1: Antrieb für Kante nicht bereit
+1097	Zellenvereinzelung 1: Antrieb für Kante meldet Fehler
+1098	Zellenvereinzelung 1: Antrieb für Band nicht bereit
+1099	Zellenvereinzelung 1: Antrieb für Band meldet Fehler
+1102	Zellenvereinzelung 1: Kante hinten nicht auf "stumpf"
+1103	Zellenvereinzelung 1: Kante hinten nicht auf "scharf"
+1104	Zellenvereinzelung 1: Kante vorn nicht auf "stumpf"
+1105	Zellenvereinzelung 1: Kante vorn nicht auf "scharf"
+1106	Zellenvereinzelung 1: keine Freigabe für Schlitten von den Dreheinheiten
+1107	Zellenvereinzelung 1: keine Zelle erkannt
+1108	Zellenvereinzelung 1: Band lässt sich nicht zurückholen
+1110	Zellenvereinzelung 1: Scanner-St02 Fehler bei FB11 Aufruf
+1111	Zellenvereinzelung 1: Scanner-St02 Reset nicht durchgeführt
+1112	Zellenvereinzelung 1: Scanner-St02 konnte nicht initialisiert werden
+1113	Zellenvereinzelung 1: Scanner-St02 Einlesen des Codes nicht möglich
+1128	Abwickler 1: Antrieb nicht bereit
+1129	Abwickler 1: Antrieb meldet Fehler
+1130	Abwickler 1: Abwickelzeit überschritten
+1131	Abwickler 1: Aufwickelzeit überschritten
+1160	Roboter 1: nicht bereit
+1161	Roboter 1: wird nicht fertig
+1163	Roboter 1: Anrollzylinder geht nicht in Grundstellung
+1164	Roboter 1: Anrollzylinder geht nicht in Arbeitsstellung
+1165	Roboter 1: Zelle nicht angesaugt
+1166	Roboter 1: Zelle verloren
+1167	Roboter 1: Vakuum geht nicht weg
+1169	Roboter 1: NIO-Ablage geht nicht runter
+1170	Roboter 1: NIO-Ablage geht nicht hoch
+1171	Roboter 1: Kamera nicht bereit
+1172	Roboter 1: Kamera wird nicht fertig
+1173	Roboter 1: Kamera meldet Fehler
+1174	Roboter 1: Wandlungsfehler bei Kamera-Ergebnis
+1175	Roboter 1: Messung Loch an Ecke nicht erkannt
+1176	Roboter 1: Loch an Ecke nicht messbar
+1177	Roboter 1: Messung Loch an Kante nicht erkannt
+1178	Roboter 1: Loch an Kante nicht messbar
+1179	Roboter 1: Zelle nicht messbar
+1180	Roboter 1: Kalibrieren mit IO beendet
+1181	Roboter 1: Kalibrieren mit NIO beendet
+1192	Verbinder: Antrieb Anrollgreifer nicht bereit
+1193	Verbinder: Antrieb Anrollgreifer meldet Fehler
+1194	Verbinder: Lochwerkzeug geht nicht auf
+1195	Verbinder: Lochwerkzeug geht nicht zu
+1196	Verbinder: Vliesklemmung öffnet nicht
+1197	Verbinder: Undefinierter Verbindertyp
+1198	Verbinder: Werkzeuggreifer geht nicht auf
+1199	Verbinder: Werkzeuggreifer geht nicht zu
+1200	Verbinder: Messer geht nicht auf
+1201	Verbinder: Messer geht nicht zu
+1202	Verbinder: Trenngreifer geht nicht auf
+1203	Verbinder: Trenngreifer geht nicht zu
+1204	Verbinder: Trenngreifer geht nicht hoch
+1205	Verbinder: Trenngreifer geht nicht runter
+1206	Verbinder: Trenngreifer geht nicht zur Warteposition
+1207	Verbinder: Trenngreifer geht nicht zum Verbinder
+1208	Verbinder: Anrollgreifer geht nicht auf
+1209	Verbinder: Anrollgreifer geht nicht zu
+1210	Verbinder: Anrollgreifer geht nicht hoch
+1211	Verbinder: Anrollgreifer geht nicht runter
+1212	Verbinder: Anrollgreifer schwenkt nicht in Greifposition
+1213	Verbinder: Anrollgreifer schwenkt nicht in Anrollposition
+1214	Verbinder: Zustand Verbinder nicht wiederherstellbar
+1215	Verbinder: Anrollgreifer nicht sicher
+1216	Verbinder: Vakuumsauger meldet Fehler. Verbinder verloren?
+1217	Verbinder: Sollposition außerhalb des Fahrbereiches
+1218	Verbinder: Verbinderspender meldet Mangel
+1219	Verbinder: Verbinder bitte entnehmen
+1220	Verbinder: Anzahl der Stanzlöscher nicht erreicht. Stempel gebrochen?
+1221	Verbinder: Kollisionsgefahr Anrollgreifer mit Trenneinheit
+1222	Verbinder: falscher Verbinder vorbereitet
+1223	Verbinder: Vliesklemmung schließt nicht
+1224	Zellenvereinzelung 2: Antrieb für Kante nicht bereit
+1225	Zellenvereinzelung 2: Antrieb für Kante meldet Fehler
+1226	Zellenvereinzelung 2: Antrieb für Band nicht bereit
+1227	Zellenvereinzelung 2: Antrieb für Band meldet Fehler
+1230	Zellenvereinzelung 2: Kante hinten nicht auf "stumpf"
+1231	Zellenvereinzelung 2: Kante hinten nicht auf "scharf"
+1232	Zellenvereinzelung 2: Kante vorn nicht auf "stumpf"
+1233	Zellenvereinzelung 2: Kante vorn nicht auf "scharf"
+1234	Zellenvereinzelung 2: keine Freigabe für Schlitten von den Dreheinheiten
+1235	Zellenvereinzelung 1: keine Zelle erkannt
+1236	Zellenvereinzelung 2: Band lässt sich nicht zurückholen
+1240	Zellenvereinzelung 2: Scanner-St05 Fehler bei FB11 Aufruf
+1241	Zellenvereinzelung 2: Scanner-St05 Reset nicht durchgeführt
+1242	Zellenvereinzelung 2: Scanner-St05 konnte nicht initialisiert werden
+1243	Zellenvereinzelung 2: Scanner-St05 Einlesen des Codes nicht möglich
+1257	Abwickler 2: Antrieb nicht bereit
+1258	Abwickler 2: Antrieb meldet Fehler
+1259	Abwickler 2: Abwicklezeit überschritten
+1260	Abwickler 2: Aufwicklezeit überschritten
+1288	Roboter 2: nicht bereit
+1289	Roboter 2: wird nicht fertig
+1291	Roboter 2: Anrollzylinder geht nicht in Grundstellung
+1292	Roboter 2: Anrollzylinder geht nicht in Arbeitsstellung
+1293	Roboter 2: Zelle nicht angesaugt
+1294	Roboter 2: Zelle verloren
+1295	Roboter 2: Vakuum geht nicht weg
+1297	Roboter 2: NIO-Ablage geht nicht runter
+1298	Roboter 2: NIO-Ablage geht nicht hoch
+1299	Roboter 2: Kamera nicht bereit
+1300	Roboter 2: Kamera wird nicht fertig
+1301	Roboter 2: Kamera meldet Fehler
+1302	Roboter 2: Wandlungsfehler bei Kameraergebnis
+1303	Roboter 2: Kamera 1 - Zelle nicht erkannt
+1304	Roboter 2: Kamera 1 - Loch nicht messbar
+1305	Roboter 2: Kamera 2 - Zelle nicht erkannt
+1306	Roboter 2: Kamera 2 - Loch nicht messbar
+1307	Roboter 2: Zelle nicht messbar
+1308	Roboter 2: Kalibrieren mit IO beendet
+1309	Roboter 2: Kalibrieren mit NIO beendet
+1320	Etikettierer: nicht bereit
+1321	Etikettierer: meldet Fehler
+1322	Etikettierer: wird nicht fertig
+1323	Etikettierer: Scanneretikett Fehler bei FB11 Aufruf
+1324	Etikettierer: Scanneretikett Reset nicht durchgeführt
+1325	Etikettierer: Scanneretikett konnte nicht initialisiert werden
+1326	Etikettierer: Scanneretikett Einlesen des Codes nicht möglich
+1353	Robotercontroller: Robotercontroller nicht im AUTO-Mode
+1354	Robotercontroller: Robotercontroller meldet Fehler
+1355	Robotercontroller: Tasks werden nicht beendet
+1356	Robotercontroller: Tasks werden nicht gestartet
+1357	Robotercontroller: Schutztüren nicht geschlossen
+1358	Robotercontroller: Notaus ausgelöst
+1359	Robotercontroller: Tasks werden nicht fortgesetzt
+1360	Robotercontroller: zum Start des Robotercontrollers Türen schließen!
+2032	Leitrechner Timeout
+2033	Fehler beim Auslösen des MES-Events
+2034	Über- oder Unterdruck an der Stickstoffflasche
+2064	Tisch: Antrieb Timeout
+2065	Tisch: Antrieb meldet Fehler
+2066	Schott nicht geschlossen
+2067	Schott nicht offen
+2068	Kamera wird nicht fertig
+2069	St. 2 und 3 werden nicht fertig
+2070	Multicodereader meldet Fehler
+2071	Multicodereader Timeout
+2072	Multicodereader findet keinen Code
+2073	Datenübergabe ans Transfer: keine Bereitschaft
+2074	Datenübergabe ans Transfer: wird nicht fertig
+2075	Datenübergabe ans Transfer: keine Quittierung
+2076	Übergabe ans Transfer: Anforderung 2 fehlt
+2077	Übergabe ans Transfer: Anforderung 3 fehlt
+2078	Übergabe ans Transfer: Anforderung 4 fehlt
+2079	Übergabe ans Transfer: Anforderung 0 fehlt
+2080	Übergabe ans Transfer: Anforderung 22 fehlt
+2081	Übergabe ans Transfer: Anforderung 26 fehlt
+2082	Übergabe ans Transfer: Anforderung 24 fehlt
+2083	Sensoren melden Vlies, Teiledaten nicht
+2084	Teiledaten melden Vlies, Sensoren nicht
+2096	Kamera: Ethernet-Verbindung kann nicht hergestellt werden
+2097	Kamera: Umschaltung der Scene nicht gestartet
+2098	Kamera: Kameraprüfung nicht gestartet
+2099	Kamera: Kamera antwortet nicht
+2100	Kamera: zu kurzes Antworttelegramm
+2101	Kamera: Konvertierungsfehler
+2102	Kamera: Löcher nicht gefunden
+2128	X-Achse Timeout
+2129	X-Achse meldet Fehler (siehe EZA-Diagnosebild)
+2130	Y-Achse Timeout
+2131	Y-Achse meldet Fehler (siehe EZA-Diagnosebild)
+2132	Reinigungseinheit nicht oben
+2133	Reinigungseinheit nicht unten
+2134	Dispensgerät nicht bereit
+2135	Dispensgerät wird nicht fertig
+2136	Dispensgerät: Temperatur nicht ok
+2137	Dispensgerät meldet Fehler
+2138	Dispensgerät startet nicht
+2139	Kamera wird nicht fertig
+2140	Fehler in der Zellendefinition
+2141	Reinigungspapier wechseln
+2142	Leitkleberkartusche bald leer
+2143	Leitkleberkartusche leer - wechseln
+2144	Dispenser muss zum Leerschießen
+2160	Kamera nicht bereit
+2161	Kamera startet nicht
+2162	Kamera wird nicht fertig
+2163	Kamera meldet Fehler
+2192	X-Achse Timeout
+2193	X-Achse meldet Fehler (siehe EZA-Diagnosebild)
+2194	Y-Achse Timeout
+2195	Y-Achse meldet Fehler (siehe EZA-Diagnosebild)
+2196	Reinigungseinheit nicht oben
+2197	Reinigungseinheit nicht unten
+2198	Dispensgerät nicht bereit
+2199	Dispensgerät wird nicht fertig
+2200	Dispensgerät: Temperatur nicht ok
+2201	Dispensgerät meldet Fehler
+2202	Dispensgerät startet nicht
+2203	Kamera wird nicht fertig
+2204	Fehler in der Zellendefinition
+2205	Reinigungspapier wechseln
+2206	Leitkleberkartusche bald leer
+2207	Leitkleberkartusche leer - wechseln
+2208	Dispenser muss zum Leerschießen
+3016	Kollisionsgefahr zwischen Abdeckung und Tischblech!
+3017	Kollisionsgefahr zwischen Schott und Tischblech!
+3018	Kollisionsgefahr zwischen Greifer und Abdeckung!
+3032	Timeout Leitrechner bei MES-Meldung
+3033	Fehler im MES-Event
+3064	Tisch: Antrieb Timeout
+3065	Tisch: Antrieb meldet Fehler
+3066	Schott nicht geschlossen
+3067	Schott nicht offen
+3068	Auflageblech nicht ausgefahren
+3069	Auflageblech nicht eingefahren
+3073	Datenübergabe ans Transfer: keine Bereitschaft
+3074	Datenübergabe ans Transfer: wird nicht fertig
+3075	Datenübergabe ans Transfer: keine Quittierung
+3076	Übergabe ans Transfer: Anforderung 2 fehlt
+3077	Übergabe ans Transfer: Anforderung 3 fehlt
+3078	Übergabe ans Transfer: Anforderung 4 fehlt
+3079	Übergabe ans Transfer: Anforderung 0 fehlt
+3080	Übergabe ans Transfer: Anforderung 22 fehlt
+3081	Übergabe ans Transfer: Anforderung 26 fehlt
+3082	Übergabe ans Transfer: Anforderung 24 fehlt
+3084	Greifer 1 schließt nicht
+3085	Greifer 1 öffnet nicht 
+3086	Greifer 2 schließt nicht 
+3087	Greifer 2 öffnet nicht
+3128	Abdeckung öffnet nicht
+3129	Abdeckung schließt nicht
+3130	Kollisionsgefahr! Abdeckung kann nicht schließen.
+3131	Volumenstrom der Absaugung nicht ok.
+4064	Timeout Modul32 St01
+4065	Ablagespalt ist nicht frei
+4066	Schott öffnet nicht
+4067	Schott schließt nicht
+4068	Kralle fährt nicht zu Schott
+4069	Kralle fährt nicht zu Ablage
+4070	Vlies nicht lagerichtig in Ablagefach
+4072	Transferspalt ist nicht frei 
+4073	Antrieb "Ablage" reagiert nicht
+4074	Mehr als 5 Schubversuche benötigt
+4075	Ausgewähltes NIO-Fach ist nicht zulässig
+4076	Timeout Transfer
+4077	Ungültiger Befehl vom Transfer liegt an
+4080	Timeout Leitrechner
+4081	Fehler beim Auslösen des MES-Events
+4082	Aktualisieren der TeileInfo schlägt fehl
+4083	Schieben der TeileInfo schlägt fehl
+4084	Timeout Master
+4096	Antrieb Timeout 
+4097	Antrieb interner Fehler (siehe Fehlercode)
+4098	Antrieb "Ablage" nicht bereit
+4099	Antrieb "Ablage" nicht initialisiert
+4100	Antrieb "Ablage" nicht referenziert
+4101	Antrieb "Ablage" positioniert nicht
+4102	Aktuell kein freies Ablagefach verfügbar
+4103	Timeout Vlies nicht lagerichtig in Ablagefach
+4104	Sensorabfrage und Teileinfo für Ablage 1 sind nicht konsistent
+4105	Sensorabfrage und Teileinfo für Ablage 2 sind nicht konsistent
+4106	Sensorabfrage und Teileinfo für Ablage 3 sind nicht konsistent
+4107	Sensorabfrage und Teileinfo für Ablage 4 sind nicht konsistent
+4108	Sensorabfrage und Teileinfo für Ablage 5 sind nicht konsistent
+4109	Sensorabfrage und Teileinfo für Ablage 6 sind nicht konsistent
+5008	Schott schließt nicht
+5009	Schott öffnet nicht
+5011	Riemen fährt nicht runter
+5012	Riemen fährt nicht hoch
+5014	Blech erreicht Tranferposition nicht
+5015	Blech erreicht Zellenposition nicht
+5017	Position Vlies in Zelle wird nicht erreicht
+5018	Position Vlies komplett in Zelle wird nicht erreicht
+5019	Fehlerhaftes Sensorsignal bei Kontrolle ob Vlies vorhanden
+5020	Position Vlies an Entnahme wird nicht erreicht
+5022	Bandantrieb 11, Timeout wurde ausgelöst
+5023	Bandantrieb 11, interner Fehler (siehe Fehlercode)
+5024	Bandantrieb 12, Timeout wurde ausgelöst
+5025	Bandantrieb 12, interner Fehler (siehe Fehlercode)
+5027	Übergabe von Transfer: Nächster Befehl wird nicht gesendet
+5028	Teileinfo werden nicht geschoben
+5029	Teileinfo werden nicht aktualisiert
+5030	Fahrweg wurde überschritten. Überprüfen sie die Sensoren an der 
+5040	Quermesser fährt nicht hoch
+5041	Quermesser fährt nicht runter
+5042	Quermesser fährt nicht nach links 
+5043	Quermesser fährt nicht nach rechts
+5044	Längsmesser fährt nicht hoch
+5045	Längsmesser fährt nicht runter
+5046	Längsmesser fährt nicht nach links
+5047	Längsmesser fährt nicht nach rechts
+5048	Fehler bei Konvertierung des Fehlercodes
+5064	Timeout Leitrechner
+5065	Fehler beim Auslösen des MES-Events
+6008	Fehler im Safty-Bus links
+6009	Fehler im Safty-Bus rechts
+6010	Lifebit auf dem Linkbus fehlt
+6011	Transfertür hinten bitte schließen und quittieren
+6012	Transfertür vorn bitte schließen und quittieren
+6016	eSM: ESTOP aktiv
+6017	eSM: Guard nicht aktiv
+6018	eSM: Endstufe wird kurz abgeschaltet
+6019	eSM: Starten schlug fehl. Bitte Endstufe, Verkabelung und Motor überprüfen.
+6020	eSM: kein Stationswiederkehr nach dem Ausschalten. Bitte Profibus überprüfen.
+6032	Hauptachse: Timeout
+6033	Hauptachse: Interner Fehler (siehe Fehlercode)
+6034	Hauptachse: Keine Freigabe! Anlagentüren bzw. Stellung der Vakuumtische prüfen.
+6035	Hauptachse: Negative Endlage ausgelöst!
+6036	Hauptachse: Positive Endlage ausgelöst!
+6064	Fehler beim Schieben der Teileinfo
+6065	Unzulässige Befehlskonstellation: Beladen vs. Entladen
+6066	Modul Timeout
+6067	Modul beendet Handshake nicht
+6068	Transfer besitzt bereits ein Vlies. Modul kann nicht entladen werden!
+6069	Transfer besitzt kein Vlies. Modul kann nicht beladen werden!
+6070	Modul besitzt kein Vlies. Transfer kann nicht beladen werden!
+6071	Modul besitzt bereits ein Vlies. Transfer kann nicht entladen werden!
+6072	Modul öffnet Schott nicht
+6073	Modul fährt Vakuumtisch nicht aus
+6074	Modul öffnet Bänder nicht
+6075	Modul öffnet Klemmung nicht
+6076	Modul schließt Klemmung nicht
+6077	Modul fährt Vakuumtisch nicht ein
+6078	Modul fährt Vlies nicht ein
+6079	Modul schließt Schott nicht
+6080	Antrieb 11: Timeout
+6081	Antrieb 12: Timeout
+6082	Antrieb 21: Timeout
+6083	Antrieb 22: Timeout
+6084	Antrieb 11: Interner Fehler
+6085	Antrieb 12: Interner Fehler
+6086	Antrieb 21: Interner Fehler
+6087	Antrieb 22: Interner Fehler
+6088	Übergabe: Modul M01 ist in Störung
+6089	Übergabe: Modul M11 ist in Störung
+6090	Übergabe: Modul M12 ist in Störung
+6091	Übergabe: Modul M13 ist in Störung
+6092	Übergabe: Modul M14 ist in Störung
+6093	Übergabe: Modul M21 ist in Störung
+6094	Übergabe: Modul M22 ist in Störung
+6095	Übergabe: Modul M31 ist in Störung
+6096	Übergabe: Modul M33 ist in Störung
+6097	Übergabe: Modul M32 ist in Störung
+6098	Übergabe: Modul M32 wählt Ausgabefach nicht an
+6099	Übergabe: Lichtschranken auf Transfertisch 1 evtl. verschmutzt
+6100	Übergabe: Lichtschranken auf Transfertisch 2 evtl. verschmutzt
+6101	Übergabe: Vliesbahn auf Transfertisch 1 ist zu kurz oder falsch positioniert
+6102	Übergabe: Vliesbahn auf Transfertisch 2 ist zu kurz oder falsch positioniert
+6104	Fehler beim Auslösen des MES-Events
+6105	Timeout Leitrechner
+6106	Teiledatenkonflikt auf Wagen 1
+6107	Teiledatenkonflikt auf Wagen 1
+6108	Teiledatenkonflikt auf Wagen 2
+6109	Teiledatenkonflikt auf Wagen 2
+6110	Codescanner auf Wagen 1 im Timeout
+6111	Codescanner auf Wagen 2 im Timeout
+6112	Bandtransport am Wagen 1 nicht geöffent
+6113	Bandtransport am Wagen 2 nicht geöffnet
+6114	Bandtransport am Wagen 1 nicht geschlossen
+6115	Bandtransport am Wagen 2 nicht geschlossen
+6116	Auflageblech 1 von Wagen 1 nicht ausgefahren
+6117	Auflageblech 2 von Wagen 1 nicht ausgefahren
+6118	Auflageblech 1 von Wagen 2 nicht ausgefahren
+6119	Auflageblech 2 von Wagen 2 nicht ausgefahren
+6120	Fehler bei Vliesübergabe Transfer - Modul: zulässiger Fahrweg überschritten
+6121	Fehler bei Vliesübergabe Modul - Transfer: zulässiger Fahrweg überschritten
+6122	Teiledaten und Substrat ID auf Wagen 1 stimmen nicht überein
+6123	Teiledaten und Substrat ID auf Wagen 2 stimmen nicht überein
+6128	Bitte ein NIO-Teil aus M32 entnehmen.
+6129	Teile Info stimmt nicht mit Sensorabfrage überein. Sensor verschmutzt?
+6130	Lichtschranken auf Wagen 1 prüfen, oder Teileinfo löschen.
+6131	Lichtschranken auf Wagen 2 prüfen, oder Teileinfo löschen.
+6133	Fehler beim Löschen der Teileinfo
+6134	Timeout beim Löschen der Teileinfo
+6135	Vlies auf Wagen 1 kann keinem Modul zugeordnet werden.
+6136	Vlies auf Wagen 2 kann keinem Modul zugeordnet werden.
+6137	Überprüfen sie den Materialfluss oder die möglichen Zielmodule.
+6138	Positionieren des Transfers durch Freigabeentzug fehlgeschlagen.
+6139	Referenzierung des Transfers fehlgeschlagen.
+6140	Überprüfen sie die Lichtschranken am Wagen 1 oder die Position des Moduls.
+6141	Überprüfen sie die Lichtschranken am Wagen 2 oder die Position des Moduls.
+6142	Übergabe des Vlieses fehlgeschlagen. Transfer konnte nicht beladen werden.
+6143	Übergabe des Vlieses fehlgeschlagen. Transfer konnte nicht entladen werden.

@@ -1,0 +1,15 @@
+ControlStateLocal 0
+ControlStateRemote 1
+EquipmentOffline 2
+SpoolingActivated 14
+SpoolingDeactivated 15
+SpoolTransmitFailure 13
+ProcessingStateChange 11
+E10StateChange 108
+SendData 10000
+Coil1recieved 10001
+Coil1removed 10002
+Coil2recieved 10003
+Coil2removed 10004
+WindingStarted 10005
+WindingStopped 10006

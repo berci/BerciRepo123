@@ -1,0 +1,333 @@
+10000#FG10-Allgemein: Not-Aus Schaltschrank#2
+10001#FG10-Allgemein: Not-Aus Roboter#2
+10002#FG10-Allgemein: Not-Aus Bedienstelle +P2#2
+10003#FG10-Allgemein: Not-Aus Wartungstür#2
+10006#FG10-Allgemein: Not-Aus KUKA Anlage#2
+10007#FG10-Allgemein: Not-Aus Gesamt#2
+10008#FG10-Allgemein: Schutzkreis Wartungstür#1
+10009#FG10-Allgemein: Schutzkreis KUKA Anlage#1
+10015#FG10-Allgemein: Schutzkreis Überbrückung Pneumatik aktiv#1
+10016#FG10-Allgemein: Rückführkreis Sicherheitsrelais Not-Aus [K1]#6
+10018#FG10-Allgemein: Rückführkreis Sicherheitsrelais Pneumatik [K2]#6
+10019#FG10-Allgemein: Rückführkreis Sicherheitsrelais Roboter Not-Aus [A10-K1]#6
+10020#FG10-Allgemein: Rückführkreis Sicherheitsrelais Roboter Bedienerschutz [A10-K2]#6
+10021#FG10-Allgemein: Rückführkreis Sicherheitsrelais Roboter Aktorspannung [K10/K11]#6
+10022#FG10-Allgemein: Rückführkreis Sicherheitsrelais Förderer [K4]#6
+10025#FG10-Allgemein: Druckluftversorgung#6
+10026#FG10-Allgemein: Kühlgerät#6
+10027#FG10-Allgemein: Kommunikation zur KUKA Anlage gestört#6
+10032#FG10-Allgemein: Versorgung 24V AF1#6
+10033#FG10-Allgemein: Versorgung 24V AF2#6
+10034#FG10-Allgemein: Versorgung 24V AF3#6
+10035#FG10-Allgemein: Versorgung 24V AF4#6
+10036#FG10-Allgemein: Versorgung 24V AF5#6
+10037#FG10-Allgemein: Versorgung 24V AF6#6
+10038#FG10-Allgemein: Versorgung 24V AF7#6
+10039#FG10-Allgemein: Versorgung 24V AF8#6
+10040#FG10-Allgemein: Versorgung 24V AF9#6
+10041#FG10-Allgemein: Versorgung 24V AF10#6
+10044#FG10-Allgemein: Versorgung 5V F5, F7#6
+10048#FG10-Allgemein: Sicherungsfall F3#6
+10056#FG10-Allgemein: Leistungsschalter Q1 Pumpe#6
+10057#FG10-Allgemein: Leistungsschalter Q2 Roboter#6
+10059#FG10-Allgemein: Leistungsschalter Q4 Förderer#6
+10060#FG10-Allgemein: Leistungsschalter Q5 Dosierer#6
+10072#FG10-Allgemein: Kommunikationfehler KUKA Anlage Safety Recieve#6
+10073#FG10-Allgemein: Kommunikationfehler KUKA Anlage Safety Send#6
+10080#FG10-Allgemein: OB80 Zeitfehler#6
+10081#FG10-Allgemein: OB81 Stromversorgung#6
+10082#FG10-Allgemein: OB82 Diagnosealarm#6
+10083#FG10-Allgemein: OB83 I/O-Fehler#6
+10084#FG10-Allgemein: OB84 CPU-Fehler#6
+10085#FG10-Allgemein: OB85 Programmablauffehler#6
+10086#FG10-Allgemein: OB86 DP-Fehler#6
+10087#FG10-Allgemein: OB87 Fehler Kommunikation#6
+10088#FG10-Allgemein: OB88 Bearbeitungsabbruch#6
+10096#FG10-Allgemein: OB121 Programmfehler#6
+10097#FG10-Allgemein: OB122 Fehler Peripheriezugriff#6
+10112#FG10-Allgemein: Ohne Bearbeitung angewählt#6
+10161#FG10-Allgemein: Ausfall Profibus Adresse 02 +H1-A1 (CPU)#6
+10163#FG10-Allgemein: Ausfall Profibus Adresse 04 +H1-U5 (Movidrive-B Dosierer)#6
+10164#FG10-Allgemein: Ausfall Profibus Adresse 05 +H1-A10 (DP/DP Koppler)#6
+10165#FG10-Allgemein: Ausfall Profibus Adresse 06 +H1-A2.0 (ET200 Schaltschrank)#6
+10167#FG10-Allgemein: Ausfall Profibus Adresse 08 +H2-A1-DP (CPU Doppelfasspumpe)#6
+10168#FG10-Allgemein: Ausfall Profibus Adresse 09 +HR1-A1 (CP5614 Kuka Roboter)#6
+10169#FG10-Allgemein: Ausfall Profibus Adresse 10 +HR1-A20 (ET200 Kuka Roboter)#6
+10170#FG10-Allgemein: Ausfall Profibus Adresse 11 +T1-T4 (Movimot Förderer)#6
+10240#FG10-Allgemein: Ausfall Profinet Adresse 01 +KL3-A4 (Cognex Kamera)#6
+11000#FG11-Zentrierung: Hubwerk Entprellzeit zu niedrig#3
+11001#FG11-Zentrierung: Hubwerk Entprellzeit zu hoch#3
+11002#FG11-Zentrierung: Hubwerk Überwachungszeit Bewegung zu niedrig#3
+11003#FG11-Zentrierung: Hubwerk Überwachungszeit Bewegung zu hoch#3
+11004#FG11-Zentrierung: Hubwerk Überwachungszeit Endlage verlassen zu niedrig#3
+11005#FG11-Zentrierung: Hubwerk Überwachungszeit Endlage verlassen zu hoch#3
+11008#FG11-Zentrierung: Hubwerk Beide Betriebsarten aktiv#6
+11009#FG11-Zentrierung: Hubwerk Vorwahlen stehen gleichzeitig an (Automatik)#6
+11010#FG11-Zentrierung: Hubwerk Verrieglungsbedingung Grundst. nicht erfüllt#6
+11011#FG11-Zentrierung: Hubwerk Verrieglungsbedingung Arbeitsst. nicht erfüllt#6
+11016#FG11-Zentrierung: Hubwerk Z1 Überwachungszeit Bewegung nach Grundst. (Y3)#6
+11017#FG11-Zentrierung: Hubwerk Z1 Überwachungszeit Bewegung nach Arbeitsst. (Y3)#6
+11018#FG11-Zentrierung: Hubwerk Z1 Überwachungszeit Endlage Grundst. verlassen (Y3)#6
+11019#FG11-Zentrierung: Hubwerk Z1 Überwachungszeit Endlage Arbeitsst. verlassen (Y3)#6
+11020#FG11-Zentrierung: Hubwerk Z1 Grundst. verlassen ohne Ansteuerung (Y3)#6
+11021#FG11-Zentrierung: Hubwerk Z1 Arbeitsst. verlassen ohne Ansteuerung (Y3)#6
+11022#FG11-Zentrierung: Hubwerk Z1 Endlagen stehen gleichzeitig an (Y3)#6
+11024#FG11-Zentrierung: Hubwerk Z2 Überwachungszeit Bewegung nach Grundst. (Y3)#6
+11025#FG11-Zentrierung: Hubwerk Z2 Überwachungszeit Bewegung nach Arbeitsst. (Y3)#6
+11026#FG11-Zentrierung: Hubwerk Z2 Überwachungszeit Endlage Grundst. verlassen (Y3)#6
+11027#FG11-Zentrierung: Hubwerk Z2 Überwachungszeit Endlage Arbeitsst. verlassen (Y3)#6
+11028#FG11-Zentrierung: Hubwerk Z2 Grundst. verlassen ohne Ansteuerung (Y3)#6
+11029#FG11-Zentrierung: Hubwerk Z2 Arbeitsst. verlassen ohne Ansteuerung (Y3)#6
+11030#FG11-Zentrierung: Hubwerk Z2 Endlagen stehen gleichzeitig an (Y3)#6
+11032#FG11-Zentrierung: Achse 1 Entprellzeit zu niedrig#3
+11033#FG11-Zentrierung: Achse 1 Entprellzeit zu hoch#3
+11034#FG11-Zentrierung: Achse 1 Überwachungszeit Bewegung zu niedrig#3
+11035#FG11-Zentrierung: Achse 1 Überwachungszeit Bewegung zu hoch#3
+11036#FG11-Zentrierung: Achse 1 Überwachungszeit Endlage verlassen zu niedrig#3
+11037#FG11-Zentrierung: Achse 1 Überwachungszeit Endlage verlassen zu hoch#3
+11040#FG11-Zentrierung: Achse 1 Beide Betriebsarten aktiv#6
+11041#FG11-Zentrierung: Achse 1 Vorwahlen stehen gleichzeitig an (Automatik)#6
+11042#FG11-Zentrierung: Achse 1 Verrieglungsbedingung Grundst. nicht erfüllt#6
+11043#FG11-Zentrierung: Achse 1 Verrieglungsbedingung Arbeitsst. nicht erfüllt#6
+11048#FG11-Zentrierung: Achse 1.1 Überwachungszeit Bewegung nach Grundst. (Y1)#6
+11049#FG11-Zentrierung: Achse 1.1 Überwachungszeit Bewegung nach Arbeitsst. (Y1)#6
+11050#FG11-Zentrierung: Achse 1.1 Überwachungszeit Endlage Grundst. verlassen (Y1)#6
+11051#FG11-Zentrierung: Achse 1.1 Überwachungszeit Endlage Arbeitsst. verlassen (Y1)#6
+11052#FG11-Zentrierung: Achse 1.1 Grundst. verlassen ohne Ansteuerung (Y1)#6
+11053#FG11-Zentrierung: Achse 1.1 Arbeitsst. verlassen ohne Ansteuerung (Y1)#6
+11054#FG11-Zentrierung: Achse 1.1 Endlagen stehen gleichzeitig an (Y1)#6
+11056#FG11-Zentrierung: Achse 1.2 Überwachungszeit Bewegung nach Grundst. (Y1)#6
+11057#FG11-Zentrierung: Achse 1.2 Überwachungszeit Bewegung nach Arbeitsst. (Y1)#6
+11058#FG11-Zentrierung: Achse 1.2 Überwachungszeit Endlage Grundst. verlassen (Y1)#6
+11059#FG11-Zentrierung: Achse 1.2 Überwachungszeit Endlage Arbeitsst. verlassen (Y1)#6
+11060#FG11-Zentrierung: Achse 1.2 Grundst. verlassen ohne Ansteuerung (Y1)#6
+11061#FG11-Zentrierung: Achse 1.2 Arbeitsst. verlassen ohne Ansteuerung (Y1)#6
+11062#FG11-Zentrierung: Achse 1.2 Endlagen stehen gleichzeitig an (Y1)#6
+11064#FG11-Zentrierung: Achse 2 Entprellzeit zu niedrig#3
+11065#FG11-Zentrierung: Achse 2 Entprellzeit zu hoch#3
+11066#FG11-Zentrierung: Achse 2 Überwachungszeit Bewegung zu niedrig#3
+11067#FG11-Zentrierung: Achse 2 Überwachungszeit Bewegung zu hoch#3
+11068#FG11-Zentrierung: Achse 2 Überwachungszeit Endlage verlassen zu niedrig#3
+11069#FG11-Zentrierung: Achse 2 Überwachungszeit Endlage verlassen zu hoch#3
+11072#FG11-Zentrierung: Achse 2 Beide Betriebsarten aktiv#6
+11073#FG11-Zentrierung: Achse 2 Vorwahlen stehen gleichzeitig an (Automatik)#6
+11074#FG11-Zentrierung: Achse 2 Verrieglungsbedingung Grundst. nicht erfüllt#6
+11075#FG11-Zentrierung: Achse 2 Verrieglungsbedingung Arbeitsst. nicht erfüllt#6
+11080#FG11-Zentrierung: Achse 2.1 Überwachungszeit Bewegung nach Grundst. (Y2)#6
+11081#FG11-Zentrierung: Achse 2.1 Überwachungszeit Bewegung nach Arbeitsst. (Y2)#6
+11082#FG11-Zentrierung: Achse 2.1 Überwachungszeit Endlage Grundst. verlassen (Y2)#6
+11083#FG11-Zentrierung: Achse 2.1 Überwachungszeit Endlage Arbeitsst. verlassen (Y2)#6
+11084#FG11-Zentrierung: Achse 2.1 Grundst. verlassen ohne Ansteuerung (Y2)#6
+11085#FG11-Zentrierung: Achse 2.1 Arbeitsst. verlassen ohne Ansteuerung (Y2)#6
+11086#FG11-Zentrierung: Achse 2.1 Endlagen stehen gleichzeitig an (Y2)#6
+11088#FG11-Zentrierung: Achse 2.2 Überwachungszeit Bewegung nach Grundst. (Y2)#6
+11089#FG11-Zentrierung: Achse 2.2 Überwachungszeit Bewegung nach Arbeitsst. (Y2)#6
+11090#FG11-Zentrierung: Achse 2.2 Überwachungszeit Endlage Grundst. verlassen (Y2)#6
+11091#FG11-Zentrierung: Achse 2.2 Überwachungszeit Endlage Arbeitsst. verlassen (Y2)#6
+11092#FG11-Zentrierung: Achse 2.2 Grundst. verlassen ohne Ansteuerung (Y2)#6
+11093#FG11-Zentrierung: Achse 2.2 Arbeitsst. verlassen ohne Ansteuerung (Y2)#6
+11094#FG11-Zentrierung: Achse 2.2 Endlagen stehen gleichzeitig an (Y2)#6
+11096#FG11-Zentrierung: Vakuum Fixierung Entprellzeit zu niedrig#3
+11097#FG11-Zentrierung: Vakuum Fixierung Entprellzeit zu hoch#3
+11098#FG11-Zentrierung: Vakuum Fixierung Überwachungszeit Bewegung zu niedrig#3
+11099#FG11-Zentrierung: Vakuum Fixierung Überwachungszeit Bewegung zu hoch#3
+11100#FG11-Zentrierung: Vakuum Fixierung Überwachungszeit Endlage verlassen zu niedrig#3
+11101#FG11-Zentrierung: Vakuum Fixierung Überwachungszeit Endlage verlassen zu hoch#3
+11104#FG11-Zentrierung: Vakuum Fixierung Beide Betriebsarten aktiv#6
+11105#FG11-Zentrierung: Vakuum Fixierung Vorwahlen stehen gleichzeitig an (Automatik)#6
+11106#FG11-Zentrierung: Vakuum Fixierung Verrieglungsbedingung Grundst. nicht erfüllt#6
+11107#FG11-Zentrierung: Vakuum Fixierung Verrieglungsbed. Arbeitsst. nicht erfüllt#6
+11112#FG11-Zentrierung: Vakuum Fixierung Überwachungszeit Bewegung nach Grundst. (Y4)#6
+11113#FG11-Zentrierung: Vakuum Fixierung Überwachungszeit Bew. nach Arbeitsst. (Y4)#6
+11114#FG11-Zentrierung: Vakuum Fixierung Überwachungszeit Grundst. verlassen (Y4)#6
+11115#FG11-Zentrierung: Vakuum Fixierung Überwachungszeit Arbeitsst. verlassen (Y4)#6
+11116#FG11-Zentrierung: Vakuum Fixierung Grundst. verlassen ohne Ansteuerung (Y4)#6
+11117#FG11-Zentrierung: Vakuum Fixierung Arbeitsst. verlassen ohne Ansteuerung (Y4)#6
+11118#FG11-Zentrierung: Vakuum Fixierung Endlagen stehen gleichzeitig an (Y4)#6
+11120#FG11-Zentrierung: Vakuum 1 Saugen Entprellzeit zu niedrig#6
+11121#FG11-Zentrierung: Vakuum 1 Saugen Entprellzeit zu hoch#6
+11122#FG11-Zentrierung: Vakuum 1 Saugen Überwachungszeit Bewegung zu niedrig#6
+11123#FG11-Zentrierung: Vakuum 1 Saugen Überwachungszeit Bewegung zu hoch#6
+11124#FG11-Zentrierung: Vakuum 1 Saugen Überwachungszeit Endlage verlassen zu niedrig#6
+11125#FG11-Zentrierung: Vakuum 1 Saugen Überwachungszeit Endlage verlassen zu hoch#6
+11128#FG11-Zentrierung: Vakuum 1 Saugen Beide Betriebsarten aktiv#6
+11129#FG11-Zentrierung: Vakuum 1 Saugen Vorwahlen stehen gleichzeitig an (Automatik)#6
+11130#FG11-Zentrierung: Vakuum 1 Saugen Verrieglungsbedingung Grundst. nicht erfüllt#6
+11131#FG11-Zentrierung: Vakuum 1 Saugen Verrieglungsbedingung Arbeitsst. nicht erfüllt#6
+11136#FG11-Zentrierung: Vakuum 1 Saugen Überwachungszeit Bewegung nach Grundst. (Y6)#6
+11137#FG11-Zentrierung: Vakuum 1 Saugen Überwachungszeit Bew. nach Arbeitsst. (Y6)#6
+11138#FG11-Zentrierung: Vakuum 1 Saugen Überwachungszeit Grundst. verlassen (Y6)#6
+11139#FG11-Zentrierung: Vakuum 1 Saugen Überwachungszeit Arbeitsst. verlassen (Y6)#6
+11140#FG11-Zentrierung: Vakuum 1 Saugen Grundst. verlassen ohne Ansteuerung (Y6)#6
+11141#FG11-Zentrierung: Vakuum 1 Saugen Arbeitsst. verlassen ohne Ansteuerung (Y6)#6
+11142#FG11-Zentrierung: Vakuum 1 Saugen Endlagen stehen gleichzeitig an (Y6)#6
+11144#FG11-Zentrierung: Vakuum 2 Saugen Entprellzeit zu niedrig#6
+11145#FG11-Zentrierung: Vakuum 2 Saugen Entprellzeit zu hoch#6
+11146#FG11-Zentrierung: Vakuum 2 Saugen Überwachungszeit Bewegung zu niedrig#6
+11147#FG11-Zentrierung: Vakuum 2 Saugen Überwachungszeit Bewegung zu hoch#6
+11148#FG11-Zentrierung: Vakuum 2 Saugen Überwachungszeit Endlage verlassen zu niedrig#6
+11149#FG11-Zentrierung: Vakuum 2 Saugen Überwachungszeit Endlage verlassen zu hoch#6
+11152#FG11-Zentrierung: Vakuum 2 Saugen Beide Betriebsarten aktiv#6
+11153#FG11-Zentrierung: Vakuum 2 Saugen Vorwahlen stehen gleichzeitig an (Automatik)#6
+11154#FG11-Zentrierung: Vakuum 2 Saugen Verrieglungsbedingung Grundst. nicht erfüllt#6
+11155#FG11-Zentrierung: Vakuum 2 Saugen Verrieglungsbedingung Arbeitsst. nicht erfüllt#6
+11160#FG11-Zentrierung: Vakuum 2 Saugen Überwachungszeit Bewegung nach Grundst. (Y7)#6
+11161#FG11-Zentrierung: Vakuum 2 Saugen Überwachungszeit Bew. nach Arbeitsst. (Y7)#6
+11162#FG11-Zentrierung: Vakuum 2 Saugen Überwachungszeit Grundst. verlassen (Y7)#6
+11163#FG11-Zentrierung: Vakuum 2 Saugen Überwachungszeit Arbeitsst. verlassen (Y7)#6
+11164#FG11-Zentrierung: Vakuum 2 Saugen Grundst. verlassen ohne Ansteuerung (Y7)#6
+11165#FG11-Zentrierung: Vakuum 2 Saugen Arbeitsst. verlassen ohne Ansteuerung (Y7)#6
+11166#FG11-Zentrierung: Vakuum 2 Saugen Endlagen stehen gleichzeitig an (Y7)#6
+11168#FG11-Zentrierung: Vakuum 3 Saugen Entprellzeit zu niedrig#6
+11169#FG11-Zentrierung: Vakuum 3 Saugen Entprellzeit zu hoch#6
+11170#FG11-Zentrierung: Vakuum 3 Saugen Überwachungszeit Bewegung zu niedrig#6
+11171#FG11-Zentrierung: Vakuum 3 Saugen Überwachungszeit Bewegung zu hoch#6
+11172#FG11-Zentrierung: Vakuum 3 Saugen Überwachungszeit Endlage verlassen zu niedrig#6
+11173#FG11-Zentrierung: Vakuum 3 Saugen Überwachungszeit Endlage verlassen zu hoch#6
+11176#FG11-Zentrierung: Vakuum 3 Saugen Beide Betriebsarten aktiv#6
+11177#FG11-Zentrierung: Vakuum 3 Saugen Vorwahlen stehen gleichzeitig an (Automatik)#6
+11178#FG11-Zentrierung: Vakuum 3 Saugen Verrieglungsbedingung Grundst. nicht erfüllt#6
+11179#FG11-Zentrierung: Vakuum 3 Saugen Verrieglungsbedingung Arbeitsst. nicht erfüllt#6
+11184#FG11-Zentrierung: Vakuum 3 Saugen Überwachungszeit Bewegung nach Grundst. (Y8)#6
+11185#FG11-Zentrierung: Vakuum 3 Saugen Überwachungszeit Bew. nach Arbeitsst. (Y8)#6
+11186#FG11-Zentrierung: Vakuum 3 Saugen Überwachungszeit Grundst. verlassen (Y8)#6
+11187#FG11-Zentrierung: Vakuum 3 Saugen Überwachungszeit Arbeitsst. verlassen (Y8)#6
+11188#FG11-Zentrierung: Vakuum 3 Saugen Grundst. verlassen ohne Ansteuerung (Y8)#6
+11189#FG11-Zentrierung: Vakuum 3 Saugen Arbeitsst. verlassen ohne Ansteuerung (Y8)#6
+11190#FG11-Zentrierung: Vakuum 3 Saugen Endlagen stehen gleichzeitig an (Y8)#6
+12000#FG12-Förderer: Zeitüberwachung Einfördern#6
+12001#FG12-Förderer: Zeitüberwachung Ausfördern#6
+12008#FG12-Förderer: SEW Movimot Sammelmedung#6
+13000#FG13-Dosierer: konnte nicht referenziert werden#6
+13001#FG13-Dosierer: Befüllposition konnte nicht erreicht werden#6
+13002#FG13-Dosierer: Einlassventil konnte nicht geöffnet werden#6
+13003#FG13-Dosierer: Dosierer konnte nicht gefüllt werden#6
+13004#FG13-Dosierer: Einlassventil konnte nicht geschlossen werden#6
+13005#FG13-Dosierer: Nullposition konnte nicht erreicht#6
+13006#FG13-Dosierer: Standdruck wurde nicht erreicht#6
+13007#FG13-Dosierer: Auslassventil konnte nicht geöffnet werden#6
+13008#FG13-Dosierer: Fehler beim Material austragen#6
+13009#FG13-Dosierer: Auslassventil konnte nicht geschlossen werden#6
+13010#FG13-Dosierer: Leerposition konnte nicht erreicht werden#6
+13016#FG13-Dosierer: Störung Drucksonde#6
+13017#FG13-Dosierer: Öler ausgeschalten#6
+13018#FG13-Dosierer: Servoumrichter hat Betrieb nicht freigegeben#6
+13019#FG13-Dosierer: ist nicht referenziert#6
+13020#FG13-Dosierer: Störung Servoumrichter#6
+13021#FG13-Dosierer: Überdruck#6
+13022#FG13-Dosierer: Vorwarnung Drehmomentengrenze#6
+13023#FG13-Dosierer: maximales Drehmoment erreicht#6
+13024#FG13-Dosierer: Standdruck konnte nicht abgebaut werden#6
+13025#FG13-Dosierer: Standdruck konnte nicht aufgebaut werden#6
+13026#FG13-Dosierer: minimaler Sollwert bei Applikation unterschritten#6
+13027#FG13-Dosierer: maximaler Sollwert bei Applikation überschritten#6
+13028#FG13-Dosierer: Teilekontrolle Einlassventil Ein#6
+13029#FG13-Dosierer: Teilekontrolle Einlassventil Aus#6
+13030#FG13-Dosierer: Teilekontrolle Auslassventil Ein#6
+13031#FG13-Dosierer: Teilekontrolle Auslassventil Aus#6
+13032#FG13-Dosierer: Dockingstation Entprellzeit zu niedrig#3
+13033#FG13-Dosierer: Dockingstation Entprellzeit zu hoch#3
+13034#FG13-Dosierer: Dockingstation Überwachungszeit Bewegung zu niedrig#3
+13035#FG13-Dosierer: Dockingstation Überwachungszeit Bewegung zu hoch#3
+13036#FG13-Dosierer: Dockingstation Überwachungszeit Endlage verlassen zu niedrig#3
+13037#FG13-Dosierer: Dockingstation Überwachungszeit Endlage verlassen zu hoch#3
+13040#FG13-Dosierer: Dockingstation Beide Betriebsarten aktiv#6
+13041#FG13-Dosierer: Dockingstation Vorwahlen stehen gleichzeitig an (Automatik)#6
+13042#FG13-Dosierer: Dockingstation Verrieglungsbedingung Grundst. nicht erfüllt#6
+13043#FG13-Dosierer: Dockingstation Verrieglungsbedingung Arbeitsst. nicht erfüllt#6
+13048#FG13-Dosierer: Dockingstation Überwachungszeit Bewegung nach Grundst. (Y4)#6
+13049#FG13-Dosierer: Dockingstation Überwachungszeit Bewegung nach Arbeitsst. (Y4)#6
+13050#FG13-Dosierer: Dockingstation Überwachungszeit Grundst. verlassen (Y4)#6
+13051#FG13-Dosierer: Dockingstation Überwachungszeit Arbeitsst. verlassen (Y4)#6
+13052#FG13-Dosierer: Dockingstation Grundst. verlassen ohne Ansteuerung (Y4)#6
+13053#FG13-Dosierer: Dockingstation Arbeitsst. verlassen ohne Ansteuerung (Y4)#6
+13054#FG13-Dosierer: Dockingstation Endlagen stehen gleichzeitig an (Y4)#6
+13080#FG13-Dosierer: Drucksonde Scalierung-Parametrierfehler#3
+13081#FG13-Dosierer: Drucksonde Scalierung-Verletzung Untergrenze Analogwert#3
+13082#FG13-Dosierer: Drucksonde Scalierung-Verletzung Obergrenze Analogwert#3
+13084#FG13-Dosierer: Leerfahren angewählt#6
+13085#FG13-Dosierer: Ohne Material angewählt#6
+14000#FG14-Roboter: Not-Aus#2
+14001#FG14-Roboter: Bedienerschutz#1
+14002#FG14-Roboter: Automatik Extern#6
+14003#FG14-Roboter: Störung Roboterantriebe einschalten#6
+14004#FG14-Roboter: Störung Quittierung nicht möglich#6
+14005#FG14-Roboter: Störung Programm Start Extern#6
+14008#FG14-Roboter: Störung Programnummer nicht angenommen#6
+14016#FG14-Roboter: Geschwindigkeit Scalierung-Parametrierfehler#3
+14017#FG14-Roboter: Geschwindigkeit Scalierung-Verletzung Untergrenze Analogwert#3
+14018#FG14-Roboter: Geschwindigkeit Scalierung-Verletzung Obergrenze Analogwert#3
+14020#FG14-Roboter: Kommunikation zum Roboter gestört#6
+15000#FG15-Kleberauppenüberwachung: Messung Kleberaupe n.i.O.#6
+15001#FG15-Kleberauppenüberwachung: Messung Abstand Kleberaupe <-> Rand n.i.O.#6
+15007#FG15-Kleberauppenüberwachung: Abgewählt#6
+15008#FG15-Kleberauppenüberwachung: Kommunikation zur Kamera gestört#6
+16000#FG16-MES: Kommunikation zum SECS Adapter gestört#6
+16001#FG16-MES: Kommunikation zum MES gestört#6
+16008#FG16-MES: Abgewählt#6
+17000#FG17-DFP: Kommunikation zur Pumpe gestört#6
+17016#FG17-DFP: Druckluft gestört#6
+17017#FG17-DFP: Störung Klimagerät#6
+17018#FG17-DFP: Sicherungsfall AF11#6
+17019#FG17-DFP: Sicherungsfall AF12#6
+17020#FG17-DFP: Sicherungsfall AF13#6
+17021#FG17-DFP: Sicherungsfall AF14#6
+17022#FG17-DFP: Sicherungsfall AF21#6
+17023#FG17-DFP: Sicherungsfall AF22#6
+17024#FG17-DFP: Leistungsschalter + FI ausgelöst#6
+17025#FG17-DFP: Sicherungsfall Heizkreise RAM A teilbeheizt#6
+17026#FG17-DFP: Sicherungsfall Heizkreise RAM A vollbeheizt#6
+17027#FG17-DFP: Sicherungsfall Heizkreise RAM B teilbeheizt#6
+17028#FG17-DFP: Sicherungsfall Heizkreise RAM B vollbeheizt#6
+17032#FG17-DFP: Heizungsschütz schaltet nicht#6
+17033#FG17-DFP: Unterstromwächter Folgeplatte RAM A angesprochen#6
+17034#FG17-DFP: Unterstromwächter Folgeplatte RAM B angesprochen#6
+17035#FG17-DFP: Sicherheitstemperaturwächter RAM A angesprochen#6
+17036#FG17-DFP: Sicherheitstemperaturwächter RAM B angesprochen#6
+17040#FG17-DFP: Untertemperatur Heizkreis 01 (Folgeplatte RAM A)#3
+17041#FG17-DFP: Untertemperatur Heizkreis 02 (Unterpumpe RAM A)#3
+17042#FG17-DFP: Untertemperatur Heizkreis 03 (Schlauch zu Verteiler RAM A)#3
+17043#FG17-DFP: Untertemperatur Heizkreis 04 (Folgeplatte RAM B)#3
+17044#FG17-DFP: Untertemperatur Heizkreis 05 (Unterpumpe RAM B)#3
+17045#FG17-DFP: Untertemperatur Heizkreis 06 (Schlauch zu Verteiler RAM B)#3
+17046#FG17-DFP: Untertemperatur Heizkreis 07 (Material Verteiler)#3
+17047#FG17-DFP: Untertemperatur Heizkreis 08 (Rohr zu Docking Station)#3
+17048#FG17-DFP: Untertemperatur Heizkreis 09 (Docking Station)#3
+17049#FG17-DFP: Untertemperatur Heizkreis 10 (Docking Ventil)#3
+17050#FG17-DFP: Untertemperatur Heizkreis 11 (Dosierer)#3
+17056#FG17-DFP: Übertemperatur Heizkreis 01 (Folgeplatte RAM A)#3
+17057#FG17-DFP: Übertemperatur Heizkreis 02 (Unterpumpe RAM A)#3
+17058#FG17-DFP: Übertemperatur Heizkreis 03 (Schlauch zu Verteiler RAM A)#3
+17059#FG17-DFP: Übertemperatur Heizkreis 04 (Folgeplatte RAM B)#3
+17060#FG17-DFP: Übertemperatur Heizkreis 05 (Unterpumpe RAM B)#3
+17061#FG17-DFP: Übertemperatur Heizkreis 06 (Schlauch zu Verteiler RAM B)#3
+17062#FG17-DFP: Übertemperatur Heizkreis 07 (Material Verteiler)#3
+17063#FG17-DFP: Übertemperatur Heizkreis 08 (Rohr zu Docking Station)#3
+17064#FG17-DFP: Übertemperatur Heizkreis 09 (Docking Station)#3
+17065#FG17-DFP: Übertemperatur Heizkreis 10 (Docking Ventil)#3
+17066#FG17-DFP: Übertemperatur Heizkreis 11 (Dosierer)#3
+17072#FG17-DFP: Sondenbruch Heizkreis 01 (Folgeplatte RAM A)#3
+17073#FG17-DFP: Sondenbruch Heizkreis 02 (Unterpumpe RAM A)#3
+17074#FG17-DFP: Sondenbruch Heizkreis 03 (Schlauch zu Verteiler RAM A)#3
+17075#FG17-DFP: Sondenbruch Heizkreis 04 (Folgeplatte RAM B)#3
+17076#FG17-DFP: Sondenbruch Heizkreis 05 (Unterpumpe RAM B)#3
+17077#FG17-DFP: Sondenbruch Heizkreis 06 (Schlauch zu Verteiler RAM B)#3
+17078#FG17-DFP: Sondenbruch Heizkreis 07 (Material Verteiler)#3
+17079#FG17-DFP: Sondenbruch Heizkreis 08 (Rohr zu Docking Station)#3
+17080#FG17-DFP: Sondenbruch Heizkreis 09 (Docking Station)#3
+17081#FG17-DFP: Sondenbruch Heizkreis 10 (Docking Ventil)#3
+17082#FG17-DFP: Sondenbruch Heizkreis 11 (Dosierer)#3
+17096#FG17-DFP: RAM A Heizung nicht eingeschaltet#6
+17097#FG17-DFP: RAM A Heizung Aufheizzeit läuft noch#6
+17098#FG17-DFP: RAM A 80% leer#6
+17099#FG17-DFP: RAM A leer#6
+17100#FG17-DFP: RAM A kein Automatik#6
+17101#FG17-DFP: RAM A nicht Betriebsbereit#6
+17104#FG17-DFP: RAM B Heizung nicht eingeschaltet#6
+17105#FG17-DFP: RAM B Heizung Aufheizzeit läuft noch#6
+17106#FG17-DFP: RAM B 80% leer#6
+17107#FG17-DFP: RAM B leer#6
+17108#FG17-DFP: RAM B kein Automatik#6
+17109#FG17-DFP: RAM B nicht Betriebsbereit#6
+17112#FG17-DFP: Allgemein Heizung nicht eingeschaltet#6
+17113#FG17-DFP: Allgemein Heizung Aufheizzeit läuft noch#6

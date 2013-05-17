@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<project name="ant" default="make" basedir="..">
+	
+	<property file="ant/build.properties"/>
+		
+	<target name="copy jars">
+		<copy todir="${lib}" >
+			<fileset dir="${ant.utilities.dir}">
+				<include name="${ant.utilities.jar}"/>
+			</fileset>
+			<fileset dir="${ant.dir}">
+				<include name="${ant.jar}"/>
+			</fileset>
+		</copy>
+	</target>
+	
+	<target name="edf2sql" description="Create an sql file out of the edf file">
+		<taskdef name="edf2sql" classname="com.camline.ant.utilities.Edf2sql">
+			<classpath>
+				<fileset dir="${build}">
+					<include name="*.jar"/>
+				</fileset>
+			</classpath>
+		</taskdef>
+		
+		<edf2sql sourcefile="${edf}/Xenon.edf" destfile="${edf}/Xenon.sql"/>
+	</target>
+	
+	<target name="create jar" depends="compile" description="create jar">
+		<jar destfile="${build}/Edf2sql.jar" basedir="${build}/tmp" />
+		<delete dir="${build}/tmp"/>
+	</target>
+	
+	<target name="compile">
+		<mkdir dir="${build}/tmp"/>	
+		<javac debug="true" destdir="${build}/tmp" source="1.5" target="1.5">
+			<src path="${src}/com/camline/ant/utilities"/>
+		</javac>
+	</target>
+	
+	<target name="clean">
+		<delete dir="${lib}"/>
+		<mkdir dir="${lib}"/>
+	</target>
+	
+	<target name="make" depends="clean">
+		<antcall target="copy jars"></antcall>
+	</target>
+</project>

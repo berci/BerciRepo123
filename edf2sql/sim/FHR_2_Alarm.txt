@@ -1,0 +1,1542 @@
+alWinCC2000;2000;12000;22000;4;WinCC-Runtime : keine Verbindung zur SPS: Netzausfall
+alWinCC2001;2001;12001;22001;4;Anlage allgemein : keine Druckluft vorhanden
+alWinCC2002;2002;12002;22002;4;Anlage allgemein : Fehler im SPS Programm
+alWinCC2003;2003;12003;22003;4;Anlage allgemein : Fehler Phasenfolgerelais/Netzausfall
+alWinCC2004;2004;12004;22004;4;Anlage allgemein : Fehler Taktmerker CPU
+alWinCC2005;2005;12005;22005;4;Anlage allgemein : WinCC wird gestoppt 1
+alWinCC2006;2006;12006;22006;4;Anlage allgemein : WinCC wird gestoppt 2
+alWinCC2007;2007;12007;22007;4;Anlage allgemein : WinCC wird gestoppt 3
+alWinCC2008;2008;12008;22008;4;Anlage allgemein : SPS-Systemfehler: FHR anrufen
+alWinCC2009;2009;12009;22009;4;Anlage allgemein : Fehler extern 1
+alWinCC2010;2010;12010;22010;4;Anlage allgemein : Fehler extern 2
+alWinCC2011;2011;12011;22011;4;Anlage allgemein : Fehler extern 3
+alWinCC2012;2012;12012;22012;4;Anlage allgemein : Fehler extern 4
+alWinCC2013;2013;12013;22013;4;Anlage allgemein : Fehler extern 5
+alWinCC2014;2014;12014;22014;4;Anlage allgemein : Fehler extern 6
+alWinCC2015;2015;12015;22015;4;Anlage allgemein : Fehler extern 7
+alWinCC2016;2016;12016;22016;4;Anlage allgemein : Fehler extern 8
+alWinCC2017;2017;12017;22017;4;Anlage allgemein : Nummerierung der Automatikbefehle fehlerhaft
+alWinCC2018;2018;12018;22018;3;Anlage allgemein : neue Nummerierung der Automatikbefehle erfolgt
+alWinCC2019;2019;12019;22019;3;Anlage allgemein : Nummerierung der Automatikbefehle: Gerät nicht vorhanden
+alWinCC2020;2020;12020;22020;3;Anlage allgemein : Nummerierung der Automatikbefehle: Datenbankverbindungsfehler
+alWinCC2021;2021;12021;22021;3;Anlage allgemein : Automatikfunktionen deaktivert
+alWinCC2022;2022;12022;22022;0;Automatikprogramm 1 : Programmdatei ist nicht vorhanden
+alWinCC2023;2023;12023;22023;0;Automatikprogramm 1 : Fehler beim Laden des Programms
+alWinCC2024;2024;12024;22024;0;Automatikprogramm 1 : aufrufendes Programm kann nicht geladen werden
+alWinCC2025;2025;12025;22025;0;Automatikprogramm 1 : Programm mit Fehler beendet
+alWinCC2026;2026;12026;22026;0;Automatikprogramm 1 : Parameter außerhalb Bereich
+alWinCC2027;2027;12027;22027;0;Automatikprogramm 1 : Meldung
+alWinCC2028;2028;12028;22028;3;Automatikprogramm 1 : Meldet Fehler: @2%s@
+alWinCC2029;2029;12029;22029;0;Automatikprogramm 2 : Programmdatei ist nicht vorhanden
+alWinCC2030;2030;12030;22030;0;Automatikprogramm 2 : Fehler beim Laden des Programms
+alWinCC2031;2031;12031;22031;0;Automatikprogramm 2 : aufrufendes Programm kann nicht geladen werden
+alWinCC2032;2032;12032;22032;0;Automatikprogramm 2 : Programm mit Fehler beendet
+alWinCC2033;2033;12033;22033;0;Automatikprogramm 2 : Parameter außerhalb Bereich
+alWinCC2034;2034;12034;22034;0;Automatikprogramm 2 : Meldung
+alWinCC2035;2035;12035;22035;0;Automatikprogramm 2 : Meldet Fehler: @2%s@
+alWinCC2036;2036;12036;22036;0;Automatikprogramm 3 : Programmdatei ist nicht vorhanden
+alWinCC2037;2037;12037;22037;0;Automatikprogramm 3 : Fehler beim Laden des Programms
+alWinCC2038;2038;12038;22038;0;Automatikprogramm 3 : aufrufendes Programm kann nicht geladen werden
+alWinCC2039;2039;12039;22039;0;Automatikprogramm 3 : Programm mit Fehler beendet
+alWinCC2040;2040;12040;22040;0;Automatikprogramm 3 : Parameter außerhalb Bereich
+alWinCC2041;2041;12041;22041;0;Automatikprogramm 3 : Meldung
+alWinCC2042;2042;12042;22042;3;Automatikprogramm 3 : Meldet Fehler: @2%s@
+alWinCC2043;2043;12043;22043;0;Automatikprogramm 4 : Programmdatei ist nicht vorhanden
+alWinCC2044;2044;12044;22044;0;Automatikprogramm 4 : Fehler beim Laden des Programms
+alWinCC2045;2045;12045;22045;0;Automatikprogramm 4 : aufrufendes Programm kann nicht geladen werden
+alWinCC2046;2046;12046;22046;0;Automatikprogramm 4 : Programm mit Fehler beendet
+alWinCC2047;2047;12047;22047;0;Automatikprogramm 4 : Parameter außerhalb Bereich
+alWinCC2048;2048;12048;22048;0;Automatikprogramm 4 : Meldung
+alWinCC2049;2049;12049;22049;3;Automatikprogramm 4 : Meldet Fehler: @2%s@
+alWinCC2054;2054;12054;22054;3;Inkrementalmesswalze : Band schlupft
+alWinCC2055;2055;12055;22055;3;Inkrementalmesswalze : Band driftet
+alWinCC2056;2056;12056;22056;4;Wickler 1: Zugregler : Band ist gerissen
+alWinCC2057;2057;12057;22057;4;Wickler 1: Zugregler : SPS des Servocontrollers ist nicht im RUN Modus
+alWinCC2058;2058;12058;22058;4;Wickler 1: Zugregler : Fehler Profibuskommunikation
+alWinCC2059;2059;12059;22059;3;Wickler 1: Zugregler : Bandzug ist außerhalb der vorgegebenen Toleranz
+alWinCC2060;2060;12060;22060;4;Wickler 1: Zugregler : Servocontroller ist nicht im AF Modus (Antrieb Freigabe)
+alWinCC2061;2061;12061;22061;4;Wickler 1: Zugregler : Servocontroller ist nicht im Operationsmodus (OM)
+alWinCC2062;2062;12062;22062;4;Wickler 1: Zugregler : Wickeldurchmesser ist Null
+alWinCC2063;2063;12063;22063;4;Wickler 1: Zugregler : Unterspannung am Servoverstärker
+alWinCC2064;2064;12064;22064;4;Wickler 1: Zugregler : Überspannung am Servoverstärker
+alWinCC2065;2065;12065;22065;4;Wickler 1: Zugregler : Überstrom am Servoverstärker
+alWinCC2066;2066;12066;22066;4;Wickler 1: Zugregler : Fehler im Motorstromregler
+alWinCC2067;2067;12067;22067;4;Wickler 1: Zugregler : Interne Kommunikationsfehler
+alWinCC2068;2068;12068;22068;4;Wickler 1: Zugregler : Falsche Position
+alWinCC2069;2069;12069;22069;4;Wickler 1: Zugregler : Abschaltung wegen zu hoher Leistung
+alWinCC2070;2070;12070;22070;4;Wickler 1: Zugregler : Zu hohe Temperatur im Servoverstärker
+alWinCC2071;2071;12071;22071;4;Wickler 1: Zugregler : Zu hohe Motortemperatur
+alWinCC2072;2072;12072;22072;4;Wickler 1: Zugregler : Fehler in der Steuerspannung
+alWinCC2073;2073;12073;22073;4;Wickler 1: Zugregler : Fehler im Motorencoder
+alWinCC2074;2074;12074;22074;4;Wickler 1: Zugregler : Unterspannung im DC Zwischenkreis
+alWinCC2075;2075;12075;22075;4;Wickler 1: Zugregler : Istposition außerhalb der Toleranz
+alWinCC2076;2076;12076;22076;3;Wickler 1: Zugregler : Zu hohe Leistung
+alWinCC2077;2077;12077;22077;3;Wickler 1: Zugregler : Zu hohe Temperatur im Servoverstärker
+alWinCC2078;2078;12078;22078;3;Wickler 1: Zugregler : Zu hohe Motortemperatur
+alWinCC2079;2079;12079;22079;3;Wickler 1: Zugregler : Gerätefehler laut Verstärker- Display
+alWinCC2080;2080;12080;22080;4;Wickler 2: Zugregler : Band ist gerissen
+alWinCC2081;2081;12081;22081;4;Wickler 2: Zugregler : SPS des Servocontrollers ist nicht im RUN Modus
+alWinCC2082;2082;12082;22082;4;Wickler 2: Zugregler : Fehler Profibuskommunikation
+alWinCC2083;2083;12083;22083;3;Wickler 2: Zugregler : Bandzug ist außerhalb der vorgegebenen Toleranz
+alWinCC2084;2084;12084;22084;4;Wickler 2: Zugregler : Servocontroller ist nicht im AF Modus (Antrieb Freigabe)
+alWinCC2085;2085;12085;22085;4;Wickler 2: Zugregler : Servocontroller ist nicht im Operationsmodus (OM)
+alWinCC2086;2086;12086;22086;4;Wickler 2: Zugregler : Wickeldurchmesser ist Null
+alWinCC2087;2087;12087;22087;4;Wickler 2: Zugregler : Unterspannung am Servoverstärker
+alWinCC2088;2088;12088;22088;4;Wickler 2: Zugregler : Überspannung am Servoverstärker
+alWinCC2089;2089;12089;22089;4;Wickler 2: Zugregler : Überstrom am Servoverstärker
+alWinCC2090;2090;12090;22090;4;Wickler 2: Zugregler : Fehler im Motorstromregler
+alWinCC2091;2091;12091;22091;4;Wickler 2: Zugregler : Interne Kommunikationsfehler
+alWinCC2092;2092;12092;22092;4;Wickler 2: Zugregler : Falsche Position
+alWinCC2093;2093;12093;22093;4;Wickler 2: Zugregler : Abschaltung wegen zu hoher Leistung
+alWinCC2094;2094;12094;22094;4;Wickler 2: Zugregler : Zu hohe Temperatur im Servoverstärker
+alWinCC2095;2095;12095;22095;4;Wickler 2: Zugregler : Zu hohe Motortemperatur
+alWinCC2096;2096;12096;22096;4;Wickler 2: Zugregler : Fehler in der Steuerspannung
+alWinCC2097;2097;12097;22097;4;Wickler 2: Zugregler : Fehler im Motorencoder
+alWinCC2098;2098;12098;22098;4;Wickler 2: Zugregler : Unterspannung im DC Zwischenkreis
+alWinCC2099;2099;12099;22099;4;Wickler 2: Zugregler : Istposition außerhalb der Toleranz
+alWinCC2100;2100;12100;22100;3;Wickler 2: Zugregler : Zu hohe Leistung
+alWinCC2101;2101;12101;22101;3;Wickler 2: Zugregler : Zu hohe Temperatur im Servoverstärker
+alWinCC2102;2102;12102;22102;3;Wickler 2: Zugregler : Zu hohe Motortemperatur
+alWinCC2103;2103;12103;22103;3;Wickler 2: Zugregler : Gerätefehler laut Verstärker- Display
+alWinCC2104;2104;12104;22104;4;Beschichtungswalze 1 : Band ist gerissen
+alWinCC2105;2105;12105;22105;4;Beschichtungswalze 1 : SPS des Servocontrollers ist nicht im RUN Modus
+alWinCC2106;2106;12106;22106;4;Beschichtungswalze 1 : Fehler Profibuskommunikation
+alWinCC2107;2107;12107;22107;3;Beschichtungswalze 1 : Bandzug ist außerhalb der vorgegebenen Toleranz
+alWinCC2108;2108;12108;22108;4;Beschichtungswalze 1 : Servocontroller ist nicht im AF Modus (Antrieb Freigabe)
+alWinCC2109;2109;12109;22109;4;Beschichtungswalze 1 : Servocontroller ist nicht im Operationsmodus (OM)
+alWinCC2110;2110;12110;22110;4;Beschichtungswalze 1 : Wickeldurchmesser ist Null
+alWinCC2111;2111;12111;22111;4;Beschichtungswalze 1 : Unterspannung am Servoverstärker
+alWinCC2112;2112;12112;22112;4;Beschichtungswalze 1 : Überspannung am Servoverstärker
+alWinCC2113;2113;12113;22113;4;Beschichtungswalze 1 : Überstrom am Servoverstärker
+alWinCC2114;2114;12114;22114;4;Beschichtungswalze 1 : Fehler im Motorstromregler
+alWinCC2115;2115;12115;22115;4;Beschichtungswalze 1 : Interne Kommunikationsfehler
+alWinCC2116;2116;12116;22116;4;Beschichtungswalze 1 : Falsche Position
+alWinCC2117;2117;12117;22117;4;Beschichtungswalze 1 : Abschaltung wegen zu hoher Leistung
+alWinCC2118;2118;12118;22118;4;Beschichtungswalze 1 : Zu hohe Temperatur im Servoverstärker
+alWinCC2119;2119;12119;22119;4;Beschichtungswalze 1 : Zu hohe Motortemperatur
+alWinCC2120;2120;12120;22120;4;Beschichtungswalze 1 : Fehler in der Steuerspannung
+alWinCC2121;2121;12121;22121;4;Beschichtungswalze 1 : Fehler im Motorencoder
+alWinCC2122;2122;12122;22122;4;Beschichtungswalze 1 : Unterspannung im DC Zwischenkreis
+alWinCC2123;2123;12123;22123;4;Beschichtungswalze 1 : Istposition außerhalb der Toleranz
+alWinCC2124;2124;12124;22124;3;Beschichtungswalze 1 : Zu hohe Leistung
+alWinCC2125;2125;12125;22125;3;Beschichtungswalze 1 : Zu hohe Temperatur im Servoverstärker
+alWinCC2126;2126;12126;22126;3;Beschichtungswalze 1 : Zu hohe Motortemperatur
+alWinCC2127;2127;12127;22127;3;Beschichtungswalze 1 : Gerätefehler laut Verstärker- Display
+alWinCC2128;2128;12128;22128;4;Beschichtungswalze 2 : Band ist gerissen
+alWinCC2129;2129;12129;22129;4;Beschichtungswalze 2 : SPS des Servocontrollers ist nicht im RUN Modus
+alWinCC2130;2130;12130;22130;4;Beschichtungswalze 2 : Fehler Profibuskommunikation
+alWinCC2131;2131;12131;22131;3;Beschichtungswalze 2 : Bandzug ist außerhalb der vorgegebenen Toleranz
+alWinCC2132;2132;12132;22132;4;Beschichtungswalze 2 : Servocontroller ist nicht im AF Modus (Antrieb Freigabe)
+alWinCC2133;2133;12133;22133;4;Beschichtungswalze 2 : Servocontroller ist nicht im Operationsmodus (OM)
+alWinCC2134;2134;12134;22134;4;Beschichtungswalze 2 : Wickeldurchmesser ist Null
+alWinCC2135;2135;12135;22135;4;Beschichtungswalze 2 : Unterspannung am Servoverstärker
+alWinCC2136;2136;12136;22136;4;Beschichtungswalze 2 : Überspannung am Servoverstärker
+alWinCC2137;2137;12137;22137;4;Beschichtungswalze 2 : Überstrom am Servoverstärker
+alWinCC2138;2138;12138;22138;4;Beschichtungswalze 2 : Fehler im Motorstromregler
+alWinCC2139;2139;12139;22139;4;Beschichtungswalze 2 : Interne Kommunikationsfehler
+alWinCC2140;2140;12140;22140;4;Beschichtungswalze 2 : Falsche Position
+alWinCC2141;2141;12141;22141;4;Beschichtungswalze 2 : Abschaltung wegen zu hoher Leistung
+alWinCC2142;2142;12142;22142;4;Beschichtungswalze 2 : Zu hohe Temperatur im Servoverstärker
+alWinCC2143;2143;12143;22143;4;Beschichtungswalze 2 : Zu hohe Motortemperatur
+alWinCC2144;2144;12144;22144;4;Beschichtungswalze 2 : Fehler in der Steuerspannung
+alWinCC2145;2145;12145;22145;4;Beschichtungswalze 2 : Fehler im Motorencoder
+alWinCC2146;2146;12146;22146;4;Beschichtungswalze 2 : Unterspannung im DC Zwischenkreis
+alWinCC2147;2147;12147;22147;4;Beschichtungswalze 2 : Istposition außerhalb der Toleranz
+alWinCC2148;2148;12148;22148;3;Beschichtungswalze 2 : Zu hohe Leistung
+alWinCC2149;2149;12149;22149;3;Beschichtungswalze 2 : Zu hohe Temperatur im Servoverstärker
+alWinCC2150;2150;12150;22150;3;Beschichtungswalze 2 : Zu hohe Motortemperatur
+alWinCC2151;2151;12151;22151;3;Beschichtungswalze 2 : Gerätefehler laut Verstärker- Display
+alWinCC2152;2152;12152;22152;4;Beschichtungswalze 3 : Band ist gerissen
+alWinCC2153;2153;12153;22153;4;Beschichtungswalze 3 : SPS des Servocontrollers ist nicht im RUN Modus
+alWinCC2154;2154;12154;22154;4;Beschichtungswalze 3 : Fehler Profibuskommunikation
+alWinCC2155;2155;12155;22155;3;Beschichtungswalze 3 : Bandzug ist außerhalb der vorgegebenen Toleranz
+alWinCC2156;2156;12156;22156;4;Beschichtungswalze 3 : Servocontroller ist nicht im AF Modus (Antrieb Freigabe)
+alWinCC2157;2157;12157;22157;4;Beschichtungswalze 3 : Servocontroller ist nicht im Operationsmodus (OM)
+alWinCC2158;2158;12158;22158;4;Beschichtungswalze 3 : Wickeldurchmesser ist Null
+alWinCC2159;2159;12159;22159;4;Beschichtungswalze 3 : Unterspannung am Servoverstärker
+alWinCC2160;2160;12160;22160;4;Beschichtungswalze 3 : Überspannung am Servoverstärker
+alWinCC2161;2161;12161;22161;4;Beschichtungswalze 3 : Überstrom am Servoverstärker
+alWinCC2162;2162;12162;22162;4;Beschichtungswalze 3 : Fehler im Motorstromregler
+alWinCC2163;2163;12163;22163;4;Beschichtungswalze 3 : Interne Kommunikationsfehler
+alWinCC2164;2164;12164;22164;4;Beschichtungswalze 3 : Falsche Position
+alWinCC2165;2165;12165;22165;4;Beschichtungswalze 3 : Abschaltung wegen zu hoher Leistung
+alWinCC2166;2166;12166;22166;4;Beschichtungswalze 3 : Zu hohe Temperatur im Servoverstärker
+alWinCC2167;2167;12167;22167;4;Beschichtungswalze 3 : Zu hohe Motortemperatur
+alWinCC2168;2168;12168;22168;4;Beschichtungswalze 3 : Fehler in der Steuerspannung
+alWinCC2169;2169;12169;22169;4;Beschichtungswalze 3 : Fehler im Motorencoder
+alWinCC2170;2170;12170;22170;4;Beschichtungswalze 3 : Unterspannung im DC Zwischenkreis
+alWinCC2171;2171;12171;22171;4;Beschichtungswalze 3 : Istposition außerhalb der Toleranz
+alWinCC2172;2172;12172;22172;3;Beschichtungswalze 3 : Zu hohe Leistung
+alWinCC2173;2173;12173;22173;3;Beschichtungswalze 3 : Zu hohe Temperatur im Servoverstärker
+alWinCC2174;2174;12174;22174;3;Beschichtungswalze 3 : Zu hohe Motortemperatur
+alWinCC2175;2175;12175;22175;3;Beschichtungswalze 3 : Gerätefehler laut Verstärker- Display
+alWinCC2176;2176;12176;22176;4;Antrieb Umlenkwalze M2.1.1 : Fehler Profibuskommunikation
+alWinCC2177;2177;12177;22177;4;Antrieb Umlenkwalze M2.1.1 : Servocontroller ist nicht im AF Modus (Antrieb Freigabe)
+alWinCC2178;2178;12178;22178;4;Antrieb Umlenkwalze M2.1.1 : Servocontroller ist nicht im Operationsmodus (OM)
+alWinCC2179;2179;12179;22179;4;Antrieb Umlenkwalze M2.1.1 : Unterspannung am Servoverstärker
+alWinCC2180;2180;12180;22180;4;Antrieb Umlenkwalze M2.1.1 : Überspannung am Servoverstärker
+alWinCC2181;2181;12181;22181;4;Antrieb Umlenkwalze M2.1.1 : Überstrom am Servoverstärker
+alWinCC2182;2182;12182;22182;4;Antrieb Umlenkwalze M2.1.1 : Fehler im Motorstromregler
+alWinCC2183;2183;12183;22183;4;Antrieb Umlenkwalze M2.1.1 : Interne Kommunikationsfehler
+alWinCC2184;2184;12184;22184;4;Antrieb Umlenkwalze M2.1.1 : Falsche Position
+alWinCC2185;2185;12185;22185;4;Antrieb Umlenkwalze M2.1.1 : Abschaltung wegen zu hoher Leistung
+alWinCC2186;2186;12186;22186;4;Antrieb Umlenkwalze M2.1.1 : Zu hohe Temperatur im Servoverstärker
+alWinCC2187;2187;12187;22187;4;Antrieb Umlenkwalze M2.1.1 : Zu hohe Motortemperatur
+alWinCC2188;2188;12188;22188;4;Antrieb Umlenkwalze M2.1.1 : Fehler in der Steuerspannung
+alWinCC2189;2189;12189;22189;4;Antrieb Umlenkwalze M2.1.1 : Fehler im Motorencoder
+alWinCC2190;2190;12190;22190;4;Antrieb Umlenkwalze M2.1.1 : Unterspannung im DC Zwischenkreis
+alWinCC2191;2191;12191;22191;4;Antrieb Umlenkwalze M2.1.1 : Istposition außerhalb der Toleranz
+alWinCC2192;2192;12192;22192;3;Antrieb Umlenkwalze M2.1.1 : Zu hohe Leistung
+alWinCC2193;2193;12193;22193;3;Antrieb Umlenkwalze M2.1.1 : Zu hohe Temperatur im Servoverstärker
+alWinCC2194;2194;12194;22194;3;Antrieb Umlenkwalze M2.1.1 : Zu hohe Motortemperatur
+alWinCC2195;2195;12195;22195;3;Antrieb Umlenkwalze M2.1.1 : Gerätefehler laut Verstärker- Display
+alWinCC2196;2196;12196;22196;4;Antrieb Umlenkwalze M2.1.2 : Fehler Profibuskommunikation
+alWinCC2197;2197;12197;22197;4;Antrieb Umlenkwalze M2.1.2 : Servocontroller ist nicht im AF Modus (Antrieb Freigabe)
+alWinCC2198;2198;12198;22198;4;Antrieb Umlenkwalze M2.1.2 : Servocontroller ist nicht im Operationsmodus (OM)
+alWinCC2199;2199;12199;22199;4;Antrieb Umlenkwalze M2.1.2 : Unterspannung am Servoverstärker
+alWinCC2200;2200;12200;22200;4;Antrieb Umlenkwalze M2.1.2 : Überspannung am Servoverstärker
+alWinCC2201;2201;12201;22201;4;Antrieb Umlenkwalze M2.1.2 : Überstrom am Servoverstärker
+alWinCC2202;2202;12202;22202;4;Antrieb Umlenkwalze M2.1.2 : Fehler im Motorstromregler
+alWinCC2203;2203;12203;22203;4;Antrieb Umlenkwalze M2.1.2 : Interne Kommunikationsfehler
+alWinCC2204;2204;12204;22204;4;Antrieb Umlenkwalze M2.1.2 : Falsche Position
+alWinCC2205;2205;12205;22205;4;Antrieb Umlenkwalze M2.1.2 : Abschaltung wegen zu hoher Leistung
+alWinCC2206;2206;12206;22206;4;Antrieb Umlenkwalze M2.1.2 : Zu hohe Temperatur im Servoverstärker
+alWinCC2207;2207;12207;22207;4;Antrieb Umlenkwalze M2.1.2 : Zu hohe Motortemperatur
+alWinCC2208;2208;12208;22208;4;Antrieb Umlenkwalze M2.1.2 : Fehler in der Steuerspannung
+alWinCC2209;2209;12209;22209;4;Antrieb Umlenkwalze M2.1.2 : Fehler im Motorencoder
+alWinCC2210;2210;12210;22210;4;Antrieb Umlenkwalze M2.1.2 : Unterspannung im DC Zwischenkreis
+alWinCC2211;2211;12211;22211;4;Antrieb Umlenkwalze M2.1.2 : Istposition außerhalb der Toleranz
+alWinCC2212;2212;12212;22212;3;Antrieb Umlenkwalze M2.1.2 : Zu hohe Leistung
+alWinCC2213;2213;12213;22213;3;Antrieb Umlenkwalze M2.1.2 : Zu hohe Temperatur im Servoverstärker
+alWinCC2214;2214;12214;22214;3;Antrieb Umlenkwalze M2.1.2 : Zu hohe Motortemperatur
+alWinCC2215;2215;12215;22215;3;Antrieb Umlenkwalze M2.1.2 : Gerätefehler laut Verstärker- Display
+alWinCC2216;2216;12216;22216;4;Antrieb Umlenkwalze M2.1.3 : Fehler Profibuskommunikation
+alWinCC2217;2217;12217;22217;4;Antrieb Umlenkwalze M2.1.3 : Servocontroller ist nicht im AF Modus (Antrieb Freigabe)
+alWinCC2218;2218;12218;22218;4;Antrieb Umlenkwalze M2.1.3 : Servocontroller ist nicht im Operationsmodus (OM)
+alWinCC2219;2219;12219;22219;4;Antrieb Umlenkwalze M2.1.3 : Unterspannung am Servoverstärker
+alWinCC2220;2220;12220;22220;4;Antrieb Umlenkwalze M2.1.3 : Überspannung am Servoverstärker
+alWinCC2221;2221;12221;22221;4;Antrieb Umlenkwalze M2.1.3 : Überstrom am Servoverstärker
+alWinCC2222;2222;12222;22222;4;Antrieb Umlenkwalze M2.1.3 : Fehler im Motorstromregler
+alWinCC2223;2223;12223;22223;4;Antrieb Umlenkwalze M2.1.3 : Interne Kommunikationsfehler
+alWinCC2224;2224;12224;22224;4;Antrieb Umlenkwalze M2.1.3 : Falsche Position
+alWinCC2225;2225;12225;22225;4;Antrieb Umlenkwalze M2.1.3 : Abschaltung wegen zu hoher Leistung
+alWinCC2226;2226;12226;22226;4;Antrieb Umlenkwalze M2.1.3 : Zu hohe Temperatur im Servoverstärker
+alWinCC2227;2227;12227;22227;4;Antrieb Umlenkwalze M2.1.3 : Zu hohe Motortemperatur
+alWinCC2228;2228;12228;22228;4;Antrieb Umlenkwalze M2.1.3 : Fehler in der Steuerspannung
+alWinCC2229;2229;12229;22229;4;Antrieb Umlenkwalze M2.1.3 : Fehler im Motorencoder
+alWinCC2230;2230;12230;22230;4;Antrieb Umlenkwalze M2.1.3 : Unterspannung im DC Zwischenkreis
+alWinCC2231;2231;12231;22231;4;Antrieb Umlenkwalze M2.1.3 : Istposition außerhalb der Toleranz
+alWinCC2232;2232;12232;22232;3;Antrieb Umlenkwalze M2.1.3 : Zu hohe Leistung
+alWinCC2233;2233;12233;22233;3;Antrieb Umlenkwalze M2.1.3 : Zu hohe Temperatur im Servoverstärker
+alWinCC2234;2234;12234;22234;3;Antrieb Umlenkwalze M2.1.3 : Zu hohe Motortemperatur
+alWinCC2235;2235;12235;22235;3;Antrieb Umlenkwalze M2.1.3 : Gerätefehler laut Verstärker- Display
+alWinCC2236;2236;12236;22236;4;Antrieb Umlenkwalze M3.1.1 : Fehler Profibuskommunikation
+alWinCC2237;2237;12237;22237;4;Antrieb Umlenkwalze M3.1.1 : Servocontroller ist nicht im AF Modus (Antrieb Freigabe)
+alWinCC2238;2238;12238;22238;4;Antrieb Umlenkwalze M3.1.1 : Servocontroller ist nicht im Operationsmodus (OM)
+alWinCC2239;2239;12239;22239;4;Antrieb Umlenkwalze M3.1.1 : Unterspannung am Servoverstärker
+alWinCC2240;2240;12240;22240;4;Antrieb Umlenkwalze M3.1.1 : Überspannung am Servoverstärker
+alWinCC2241;2241;12241;22241;4;Antrieb Umlenkwalze M3.1.1 : Überstrom am Servoverstärker
+alWinCC2242;2242;12242;22242;4;Antrieb Umlenkwalze M3.1.1 : Fehler im Motorstromregler
+alWinCC2243;2243;12243;22243;4;Antrieb Umlenkwalze M3.1.1 : Interne Kommunikationsfehler
+alWinCC2244;2244;12244;22244;4;Antrieb Umlenkwalze M3.1.1 : Falsche Position
+alWinCC2245;2245;12245;22245;4;Antrieb Umlenkwalze M3.1.1 : Abschaltung wegen zu hoher Leistung
+alWinCC2246;2246;12246;22246;4;Antrieb Umlenkwalze M3.1.1 : Zu hohe Temperatur im Servoverstärker
+alWinCC2247;2247;12247;22247;4;Antrieb Umlenkwalze M3.1.1 : Zu hohe Motortemperatur
+alWinCC2248;2248;12248;22248;4;Antrieb Umlenkwalze M3.1.1 : Fehler in der Steuerspannung
+alWinCC2249;2249;12249;22249;4;Antrieb Umlenkwalze M3.1.1 : Fehler im Motorencoder
+alWinCC2250;2250;12250;22250;4;Antrieb Umlenkwalze M3.1.1 : Unterspannung im DC Zwischenkreis
+alWinCC2251;2251;12251;22251;4;Antrieb Umlenkwalze M3.1.1 : Istposition außerhalb der Toleranz
+alWinCC2252;2252;12252;22252;3;Antrieb Umlenkwalze M3.1.1 : Zu hohe Leistung
+alWinCC2253;2253;12253;22253;3;Antrieb Umlenkwalze M3.1.1 : Zu hohe Temperatur im Servoverstärker
+alWinCC2254;2254;12254;22254;3;Antrieb Umlenkwalze M3.1.1 : Zu hohe Motortemperatur
+alWinCC2255;2255;12255;22255;3;Antrieb Umlenkwalze M3.1.1 : Gerätefehler laut Verstärker- Display
+alWinCC2256;2256;12256;22256;4;Antrieb Umlenkwalze M3.1.2 : Fehler Profibuskommunikation
+alWinCC2257;2257;12257;22257;4;Antrieb Umlenkwalze M3.1.2 : Servocontroller ist nicht im AF Modus (Antrieb Freigabe)
+alWinCC2258;2258;12258;22258;4;Antrieb Umlenkwalze M3.1.2 : Servocontroller ist nicht im Operationsmodus (OM)
+alWinCC2259;2259;12259;22259;4;Antrieb Umlenkwalze M3.1.2 : Unterspannung am Servoverstärker
+alWinCC2260;2260;12260;22260;4;Antrieb Umlenkwalze M3.1.2 : Überspannung am Servoverstärker
+alWinCC2261;2261;12261;22261;4;Antrieb Umlenkwalze M3.1.2 : Überstrom am Servoverstärker
+alWinCC2262;2262;12262;22262;4;Antrieb Umlenkwalze M3.1.2 : Fehler im Motorstromregler
+alWinCC2263;2263;12263;22263;4;Antrieb Umlenkwalze M3.1.2 : Interne Kommunikationsfehler
+alWinCC2264;2264;12264;22264;4;Antrieb Umlenkwalze M3.1.2 : Falsche Position
+alWinCC2265;2265;12265;22265;4;Antrieb Umlenkwalze M3.1.2 : Abschaltung wegen zu hoher Leistung
+alWinCC2266;2266;12266;22266;4;Antrieb Umlenkwalze M3.1.2 : Zu hohe Temperatur im Servoverstärker
+alWinCC2267;2267;12267;22267;4;Antrieb Umlenkwalze M3.1.2 : Zu hohe Motortemperatur
+alWinCC2268;2268;12268;22268;4;Antrieb Umlenkwalze M3.1.2 : Fehler in der Steuerspannung
+alWinCC2269;2269;12269;22269;4;Antrieb Umlenkwalze M3.1.2 : Fehler im Motorencoder
+alWinCC2270;2270;12270;22270;4;Antrieb Umlenkwalze M3.1.2 : Unterspannung im DC Zwischenkreis
+alWinCC2271;2271;12271;22271;4;Antrieb Umlenkwalze M3.1.2 : Istposition außerhalb der Toleranz
+alWinCC2272;2272;12272;22272;3;Antrieb Umlenkwalze M3.1.2 : Zu hohe Leistung
+alWinCC2273;2273;12273;22273;3;Antrieb Umlenkwalze M3.1.2 : Zu hohe Temperatur im Servoverstärker
+alWinCC2274;2274;12274;22274;3;Antrieb Umlenkwalze M3.1.2 : Zu hohe Motortemperatur
+alWinCC2275;2275;12275;22275;3;Antrieb Umlenkwalze M3.1.2 : Gerätefehler laut Verstärker- Display
+alWinCC2276;2276;12276;22276;4;Antrieb Umlenkwalze M4.1.1 : Fehler Profibuskommunikation
+alWinCC2277;2277;12277;22277;4;Antrieb Umlenkwalze M4.1.1 : Servocontroller ist nicht im AF Modus (Antrieb Freigabe)
+alWinCC2278;2278;12278;22278;4;Antrieb Umlenkwalze M4.1.1 : Servocontroller ist nicht im Operationsmodus (OM)
+alWinCC2279;2279;12279;22279;4;Antrieb Umlenkwalze M4.1.1 : Unterspannung am Servoverstärker
+alWinCC2280;2280;12280;22280;4;Antrieb Umlenkwalze M4.1.1 : Überspannung am Servoverstärker
+alWinCC2281;2281;12281;22281;4;Antrieb Umlenkwalze M4.1.1 : Überstrom am Servoverstärker
+alWinCC2282;2282;12282;22282;4;Antrieb Umlenkwalze M4.1.1 : Fehler im Motorstromregler
+alWinCC2283;2283;12283;22283;4;Antrieb Umlenkwalze M4.1.1 : Interne Kommunikationsfehler
+alWinCC2284;2284;12284;22284;4;Antrieb Umlenkwalze M4.1.1 : Falsche Position
+alWinCC2285;2285;12285;22285;4;Antrieb Umlenkwalze M4.1.1 : Abschaltung wegen zu hoher Leistung
+alWinCC2286;2286;12286;22286;4;Antrieb Umlenkwalze M4.1.1 : Zu hohe Temperatur im Servoverstärker
+alWinCC2287;2287;12287;22287;4;Antrieb Umlenkwalze M4.1.1 : Zu hohe Motortemperatur
+alWinCC2288;2288;12288;22288;4;Antrieb Umlenkwalze M4.1.1 : Fehler in der Steuerspannung
+alWinCC2289;2289;12289;22289;4;Antrieb Umlenkwalze M4.1.1 : Fehler im Motorencoder
+alWinCC2290;2290;12290;22290;4;Antrieb Umlenkwalze M4.1.1 : Unterspannung im DC Zwischenkreis
+alWinCC2291;2291;12291;22291;4;Antrieb Umlenkwalze M4.1.1 : Istposition außerhalb der Toleranz
+alWinCC2292;2292;12292;22292;3;Antrieb Umlenkwalze M4.1.1 : Zu hohe Leistung
+alWinCC2293;2293;12293;22293;3;Antrieb Umlenkwalze M4.1.1 : Zu hohe Temperatur im Servoverstärker
+alWinCC2294;2294;12294;22294;3;Antrieb Umlenkwalze M4.1.1 : Zu hohe Motortemperatur
+alWinCC2295;2295;12295;22295;3;Antrieb Umlenkwalze M4.1.1 : Gerätefehler laut Verstärker- Display
+alWinCC2296;2296;12296;22296;4;Antrieb Umlenkwalze M4.1.2 : Fehler Profibuskommunikation
+alWinCC2297;2297;12297;22297;4;Antrieb Umlenkwalze M4.1.2 : Servocontroller ist nicht im AF Modus (Antrieb Freigabe)
+alWinCC2298;2298;12298;22298;4;Antrieb Umlenkwalze M4.1.2 : Servocontroller ist nicht im Operationsmodus (OM)
+alWinCC2299;2299;12299;22299;4;Antrieb Umlenkwalze M4.1.2 : Unterspannung am Servoverstärker
+alWinCC2300;2300;12300;22300;4;Antrieb Umlenkwalze M4.1.2 : Überspannung am Servoverstärker
+alWinCC2301;2301;12301;22301;4;Antrieb Umlenkwalze M4.1.2 : Überstrom am Servoverstärker
+alWinCC2302;2302;12302;22302;4;Antrieb Umlenkwalze M4.1.2 : Fehler im Motorstromregler
+alWinCC2303;2303;12303;22303;4;Antrieb Umlenkwalze M4.1.2 : Interne Kommunikationsfehler
+alWinCC2304;2304;12304;22304;4;Antrieb Umlenkwalze M4.1.2 : Falsche Position
+alWinCC2305;2305;12305;22305;4;Antrieb Umlenkwalze M4.1.2 : Abschaltung wegen zu hoher Leistung
+alWinCC2306;2306;12306;22306;4;Antrieb Umlenkwalze M4.1.2 : Zu hohe Temperatur im Servoverstärker
+alWinCC2307;2307;12307;22307;4;Antrieb Umlenkwalze M4.1.2 : Zu hohe Motortemperatur
+alWinCC2308;2308;12308;22308;4;Antrieb Umlenkwalze M4.1.2 : Fehler in der Steuerspannung
+alWinCC2309;2309;12309;22309;4;Antrieb Umlenkwalze M4.1.2 : Fehler im Motorencoder
+alWinCC2310;2310;12310;22310;4;Antrieb Umlenkwalze M4.1.2 : Unterspannung im DC Zwischenkreis
+alWinCC2311;2311;12311;22311;4;Antrieb Umlenkwalze M4.1.2 : Istposition außerhalb der Toleranz
+alWinCC2312;2312;12312;22312;3;Antrieb Umlenkwalze M4.1.2 : Zu hohe Leistung
+alWinCC2313;2313;12313;22313;3;Antrieb Umlenkwalze M4.1.2 : Zu hohe Temperatur im Servoverstärker
+alWinCC2314;2314;12314;22314;3;Antrieb Umlenkwalze M4.1.2 : Zu hohe Motortemperatur
+alWinCC2315;2315;12315;22315;3;Antrieb Umlenkwalze M4.1.2 : Gerätefehler laut Verstärker- Display
+alWinCC2316;2316;12316;22316;4;Antrieb Umlenkwalze M4.1.3 : Fehler Profibuskommunikation
+alWinCC2317;2317;12317;22317;4;Antrieb Umlenkwalze M4.1.3 : Servocontroller ist nicht im AF Modus (Antrieb Freigabe)
+alWinCC2318;2318;12318;22318;4;Antrieb Umlenkwalze M4.1.3 : Servocontroller ist nicht im Operationsmodus (OM)
+alWinCC2319;2319;12319;22319;4;Antrieb Umlenkwalze M4.1.3 : Unterspannung am Servoverstärker
+alWinCC2320;2320;12320;22320;4;Antrieb Umlenkwalze M4.1.3 : Überspannung am Servoverstärker
+alWinCC2321;2321;12321;22321;4;Antrieb Umlenkwalze M4.1.3 : Überstrom am Servoverstärker
+alWinCC2322;2322;12322;22322;4;Antrieb Umlenkwalze M4.1.3 : Fehler im Motorstromregler
+alWinCC2323;2323;12323;22323;4;Antrieb Umlenkwalze M4.1.3 : Interne Kommunikationsfehler
+alWinCC2324;2324;12324;22324;4;Antrieb Umlenkwalze M4.1.3 : Falsche Position
+alWinCC2325;2325;12325;22325;4;Antrieb Umlenkwalze M4.1.3 : Abschaltung wegen zu hoher Leistung
+alWinCC2326;2326;12326;22326;4;Antrieb Umlenkwalze M4.1.3 : Zu hohe Temperatur im Servoverstärker
+alWinCC2327;2327;12327;22327;4;Antrieb Umlenkwalze M4.1.3 : Zu hohe Motortemperatur
+alWinCC2328;2328;12328;22328;4;Antrieb Umlenkwalze M4.1.3 : Fehler in der Steuerspannung
+alWinCC2329;2329;12329;22329;4;Antrieb Umlenkwalze M4.1.3 : Fehler im Motorencoder
+alWinCC2330;2330;12330;22330;4;Antrieb Umlenkwalze M4.1.3 : Unterspannung im DC Zwischenkreis
+alWinCC2331;2331;12331;22331;4;Antrieb Umlenkwalze M4.1.3 : Istposition außerhalb der Toleranz
+alWinCC2332;2332;12332;22332;3;Antrieb Umlenkwalze M4.1.3 : Zu hohe Leistung
+alWinCC2333;2333;12333;22333;3;Antrieb Umlenkwalze M4.1.3 : Zu hohe Temperatur im Servoverstärker
+alWinCC2334;2334;12334;22334;3;Antrieb Umlenkwalze M4.1.3 : Zu hohe Motortemperatur
+alWinCC2335;2335;12335;22335;3;Antrieb Umlenkwalze M4.1.3 : Gerätefehler laut Verstärker- Display
+alWinCC2336;2336;12336;22336;4;Antrieb Schwingarm 1 Wickler 1 : Fehler Profibuskommunikation
+alWinCC2337;2337;12337;22337;4;Antrieb Schwingarm 1 Wickler 1 : Servocontroller ist nicht im AF Modus (Antrieb Freigabe)
+alWinCC2338;2338;12338;22338;4;Antrieb Schwingarm 1 Wickler 1 : Servocontroller ist nicht im Operationsmodus (OM)
+alWinCC2339;2339;12339;22339;4;Antrieb Schwingarm 1 Wickler 1 : Unterspannung am Servoverstärker
+alWinCC2340;2340;12340;22340;4;Antrieb Schwingarm 1 Wickler 1 : Überspannung am Servoverstärker
+alWinCC2341;2341;12341;22341;4;Antrieb Schwingarm 1 Wickler 1 : Überstrom am Servoverstärker
+alWinCC2342;2342;12342;22342;4;Antrieb Schwingarm 1 Wickler 1 : Fehler im Motorstromregler
+alWinCC2343;2343;12343;22343;4;Antrieb Schwingarm 1 Wickler 1 : Interne Kommunikationsfehler
+alWinCC2344;2344;12344;22344;4;Antrieb Schwingarm 1 Wickler 1 : Falsche Position
+alWinCC2345;2345;12345;22345;4;Antrieb Schwingarm 1 Wickler 1 : Abschaltung wegen zu hoher Leistung
+alWinCC2346;2346;12346;22346;4;Antrieb Schwingarm 1 Wickler 1 : Zu hohe Temperatur im Servoverstärker
+alWinCC2347;2347;12347;22347;4;Antrieb Schwingarm 1 Wickler 1 : Zu hohe Motortemperatur
+alWinCC2348;2348;12348;22348;4;Antrieb Schwingarm 1 Wickler 1 : Fehler in der Steuerspannung
+alWinCC2349;2349;12349;22349;4;Antrieb Schwingarm 1 Wickler 1 : Fehler im Motorencoder
+alWinCC2350;2350;12350;22350;4;Antrieb Schwingarm 1 Wickler 1 : Unterspannung im DC Zwischenkreis
+alWinCC2351;2351;12351;22351;4;Antrieb Schwingarm 1 Wickler 1 : Istposition außerhalb der Toleranz
+alWinCC2352;2352;12352;22352;3;Antrieb Schwingarm 1 Wickler 1 : Zu hohe Leistung
+alWinCC2353;2353;12353;22353;3;Antrieb Schwingarm 1 Wickler 1 : Zu hohe Temperatur im Servoverstärker
+alWinCC2354;2354;12354;22354;3;Antrieb Schwingarm 1 Wickler 1 : Zu hohe Motortemperatur
+alWinCC2355;2355;12355;22355;3;Antrieb Schwingarm 1 Wickler 1 : Gerätefehler laut Verstärker- Display
+alWinCC2356;2356;12356;22356;4;Antrieb Schwingarm 1 Wickler 2 : Fehler Profibuskommunikation
+alWinCC2357;2357;12357;22357;4;Antrieb Schwingarm 1 Wickler 2 : Servocontroller ist nicht im AF Modus (Antrieb Freigabe)
+alWinCC2358;2358;12358;22358;4;Antrieb Schwingarm 1 Wickler 2 : Servocontroller ist nicht im Operationsmodus (OM)
+alWinCC2359;2359;12359;22359;4;Antrieb Schwingarm 1 Wickler 2 : Unterspannung am Servoverstärker
+alWinCC2360;2360;12360;22360;4;Antrieb Schwingarm 1 Wickler 2 : Überspannung am Servoverstärker
+alWinCC2361;2361;12361;22361;4;Antrieb Schwingarm 1 Wickler 2 : Überstrom am Servoverstärker
+alWinCC2362;2362;12362;22362;4;Antrieb Schwingarm 1 Wickler 2 : Fehler im Motorstromregler
+alWinCC2363;2363;12363;22363;4;Antrieb Schwingarm 1 Wickler 2 : Interne Kommunikationsfehler
+alWinCC2364;2364;12364;22364;4;Antrieb Schwingarm 1 Wickler 2 : Falsche Position
+alWinCC2365;2365;12365;22365;4;Antrieb Schwingarm 1 Wickler 2 : Abschaltung wegen zu hoher Leistung
+alWinCC2366;2366;12366;22366;4;Antrieb Schwingarm 1 Wickler 2 : Zu hohe Temperatur im Servoverstärker
+alWinCC2367;2367;12367;22367;4;Antrieb Schwingarm 1 Wickler 2 : Zu hohe Motortemperatur
+alWinCC2368;2368;12368;22368;4;Antrieb Schwingarm 1 Wickler 2 : Fehler in der Steuerspannung
+alWinCC2369;2369;12369;22369;4;Antrieb Schwingarm 1 Wickler 2 : Fehler im Motorencoder
+alWinCC2370;2370;12370;22370;4;Antrieb Schwingarm 1 Wickler 2 : Unterspannung im DC Zwischenkreis
+alWinCC2371;2371;12371;22371;4;Antrieb Schwingarm 1 Wickler 2 : Istposition außerhalb der Toleranz
+alWinCC2372;2372;12372;22372;3;Antrieb Schwingarm 1 Wickler 2 : Zu hohe Leistung
+alWinCC2373;2373;12373;22373;3;Antrieb Schwingarm 1 Wickler 2 : Zu hohe Temperatur im Servoverstärker
+alWinCC2374;2374;12374;22374;3;Antrieb Schwingarm 1 Wickler 2 : Zu hohe Motortemperatur
+alWinCC2375;2375;12375;22375;3;Antrieb Schwingarm 1 Wickler 2 : Gerätefehler laut Verstärker- Display
+alWinCC2376;2376;12376;22376;4;Antrieb Schwingarm 2 Wickler 1 : Fehler Profibuskommunikation
+alWinCC2377;2377;12377;22377;4;Antrieb Schwingarm 2 Wickler 1 : Servocontroller ist nicht im AF Modus (Antrieb Freigabe)
+alWinCC2378;2378;12378;22378;4;Antrieb Schwingarm 2 Wickler 1 : Servocontroller ist nicht im Operationsmodus (OM)
+alWinCC2379;2379;12379;22379;4;Antrieb Schwingarm 2 Wickler 1 : Unterspannung am Servoverstärker
+alWinCC2380;2380;12380;22380;4;Antrieb Schwingarm 2 Wickler 1 : Überspannung am Servoverstärker
+alWinCC2381;2381;12381;22381;4;Antrieb Schwingarm 2 Wickler 1 : Überstrom am Servoverstärker
+alWinCC2382;2382;12382;22382;4;Antrieb Schwingarm 2 Wickler 1 : Fehler im Motorstromregler
+alWinCC2383;2383;12383;22383;4;Antrieb Schwingarm 2 Wickler 1 : Interne Kommunikationsfehler
+alWinCC2384;2384;12384;22384;4;Antrieb Schwingarm 2 Wickler 1 : Falsche Position
+alWinCC2385;2385;12385;22385;4;Antrieb Schwingarm 2 Wickler 1 : Abschaltung wegen zu hoher Leistung
+alWinCC2386;2386;12386;22386;4;Antrieb Schwingarm 2 Wickler 1 : Zu hohe Temperatur im Servoverstärker
+alWinCC2387;2387;12387;22387;4;Antrieb Schwingarm 2 Wickler 1 : Zu hohe Motortemperatur
+alWinCC2388;2388;12388;22388;4;Antrieb Schwingarm 2 Wickler 1 : Fehler in der Steuerspannung
+alWinCC2389;2389;12389;22389;4;Antrieb Schwingarm 2 Wickler 1 : Fehler im Motorencoder
+alWinCC2390;2390;12390;22390;4;Antrieb Schwingarm 2 Wickler 1 : Unterspannung im DC Zwischenkreis
+alWinCC2391;2391;12391;22391;4;Antrieb Schwingarm 2 Wickler 1 : Istposition außerhalb der Toleranz
+alWinCC2392;2392;12392;22392;3;Antrieb Schwingarm 2 Wickler 1 : Zu hohe Leistung
+alWinCC2393;2393;12393;22393;3;Antrieb Schwingarm 2 Wickler 1 : Zu hohe Temperatur im Servoverstärker
+alWinCC2394;2394;12394;22394;3;Antrieb Schwingarm 2 Wickler 1 : Zu hohe Motortemperatur
+alWinCC2395;2395;12395;22395;3;Antrieb Schwingarm 2 Wickler 1 : Gerätefehler laut Verstärker- Display
+alWinCC2396;2396;12396;22396;4;Antrieb Schwingarm 2 Wickler 2 : Fehler Profibuskommunikation
+alWinCC2397;2397;12397;22397;4;Antrieb Schwingarm 2 Wickler 2 : Servocontroller ist nicht im AF Modus (Antrieb Freigabe)
+alWinCC2398;2398;12398;22398;4;Antrieb Schwingarm 2 Wickler 2 : Servocontroller ist nicht im Operationsmodus (OM)
+alWinCC2399;2399;12399;22399;4;Antrieb Schwingarm 2 Wickler 2 : Unterspannung am Servoverstärker
+alWinCC2400;2400;12400;22400;4;Antrieb Schwingarm 2 Wickler 2 : Überspannung am Servoverstärker
+alWinCC2401;2401;12401;22401;4;Antrieb Schwingarm 2 Wickler 2 : Überstrom am Servoverstärker
+alWinCC2402;2402;12402;22402;4;Antrieb Schwingarm 2 Wickler 2 : Fehler im Motorstromregler
+alWinCC2403;2403;12403;22403;4;Antrieb Schwingarm 2 Wickler 2 : Interne Kommunikationsfehler
+alWinCC2404;2404;12404;22404;4;Antrieb Schwingarm 2 Wickler 2 : Falsche Position
+alWinCC2405;2405;12405;22405;4;Antrieb Schwingarm 2 Wickler 2 : Abschaltung wegen zu hoher Leistung
+alWinCC2406;2406;12406;22406;4;Antrieb Schwingarm 2 Wickler 2 : Zu hohe Temperatur im Servoverstärker
+alWinCC2407;2407;12407;22407;4;Antrieb Schwingarm 2 Wickler 2 : Zu hohe Motortemperatur
+alWinCC2408;2408;12408;22408;4;Antrieb Schwingarm 2 Wickler 2 : Fehler in der Steuerspannung
+alWinCC2409;2409;12409;22409;4;Antrieb Schwingarm 2 Wickler 2 : Fehler im Motorencoder
+alWinCC2410;2410;12410;22410;4;Antrieb Schwingarm 2 Wickler 2 : Unterspannung im DC Zwischenkreis
+alWinCC2411;2411;12411;22411;4;Antrieb Schwingarm 2 Wickler 2 : Istposition außerhalb der Toleranz
+alWinCC2412;2412;12412;22412;3;Antrieb Schwingarm 2 Wickler 2 : Zu hohe Leistung
+alWinCC2413;2413;12413;22413;3;Antrieb Schwingarm 2 Wickler 2 : Zu hohe Temperatur im Servoverstärker
+alWinCC2414;2414;12414;22414;3;Antrieb Schwingarm 2 Wickler 2 : Zu hohe Motortemperatur
+alWinCC2415;2415;12415;22415;3;Antrieb Schwingarm 2 Wickler 2 : Gerätefehler laut Verstärker- Display
+alWinCC2416;2416;12416;22416;4;Antrieb Bahnkantenregelung Wickler 1 : Fehler Profibuskommunikation
+alWinCC2417;2417;12417;22417;4;Antrieb Bahnkantenregelung Wickler 1 : Servocontroller ist nicht im AF Modus (Antrieb Freigabe)
+alWinCC2418;2418;12418;22418;4;Antrieb Bahnkantenregelung Wickler 1 : Servocontroller ist nicht im Operationsmodus (OM)
+alWinCC2419;2419;12419;22419;4;Antrieb Bahnkantenregelung Wickler 1 : Unterspannung am Servoverstärker
+alWinCC2420;2420;12420;22420;4;Antrieb Bahnkantenregelung Wickler 1 : Überspannung am Servoverstärker
+alWinCC2421;2421;12421;22421;4;Antrieb Bahnkantenregelung Wickler 1 : Überstrom am Servoverstärker
+alWinCC2422;2422;12422;22422;4;Antrieb Bahnkantenregelung Wickler 1 : Fehler im Motorstromregler
+alWinCC2423;2423;12423;22423;4;Antrieb Bahnkantenregelung Wickler 1 : Interne Kommunikationsfehler
+alWinCC2424;2424;12424;22424;4;Antrieb Bahnkantenregelung Wickler 1 : Falsche Position
+alWinCC2425;2425;12425;22425;4;Antrieb Bahnkantenregelung Wickler 1 : Abschaltung wegen zu hoher Leistung
+alWinCC2426;2426;12426;22426;4;Antrieb Bahnkantenregelung Wickler 1 : Zu hohe Temperatur im Servoverstärker
+alWinCC2427;2427;12427;22427;4;Antrieb Bahnkantenregelung Wickler 1 : Zu hohe Motortemperatur
+alWinCC2428;2428;12428;22428;4;Antrieb Bahnkantenregelung Wickler 1 : Fehler in der Steuerspannung
+alWinCC2429;2429;12429;22429;4;Antrieb Bahnkantenregelung Wickler 1 : Fehler im Motorencoder
+alWinCC2430;2430;12430;22430;4;Antrieb Bahnkantenregelung Wickler 1 : Unterspannung im DC Zwischenkreis
+alWinCC2431;2431;12431;22431;4;Antrieb Bahnkantenregelung Wickler 1 : Istposition außerhalb der Toleranz
+alWinCC2432;2432;12432;22432;3;Antrieb Bahnkantenregelung Wickler 1 : Zu hohe Leistung
+alWinCC2433;2433;12433;22433;3;Antrieb Bahnkantenregelung Wickler 1 : Zu hohe Temperatur im Servoverstärker
+alWinCC2434;2434;12434;22434;3;Antrieb Bahnkantenregelung Wickler 1 : Zu hohe Motortemperatur
+alWinCC2435;2435;12435;22435;3;Antrieb Bahnkantenregelung Wickler 1 : Gerätefehler laut Verstärker- Display
+alWinCC2436;2436;12436;22436;4;Antrieb Bahnkantenregelung Wickler 2 : Fehler Profibuskommunikation
+alWinCC2437;2437;12437;22437;4;Antrieb Bahnkantenregelung Wickler 2 : Servocontroller ist nicht im AF Modus (Antrieb Freigabe)
+alWinCC2438;2438;12438;22438;4;Antrieb Bahnkantenregelung Wickler 2 : Servocontroller ist nicht im Operationsmodus (OM)
+alWinCC2439;2439;12439;22439;4;Antrieb Bahnkantenregelung Wickler 2 : Unterspannung am Servoverstärker
+alWinCC2440;2440;12440;22440;4;Antrieb Bahnkantenregelung Wickler 2 : Überspannung am Servoverstärker
+alWinCC2441;2441;12441;22441;4;Antrieb Bahnkantenregelung Wickler 2 : Überstrom am Servoverstärker
+alWinCC2442;2442;12442;22442;4;Antrieb Bahnkantenregelung Wickler 2 : Fehler im Motorstromregler
+alWinCC2443;2443;12443;22443;4;Antrieb Bahnkantenregelung Wickler 2 : Interne Kommunikationsfehler
+alWinCC2444;2444;12444;22444;4;Antrieb Bahnkantenregelung Wickler 2 : Falsche Position
+alWinCC2445;2445;12445;22445;4;Antrieb Bahnkantenregelung Wickler 2 : Abschaltung wegen zu hoher Leistung
+alWinCC2446;2446;12446;22446;4;Antrieb Bahnkantenregelung Wickler 2 : Zu hohe Temperatur im Servoverstärker
+alWinCC2447;2447;12447;22447;4;Antrieb Bahnkantenregelung Wickler 2 : Zu hohe Motortemperatur
+alWinCC2448;2448;12448;22448;4;Antrieb Bahnkantenregelung Wickler 2 : Fehler in der Steuerspannung
+alWinCC2449;2449;12449;22449;4;Antrieb Bahnkantenregelung Wickler 2 : Fehler im Motorencoder
+alWinCC2450;2450;12450;22450;4;Antrieb Bahnkantenregelung Wickler 2 : Unterspannung im DC Zwischenkreis
+alWinCC2451;2451;12451;22451;4;Antrieb Bahnkantenregelung Wickler 2 : Istposition außerhalb der Toleranz
+alWinCC2452;2452;12452;22452;3;Antrieb Bahnkantenregelung Wickler 2 : Zu hohe Leistung
+alWinCC2453;2453;12453;22453;3;Antrieb Bahnkantenregelung Wickler 2 : Zu hohe Temperatur im Servoverstärker
+alWinCC2454;2454;12454;22454;3;Antrieb Bahnkantenregelung Wickler 2 : Zu hohe Motortemperatur
+alWinCC2455;2455;12455;22455;3;Antrieb Bahnkantenregelung Wickler 2 : Gerätefehler laut Verstärker- Display
+alWinCC2456;2456;12456;22456;4;Antrieb Breitstreckwalze 1 Rocker : Fehler Profibuskommunikation
+alWinCC2457;2457;12457;22457;4;Antrieb Breitstreckwalze 1 Rocker : Servocontroller ist nicht im AF Modus (Antrieb Freigabe)
+alWinCC2458;2458;12458;22458;4;Antrieb Breitstreckwalze 1 Rocker : Servocontroller ist nicht im Operationsmodus (OM)
+alWinCC2459;2459;12459;22459;4;Antrieb Breitstreckwalze 1 Rocker : Unterspannung am Servoverstärker
+alWinCC2460;2460;12460;22460;4;Antrieb Breitstreckwalze 1 Rocker : Überspannung am Servoverstärker
+alWinCC2461;2461;12461;22461;4;Antrieb Breitstreckwalze 1 Rocker : Überstrom am Servoverstärker
+alWinCC2462;2462;12462;22462;4;Antrieb Breitstreckwalze 1 Rocker : Fehler im Motorstromregler
+alWinCC2463;2463;12463;22463;4;Antrieb Breitstreckwalze 1 Rocker : Interne Kommunikationsfehler
+alWinCC2464;2464;12464;22464;4;Antrieb Breitstreckwalze 1 Rocker : Falsche Position
+alWinCC2465;2465;12465;22465;4;Antrieb Breitstreckwalze 1 Rocker : Abschaltung wegen zu hoher Leistung
+alWinCC2466;2466;12466;22466;4;Antrieb Breitstreckwalze 1 Rocker : Zu hohe Temperatur im Servoverstärker
+alWinCC2467;2467;12467;22467;4;Antrieb Breitstreckwalze 1 Rocker : Zu hohe Motortemperatur
+alWinCC2468;2468;12468;22468;4;Antrieb Breitstreckwalze 1 Rocker : Fehler in der Steuerspannung
+alWinCC2469;2469;12469;22469;4;Antrieb Breitstreckwalze 1 Rocker : Fehler im Motorencoder
+alWinCC2470;2470;12470;22470;4;Antrieb Breitstreckwalze 1 Rocker : Unterspannung im DC Zwischenkreis
+alWinCC2471;2471;12471;22471;4;Antrieb Breitstreckwalze 1 Rocker : Istposition außerhalb der Toleranz
+alWinCC2472;2472;12472;22472;3;Antrieb Breitstreckwalze 1 Rocker : Zu hohe Leistung
+alWinCC2473;2473;12473;22473;3;Antrieb Breitstreckwalze 1 Rocker : Zu hohe Temperatur im Servoverstärker
+alWinCC2474;2474;12474;22474;3;Antrieb Breitstreckwalze 1 Rocker : Zu hohe Motortemperatur
+alWinCC2475;2475;12475;22475;3;Antrieb Breitstreckwalze 1 Rocker : Gerätefehler laut Verstärker- Display
+alWinCC2476;2476;12476;22476;4;Antrieb Breitstreckwalze 2 Rocker : Fehler Profibuskommunikation
+alWinCC2477;2477;12477;22477;4;Antrieb Breitstreckwalze 2 Rocker : Servocontroller ist nicht im AF Modus (Antrieb Freigabe)
+alWinCC2478;2478;12478;22478;4;Antrieb Breitstreckwalze 2 Rocker : Servocontroller ist nicht im Operationsmodus (OM)
+alWinCC2479;2479;12479;22479;4;Antrieb Breitstreckwalze 2 Rocker : Unterspannung am Servoverstärker
+alWinCC2480;2480;12480;22480;4;Antrieb Breitstreckwalze 2 Rocker : Überspannung am Servoverstärker
+alWinCC2481;2481;12481;22481;4;Antrieb Breitstreckwalze 2 Rocker : Überstrom am Servoverstärker
+alWinCC2482;2482;12482;22482;4;Antrieb Breitstreckwalze 2 Rocker : Fehler im Motorstromregler
+alWinCC2483;2483;12483;22483;4;Antrieb Breitstreckwalze 2 Rocker : Interne Kommunikationsfehler
+alWinCC2484;2484;12484;22484;4;Antrieb Breitstreckwalze 2 Rocker : Falsche Position
+alWinCC2485;2485;12485;22485;4;Antrieb Breitstreckwalze 2 Rocker : Abschaltung wegen zu hoher Leistung
+alWinCC2486;2486;12486;22486;4;Antrieb Breitstreckwalze 2 Rocker : Zu hohe Temperatur im Servoverstärker
+alWinCC2487;2487;12487;22487;4;Antrieb Breitstreckwalze 2 Rocker : Zu hohe Motortemperatur
+alWinCC2488;2488;12488;22488;4;Antrieb Breitstreckwalze 2 Rocker : Fehler in der Steuerspannung
+alWinCC2489;2489;12489;22489;4;Antrieb Breitstreckwalze 2 Rocker : Fehler im Motorencoder
+alWinCC2490;2490;12490;22490;4;Antrieb Breitstreckwalze 2 Rocker : Unterspannung im DC Zwischenkreis
+alWinCC2491;2491;12491;22491;4;Antrieb Breitstreckwalze 2 Rocker : Istposition außerhalb der Toleranz
+alWinCC2492;2492;12492;22492;3;Antrieb Breitstreckwalze 2 Rocker : Zu hohe Leistung
+alWinCC2493;2493;12493;22493;3;Antrieb Breitstreckwalze 2 Rocker : Zu hohe Temperatur im Servoverstärker
+alWinCC2494;2494;12494;22494;3;Antrieb Breitstreckwalze 2 Rocker : Zu hohe Motortemperatur
+alWinCC2495;2495;12495;22495;3;Antrieb Breitstreckwalze 2 Rocker : Gerätefehler laut Verstärker- Display
+alWinCC2496;2496;12496;22496;4;Antrieb Breitstreckwalze 3 Rocker : Fehler Profibuskommunikation
+alWinCC2497;2497;12497;22497;4;Antrieb Breitstreckwalze 3 Rocker : Servocontroller ist nicht im AF Modus (Antrieb Freigabe)
+alWinCC2498;2498;12498;22498;4;Antrieb Breitstreckwalze 3 Rocker : Servocontroller ist nicht im Operationsmodus (OM)
+alWinCC2499;2499;12499;22499;4;Antrieb Breitstreckwalze 3 Rocker : Unterspannung am Servoverstärker
+alWinCC2500;2500;12500;22500;4;Antrieb Breitstreckwalze 3 Rocker : Überspannung am Servoverstärker
+alWinCC2501;2501;12501;22501;4;Antrieb Breitstreckwalze 3 Rocker : Überstrom am Servoverstärker
+alWinCC2502;2502;12502;22502;4;Antrieb Breitstreckwalze 3 Rocker : Fehler im Motorstromregler
+alWinCC2503;2503;12503;22503;4;Antrieb Breitstreckwalze 3 Rocker : Interne Kommunikationsfehler
+alWinCC2504;2504;12504;22504;4;Antrieb Breitstreckwalze 3 Rocker : Falsche Position
+alWinCC2505;2505;12505;22505;4;Antrieb Breitstreckwalze 3 Rocker : Abschaltung wegen zu hoher Leistung
+alWinCC2506;2506;12506;22506;4;Antrieb Breitstreckwalze 3 Rocker : Zu hohe Temperatur im Servoverstärker
+alWinCC2507;2507;12507;22507;4;Antrieb Breitstreckwalze 3 Rocker : Zu hohe Motortemperatur
+alWinCC2508;2508;12508;22508;4;Antrieb Breitstreckwalze 3 Rocker : Fehler in der Steuerspannung
+alWinCC2509;2509;12509;22509;4;Antrieb Breitstreckwalze 3 Rocker : Fehler im Motorencoder
+alWinCC2510;2510;12510;22510;4;Antrieb Breitstreckwalze 3 Rocker : Unterspannung im DC Zwischenkreis
+alWinCC2511;2511;12511;22511;4;Antrieb Breitstreckwalze 3 Rocker : Istposition außerhalb der Toleranz
+alWinCC2512;2512;12512;22512;3;Antrieb Breitstreckwalze 3 Rocker : Zu hohe Leistung
+alWinCC2513;2513;12513;22513;3;Antrieb Breitstreckwalze 3 Rocker : Zu hohe Temperatur im Servoverstärker
+alWinCC2514;2514;12514;22514;3;Antrieb Breitstreckwalze 3 Rocker : Zu hohe Motortemperatur
+alWinCC2515;2515;12515;22515;3;Antrieb Breitstreckwalze 3 Rocker : Gerätefehler laut Verstärker- Display
+alWinCC2516;2516;12516;22516;4;Antrieb Breitstreckwalze W2 Rocker : Fehler Profibuskommunikation
+alWinCC2517;2517;12517;22517;4;Antrieb Breitstreckwalze W2 Rocker : Servocontroller ist nicht im AF Modus (Antrieb Freigabe)
+alWinCC2518;2518;12518;22518;4;Antrieb Breitstreckwalze W2 Rocker : Servocontroller ist nicht im Operationsmodus (OM)
+alWinCC2519;2519;12519;22519;4;Antrieb Breitstreckwalze W2 Rocker : Unterspannung am Servoverstärker
+alWinCC2520;2520;12520;22520;4;Antrieb Breitstreckwalze W2 Rocker : Überspannung am Servoverstärker
+alWinCC2521;2521;12521;22521;4;Antrieb Breitstreckwalze W2 Rocker : Überstrom am Servoverstärker
+alWinCC2522;2522;12522;22522;4;Antrieb Breitstreckwalze W2 Rocker : Fehler im Motorstromregler
+alWinCC2523;2523;12523;22523;4;Antrieb Breitstreckwalze W2 Rocker : Interne Kommunikationsfehler
+alWinCC2524;2524;12524;22524;4;Antrieb Breitstreckwalze W2 Rocker : Falsche Position
+alWinCC2525;2525;12525;22525;4;Antrieb Breitstreckwalze W2 Rocker : Abschaltung wegen zu hoher Leistung
+alWinCC2526;2526;12526;22526;4;Antrieb Breitstreckwalze W2 Rocker : Zu hohe Temperatur im Servoverstärker
+alWinCC2527;2527;12527;22527;4;Antrieb Breitstreckwalze W2 Rocker : Zu hohe Motortemperatur
+alWinCC2528;2528;12528;22528;4;Antrieb Breitstreckwalze W2 Rocker : Fehler in der Steuerspannung
+alWinCC2529;2529;12529;22529;4;Antrieb Breitstreckwalze W2 Rocker : Fehler im Motorencoder
+alWinCC2530;2530;12530;22530;4;Antrieb Breitstreckwalze W2 Rocker : Unterspannung im DC Zwischenkreis
+alWinCC2531;2531;12531;22531;4;Antrieb Breitstreckwalze W2 Rocker : Istposition außerhalb der Toleranz
+alWinCC2532;2532;12532;22532;3;Antrieb Breitstreckwalze W2 Rocker : Zu hohe Leistung
+alWinCC2533;2533;12533;22533;3;Antrieb Breitstreckwalze W2 Rocker : Zu hohe Temperatur im Servoverstärker
+alWinCC2534;2534;12534;22534;3;Antrieb Breitstreckwalze W2 Rocker : Zu hohe Motortemperatur
+alWinCC2535;2535;12535;22535;3;Antrieb Breitstreckwalze W2 Rocker : Gerätefehler laut Verstärker- Display
+alWinCC2536;2536;12536;22536;4;Bandlaufwerk : Kein Motorstrom zugeschaltet
+alWinCC2537;2537;12537;22537;4;Bandlaufwerk : Fehler: Wickeln darf nicht ein, da Bandzug nicht ein
+alWinCC2538;2538;12538;22538;4;Bandlaufwerk : Freigabe der Handbedienung nicht möglich, weil Bandzug oder Service aktiv
+alWinCC2539;2539;12539;22539;4;Bandlaufwerk : Zugregler darf nicht eingeschaltet werden, da Handbedienung noch aktiv
+alWinCC2540;2540;12540;22540;3;Bandlaufwerk : Freigabe für Handbedienung fehlt
+alWinCC2541;2541;12541;22541;3;Bandlaufwerk : Service Modus für Antriebe kann nicht aktiviert werden
+alWinCC2542;2542;12542;22542;4;Bandlaufwerk : Zugregler darf nicht eingeschaltet werden, Kassetten sind nicht auf
+alWinCC2543;2543;12543;22543;3;Bandlaufwerk : Service Modus Antriebe ist aktiv
+alWinCC2544;2544;12544;22544;3;Bandlaufwerk : Bandposition, oberes Limit erreicht
+alWinCC2545;2545;12545;22545;3;Bandlaufwerk : Bandposition, unteres Limit erreicht
+alWinCC2546;2546;12546;22546;4;Bandlaufwerk : Bandposition, oberes Limit erreicht
+alWinCC2547;2547;12547;22547;4;Bandlaufwerk : Bandposition, unteres Limit erreicht
+alWinCC2548;2548;12548;22548;4;Kammersteuerung Anlage : Standby-Druck wird nicht erreicht
+alWinCC2549;2549;12549;22549;4;Kammersteuerung Anlage : Fehler beim Abpumpen: Process Standby 1 Zustand wird nicht erreicht
+alWinCC2550;2550;12550;22550;4;Kammersteuerung Anlage : Fehler beim Abpumpen: Process Standby 2 Zustand wird nicht erreicht
+alWinCC2551;2551;12551;22551;4;Kammersteuerung Anlage : Fehler beim Abpumpen: Process Standby 3 Zustand wird nicht erreicht
+alWinCC2552;2552;12552;22552;4;Kammersteuerung Anlage : Fehler: Bedingung 1 um Kammer zu pumpen nicht erfüllt
+alWinCC2553;2553;12553;22553;4;Kammersteuerung Anlage : Fehler: Bedingung 2 um Kammer zu pumpen nicht erfüllt
+alWinCC2554;2554;12554;22554;4;Kammersteuerung Anlage : Fehler: Bedingung 3 um Kammer zu pumpen nicht erfüllt
+alWinCC2555;2555;12555;22555;4;Kammersteuerung Anlage : Fehler beim Uebergang in den Prozess-Modus: Bedingung 1
+alWinCC2556;2556;12556;22556;4;Kammersteuerung Anlage : Fehler beim Uebergang in den Prozess-Modus: Bedingung 2
+alWinCC2557;2557;12557;22557;4;Kammersteuerung Anlage : Fehler beim Uebergang in den Prozess-Modus: Bedingung 3
+alWinCC2558;2558;12558;22558;4;Kammersteuerung Anlage : Verlassen Prozess- Modus: Bedingung 1 nicht erfuellt.
+alWinCC2559;2559;12559;22559;4;Kammersteuerung Anlage : Verlassen Prozess- Modus: Bedingung 2 nicht erfuellt.
+alWinCC2560;2560;12560;22560;4;Kammersteuerung Anlage : Verlassen Prozess- Modus: Bedingung 3 nicht erfuellt.
+alWinCC2561;2561;12561;22561;4;Kammersteuerung Anlage : Fehler: Abschalten nicht moeglich: Bedingung 1 nicht erfüllt
+alWinCC2562;2562;12562;22562;4;Kammersteuerung Anlage : Fehler: Abschalten nicht moeglich: Bedingung 2 nicht erfüllt
+alWinCC2563;2563;12563;22563;4;Kammersteuerung Anlage : Fehler: Abschalten nicht moeglich: Bedingung 3 nicht erfüllt
+alWinCC2564;2564;12564;22564;4;Kammersteuerung Anlage : Fehler: Belüftungsfreigabe nicht vorhanden: Bedingung 1 nicht erfüllt
+alWinCC2565;2565;12565;22565;4;Kammersteuerung Anlage : Fehler: Belüftungsfreigabe nicht vorhanden: Bedingung 2 nicht erfüllt
+alWinCC2566;2566;12566;22566;4;Kammersteuerung Anlage : Fehler: Belüftungsfreigabe nicht vorhanden: Bedingung 3 nicht erfüllt
+alWinCC2567;2567;12567;22567;4;Kammersteuerung Anlage : Fehler: Standby noch nicht erreicht um in Prozess-Mode zu wechseln
+alWinCC2568;2568;12568;22568;4;Kammersteuerung Anlage : Kammer ist ohne Strom / Phasenfolgefehler
+alWinCC2569;2569;12569;22569;3;Kammersteuerung Anlage : Service Modus Vakuum ist aktiv.
+alWinCC2570;2570;12570;22570;3;Kammersteuerung Anlage : Service Modus Technologie Gas ist aktiv.
+alWinCC2571;2571;12571;22571;4;VE 1.1: Vakuumventil Wickelsektion : Ventil öffnet nicht
+alWinCC2572;2572;12572;22572;4;VE 1.1: Vakuumventil Wickelsektion : Ventil schließt nicht
+alWinCC2573;2573;12573;22573;4;VE 1.1: Vakuumventil Wickelsektion : Ventil öffnen nicht möglich: Vorpumpe nicht an
+alWinCC2574;2574;12574;22574;4;VE 1.1: Vakuumventil Wickelsektion : V öffnen nicht möglich: Belüftungsventil ist nicht geschlossen
+alWinCC2575;2575;12575;22575;4;VE 1.1: Vakuumventil Wickelsektion : Ventil öffnen nicht möglich: Kammer ist nicht geschlossen
+alWinCC2576;2576;12576;22576;4;VE 1.1: Vakuumventil Wickelsektion : Ventil öffnen nicht möglich: Druck für Rootspumpen zu hoch
+alWinCC2577;2577;12577;22577;4;VE 1.2: Vakuumventil Wickelsektion : Ventil öffnet nicht
+alWinCC2578;2578;12578;22578;4;VE 1.2: Vakuumventil Wickelsektion : Ventil schließt nicht
+alWinCC2579;2579;12579;22579;4;VE 1.2: Vakuumventil Wickelsektion : Ventil öffnen nicht möglich: Vorpumpe nicht an
+alWinCC2580;2580;12580;22580;4;VE 1.2: Vakuumventil Wickelsektion : V öffnen nicht möglich: Belüftungsventil ist nicht geschlossen
+alWinCC2581;2581;12581;22581;4;VE 1.2: Vakuumventil Wickelsektion : Ventil öffnen nicht möglich: Kammer ist nicht geschlossen
+alWinCC2582;2582;12582;22582;4;VE 1.2: Vakuumventil Wickelsektion : Ventil öffnen nicht möglich: Druck für Rootspumpen zu hoch
+alWinCC2583;2583;12583;22583;4;VE 1.3: Vakuumventil Wickelsektion : Ventil öffnet nicht
+alWinCC2584;2584;12584;22584;4;VE 1.3: Vakuumventil Wickelsektion : Ventil schließt nicht
+alWinCC2585;2585;12585;22585;4;VE 1.3: Vakuumventil Wickelsektion : Ventil öffnen nicht möglich: Vorpumpe nicht an
+alWinCC2586;2586;12586;22586;4;VE 1.3: Vakuumventil Wickelsektion : V öffnen nicht möglich: Belüftungsventil ist nicht geschlossen
+alWinCC2587;2587;12587;22587;4;VE 1.3: Vakuumventil Wickelsektion : Ventil öffnen nicht möglich: Kammer ist nicht geschlossen
+alWinCC2588;2588;12588;22588;4;VE 1.3: Vakuumventil Wickelsektion : Ventil öffnen nicht möglich: Druck für Rootspumpen zu hoch
+alWinCC2589;2589;12589;22589;4;VE 1.4: Vakuumventil Wickelsektion : Ventil öffnet nicht
+alWinCC2590;2590;12590;22590;4;VE 1.4: Vakuumventil Wickelsektion : Ventil schließt nicht
+alWinCC2591;2591;12591;22591;4;VE 1.4: Vakuumventil Wickelsektion : Ventil öffnen nicht möglich: Vorpumpe nicht an
+alWinCC2592;2592;12592;22592;4;VE 1.4: Vakuumventil Wickelsektion : V öffnen nicht möglich: Belüftungsventil ist nicht geschlossen
+alWinCC2593;2593;12593;22593;4;VE 1.4: Vakuumventil Wickelsektion : Ventil öffnen nicht möglich: Kammer ist nicht geschlossen
+alWinCC2594;2594;12594;22594;4;VE 1.4: Vakuumventil Wickelsektion : Ventil öffnen nicht möglich: Druck für Rootspumpen zu hoch
+alWinCC2595;2595;12595;22595;4;VE 1.7: Vakuumventil : Ventil öffnet nicht
+alWinCC2596;2596;12596;22596;4;VE 1.7: Vakuumventil : Ventil schließt nicht
+alWinCC2597;2597;12597;22597;4;VE 1.7: Vakuumventil : Ventil öffnen nicht möglich: Vorpumpe nicht an
+alWinCC2598;2598;12598;22598;4;VE 1.7: Vakuumventil : Ventil öffnen nicht möglich: Belüftungsventil ist nicht geschlossen
+alWinCC2599;2599;12599;22599;4;VE 1.7: Vakuumventil : Ventil öffnen nicht möglich: Kammer ist nicht geschlossen
+alWinCC2600;2600;12600;22600;4;VE 1.7: Vakuumventil : Ventil öffnen nicht möglich: Druck für Rootspumpen zu hoch
+alWinCC2601;2601;12601;22601;4;VE 1.8: Vakuumventil : Ventil öffnet nicht
+alWinCC2602;2602;12602;22602;4;VE 1.8: Vakuumventil : Ventil schließt nicht
+alWinCC2603;2603;12603;22603;4;VE 1.8: Vakuumventil : Ventil öffnen nicht möglich: Vorpumpe nicht an
+alWinCC2604;2604;12604;22604;4;VE 1.8: Vakuumventil : Ventil öffnen nicht möglich: Belüftungsventil ist nicht geschlossen
+alWinCC2605;2605;12605;22605;4;VE 1.8: Vakuumventil : Ventil öffnen nicht möglich: Kammer ist nicht geschlossen
+alWinCC2606;2606;12606;22606;4;VE 1.8: Vakuumventil : Ventil öffnen nicht möglich: Druck für Rootspumpen zu hoch
+alWinCC2607;2607;12607;22607;4;VE 2.1: Vakuumventil : Ventil öffnet nicht
+alWinCC2608;2608;12608;22608;4;VE 2.1: Vakuumventil : Ventil schließt nicht
+alWinCC2609;2609;12609;22609;4;VE 2.1: Vakuumventil : Ventil öffnen nicht möglich: Vorpumpe nicht an
+alWinCC2610;2610;12610;22610;4;VE 2.1: Vakuumventil : Ventil öffnen nicht möglich: Belüftungsventil ist nicht geschlossen
+alWinCC2611;2611;12611;22611;4;VE 2.1: Vakuumventil : Ventil öffnen nicht möglich: Kammer ist nicht geschlossen
+alWinCC2612;2612;12612;22612;4;VE 2.1: Vakuumventil : Ventil öffnen nicht möglich: Druck für Rootspumpen zu hoch
+alWinCC2613;2613;12613;22613;4;VE 2.2: Vakuumventil : Ventil öffnet nicht
+alWinCC2614;2614;12614;22614;4;VE 2.2: Vakuumventil : Ventil schließt nicht
+alWinCC2615;2615;12615;22615;4;VE 2.2: Vakuumventil : Ventil öffnen nicht möglich: Vorpumpe nicht an
+alWinCC2616;2616;12616;22616;4;VE 2.2: Vakuumventil : Ventil öffnen nicht möglich: Belüftungsventil ist nicht geschlossen
+alWinCC2617;2617;12617;22617;4;VE 2.2: Vakuumventil : Ventil öffnen nicht möglich: Kammer ist nicht geschlossen
+alWinCC2618;2618;12618;22618;4;VE 2.2: Vakuumventil : Ventil öffnen nicht möglich: Druck für Rootspumpen zu hoch
+alWinCC2619;2619;12619;22619;4;VE 2.3: Vakuumventil : Ventil öffnet nicht
+alWinCC2620;2620;12620;22620;4;VE 2.3: Vakuumventil : Ventil schließt nicht
+alWinCC2621;2621;12621;22621;4;VE 2.3: Vakuumventil : Ventil öffnen nicht möglich: Vorpumpe nicht an
+alWinCC2622;2622;12622;22622;4;VE 2.3: Vakuumventil : Ventil öffnen nicht möglich: Belüftungsventil ist nicht geschlossen
+alWinCC2623;2623;12623;22623;4;VE 2.3: Vakuumventil : Ventil öffnen nicht möglich: Kammer ist nicht geschlossen
+alWinCC2624;2624;12624;22624;4;VE 2.3: Vakuumventil : Ventil öffnen nicht möglich: Druck für Rootspumpen zu hoch
+alWinCC2625;2625;12625;22625;4;VE 3.1: Vakuumventil : Ventil öffnet nicht
+alWinCC2626;2626;12626;22626;4;VE 3.1: Vakuumventil : Ventil schließt nicht
+alWinCC2627;2627;12627;22627;4;VE 3.1: Vakuumventil : Ventil öffnen nicht möglich: Vorpumpe nicht an
+alWinCC2628;2628;12628;22628;4;VE 3.1: Vakuumventil : Ventil öffnen nicht möglich: Belüftungsventil ist nicht geschlossen
+alWinCC2629;2629;12629;22629;4;VE 3.1: Vakuumventil : Ventil öffnen nicht möglich: Kammer ist nicht geschlossen
+alWinCC2630;2630;12630;22630;4;VE 3.1: Vakuumventil : Ventil öffnen nicht möglich: Druck für Rootspumpen zu hoch
+alWinCC2631;2631;12631;22631;4;VE 3.2: Vakuumventil : Ventil öffnet nicht
+alWinCC2632;2632;12632;22632;4;VE 3.2: Vakuumventil : Ventil schließt nicht
+alWinCC2633;2633;12633;22633;4;VE 3.2: Vakuumventil : Ventil öffnen nicht möglich: Vorpumpe nicht an
+alWinCC2634;2634;12634;22634;4;VE 3.2: Vakuumventil : Ventil öffnen nicht möglich: Belüftungsventil ist nicht geschlossen
+alWinCC2635;2635;12635;22635;4;VE 3.2: Vakuumventil : Ventil öffnen nicht möglich: Kammer ist nicht geschlossen
+alWinCC2636;2636;12636;22636;4;VE 3.2: Vakuumventil : Ventil öffnen nicht möglich: Druck für Rootspumpen zu hoch
+alWinCC2637;2637;12637;22637;4;VE 3.3: Vakuumventil : Ventil öffnet nicht
+alWinCC2638;2638;12638;22638;4;VE 3.3: Vakuumventil : Ventil schließt nicht
+alWinCC2639;2639;12639;22639;4;VE 3.3: Vakuumventil : Ventil öffnen nicht möglich: Vorpumpe nicht an
+alWinCC2640;2640;12640;22640;4;VE 3.3: Vakuumventil : Ventil öffnen nicht möglich: Belüftungsventil ist nicht geschlossen
+alWinCC2641;2641;12641;22641;4;VE 3.3: Vakuumventil : Ventil öffnen nicht möglich: Kammer ist nicht geschlossen
+alWinCC2642;2642;12642;22642;4;VE 3.3: Vakuumventil : Ventil öffnen nicht möglich: Druck für Rootspumpen zu hoch
+alWinCC2643;2643;12643;22643;4;VE 4.1: Vakuumventil : Ventil öffnet nicht
+alWinCC2644;2644;12644;22644;4;VE 4.1: Vakuumventil : Ventil schließt nicht
+alWinCC2645;2645;12645;22645;4;VE 4.1: Vakuumventil : Ventil öffnen nicht möglich: Vorpumpe nicht an
+alWinCC2646;2646;12646;22646;4;VE 4.1: Vakuumventil : Ventil öffnen nicht möglich: Belüftungsventil ist nicht geschlossen
+alWinCC2647;2647;12647;22647;4;VE 4.1: Vakuumventil : Ventil öffnen nicht möglich: Kammer ist nicht geschlossen
+alWinCC2648;2648;12648;22648;4;VE 4.1: Vakuumventil : Ventil öffnen nicht möglich: Druck für Rootspumpen zu hoch
+alWinCC2649;2649;12649;22649;4;VE 4.2: Vakuumventil : Ventil öffnet nicht
+alWinCC2650;2650;12650;22650;4;VE 4.2: Vakuumventil : Ventil schließt nicht
+alWinCC2651;2651;12651;22651;4;VE 4.2: Vakuumventil : Ventil öffnen nicht möglich: Vorpumpe nicht an
+alWinCC2652;2652;12652;22652;4;VE 4.2: Vakuumventil : Ventil öffnen nicht möglich: Belüftungsventil ist nicht geschlossen
+alWinCC2653;2653;12653;22653;4;VE 4.2: Vakuumventil : Ventil öffnen nicht möglich: Kammer ist nicht geschlossen
+alWinCC2654;2654;12654;22654;4;VE 4.2: Vakuumventil : Ventil öffnen nicht möglich: Druck für Rootspumpen zu hoch
+alWinCC2655;2655;12655;22655;4;VE 4.3: Vakuumventil : Ventil öffnet nicht
+alWinCC2656;2656;12656;22656;4;VE 4.3: Vakuumventil : Ventil schließt nicht
+alWinCC2657;2657;12657;22657;4;VE 4.3: Vakuumventil : Ventil öffnen nicht möglich: Vorpumpe nicht an
+alWinCC2658;2658;12658;22658;4;VE 4.3: Vakuumventil : Ventil öffnen nicht möglich: Belüftungsventil ist nicht geschlossen
+alWinCC2659;2659;12659;22659;4;VE 4.3: Vakuumventil : Ventil öffnen nicht möglich: Kammer ist nicht geschlossen
+alWinCC2660;2660;12660;22660;4;VE 4.3: Vakuumventil : Ventil öffnen nicht möglich: Druck für Rootspumpen zu hoch
+alWinCC2661;2661;12661;22661;4;VE 5.1: Vakuumventil : Ventil öffnet nicht
+alWinCC2662;2662;12662;22662;4;VE 5.1: Vakuumventil : Ventil schließt nicht
+alWinCC2663;2663;12663;22663;4;VE 5.1: Vakuumventil : Ventil öffnen nicht möglich: Vorpumpe nicht an
+alWinCC2664;2664;12664;22664;4;VE 5.1: Vakuumventil : Ventil öffnen nicht möglich: Belüftungsventil ist nicht geschlossen
+alWinCC2665;2665;12665;22665;4;VE 5.1: Vakuumventil : Ventil öffnen nicht möglich: Kammer ist nicht geschlossen
+alWinCC2666;2666;12666;22666;4;VE 5.1: Vakuumventil : Ventil öffnen nicht möglich: Druck für Rootspumpen zu hoch
+alWinCC2667;2667;12667;22667;4;VE 5.2: Vakuumventil : Ventil öffnet nicht
+alWinCC2668;2668;12668;22668;4;VE 5.2: Vakuumventil : Ventil schließt nicht
+alWinCC2669;2669;12669;22669;4;VE 5.2: Vakuumventil : Ventil öffnen nicht möglich: Vorpumpe nicht an
+alWinCC2670;2670;12670;22670;4;VE 5.2: Vakuumventil : Ventil öffnen nicht möglich: Belüftungsventil ist nicht geschlossen
+alWinCC2671;2671;12671;22671;4;VE 5.2: Vakuumventil : Ventil öffnen nicht möglich: Kammer ist nicht geschlossen
+alWinCC2672;2672;12672;22672;4;VE 5.2: Vakuumventil : Ventil öffnen nicht möglich: Druck für Rootspumpen zu hoch
+alWinCC2673;2673;12673;22673;4;VE 5.3: Vakuumventil : Ventil öffnet nicht
+alWinCC2674;2674;12674;22674;4;VE 5.3: Vakuumventil : Ventil schließt nicht
+alWinCC2675;2675;12675;22675;4;VE 5.3: Vakuumventil : Ventil öffnen nicht möglich: Vorpumpe nicht an
+alWinCC2676;2676;12676;22676;4;VE 5.3: Vakuumventil : Ventil öffnen nicht möglich: Belüftungsventil ist nicht geschlossen
+alWinCC2677;2677;12677;22677;4;VE 5.3: Vakuumventil : Ventil öffnen nicht möglich: Kammer ist nicht geschlossen
+alWinCC2678;2678;12678;22678;4;VE 5.3: Vakuumventil : Ventil öffnen nicht möglich: Druck für Rootspumpen zu hoch
+alWinCC2679;2679;12679;22679;4;VE 6.1: Vakuumventil : Ventil öffnet nicht
+alWinCC2680;2680;12680;22680;4;VE 6.1: Vakuumventil : Ventil schließt nicht
+alWinCC2681;2681;12681;22681;4;VE 6.1: Vakuumventil : Ventil öffnen nicht möglich: Vorpumpe nicht an
+alWinCC2682;2682;12682;22682;4;VE 6.1: Vakuumventil : Ventil öffnen nicht möglich: Belüftungsventil ist nicht geschlossen
+alWinCC2683;2683;12683;22683;4;VE 6.1: Vakuumventil : Ventil öffnen nicht möglich: Kammer ist nicht geschlossen
+alWinCC2684;2684;12684;22684;4;VE 6.1: Vakuumventil : Ventil öffnen nicht möglich: Druck für Rootspumpen zu hoch
+alWinCC2685;2685;12685;22685;4;VE 6.2: Vakuumventil : Ventil öffnet nicht
+alWinCC2686;2686;12686;22686;4;VE 6.2: Vakuumventil : Ventil schließt nicht
+alWinCC2687;2687;12687;22687;4;VE 6.2: Vakuumventil : Ventil öffnen nicht möglich: Vorpumpe nicht an
+alWinCC2688;2688;12688;22688;4;VE 6.2: Vakuumventil : Ventil öffnen nicht möglich: Belüftungsventil ist nicht geschlossen
+alWinCC2689;2689;12689;22689;4;VE 6.2: Vakuumventil : Ventil öffnen nicht möglich: Kammer ist nicht geschlossen
+alWinCC2690;2690;12690;22690;4;VE 6.2: Vakuumventil : Ventil öffnen nicht möglich: Druck für Rootspumpen zu hoch
+alWinCC2691;2691;12691;22691;4;PT 1.1: Turbo Pumpe : Pumpe läuft nicht ordnungsgemäß hoch
+alWinCC2692;2692;12692;22692;4;PT 1.1: TP:Pump darf nicht eingeschalten:Evakuierungsventil ist nicht offen oder Vorpumpe nicht an
+alWinCC2693;2693;12693;22693;4;PT 1.1: TP:Pump darf nicht ausgeschalt:Kammer noch im Prozess oder Evakuierungsventil schließt nicht
+alWinCC2694;2694;12694;22694;4;PT 1.1: Turbo Pumpe : Pumpe meldet interne Störung
+alWinCC2695;2695;12695;22695;4;PT 1.1: Turbo Pumpe : Vorvakuumdruck ist zu hoch
+alWinCC2696;2696;12696;22696;4;PT 1.1: Turbo Pumpe : Fluten ist nicht freigegeben
+alWinCC2697;2697;12697;22697;4;PT 1.1: Turbo Pumpe : Fluten nicht erlaubt! Vakuumventil ist nicht zu
+alWinCC2698;2698;12698;22698;3;PT 1.1: Turbo Pumpe : Betriebsstundenzähler ist abgelaufen. Wartung erforferlich
+alWinCC2699;2699;12699;22699;4;PT 1.1: Turbo Pumpe : Pumpe meldet Überlast oder Übertemperatur
+alWinCC2700;2700;12700;22700;4;PT 1.1: Turbo Pumpe : Vorvakuumdruck ist zu hoch
+alWinCC2701;2701;12701;22701;4;PT 1.1: Turbo Pumpe : Keine Profibuskommunikation
+alWinCC2702;2702;12702;22702;4;PT 1.2: Turbo Pumpe : Pumpe läuft nicht ordnungsgemäß hoch
+alWinCC2703;2703;12703;22703;4;PT 1.2: TP:Pump darf nicht eingeschalten:Evakuierungsventil ist nicht offen oder Vorpumpe nicht an
+alWinCC2704;2704;12704;22704;4;PT 1.2: TP:Pump darf nicht ausgeschalt:Kammer noch im Prozess oder Evakuierungsventil schließt nicht
+alWinCC2705;2705;12705;22705;4;PT 1.2: Turbo Pumpe : Pumpe meldet interne Störung
+alWinCC2706;2706;12706;22706;4;PT 1.2: Turbo Pumpe : Vorvakuumdruck ist zu hoch
+alWinCC2707;2707;12707;22707;4;PT 1.2: Turbo Pumpe : Fluten ist nicht freigegeben
+alWinCC2708;2708;12708;22708;4;PT 1.2: Turbo Pumpe : Fluten nicht erlaubt! Vakuumventil ist nicht zu
+alWinCC2709;2709;12709;22709;3;PT 1.2: Turbo Pumpe : Betriebsstundenzähler ist abgelaufen. Wartung erforferlich
+alWinCC2710;2710;12710;22710;4;PT 1.2: Turbo Pumpe : Pumpe meldet Überlast oder Übertemperatur
+alWinCC2711;2711;12711;22711;4;PT 1.2: Turbo Pumpe : Vorvakuumdruck ist zu hoch
+alWinCC2712;2712;12712;22712;4;PT 1.2: Turbo Pumpe : Keine Profibuskommunikation
+alWinCC2713;2713;12713;22713;4;PT 1.3: Turbo Pumpe : Pumpe läuft nicht ordnungsgemäß hoch
+alWinCC2714;2714;12714;22714;4;PT 1.3: TP:Pump darf nicht eingeschalten:Evakuierungsventil ist nicht offen oder Vorpumpe nicht an
+alWinCC2715;2715;12715;22715;4;PT 1.3: TP:Pump darf nicht ausgeschalt:Kammer noch im Prozess oder Evakuierungsventil schließt nicht
+alWinCC2716;2716;12716;22716;4;PT 1.3: Turbo Pumpe : Pumpe meldet interne Störung
+alWinCC2717;2717;12717;22717;4;PT 1.3: Turbo Pumpe : Vorvakuumdruck ist zu hoch
+alWinCC2718;2718;12718;22718;4;PT 1.3: Turbo Pumpe : Fluten ist nicht freigegeben
+alWinCC2719;2719;12719;22719;4;PT 1.3: Turbo Pumpe : Fluten nicht erlaubt! Vakuumventil ist nicht zu
+alWinCC2720;2720;12720;22720;3;PT 1.3: Turbo Pumpe : Betriebsstundenzähler ist abgelaufen. Wartung erforferlich
+alWinCC2721;2721;12721;22721;4;PT 1.3: Turbo Pumpe : Pumpe meldet Überlast oder Übertemperatur
+alWinCC2722;2722;12722;22722;4;PT 1.3: Turbo Pumpe : Vorvakuumdruck ist zu hoch
+alWinCC2723;2723;12723;22723;4;PT 1.3: Turbo Pumpe : Keine Profibuskommunikation
+alWinCC2724;2724;12724;22724;4;PT 1.4: Turbo Pumpe : Pumpe läuft nicht ordnungsgemäß hoch
+alWinCC2725;2725;12725;22725;4;PT 1.4: TP:Pump darf nicht eingeschalten:Evakuierungsventil ist nicht offen oder Vorpumpe nicht an
+alWinCC2726;2726;12726;22726;4;PT 1.4: TP:Pump darf nicht ausgeschalt:Kammer noch im Prozess oder Evakuierungsventil schließt nicht
+alWinCC2727;2727;12727;22727;4;PT 1.4: Turbo Pumpe : Pumpe meldet interne Störung
+alWinCC2728;2728;12728;22728;4;PT 1.4: Turbo Pumpe : Vorvakuumdruck ist zu hoch
+alWinCC2729;2729;12729;22729;4;PT 1.4: Turbo Pumpe : Fluten ist nicht freigegeben
+alWinCC2730;2730;12730;22730;4;PT 1.4: Turbo Pumpe : Fluten nicht erlaubt! Vakuumventil ist nicht zu
+alWinCC2731;2731;12731;22731;3;PT 1.4: Turbo Pumpe : Betriebsstundenzähler ist abgelaufen. Wartung erforferlich
+alWinCC2732;2732;12732;22732;4;PT 1.4: Turbo Pumpe : Pumpe meldet Überlast oder Übertemperatur
+alWinCC2733;2733;12733;22733;4;PT 1.4: Turbo Pumpe : Vorvakuumdruck ist zu hoch
+alWinCC2734;2734;12734;22734;4;PT 1.4: Turbo Pumpe : Keine Profibuskommunikation
+alWinCC2735;2735;12735;22735;4;PT 2.1: Turbo Pumpe : Pumpe läuft nicht ordnungsgemäß hoch
+alWinCC2736;2736;12736;22736;4;PT 2.1: TP:Pump darf nicht eingeschalten:Evakuierungsventil ist nicht offen oder Vorpumpe nicht an
+alWinCC2737;2737;12737;22737;4;PT 2.1: TP:Pump darf nicht ausgeschalt:Kammer noch im Prozess oder Evakuierungsventil schließt nicht
+alWinCC2738;2738;12738;22738;4;PT 2.1: Turbo Pumpe : Pumpe meldet interne Störung
+alWinCC2739;2739;12739;22739;4;PT 2.1: Turbo Pumpe : Vorvakuumdruck ist zu hoch
+alWinCC2740;2740;12740;22740;4;PT 2.1: Turbo Pumpe : Fluten ist nicht freigegeben
+alWinCC2741;2741;12741;22741;4;PT 2.1: Turbo Pumpe : Fluten nicht erlaubt! Vakuumventil ist nicht zu
+alWinCC2742;2742;12742;22742;3;PT 2.1: Turbo Pumpe : Betriebsstundenzähler ist abgelaufen. Wartung erforferlich
+alWinCC2743;2743;12743;22743;4;PT 2.1: Turbo Pumpe : Pumpe meldet Überlast oder Übertemperatur
+alWinCC2744;2744;12744;22744;4;PT 2.1: Turbo Pumpe : Vorvakuumdruck ist zu hoch
+alWinCC2745;2745;12745;22745;4;PT 2.1: Turbo Pumpe : Keine Profibuskommunikation
+alWinCC2746;2746;12746;22746;4;PT 2.2: Turbo Pumpe : Pumpe läuft nicht ordnungsgemäß hoch
+alWinCC2747;2747;12747;22747;4;PT 2.2: TP:Pump darf nicht eingeschalten:Evakuierungsventil ist nicht offen oder Vorpumpe nicht an
+alWinCC2748;2748;12748;22748;4;PT 2.2: TP:Pump darf nicht ausgeschalt:Kammer noch im Prozess oder Evakuierungsventil schließt nicht
+alWinCC2749;2749;12749;22749;4;PT 2.2: Turbo Pumpe : Pumpe meldet interne Störung
+alWinCC2750;2750;12750;22750;4;PT 2.2: Turbo Pumpe : Vorvakuumdruck ist zu hoch
+alWinCC2751;2751;12751;22751;4;PT 2.2: Turbo Pumpe : Fluten ist nicht freigegeben
+alWinCC2752;2752;12752;22752;4;PT 2.2: Turbo Pumpe : Fluten nicht erlaubt! Vakuumventil ist nicht zu
+alWinCC2753;2753;12753;22753;3;PT 2.2: Turbo Pumpe : Betriebsstundenzähler ist abgelaufen. Wartung erforferlich
+alWinCC2754;2754;12754;22754;4;PT 2.2: Turbo Pumpe : Pumpe meldet Überlast oder Übertemperatur
+alWinCC2755;2755;12755;22755;4;PT 2.2: Turbo Pumpe : Vorvakuumdruck ist zu hoch
+alWinCC2756;2756;12756;22756;4;PT 2.2: Turbo Pumpe : Keine Profibuskommunikation
+alWinCC2757;2757;12757;22757;4;PT 2.3: Turbo Pumpe : Pumpe läuft nicht ordnungsgemäß hoch
+alWinCC2758;2758;12758;22758;4;PT 2.3: TP:Pump darf nicht eingeschalten:Evakuierungsventil ist nicht offen oder Vorpumpe nicht an
+alWinCC2759;2759;12759;22759;4;PT 2.3: TP:Pump darf nicht ausgeschalt:Kammer noch im Prozess oder Evakuierungsventil schließt nicht
+alWinCC2760;2760;12760;22760;4;PT 2.3: Turbo Pumpe : Pumpe meldet interne Störung
+alWinCC2761;2761;12761;22761;4;PT 2.3: Turbo Pumpe : Vorvakuumdruck ist zu hoch
+alWinCC2762;2762;12762;22762;4;PT 2.3: Turbo Pumpe : Fluten ist nicht freigegeben
+alWinCC2763;2763;12763;22763;4;PT 2.3: Turbo Pumpe : Fluten nicht erlaubt! Vakuumventil ist nicht zu
+alWinCC2764;2764;12764;22764;3;PT 2.3: Turbo Pumpe : Betriebsstundenzähler ist abgelaufen. Wartung erforferlich
+alWinCC2765;2765;12765;22765;4;PT 2.3: Turbo Pumpe : Pumpe meldet Überlast oder Übertemperatur
+alWinCC2766;2766;12766;22766;4;PT 2.3: Turbo Pumpe : Vorvakuumdruck ist zu hoch
+alWinCC2767;2767;12767;22767;4;PT 2.3: Turbo Pumpe : Keine Profibuskommunikation
+alWinCC2768;2768;12768;22768;4;PT 3.1: Turbo Pumpe : Pumpe läuft nicht ordnungsgemäß hoch
+alWinCC2769;2769;12769;22769;4;PT 3.1: TP:Pump darf nicht eingeschalten:Evakuierungsventil ist nicht offen oder Vorpumpe nicht an
+alWinCC2770;2770;12770;22770;4;PT 3.1: TP:Pump darf nicht ausgeschalt:Kammer noch im Prozess oder Evakuierungsventil schließt nicht
+alWinCC2771;2771;12771;22771;4;PT 3.1: Turbo Pumpe : Pumpe meldet interne Störung
+alWinCC2772;2772;12772;22772;4;PT 3.1: Turbo Pumpe : Vorvakuumdruck ist zu hoch
+alWinCC2773;2773;12773;22773;4;PT 3.1: Turbo Pumpe : Fluten ist nicht freigegeben
+alWinCC2774;2774;12774;22774;4;PT 3.1: Turbo Pumpe : Fluten nicht erlaubt! Vakuumventil ist nicht zu
+alWinCC2775;2775;12775;22775;3;PT 3.1: Turbo Pumpe : Betriebsstundenzähler ist abgelaufen. Wartung erforferlich
+alWinCC2776;2776;12776;22776;4;PT 3.1: Turbo Pumpe : Pumpe meldet Überlast oder Übertemperatur
+alWinCC2777;2777;12777;22777;4;PT 3.1: Turbo Pumpe : Vorvakuumdruck ist zu hoch
+alWinCC2778;2778;12778;22778;4;PT 3.1: Turbo Pumpe : Keine Profibuskommunikation
+alWinCC2779;2779;12779;22779;4;PT 3.2: Turbo Pumpe : Pumpe läuft nicht ordnungsgemäß hoch
+alWinCC2780;2780;12780;22780;4;PT 3.2: TP:Pump darf nicht eingeschalten:Evakuierungsventil ist nicht offen oder Vorpumpe nicht an
+alWinCC2781;2781;12781;22781;4;PT 3.2: TP:Pump darf nicht ausgeschalt:Kammer noch im Prozess oder Evakuierungsventil schließt nicht
+alWinCC2782;2782;12782;22782;4;PT 3.2: Turbo Pumpe : Pumpe meldet interne Störung
+alWinCC2783;2783;12783;22783;4;PT 3.2: Turbo Pumpe : Vorvakuumdruck ist zu hoch
+alWinCC2784;2784;12784;22784;4;PT 3.2: Turbo Pumpe : Fluten ist nicht freigegeben
+alWinCC2785;2785;12785;22785;4;PT 3.2: Turbo Pumpe : Fluten nicht erlaubt! Vakuumventil ist nicht zu
+alWinCC2786;2786;12786;22786;3;PT 3.2: Turbo Pumpe : Betriebsstundenzähler ist abgelaufen. Wartung erforferlich
+alWinCC2787;2787;12787;22787;4;PT 3.2: Turbo Pumpe : Pumpe meldet Überlast oder Übertemperatur
+alWinCC2788;2788;12788;22788;4;PT 3.2: Turbo Pumpe : Vorvakuumdruck ist zu hoch
+alWinCC2789;2789;12789;22789;4;PT 3.2: Turbo Pumpe : Keine Profibuskommunikation
+alWinCC2790;2790;12790;22790;4;PT 3.3: Turbo Pumpe : Pumpe läuft nicht ordnungsgemäß hoch
+alWinCC2791;2791;12791;22791;4;PT 3.3: TP:Pump darf nicht eingeschalten:Evakuierungsventil ist nicht offen oder Vorpumpe nicht an
+alWinCC2792;2792;12792;22792;4;PT 3.3: TP:Pump darf nicht ausgeschalt:Kammer noch im Prozess oder Evakuierungsventil schließt nicht
+alWinCC2793;2793;12793;22793;4;PT 3.3: Turbo Pumpe : Pumpe meldet interne Störung
+alWinCC2794;2794;12794;22794;4;PT 3.3: Turbo Pumpe : Vorvakuumdruck ist zu hoch
+alWinCC2795;2795;12795;22795;4;PT 3.3: Turbo Pumpe : Fluten ist nicht freigegeben
+alWinCC2796;2796;12796;22796;4;PT 3.3: Turbo Pumpe : Fluten nicht erlaubt! Vakuumventil ist nicht zu
+alWinCC2797;2797;12797;22797;3;PT 3.3: Turbo Pumpe : Betriebsstundenzähler ist abgelaufen. Wartung erforferlich
+alWinCC2798;2798;12798;22798;4;PT 3.3: Turbo Pumpe : Pumpe meldet Überlast oder Übertemperatur
+alWinCC2799;2799;12799;22799;4;PT 3.3: Turbo Pumpe : Vorvakuumdruck ist zu hoch
+alWinCC2800;2800;12800;22800;4;PT 3.3: Turbo Pumpe : Keine Profibuskommunikation
+alWinCC2801;2801;12801;22801;4;PT 4.1: Turbo Pumpe : Pumpe läuft nicht ordnungsgemäß hoch
+alWinCC2802;2802;12802;22802;4;PT 4.1: TP:Pump darf nicht eingeschalten:Evakuierungsventil ist nicht offen oder Vorpumpe nicht an
+alWinCC2803;2803;12803;22803;4;PT 4.1: TP:Pump darf nicht ausgeschalt:Kammer noch im Prozess oder Evakuierungsventil schließt nicht
+alWinCC2804;2804;12804;22804;4;PT 4.1: Turbo Pumpe : Pumpe meldet interne Störung
+alWinCC2805;2805;12805;22805;4;PT 4.1: Turbo Pumpe : Vorvakuumdruck ist zu hoch
+alWinCC2806;2806;12806;22806;4;PT 4.1: Turbo Pumpe : Fluten ist nicht freigegeben
+alWinCC2807;2807;12807;22807;4;PT 4.1: Turbo Pumpe : Fluten nicht erlaubt! Vakuumventil ist nicht zu
+alWinCC2808;2808;12808;22808;3;PT 4.1: Turbo Pumpe : Betriebsstundenzähler ist abgelaufen. Wartung erforferlich
+alWinCC2809;2809;12809;22809;4;PT 4.1: Turbo Pumpe : Pumpe meldet Überlast oder Übertemperatur
+alWinCC2810;2810;12810;22810;4;PT 4.1: Turbo Pumpe : Vorvakuumdruck ist zu hoch
+alWinCC2811;2811;12811;22811;4;PT 4.1: Turbo Pumpe : Keine Profibuskommunikation
+alWinCC2812;2812;12812;22812;4;PT 4.2: Turbo Pumpe : Pumpe läuft nicht ordnungsgemäß hoch
+alWinCC2813;2813;12813;22813;4;PT 4.2: TP:Pump darf nicht eingeschalten:Evakuierungsventil ist nicht offen oder Vorpumpe nicht an
+alWinCC2814;2814;12814;22814;4;PT 4.2: TP:Pump darf nicht ausgeschalt:Kammer noch im Prozess oder Evakuierungsventil schließt nicht
+alWinCC2815;2815;12815;22815;4;PT 4.2: Turbo Pumpe : Pumpe meldet interne Störung
+alWinCC2816;2816;12816;22816;4;PT 4.2: Turbo Pumpe : Vorvakuumdruck ist zu hoch
+alWinCC2817;2817;12817;22817;4;PT 4.2: Turbo Pumpe : Fluten ist nicht freigegeben
+alWinCC2818;2818;12818;22818;4;PT 4.2: Turbo Pumpe : Fluten nicht erlaubt! Vakuumventil ist nicht zu
+alWinCC2819;2819;12819;22819;3;PT 4.2: Turbo Pumpe : Betriebsstundenzähler ist abgelaufen. Wartung erforferlich
+alWinCC2820;2820;12820;22820;4;PT 4.2: Turbo Pumpe : Pumpe meldet Überlast oder Übertemperatur
+alWinCC2821;2821;12821;22821;4;PT 4.2: Turbo Pumpe : Vorvakuumdruck ist zu hoch
+alWinCC2822;2822;12822;22822;4;PT 4.2: Turbo Pumpe : Keine Profibuskommunikation
+alWinCC2823;2823;12823;22823;4;PT 4.3: Turbo Pumpe : Pumpe läuft nicht ordnungsgemäß hoch
+alWinCC2824;2824;12824;22824;4;PT 4.3: TP:Pump darf nicht eingeschalten:Evakuierungsventil ist nicht offen oder Vorpumpe nicht an
+alWinCC2825;2825;12825;22825;4;PT 4.3: TP:Pump darf nicht ausgeschalt:Kammer noch im Prozess oder Evakuierungsventil schließt nicht
+alWinCC2826;2826;12826;22826;4;PT 4.3: Turbo Pumpe : Pumpe meldet interne Störung
+alWinCC2827;2827;12827;22827;4;PT 4.3: Turbo Pumpe : Vorvakuumdruck ist zu hoch
+alWinCC2828;2828;12828;22828;4;PT 4.3: Turbo Pumpe : Fluten ist nicht freigegeben
+alWinCC2829;2829;12829;22829;4;PT 4.3: Turbo Pumpe : Fluten nicht erlaubt! Vakuumventil ist nicht zu
+alWinCC2830;2830;12830;22830;3;PT 4.3: Turbo Pumpe : Betriebsstundenzähler ist abgelaufen. Wartung erforferlich
+alWinCC2831;2831;12831;22831;4;PT 4.3: Turbo Pumpe : Pumpe meldet Überlast oder Übertemperatur
+alWinCC2832;2832;12832;22832;4;PT 4.3: Turbo Pumpe : Vorvakuumdruck ist zu hoch
+alWinCC2833;2833;12833;22833;4;PT 4.3: Turbo Pumpe : Keine Profibuskommunikation
+alWinCC2834;2834;12834;22834;4;PT 5.1: Turbo Pumpe : Pumpe läuft nicht ordnungsgemäß hoch
+alWinCC2835;2835;12835;22835;4;PT 5.1: TP:Pump darf nicht eingeschalten:Evakuierungsventil ist nicht offen oder Vorpumpe nicht an
+alWinCC2836;2836;12836;22836;4;PT 5.1: TP:Pump darf nicht ausgeschalt:Kammer noch im Prozess oder Evakuierungsventil schließt nicht
+alWinCC2837;2837;12837;22837;4;PT 5.1: Turbo Pumpe : Pumpe meldet interne Störung
+alWinCC2838;2838;12838;22838;4;PT 5.1: Turbo Pumpe : Vorvakuumdruck ist zu hoch
+alWinCC2839;2839;12839;22839;4;PT 5.1: Turbo Pumpe : Fluten ist nicht freigegeben
+alWinCC2840;2840;12840;22840;4;PT 5.1: Turbo Pumpe : Fluten nicht erlaubt! Vakuumventil ist nicht zu
+alWinCC2841;2841;12841;22841;3;PT 5.1: Turbo Pumpe : Betriebsstundenzähler ist abgelaufen. Wartung erforferlich
+alWinCC2842;2842;12842;22842;4;PT 5.1: Turbo Pumpe : Pumpe meldet Überlast oder Übertemperatur
+alWinCC2843;2843;12843;22843;4;PT 5.1: Turbo Pumpe : Vorvakuumdruck ist zu hoch
+alWinCC2844;2844;12844;22844;4;PT 5.1: Turbo Pumpe : Keine Profibuskommunikation
+alWinCC2845;2845;12845;22845;4;PT 5.2: Turbo Pumpe : Pumpe läuft nicht ordnungsgemäß hoch
+alWinCC2846;2846;12846;22846;4;PT 5.2: TP:Pump darf nicht eingeschalten:Evakuierungsventil ist nicht offen oder Vorpumpe nicht an
+alWinCC2847;2847;12847;22847;4;PT 5.2: TP:Pump darf nicht ausgeschalt:Kammer noch im Prozess oder Evakuierungsventil schließt nicht
+alWinCC2848;2848;12848;22848;4;PT 5.2: Turbo Pumpe : Pumpe meldet interne Störung
+alWinCC2849;2849;12849;22849;4;PT 5.2: Turbo Pumpe : Vorvakuumdruck ist zu hoch
+alWinCC2850;2850;12850;22850;4;PT 5.2: Turbo Pumpe : Fluten ist nicht freigegeben
+alWinCC2851;2851;12851;22851;4;PT 5.2: Turbo Pumpe : Fluten nicht erlaubt! Vakuumventil ist nicht zu
+alWinCC2852;2852;12852;22852;3;PT 5.2: Turbo Pumpe : Betriebsstundenzähler ist abgelaufen. Wartung erforferlich
+alWinCC2853;2853;12853;22853;4;PT 5.2: Turbo Pumpe : Pumpe meldet Überlast oder Übertemperatur
+alWinCC2854;2854;12854;22854;4;PT 5.2: Turbo Pumpe : Vorvakuumdruck ist zu hoch
+alWinCC2855;2855;12855;22855;4;PT 5.2: Turbo Pumpe : Keine Profibuskommunikation
+alWinCC2856;2856;12856;22856;4;PT 5.3: Turbo Pumpe : Pumpe läuft nicht ordnungsgemäß hoch
+alWinCC2857;2857;12857;22857;4;PT 5.3: TP:Pump darf nicht eingeschalten:Evakuierungsventil ist nicht offen oder Vorpumpe nicht an
+alWinCC2858;2858;12858;22858;4;PT 5.3: TP:Pump darf nicht ausgeschalt:Kammer noch im Prozess oder Evakuierungsventil schließt nicht
+alWinCC2859;2859;12859;22859;4;PT 5.3: Turbo Pumpe : Pumpe meldet interne Störung
+alWinCC2860;2860;12860;22860;4;PT 5.3: Turbo Pumpe : Vorvakuumdruck ist zu hoch
+alWinCC2861;2861;12861;22861;4;PT 5.3: Turbo Pumpe : Fluten ist nicht freigegeben
+alWinCC2862;2862;12862;22862;4;PT 5.3: Turbo Pumpe : Fluten nicht erlaubt! Vakuumventil ist nicht zu
+alWinCC2863;2863;12863;22863;3;PT 5.3: Turbo Pumpe : Betriebsstundenzähler ist abgelaufen. Wartung erforferlich
+alWinCC2864;2864;12864;22864;4;PT 5.3: Turbo Pumpe : Pumpe meldet Überlast oder Übertemperatur
+alWinCC2865;2865;12865;22865;4;PT 5.3: Turbo Pumpe : Vorvakuumdruck ist zu hoch
+alWinCC2866;2866;12866;22866;4;PT 5.3: Turbo Pumpe : Keine Profibuskommunikation
+alWinCC2867;2867;12867;22867;4;PT 6.1: Turbo Pumpe : Pumpe läuft nicht ordnungsgemäß hoch
+alWinCC2868;2868;12868;22868;4;PT 6.1: TP:Pump darf nicht eingeschalten:Evakuierungsventil ist nicht offen oder Vorpumpe nicht an
+alWinCC2869;2869;12869;22869;4;PT 6.1: TP:Pump darf nicht ausgeschalt:Kammer noch im Prozess oder Evakuierungsventil schließt nicht
+alWinCC2870;2870;12870;22870;4;PT 6.1: Turbo Pumpe : Pumpe meldet interne Störung
+alWinCC2871;2871;12871;22871;4;PT 6.1: Turbo Pumpe : Vorvakuumdruck ist zu hoch
+alWinCC2872;2872;12872;22872;4;PT 6.1: Turbo Pumpe : Fluten ist nicht freigegeben
+alWinCC2873;2873;12873;22873;4;PT 6.1: Turbo Pumpe : Fluten nicht erlaubt! Vakuumventil ist nicht zu
+alWinCC2874;2874;12874;22874;3;PT 6.1: Turbo Pumpe : Betriebsstundenzähler ist abgelaufen. Wartung erforferlich
+alWinCC2875;2875;12875;22875;4;PT 6.1: Turbo Pumpe : Pumpe meldet Überlast oder Übertemperatur
+alWinCC2876;2876;12876;22876;4;PT 6.1: Turbo Pumpe : Vorvakuumdruck ist zu hoch
+alWinCC2877;2877;12877;22877;4;PT 6.1: Turbo Pumpe : Keine Profibuskommunikation
+alWinCC2878;2878;12878;22878;4;PT 6.2: Turbo Pumpe : Pumpe läuft nicht ordnungsgemäß hoch
+alWinCC2879;2879;12879;22879;4;PT 6.2: TP:Pump darf nicht eingeschalten:Evakuierungsventil ist nicht offen oder Vorpumpe nicht an
+alWinCC2880;2880;12880;22880;4;PT 6.2: TP:Pump darf nicht ausgeschalt:Kammer noch im Prozess oder Evakuierungsventil schließt nicht
+alWinCC2881;2881;12881;22881;4;PT 6.2: Turbo Pumpe : Pumpe meldet interne Störung
+alWinCC2882;2882;12882;22882;4;PT 6.2: Turbo Pumpe : Vorvakuumdruck ist zu hoch
+alWinCC2883;2883;12883;22883;4;PT 6.2: Turbo Pumpe : Fluten ist nicht freigegeben
+alWinCC2884;2884;12884;22884;4;PT 6.2: Turbo Pumpe : Fluten nicht erlaubt! Vakuumventil ist nicht zu
+alWinCC2885;2885;12885;22885;3;PT 6.2: Turbo Pumpe : Betriebsstundenzähler ist abgelaufen. Wartung erforferlich
+alWinCC2886;2886;12886;22886;4;PT 6.2: Turbo Pumpe : Pumpe meldet Überlast oder Übertemperatur
+alWinCC2887;2887;12887;22887;4;PT 6.2: Turbo Pumpe : Vorvakuumdruck ist zu hoch
+alWinCC2888;2888;12888;22888;4;PT 6.2: Turbo Pumpe : Keine Profibuskommunikation
+alWinCC2889;2889;12889;22889;4;E01: 1A16: Beckhoff Beckhoff E/A : Spannungsfehler
+alWinCC2890;2890;12890;22890;4;E01: 1A16:Sicherung Beckhoff E/A : Sicherung defekt
+alWinCC2891;2891;12891;22891;4;E02: 1A2: Beckhoff : Spannungsfehler
+alWinCC2892;2892;12892;22892;4;E02: 1A2:Sicherung : Sicherung defekt
+alWinCC2893;2893;12893;22893;4;N11: 1A2: Beckhoff : Spannungsfehler
+alWinCC2894;2894;12894;22894;4;N11: 1A2:Sicherung : Sicherung defekt
+alWinCC2895;2895;12895;22895;4;N11: 1A17: Beckhoff : Spannungsfehler
+alWinCC2896;2896;12896;22896;4;N11: 1A17:Sicherung : Sicherung defekt
+alWinCC2897;2897;12897;22897;4;N11: 1A29: Beckhoff : Spannungsfehler
+alWinCC2898;2898;12898;22898;4;N11: 1A29:Sicherung : Sicherung defekt
+alWinCC2899;2899;12899;22899;4;N12: 1A2: Beckhoff : Spannungsfehler
+alWinCC2900;2900;12900;22900;4;N12: 1A2:Sicherung : Sicherung defekt
+alWinCC2901;2901;12901;22901;4;N12: 1A15: Beckhoff : Spannungsfehler
+alWinCC2902;2902;12902;22902;4;N12: 1A15:Sicherung : Sicherung defekt
+alWinCC2903;2903;12903;22903;4;N12: 1A20: Beckhoff : Spannungsfehler
+alWinCC2904;2904;12904;22904;4;N12: 1A20:Sicherung : Sicherung defekt
+alWinCC2905;2905;12905;22905;4;N13: 1A2: Beckhoff : Spannungsfehler
+alWinCC2906;2906;12906;22906;4;N13: 1A2:Sicherung : Sicherung defekt
+alWinCC2907;2907;12907;22907;4;N13: 1A11: Beckhoff : Spannungsfehler
+alWinCC2908;2908;12908;22908;4;N13: 1A11:Sicherung : Sicherung defekt
+alWinCC2909;2909;12909;22909;4;N13: 1A18: Beckhoff : Spannungsfehler
+alWinCC2910;2910;12910;22910;4;N13: 1A18:Sicherung : Sicherung defekt
+alWinCC2911;2911;12911;22911;4;N13: 1A23: Beckhoff : Spannungsfehler
+alWinCC2912;2912;12912;22912;4;N13: 1A23:Sicherung : Sicherung defekt
+alWinCC2913;2913;12913;22913;4;N14: 1A2: Beckhoff : Spannungsfehler
+alWinCC2914;2914;12914;22914;4;N14: 1A2:Sicherung : Sicherung defekt
+alWinCC2915;2915;12915;22915;4;N14: 1A14: Beckhoff : Spannungsfehler
+alWinCC2916;2916;12916;22916;4;N14: 1A14:Sicherung : Sicherung defekt
+alWinCC2917;2917;12917;22917;4;N14: 1A9: Beckhoff : Spannungsfehler
+alWinCC2918;2918;12918;22918;4;N14: 1A9:Sicherung : Sicherung defekt
+alWinCC2919;2919;12919;22919;4;N15: 1A2: Beckhoff : Spannungsfehler
+alWinCC2920;2920;12920;22920;4;N15: 1A2:Sicherung : Sicherung defekt
+alWinCC2921;2921;12921;22921;4;N16: 1A2: Beckhoff : Spannungsfehler
+alWinCC2922;2922;12922;22922;4;N16: 1A2:Sicherung : Sicherung defekt
+alWinCC2923;2923;12923;22923;4;N17: 1A2: Beckhoff : Spannungsfehler
+alWinCC2924;2924;12924;22924;4;N17: 1A2:Sicherung : Sicherung defekt
+alWinCC2925;2925;12925;22925;4;N18: 1A2: Beckhoff : Spannungsfehler
+alWinCC2926;2926;12926;22926;4;N18: 1A2:Sicherung : Sicherung defekt
+alWinCC2927;2927;12927;22927;4;E02: 8F2 : Spannungsfehler
+alWinCC2928;2928;12928;22928;4;E02: 8F2 : Sicherung defekt
+alWinCC2929;2929;12929;22929;4;E02: 7F1 : Spannungsfehler
+alWinCC2930;2930;12930;22930;4;E02: 7F1 : Sicherung defekt
+alWinCC2931;2931;12931;22931;4;E02: 9F1 : Spannungsfehler
+alWinCC2932;2932;12932;22932;4;E02: 9F1 : Sicherung defekt
+alWinCC2933;2933;12933;22933;4;E02: 6F2 : Spannungsfehler
+alWinCC2934;2934;12934;22934;4;E02: 6F2 : Sicherung defekt
+alWinCC2935;2935;12935;22935;4;E02: 10F2 : Spannungsfehler
+alWinCC2936;2936;12936;22936;4;E02: 10F2 : Sicherung defekt
+alWinCC2937;2937;12937;22937;4;E03: 1A2: Beckhoff : Spannungsfehler
+alWinCC2938;2938;12938;22938;4;E03: 1A2:Sicherung : Sicherung defekt
+alWinCC2939;2939;12939;22939;4;E03: 1A10: Beckhoff : Spannungsfehler
+alWinCC2940;2940;12940;22940;4;E03: 1A10:Sicherung : Sicherung defekt
+alWinCC2941;2941;12941;22941;4;N02: 1A2: Beckhoff : Spannungsfehler
+alWinCC2942;2942;12942;22942;4;N02: 1A2:Sicherung : Sicherung defekt
+alWinCC2943;2943;12943;22943;4;N03: 1A2: Beckhoff : Spannungsfehler
+alWinCC2944;2944;12944;22944;4;N03: 1A2:Sicherung : Sicherung defekt
+alWinCC2945;2945;12945;22945;4;N04: 1A2: Beckhoff : Spannungsfehler
+alWinCC2946;2946;12946;22946;4;N04: 1A2:Sicherung : Sicherung defekt
+alWinCC2947;2947;12947;22947;4;N04: Beckhoff 1A9 : Spannungsfehler
+alWinCC2948;2948;12948;22948;4;N04:Sicherung 1A9 : Sicherung defekt
+alWinCC2949;2949;12949;22949;4;N02: Beckhoff 1A9 : Spannungsfehler
+alWinCC2950;2950;12950;22950;4;N02:Sicherung 1A9 : Sicherung defekt
+alWinCC2951;2951;12951;22951;4;N03: Beckhoff 1A9 : Spannungsfehler
+alWinCC2952;2952;12952;22952;4;N03:Sicherung 1A9 : Sicherung defekt
+alWinCC2953;2953;12953;22953;4;Verdampfer 111 : Heizkreis 1: Istwert Strom liegt nicht in der definierten Toleranz
+alWinCC2954;2954;12954;22954;4;Verdampfer 111 : Heizkreis 2: Istwert Temperatur liegt nicht in der definierten Toleranz
+alWinCC2955;2955;12955;22955;4;Verdampfer 111 : Bedingung 1 für Einschalten ist nicht erfüllt
+alWinCC2956;2956;12956;22956;4;Verdampfer 111 : Bedingung 2 für Einschalten ist nicht erfüllt
+alWinCC2957;2957;12957;22957;4;Verdampfer 111 : Kammerdruck ist zu hoch zum Einschalten des Verdampfers
+alWinCC2958;2958;12958;22958;4;Verdampfer 111 : Fehler bei der Selbstoptimierung
+alWinCC2959;2959;12959;22959;4;Verdampfer 111 : Heizkreis 2: Fühlerbruch
+alWinCC2960;2960;12960;22960;4;Verdampfer 112 : Heizkreis 1: Istwert Strom liegt nicht in der definierten Toleranz
+alWinCC2961;2961;12961;22961;4;Verdampfer 112 : Heizkreis 2: Istwert Temperatur liegt nicht in der definierten Toleranz
+alWinCC2962;2962;12962;22962;4;Verdampfer 112 : Bedingung 1 für Einschalten ist nicht erfüllt
+alWinCC2963;2963;12963;22963;4;Verdampfer 112 : Bedingung 2 für Einschalten ist nicht erfüllt
+alWinCC2964;2964;12964;22964;4;Verdampfer 112 : Kammerdruck ist zu hoch zum Einschalten des Verdampfers
+alWinCC2965;2965;12965;22965;4;Verdampfer 112 : Fehler bei der Selbstoptimierung
+alWinCC2966;2966;12966;22966;4;Verdampfer 112 : Heizkreis 2: Fühlerbruch
+alWinCC2967;2967;12967;22967;4;Verdampfer 121 : Heizkreis 1: Istwert Strom liegt nicht in der definierten Toleranz
+alWinCC2968;2968;12968;22968;4;Verdampfer 121 : Heizkreis 2: Istwert Temperatur liegt nicht in der definierten Toleranz
+alWinCC2969;2969;12969;22969;4;Verdampfer 121 : Bedingung 1 für Einschalten ist nicht erfüllt
+alWinCC2970;2970;12970;22970;4;Verdampfer 121 : Bedingung 2 für Einschalten ist nicht erfüllt
+alWinCC2971;2971;12971;22971;4;Verdampfer 121 : Kammerdruck ist zu hoch zum Einschalten des Verdampfers
+alWinCC2972;2972;12972;22972;4;Verdampfer 121 : Fehler bei der Selbstoptimierung
+alWinCC2973;2973;12973;22973;4;Verdampfer 121 : Heizkreis 2: Fühlerbruch
+alWinCC2974;2974;12974;22974;4;Verdampfer 122 : Heizkreis 1: Istwert Strom liegt nicht in der definierten Toleranz
+alWinCC2975;2975;12975;22975;4;Verdampfer 122 : Heizkreis 2: Istwert Temperatur liegt nicht in der definierten Toleranz
+alWinCC2976;2976;12976;22976;4;Verdampfer 122 : Bedingung 1 für Einschalten ist nicht erfüllt
+alWinCC2977;2977;12977;22977;4;Verdampfer 122 : Bedingung 2 für Einschalten ist nicht erfüllt
+alWinCC2978;2978;12978;22978;4;Verdampfer 122 : Kammerdruck ist zu hoch zum Einschalten des Verdampfers
+alWinCC2979;2979;12979;22979;4;Verdampfer 122 : Fehler bei der Selbstoptimierung
+alWinCC2980;2980;12980;22980;4;Verdampfer 122 : Heizkreis 2: Fühlerbruch
+alWinCC2981;2981;12981;22981;4;Verdampfer 131 : Heizkreis 1: Istwert Strom liegt nicht in der definierten Toleranz
+alWinCC2982;2982;12982;22982;4;Verdampfer 131 : Heizkreis 2: Istwert Temperatur liegt nicht in der definierten Toleranz
+alWinCC2983;2983;12983;22983;4;Verdampfer 131 : Bedingung 1 für Einschalten ist nicht erfüllt
+alWinCC2984;2984;12984;22984;4;Verdampfer 131 : Bedingung 2 für Einschalten ist nicht erfüllt
+alWinCC2985;2985;12985;22985;4;Verdampfer 131 : Kammerdruck ist zu hoch zum Einschalten des Verdampfers
+alWinCC2986;2986;12986;22986;4;Verdampfer 131 : Fehler bei der Selbstoptimierung
+alWinCC2987;2987;12987;22987;4;Verdampfer 131 : Heizkreis 2: Fühlerbruch
+alWinCC2988;2988;12988;22988;4;Verdampfer 132 : Heizkreis 1: Istwert Strom liegt nicht in der definierten Toleranz
+alWinCC2989;2989;12989;22989;4;Verdampfer 132 : Heizkreis 2: Istwert Temperatur liegt nicht in der definierten Toleranz
+alWinCC2990;2990;12990;22990;4;Verdampfer 132 : Bedingung 1 für Einschalten ist nicht erfüllt
+alWinCC2991;2991;12991;22991;4;Verdampfer 132 : Bedingung 2 für Einschalten ist nicht erfüllt
+alWinCC2992;2992;12992;22992;4;Verdampfer 132 : Kammerdruck ist zu hoch zum Einschalten des Verdampfers
+alWinCC2993;2993;12993;22993;4;Verdampfer 132 : Fehler bei der Selbstoptimierung
+alWinCC2994;2994;12994;22994;4;Verdampfer 132 : Heizkreis 2: Fühlerbruch
+alWinCC2995;2995;12995;22995;4;Verdampfer 141 : Heizkreis 1: Istwert Strom liegt nicht in der definierten Toleranz
+alWinCC2996;2996;12996;22996;4;Verdampfer 141 : Heizkreis 2: Istwert Temperatur liegt nicht in der definierten Toleranz
+alWinCC2997;2997;12997;22997;4;Verdampfer 141 : Bedingung 1 für Einschalten ist nicht erfüllt
+alWinCC2998;2998;12998;22998;4;Verdampfer 141 : Bedingung 2 für Einschalten ist nicht erfüllt
+alWinCC2999;2999;12999;22999;4;Verdampfer 141 : Kammerdruck ist zu hoch zum Einschalten des Verdampfers
+alWinCC3000;3000;13000;23000;4;Verdampfer 141 : Fehler bei der Selbstoptimierung
+alWinCC3001;3001;13001;23001;4;Verdampfer 141 : Heizkreis 2: Fühlerbruch
+alWinCC3002;3002;13002;23002;4;Verdampfer 142 : Heizkreis 1: Istwert Strom liegt nicht in der definierten Toleranz
+alWinCC3003;3003;13003;23003;4;Verdampfer 142 : Heizkreis 2: Istwert Temperatur liegt nicht in der definierten Toleranz
+alWinCC3004;3004;13004;23004;4;Verdampfer 142 : Bedingung 1 für Einschalten ist nicht erfüllt
+alWinCC3005;3005;13005;23005;4;Verdampfer 142 : Bedingung 2 für Einschalten ist nicht erfüllt
+alWinCC3006;3006;13006;23006;4;Verdampfer 142 : Kammerdruck ist zu hoch zum Einschalten des Verdampfers
+alWinCC3007;3007;13007;23007;4;Verdampfer 142 : Fehler bei der Selbstoptimierung
+alWinCC3008;3008;13008;23008;4;Verdampfer 142 : Heizkreis 2: Fühlerbruch
+alWinCC3009;3009;13009;23009;4;Verdampfer 211 : Heizkreis 1: Istwert Strom liegt nicht in der definierten Toleranz
+alWinCC3010;3010;13010;23010;4;Verdampfer 211 : Heizkreis 2: Istwert Temperatur liegt nicht in der definierten Toleranz
+alWinCC3011;3011;13011;23011;4;Verdampfer 211 : Bedingung 1 für Einschalten ist nicht erfüllt
+alWinCC3012;3012;13012;23012;4;Verdampfer 211 : Bedingung 2 für Einschalten ist nicht erfüllt
+alWinCC3013;3013;13013;23013;4;Verdampfer 211 : Kammerdruck ist zu hoch zum Einschalten des Verdampfers
+alWinCC3014;3014;13014;23014;4;Verdampfer 211 : Fehler bei der Selbstoptimierung
+alWinCC3015;3015;13015;23015;4;Verdampfer 211 : Heizkreis 2: Fühlerbruch
+alWinCC3016;3016;13016;23016;4;Verdampfer 212 : Heizkreis 1: Istwert Strom liegt nicht in der definierten Toleranz
+alWinCC3017;3017;13017;23017;4;Verdampfer 212 : Heizkreis 2: Istwert Temperatur liegt nicht in der definierten Toleranz
+alWinCC3018;3018;13018;23018;4;Verdampfer 212 : Bedingung 1 für Einschalten ist nicht erfüllt
+alWinCC3019;3019;13019;23019;4;Verdampfer 212 : Bedingung 2 für Einschalten ist nicht erfüllt
+alWinCC3020;3020;13020;23020;4;Verdampfer 212 : Kammerdruck ist zu hoch zum Einschalten des Verdampfers
+alWinCC3021;3021;13021;23021;4;Verdampfer 212 : Fehler bei der Selbstoptimierung
+alWinCC3022;3022;13022;23022;4;Verdampfer 212 : Heizkreis 2: Fühlerbruch
+alWinCC3023;3023;13023;23023;4;Verdampfer 221 : Heizkreis 1: Istwert Strom liegt nicht in der definierten Toleranz
+alWinCC3024;3024;13024;23024;4;Verdampfer 221 : Heizkreis 2: Istwert Temperatur liegt nicht in der definierten Toleranz
+alWinCC3025;3025;13025;23025;4;Verdampfer 221 : Bedingung 1 für Einschalten ist nicht erfüllt
+alWinCC3026;3026;13026;23026;4;Verdampfer 221 : Bedingung 2 für Einschalten ist nicht erfüllt
+alWinCC3027;3027;13027;23027;4;Verdampfer 221 : Kammerdruck ist zu hoch zum Einschalten des Verdampfers
+alWinCC3028;3028;13028;23028;4;Verdampfer 221 : Fehler bei der Selbstoptimierung
+alWinCC3029;3029;13029;23029;4;Verdampfer 221 : Heizkreis 2: Fühlerbruch
+alWinCC3030;3030;13030;23030;4;Verdampfer 222 : Heizkreis 1: Istwert Strom liegt nicht in der definierten Toleranz
+alWinCC3031;3031;13031;23031;4;Verdampfer 222 : Heizkreis 2: Istwert Temperatur liegt nicht in der definierten Toleranz
+alWinCC3032;3032;13032;23032;4;Verdampfer 222 : Bedingung 1 für Einschalten ist nicht erfüllt
+alWinCC3033;3033;13033;23033;4;Verdampfer 222 : Bedingung 2 für Einschalten ist nicht erfüllt
+alWinCC3034;3034;13034;23034;4;Verdampfer 222 : Kammerdruck ist zu hoch zum Einschalten des Verdampfers
+alWinCC3035;3035;13035;23035;4;Verdampfer 222 : Fehler bei der Selbstoptimierung
+alWinCC3036;3036;13036;23036;4;Verdampfer 222 : Heizkreis 2: Fühlerbruch
+alWinCC3037;3037;13037;23037;4;Verdampfer 231 : Heizkreis 1: Istwert Strom liegt nicht in der definierten Toleranz
+alWinCC3038;3038;13038;23038;4;Verdampfer 231 : Heizkreis 2: Istwert Temperatur liegt nicht in der definierten Toleranz
+alWinCC3039;3039;13039;23039;4;Verdampfer 231 : Bedingung 1 für Einschalten ist nicht erfüllt
+alWinCC3040;3040;13040;23040;4;Verdampfer 231 : Bedingung 2 für Einschalten ist nicht erfüllt
+alWinCC3041;3041;13041;23041;4;Verdampfer 231 : Kammerdruck ist zu hoch zum Einschalten des Verdampfers
+alWinCC3042;3042;13042;23042;4;Verdampfer 231 : Fehler bei der Selbstoptimierung
+alWinCC3043;3043;13043;23043;4;Verdampfer 231 : Heizkreis 2: Fühlerbruch
+alWinCC3044;3044;13044;23044;4;Verdampfer 232 : Heizkreis 1: Istwert Strom liegt nicht in der definierten Toleranz
+alWinCC3045;3045;13045;23045;4;Verdampfer 232 : Heizkreis 2: Istwert Temperatur liegt nicht in der definierten Toleranz
+alWinCC3046;3046;13046;23046;4;Verdampfer 232 : Bedingung 1 für Einschalten ist nicht erfüllt
+alWinCC3047;3047;13047;23047;4;Verdampfer 232 : Bedingung 2 für Einschalten ist nicht erfüllt
+alWinCC3048;3048;13048;23048;4;Verdampfer 232 : Kammerdruck ist zu hoch zum Einschalten des Verdampfers
+alWinCC3049;3049;13049;23049;4;Verdampfer 232 : Fehler bei der Selbstoptimierung
+alWinCC3050;3050;13050;23050;4;Verdampfer 232 : Heizkreis 2: Fühlerbruch
+alWinCC3051;3051;13051;23051;4;Verdampfer 241 : Heizkreis 1: Istwert Strom liegt nicht in der definierten Toleranz
+alWinCC3052;3052;13052;23052;4;Verdampfer 241 : Heizkreis 2: Istwert Temperatur liegt nicht in der definierten Toleranz
+alWinCC3053;3053;13053;23053;4;Verdampfer 241 : Bedingung 1 für Einschalten ist nicht erfüllt
+alWinCC3054;3054;13054;23054;4;Verdampfer 241 : Bedingung 2 für Einschalten ist nicht erfüllt
+alWinCC3055;3055;13055;23055;4;Verdampfer 241 : Kammerdruck ist zu hoch zum Einschalten des Verdampfers
+alWinCC3056;3056;13056;23056;4;Verdampfer 241 : Fehler bei der Selbstoptimierung
+alWinCC3057;3057;13057;23057;4;Verdampfer 241 : Heizkreis 2: Fühlerbruch
+alWinCC3058;3058;13058;23058;4;Verdampfer 242 : Heizkreis 1: Istwert Strom liegt nicht in der definierten Toleranz
+alWinCC3059;3059;13059;23059;4;Verdampfer 242 : Heizkreis 2: Istwert Temperatur liegt nicht in der definierten Toleranz
+alWinCC3060;3060;13060;23060;4;Verdampfer 242 : Bedingung 1 für Einschalten ist nicht erfüllt
+alWinCC3061;3061;13061;23061;4;Verdampfer 242 : Bedingung 2 für Einschalten ist nicht erfüllt
+alWinCC3062;3062;13062;23062;4;Verdampfer 242 : Kammerdruck ist zu hoch zum Einschalten des Verdampfers
+alWinCC3063;3063;13063;23063;4;Verdampfer 242 : Fehler bei der Selbstoptimierung
+alWinCC3064;3064;13064;23064;4;Verdampfer 242 : Heizkreis 2: Fühlerbruch
+alWinCC3065;3065;13065;23065;4;Verdampfer 311 : Heizkreis 1: Istwert Strom liegt nicht in der definierten Toleranz
+alWinCC3066;3066;13066;23066;4;Verdampfer 311 : Heizkreis 2: Istwert Temperatur liegt nicht in der definierten Toleranz
+alWinCC3067;3067;13067;23067;4;Verdampfer 311 : Bedingung 1 für Einschalten ist nicht erfüllt
+alWinCC3068;3068;13068;23068;4;Verdampfer 311 : Bedingung 2 für Einschalten ist nicht erfüllt
+alWinCC3069;3069;13069;23069;4;Verdampfer 311 : Kammerdruck ist zu hoch zum Einschalten des Verdampfers
+alWinCC3070;3070;13070;23070;4;Verdampfer 311 : Fehler bei der Selbstoptimierung
+alWinCC3071;3071;13071;23071;4;Verdampfer 311 : Heizkreis 2: Fühlerbruch
+alWinCC3072;3072;13072;23072;4;Verdampfer 312 : Heizkreis 1: Istwert Strom liegt nicht in der definierten Toleranz
+alWinCC3073;3073;13073;23073;4;Verdampfer 312 : Heizkreis 2: Istwert Temperatur liegt nicht in der definierten Toleranz
+alWinCC3074;3074;13074;23074;4;Verdampfer 312 : Bedingung 1 für Einschalten ist nicht erfüllt
+alWinCC3075;3075;13075;23075;4;Verdampfer 312 : Bedingung 2 für Einschalten ist nicht erfüllt
+alWinCC3076;3076;13076;23076;4;Verdampfer 312 : Kammerdruck ist zu hoch zum Einschalten des Verdampfers
+alWinCC3077;3077;13077;23077;4;Verdampfer 312 : Fehler bei der Selbstoptimierung
+alWinCC3078;3078;13078;23078;4;Verdampfer 312 : Heizkreis 2: Fühlerbruch
+alWinCC3079;3079;13079;23079;4;Verdampfer 321 : Heizkreis 1: Istwert Strom liegt nicht in der definierten Toleranz
+alWinCC3080;3080;13080;23080;4;Verdampfer 321 : Heizkreis 2: Istwert Temperatur liegt nicht in der definierten Toleranz
+alWinCC3081;3081;13081;23081;4;Verdampfer 321 : Bedingung 1 für Einschalten ist nicht erfüllt
+alWinCC3082;3082;13082;23082;4;Verdampfer 321 : Bedingung 2 für Einschalten ist nicht erfüllt
+alWinCC3083;3083;13083;23083;4;Verdampfer 321 : Kammerdruck ist zu hoch zum Einschalten des Verdampfers
+alWinCC3084;3084;13084;23084;4;Verdampfer 321 : Fehler bei der Selbstoptimierung
+alWinCC3085;3085;13085;23085;4;Verdampfer 321 : Heizkreis 2: Fühlerbruch
+alWinCC3086;3086;13086;23086;4;Verdampfer 322 : Heizkreis 1: Istwert Strom liegt nicht in der definierten Toleranz
+alWinCC3087;3087;13087;23087;4;Verdampfer 322 : Heizkreis 2: Istwert Temperatur liegt nicht in der definierten Toleranz
+alWinCC3088;3088;13088;23088;4;Verdampfer 322 : Bedingung 1 für Einschalten ist nicht erfüllt
+alWinCC3089;3089;13089;23089;4;Verdampfer 322 : Bedingung 2 für Einschalten ist nicht erfüllt
+alWinCC3090;3090;13090;23090;4;Verdampfer 322 : Kammerdruck ist zu hoch zum Einschalten des Verdampfers
+alWinCC3091;3091;13091;23091;4;Verdampfer 322 : Fehler bei der Selbstoptimierung
+alWinCC3092;3092;13092;23092;4;Verdampfer 322 : Heizkreis 2: Fühlerbruch
+alWinCC3093;3093;13093;23093;4;Verdampfer 331 : Heizkreis 1: Istwert Strom liegt nicht in der definierten Toleranz
+alWinCC3094;3094;13094;23094;4;Verdampfer 331 : Heizkreis 2: Istwert Temperatur liegt nicht in der definierten Toleranz
+alWinCC3095;3095;13095;23095;4;Verdampfer 331 : Bedingung 1 für Einschalten ist nicht erfüllt
+alWinCC3096;3096;13096;23096;4;Verdampfer 331 : Bedingung 2 für Einschalten ist nicht erfüllt
+alWinCC3097;3097;13097;23097;4;Verdampfer 331 : Kammerdruck ist zu hoch zum Einschalten des Verdampfers
+alWinCC3098;3098;13098;23098;4;Verdampfer 331 : Fehler bei der Selbstoptimierung
+alWinCC3099;3099;13099;23099;4;Verdampfer 331 : Heizkreis 2: Fühlerbruch
+alWinCC3100;3100;13100;23100;4;Verdampfer 332 : Heizkreis 1: Istwert Strom liegt nicht in der definierten Toleranz
+alWinCC3101;3101;13101;23101;4;Verdampfer 332 : Heizkreis 2: Istwert Temperatur liegt nicht in der definierten Toleranz
+alWinCC3102;3102;13102;23102;4;Verdampfer 332 : Bedingung 1 für Einschalten ist nicht erfüllt
+alWinCC3103;3103;13103;23103;4;Verdampfer 332 : Bedingung 2 für Einschalten ist nicht erfüllt
+alWinCC3104;3104;13104;23104;4;Verdampfer 332 : Kammerdruck ist zu hoch zum Einschalten des Verdampfers
+alWinCC3105;3105;13105;23105;4;Verdampfer 332 : Fehler bei der Selbstoptimierung
+alWinCC3106;3106;13106;23106;4;Verdampfer 332 : Heizkreis 2: Fühlerbruch
+alWinCC3107;3107;13107;23107;4;Verdampfer 341 : Heizkreis 1: Istwert Strom liegt nicht in der definierten Toleranz
+alWinCC3108;3108;13108;23108;4;Verdampfer 341 : Heizkreis 2: Istwert Temperatur liegt nicht in der definierten Toleranz
+alWinCC3109;3109;13109;23109;4;Verdampfer 341 : Bedingung 1 für Einschalten ist nicht erfüllt
+alWinCC3110;3110;13110;23110;4;Verdampfer 341 : Bedingung 2 für Einschalten ist nicht erfüllt
+alWinCC3111;3111;13111;23111;4;Verdampfer 341 : Kammerdruck ist zu hoch zum Einschalten des Verdampfers
+alWinCC3112;3112;13112;23112;4;Verdampfer 341 : Fehler bei der Selbstoptimierung
+alWinCC3113;3113;13113;23113;4;Verdampfer 341 : Heizkreis 2: Fühlerbruch
+alWinCC3114;3114;13114;23114;4;Verdampfer 342 : Heizkreis 1: Istwert Strom liegt nicht in der definierten Toleranz
+alWinCC3115;3115;13115;23115;4;Verdampfer 342 : Heizkreis 2: Istwert Temperatur liegt nicht in der definierten Toleranz
+alWinCC3116;3116;13116;23116;4;Verdampfer 342 : Bedingung 1 für Einschalten ist nicht erfüllt
+alWinCC3117;3117;13117;23117;4;Verdampfer 342 : Bedingung 2 für Einschalten ist nicht erfüllt
+alWinCC3118;3118;13118;23118;4;Verdampfer 342 : Kammerdruck ist zu hoch zum Einschalten des Verdampfers
+alWinCC3119;3119;13119;23119;4;Verdampfer 342 : Fehler bei der Selbstoptimierung
+alWinCC3120;3120;13120;23120;4;Verdampfer 342 : Heizkreis 2: Fühlerbruch
+alWinCC3121;3121;13121;23121;4;Selen Quelle 1 : Gerät meldet Fehler in Einheit: Mikrowelle 1
+alWinCC3122;3122;13122;23122;4;Selen Quelle 1 : Gerät meldet Fehler in Einheit: Mikrowelle 2
+alWinCC3123;3123;13123;23123;4;Selen Quelle 1 : Gerät meldet Fehler in Einheit: Mikrowelle 3
+alWinCC3124;3124;13124;23124;4;Selen Quelle 1 : Gerät meldet Fehler in Einheit: Mikrowelle 4
+alWinCC3125;3125;13125;23125;4;Selen Quelle 1 : Gerät meldet Fehler in Einheit: Mikrowelle 5
+alWinCC3126;3126;13126;23126;4;Selen Quelle 1 : Gerät meldet Fehler in Einheit: Quelle
+alWinCC3127;3127;13127;23127;4;Selen Quelle 1 : Gerät meldet Fehler in Einheit: Beam Netzteil
+alWinCC3128;3128;13128;23128;4;Selen Quelle 1 : Gerät meldet Fehler in Einheit: Schütz
+alWinCC3129;3129;13129;23129;4;Selen Quelle 1 : Gerät meldet Fehler in Einheit: MFC
+alWinCC3130;3130;13130;23130;4;Selen Quelle 1 : Gerät meldet Fehler in Einheit: Verdampfer Heizung
+alWinCC3131;3131;13131;23131;4;Selen Quelle 1 : Gerät meldet Fehler in Einheit: Quellenheizung
+alWinCC3132;3132;13132;23132;4;Selen Quelle 1 : Gerät meldet Fehler in Einheit: Selen Heizung Rohr 1
+alWinCC3133;3133;13133;23133;4;Selen Quelle 1 : Gerät meldet Fehler in Einheit: Selen Heizung Rohr 2
+alWinCC3134;3134;13134;23134;4;Selen Quelle 1 : Gerät meldet Fehler in Einheit: Selen Verdampfer
+alWinCC3135;3135;13135;23135;4;Selen Quelle 1 : Gerät meldet Fehler in Einheit: Verdampferheizung Ventil
+alWinCC3136;3136;13136;23136;4;Selen Quelle 1 : Gerät meldet Fehler in Einheit: Verdampferheizung Rohr
+alWinCC3137;3137;13137;23137;4;Selen Quelle 1 : Gerät meldet Fehler in Einheit: Ventil Position ist nicht OK
+alWinCC3138;3138;13138;23138;4;Selen Quelle 2 : Gerät meldet Fehler in Einheit: Mikrowelle 1
+alWinCC3139;3139;13139;23139;4;Selen Quelle 2 : Gerät meldet Fehler in Einheit: Mikrowelle 2
+alWinCC3140;3140;13140;23140;4;Selen Quelle 2 : Gerät meldet Fehler in Einheit: Mikrowelle 3
+alWinCC3141;3141;13141;23141;4;Selen Quelle 2 : Gerät meldet Fehler in Einheit: Mikrowelle 4
+alWinCC3142;3142;13142;23142;4;Selen Quelle 2 : Gerät meldet Fehler in Einheit: Mikrowelle 5
+alWinCC3143;3143;13143;23143;4;Selen Quelle 2 : Gerät meldet Fehler in Einheit: Quelle
+alWinCC3144;3144;13144;23144;4;Selen Quelle 2 : Gerät meldet Fehler in Einheit: Beam Netzteil
+alWinCC3145;3145;13145;23145;4;Selen Quelle 2 : Gerät meldet Fehler in Einheit: Schütz
+alWinCC3146;3146;13146;23146;4;Selen Quelle 2 : Gerät meldet Fehler in Einheit: MFC
+alWinCC3147;3147;13147;23147;4;Selen Quelle 2 : Gerät meldet Fehler in Einheit: Verdampfer Heizung
+alWinCC3148;3148;13148;23148;4;Selen Quelle 2 : Gerät meldet Fehler in Einheit: Quellenheizung
+alWinCC3149;3149;13149;23149;4;Selen Quelle 2 : Gerät meldet Fehler in Einheit: Selen Heizung Rohr 1
+alWinCC3150;3150;13150;23150;4;Selen Quelle 2 : Gerät meldet Fehler in Einheit: Selen Heizung Rohr 2
+alWinCC3151;3151;13151;23151;4;Selen Quelle 2 : Gerät meldet Fehler in Einheit: Selen Verdampfer
+alWinCC3152;3152;13152;23152;4;Selen Quelle 2 : Gerät meldet Fehler in Einheit: Verdampferheizung Ventil
+alWinCC3153;3153;13153;23153;4;Selen Quelle 2 : Gerät meldet Fehler in Einheit: Verdampferheizung Rohr
+alWinCC3154;3154;13154;23154;4;Selen Quelle 2 : Gerät meldet Fehler in Einheit: Ventil Position ist nicht OK
+alWinCC3155;3155;13155;23155;4;Selen Quelle 3 : Gerät meldet Fehler in Einheit: Mikrowelle 1
+alWinCC3156;3156;13156;23156;4;Selen Quelle 3 : Gerät meldet Fehler in Einheit: Mikrowelle 2
+alWinCC3157;3157;13157;23157;4;Selen Quelle 3 : Gerät meldet Fehler in Einheit: Mikrowelle 3
+alWinCC3158;3158;13158;23158;4;Selen Quelle 3 : Gerät meldet Fehler in Einheit: Mikrowelle 4
+alWinCC3159;3159;13159;23159;4;Selen Quelle 3 : Gerät meldet Fehler in Einheit: Mikrowelle 5
+alWinCC3160;3160;13160;23160;4;Selen Quelle 3 : Gerät meldet Fehler in Einheit: Quelle
+alWinCC3161;3161;13161;23161;4;Selen Quelle 3 : Gerät meldet Fehler in Einheit: Beam Netzteil
+alWinCC3162;3162;13162;23162;4;Selen Quelle 3 : Gerät meldet Fehler in Einheit: Schütz
+alWinCC3163;3163;13163;23163;4;Selen Quelle 3 : Gerät meldet Fehler in Einheit: MFC
+alWinCC3164;3164;13164;23164;4;Selen Quelle 3 : Gerät meldet Fehler in Einheit: Verdampfer Heizung
+alWinCC3165;3165;13165;23165;4;Selen Quelle 3 : Gerät meldet Fehler in Einheit: Quellenheizung
+alWinCC3166;3166;13166;23166;4;Selen Quelle 3 : Gerät meldet Fehler in Einheit: Selen Heizung Rohr 1
+alWinCC3167;3167;13167;23167;4;Selen Quelle 3 : Gerät meldet Fehler in Einheit: Selen Heizung Rohr 2
+alWinCC3168;3168;13168;23168;4;Selen Quelle 3 : Gerät meldet Fehler in Einheit: Selen Verdampfer
+alWinCC3169;3169;13169;23169;4;Selen Quelle 3 : Gerät meldet Fehler in Einheit: Verdampferheizung Ventil
+alWinCC3170;3170;13170;23170;4;Selen Quelle 3 : Gerät meldet Fehler in Einheit: Verdampferheizung Rohr
+alWinCC3171;3171;13171;23171;4;Selen Quelle 3 : Gerät meldet Fehler in Einheit: Ventil Position ist nicht OK
+alWinCC3172;3172;13172;23172;4;DC Netzteil 111 Heizkreis 1 (Top) : Kommunikationsfehler mit Gerät
+alWinCC3173;3173;13173;23173;4;DC Netzteil 111 Heizk1(Top):Soll- Spannung ist kleiner 0V oder größer als Nennspannung des Geräts
+alWinCC3174;3174;13174;23174;4;DC Netzteil 111 Heizk1(Top):Soll- Strom ist kleiner 0A oder größer als Nennstrom des Geräts
+alWinCC3175;3175;13175;23175;4;DC Netzteil 111 Heizkreis 1 (Top) : Gerät meldet Internen Fehler
+alWinCC3176;3176;13176;23176;4;DC Netzteil 111 Heizkreis 2 (Bottom) : Kommunikationsfehler mit Gerät
+alWinCC3177;3177;13177;23177;4;DC Netzteil 111 Heizk2(Bottom):Soll- Spannung ist kleiner 0V oder größer als Nennspannung des Geräts
+alWinCC3178;3178;13178;23178;4;DC Netzteil 111 Heizk2(Bottom):Soll- Strom ist kleiner 0A oder größer als Nennstrom des Geräts
+alWinCC3179;3179;13179;23179;4;DC Netzteil 111 Heizkreis 2 (Bottom) : Gerät meldet Internen Fehler
+alWinCC3180;3180;13180;23180;4;DC Netzteil 112 Heizkreis 1 (Top) : Kommunikationsfehler mit Gerät
+alWinCC3181;3181;13181;23181;4;DC Netzteil 112 Heizk1(Top):Soll- Spannung ist kleiner 0V oder größer als Nennspannung des Geräts
+alWinCC3182;3182;13182;23182;4;DC Netzteil 112 Heizk1(Top):Soll- Strom ist kleiner 0A oder größer als Nennstrom des Geräts
+alWinCC3183;3183;13183;23183;4;DC Netzteil 112 Heizkreis 1 (Top) : Gerät meldet Internen Fehler
+alWinCC3184;3184;13184;23184;4;DC Netzteil 112 Heizkreis 2 (Bottom) : Kommunikationsfehler mit Gerät
+alWinCC3185;3185;13185;23185;4;DC Netzteil 112 Heizk2(Bottom):Soll- Spannung ist kleiner 0V oder größer als Nennspannung des Geräts
+alWinCC3186;3186;13186;23186;4;DC Netzteil 112 Heizk2(Bottom):Soll- Strom ist kleiner 0A oder größer als Nennstrom des Geräts
+alWinCC3187;3187;13187;23187;4;DC Netzteil 112 Heizkreis 2 (Bottom) : Gerät meldet Internen Fehler
+alWinCC3188;3188;13188;23188;4;DC Netzteil 121 Heizkreis 1 (Top) : Kommunikationsfehler mit Gerät
+alWinCC3189;3189;13189;23189;4;DC Netzteil 121 Heizk1(Top):Soll- Spannung ist kleiner 0V oder größer als Nennspannung des Geräts
+alWinCC3190;3190;13190;23190;4;DC Netzteil 121 Heizk1(Top):Soll- Strom ist kleiner 0A oder größer als Nennstrom des Geräts
+alWinCC3191;3191;13191;23191;4;DC Netzteil 121 Heizkreis 1 (Top) : Gerät meldet Internen Fehler
+alWinCC3192;3192;13192;23192;4;DC Netzteil 121 Heizkreis 2 (Bottom) : Kommunikationsfehler mit Gerät
+alWinCC3193;3193;13193;23193;4;DC Netzteil 121 Heizk2(Bottom):Soll- Spannung ist kleiner 0V oder größer als Nennspannung des Geräts
+alWinCC3194;3194;13194;23194;4;DC Netzteil 121 Heizk2(Bottom):Soll- Strom ist kleiner 0A oder größer als Nennstrom des Geräts
+alWinCC3195;3195;13195;23195;4;DC Netzteil 121 Heizkreis 2 (Bottom) : Gerät meldet Internen Fehler
+alWinCC3196;3196;13196;23196;4;DC Netzteil 122 Heizkreis 1 (Top) : Kommunikationsfehler mit Gerät
+alWinCC3197;3197;13197;23197;4;DC Netzteil 122 Heizk1(Top):Soll- Spannung ist kleiner 0V oder größer als Nennspannung des Geräts
+alWinCC3198;3198;13198;23198;4;DC Netzteil 122 Heizk1(Top):Soll- Strom ist kleiner 0A oder größer als Nennstrom des Geräts
+alWinCC3199;3199;13199;23199;4;DC Netzteil 122 Heizkreis 1 (Top) : Gerät meldet Internen Fehler
+alWinCC3200;3200;13200;23200;4;DC Netzteil 122 Heizkreis 2 (Bottom) : Kommunikationsfehler mit Gerät
+alWinCC3201;3201;13201;23201;4;DC Netzteil 122 Heizk2(Bottom):Soll- Spannung ist kleiner 0V oder größer als Nennspannung des Geräts
+alWinCC3202;3202;13202;23202;4;DC Netzteil 122 Heizk2(Bottom):Soll- Strom ist kleiner 0A oder größer als Nennstrom des Geräts
+alWinCC3203;3203;13203;23203;4;DC Netzteil 122 Heizkreis 2 (Bottom) : Gerät meldet Internen Fehler
+alWinCC3204;3204;13204;23204;4;DC Netzteil 131 Heizkreis 1 (Top) : Kommunikationsfehler mit Gerät
+alWinCC3205;3205;13205;23205;4;DC Netzteil 131 Heizk1(Top):Soll- Spannung ist kleiner 0V oder größer als Nennspannung des Geräts
+alWinCC3206;3206;13206;23206;4;DC Netzteil 131 Heizk1(Top):Soll- Strom ist kleiner 0A oder größer als Nennstrom des Geräts
+alWinCC3207;3207;13207;23207;4;DC Netzteil 131 Heizkreis 1 (Top) : Gerät meldet Internen Fehler
+alWinCC3208;3208;13208;23208;4;DC Netzteil 131 Heizkreis 2 (Bottom) : Kommunikationsfehler mit Gerät
+alWinCC3209;3209;13209;23209;4;DC Netzteil 131 Heizk2(Bottom):Soll- Spannung ist kleiner 0V oder größer als Nennspannung des Geräts
+alWinCC3210;3210;13210;23210;4;DC Netzteil 131 Heizk2(Bottom):Soll- Strom ist kleiner 0A oder größer als Nennstrom des Geräts
+alWinCC3211;3211;13211;23211;4;DC Netzteil 131 Heizkreis 2 (Bottom) : Gerät meldet Internen Fehler
+alWinCC3212;3212;13212;23212;4;DC Netzteil 132 Heizkreis 1 (Top) : Kommunikationsfehler mit Gerät
+alWinCC3213;3213;13213;23213;4;DC Netzteil 132 Heizk1(Top):Soll- Spannung ist kleiner 0V oder größer als Nennspannung des Geräts
+alWinCC3214;3214;13214;23214;4;DC Netzteil 132 Heizk1(Top):Soll- Strom ist kleiner 0A oder größer als Nennstrom des Geräts
+alWinCC3215;3215;13215;23215;4;DC Netzteil 132 Heizkreis 1 (Top) : Gerät meldet Internen Fehler
+alWinCC3216;3216;13216;23216;4;DC Netzteil 132 Heizkreis 2 (Bottom) : Kommunikationsfehler mit Gerät
+alWinCC3217;3217;13217;23217;4;DC Netzteil 132 Heizk2(Bottom):Soll- Spannung ist kleiner 0V oder größer als Nennspannung des Geräts
+alWinCC3218;3218;13218;23218;4;DC Netzteil 132 Heizk2(Bottom):Soll- Strom ist kleiner 0A oder größer als Nennstrom des Geräts
+alWinCC3219;3219;13219;23219;4;DC Netzteil 132 Heizkreis 2 (Bottom) : Gerät meldet Internen Fehler
+alWinCC3220;3220;13220;23220;4;DC Netzteil 141 Heizkreis 1 (Top) : Kommunikationsfehler mit Gerät
+alWinCC3221;3221;13221;23221;4;DC Netzteil 141 Heizk1(Top):Soll- Spannung ist kleiner 0V oder größer als Nennspannung des Geräts
+alWinCC3222;3222;13222;23222;4;DC Netzteil 141 Heizk1(Top):Soll- Strom ist kleiner 0A oder größer als Nennstrom des Geräts
+alWinCC3223;3223;13223;23223;4;DC Netzteil 141 Heizkreis 1 (Top) : Gerät meldet Internen Fehler
+alWinCC3224;3224;13224;23224;4;DC Netzteil 141 Heizkreis 2 (Bottom) : Kommunikationsfehler mit Gerät
+alWinCC3225;3225;13225;23225;4;DC Netzteil 141 Heizk2(Bottom):Soll- Spannung ist kleiner 0V oder größer als Nennspannung des Geräts
+alWinCC3226;3226;13226;23226;4;DC Netzteil 141 Heizk2(Bottom):Soll- Strom ist kleiner 0A oder größer als Nennstrom des Geräts
+alWinCC3227;3227;13227;23227;4;DC Netzteil 141 Heizkreis 2 (Bottom) : Gerät meldet Internen Fehler
+alWinCC3228;3228;13228;23228;4;DC Netzteil 142 Heizkreis 1 (Top) : Kommunikationsfehler mit Gerät
+alWinCC3229;3229;13229;23229;4;DC Netzteil 142 Heizk1(Top):Soll- Spannung ist kleiner 0V oder größer als Nennspannung des Geräts
+alWinCC3230;3230;13230;23230;4;DC Netzteil 142 Heizk1(Top):Soll- Strom ist kleiner 0A oder größer als Nennstrom des Geräts
+alWinCC3231;3231;13231;23231;4;DC Netzteil 142 Heizkreis 1 (Top) : Gerät meldet Internen Fehler
+alWinCC3232;3232;13232;23232;4;DC Netzteil 142 Heizkreis 2 (Bottom) : Kommunikationsfehler mit Gerät
+alWinCC3233;3233;13233;23233;4;DC Netzteil 142 Heizk2(Bottom):Soll- Spannung ist kleiner 0V oder größer als Nennspannung des Geräts
+alWinCC3234;3234;13234;23234;4;DC Netzteil 142 Heizk2(Bottom):Soll- Strom ist kleiner 0A oder größer als Nennstrom des Geräts
+alWinCC3235;3235;13235;23235;4;DC Netzteil 142 Heizkreis 2 (Bottom) : Gerät meldet Internen Fehler
+alWinCC3236;3236;13236;23236;4;DC Netzteil 211 Heizkreis 1 (Top) : Kommunikationsfehler mit Gerät
+alWinCC3237;3237;13237;23237;4;DC Netzteil 211 Heizk1(Top):Soll- Spannung ist kleiner 0V oder größer als Nennspannung des Geräts
+alWinCC3238;3238;13238;23238;4;DC Netzteil 211 Heizk1(Top):Soll- Strom ist kleiner 0A oder größer als Nennstrom des Geräts
+alWinCC3239;3239;13239;23239;4;DC Netzteil 211 Heizkreis 1 (Top) : Gerät meldet Internen Fehler
+alWinCC3240;3240;13240;23240;4;DC Netzteil 211 Heizkreis 2 (Bottom) : Kommunikationsfehler mit Gerät
+alWinCC3241;3241;13241;23241;4;DC Netzteil 211 Heizk2(Bottom):Soll- Spannung ist kleiner 0V oder größer als Nennspannung des Geräts
+alWinCC3242;3242;13242;23242;4;DC Netzteil 211 Heizk2(Bottom):Soll- Strom ist kleiner 0A oder größer als Nennstrom des Geräts
+alWinCC3243;3243;13243;23243;4;DC Netzteil 211 Heizkreis 2 (Bottom) : Gerät meldet Internen Fehler
+alWinCC3244;3244;13244;23244;4;DC Netzteil 212 Heizkreis 1 (Top) : Kommunikationsfehler mit Gerät
+alWinCC3245;3245;13245;23245;4;DC Netzteil 212 Heizk1(Top):Soll- Spannung ist kleiner 0V oder größer als Nennspannung des Geräts
+alWinCC3246;3246;13246;23246;4;DC Netzteil 212 Heizk1(Top):Soll- Strom ist kleiner 0A oder größer als Nennstrom des Geräts
+alWinCC3247;3247;13247;23247;4;DC Netzteil 212 Heizkreis 1 (Top) : Gerät meldet Internen Fehler
+alWinCC3248;3248;13248;23248;4;DC Netzteil 212 Heizkreis 2 (Bottom) : Kommunikationsfehler mit Gerät
+alWinCC3249;3249;13249;23249;4;DC Netzteil 212 Heizk2(Bottom):Soll- Spannung ist kleiner 0V oder größer als Nennspannung des Geräts
+alWinCC3250;3250;13250;23250;4;DC Netzteil 212 Heizk2(Bottom):Soll- Strom ist kleiner 0A oder größer als Nennstrom des Geräts
+alWinCC3251;3251;13251;23251;4;DC Netzteil 212 Heizkreis 2 (Bottom) : Gerät meldet Internen Fehler
+alWinCC3252;3252;13252;23252;4;DC Netzteil 221 Heizkreis 1 (Top) : Kommunikationsfehler mit Gerät
+alWinCC3253;3253;13253;23253;4;DC Netzteil 221 Heizk1(Top):Soll- Spannung ist kleiner 0V oder größer als Nennspannung des Geräts
+alWinCC3254;3254;13254;23254;4;DC Netzteil 221 Heizk1(Top):Soll- Strom ist kleiner 0A oder größer als Nennstrom des Geräts
+alWinCC3255;3255;13255;23255;4;DC Netzteil 221 Heizkreis 1 (Top) : Gerät meldet Internen Fehler
+alWinCC3256;3256;13256;23256;4;DC Netzteil 221 Heizkreis 2 (Bottom) : Kommunikationsfehler mit Gerät
+alWinCC3257;3257;13257;23257;4;DC Netzteil 221 Heizk2(Bottom):Soll- Spannung ist kleiner 0V oder größer als Nennspannung des Geräts
+alWinCC3258;3258;13258;23258;4;DC Netzteil 221 Heizk2(Bottom):Soll- Strom ist kleiner 0A oder größer als Nennstrom des Geräts
+alWinCC3259;3259;13259;23259;4;DC Netzteil 221 Heizkreis 2 (Bottom) : Gerät meldet Internen Fehler
+alWinCC3260;3260;13260;23260;4;DC Netzteil 222 Heizkreis 1 (Top) : Kommunikationsfehler mit Gerät
+alWinCC3261;3261;13261;23261;4;DC Netzteil 222 Heizk1(Top):Soll- Spannung ist kleiner 0V oder größer als Nennspannung des Geräts
+alWinCC3262;3262;13262;23262;4;DC Netzteil 222 Heizk1(Top):Soll- Strom ist kleiner 0A oder größer als Nennstrom des Geräts
+alWinCC3263;3263;13263;23263;4;DC Netzteil 222 Heizkreis 1 (Top) : Gerät meldet Internen Fehler
+alWinCC3264;3264;13264;23264;4;DC Netzteil 222 Heizkreis 2 (Bottom) : Kommunikationsfehler mit Gerät
+alWinCC3265;3265;13265;23265;4;DC Netzteil 222 Heizk2(Bottom):Soll- Spannung ist kleiner 0V oder größer als Nennspannung des Geräts
+alWinCC3266;3266;13266;23266;4;DC Netzteil 222 Heizk2(Bottom):Soll- Strom ist kleiner 0A oder größer als Nennstrom des Geräts
+alWinCC3267;3267;13267;23267;4;DC Netzteil 222 Heizkreis 2 (Bottom) : Gerät meldet Internen Fehler
+alWinCC3268;3268;13268;23268;4;DC Netzteil 231 Heizkreis 1 (Top) : Kommunikationsfehler mit Gerät
+alWinCC3269;3269;13269;23269;4;DC Netzteil 231 Heizk1(Top):Soll- Spannung ist kleiner 0V oder größer als Nennspannung des Geräts
+alWinCC3270;3270;13270;23270;4;DC Netzteil 231 Heizk1(Top):Soll- Strom ist kleiner 0A oder größer als Nennstrom des Geräts
+alWinCC3271;3271;13271;23271;4;DC Netzteil 231 Heizkreis 1 (Top) : Gerät meldet Internen Fehler
+alWinCC3272;3272;13272;23272;4;DC Netzteil 231 Heizkreis 2 (Bottom) : Kommunikationsfehler mit Gerät
+alWinCC3273;3273;13273;23273;4;DC Netzteil 231 Heizk2(Bottom):Soll- Spannung ist kleiner 0V oder größer als Nennspannung des Geräts
+alWinCC3274;3274;13274;23274;4;DC Netzteil 231 Heizk2(Bottom):Soll- Strom ist kleiner 0A oder größer als Nennstrom des Geräts
+alWinCC3275;3275;13275;23275;4;DC Netzteil 231 Heizkreis 2 (Bottom) : Gerät meldet Internen Fehler
+alWinCC3276;3276;13276;23276;4;DC Netzteil 232 Heizkreis 1 (Top) : Kommunikationsfehler mit Gerät
+alWinCC3277;3277;13277;23277;4;DC Netzteil 232 Heizk1(Top):Soll- Spannung ist kleiner 0V oder größer als Nennspannung des Geräts
+alWinCC3278;3278;13278;23278;4;DC Netzteil 232 Heizk1(Top):Soll- Strom ist kleiner 0A oder größer als Nennstrom des Geräts
+alWinCC3279;3279;13279;23279;4;DC Netzteil 232 Heizkreis 1 (Top) : Gerät meldet Internen Fehler
+alWinCC3280;3280;13280;23280;4;DC Netzteil 232 Heizkreis 2 (Bottom) : Kommunikationsfehler mit Gerät
+alWinCC3281;3281;13281;23281;4;DC Netzteil 232 Heizk2(Bottom):Soll- Spannung ist kleiner 0V oder größer als Nennspannung des Geräts
+alWinCC3282;3282;13282;23282;4;DC Netzteil 232 Heizk2(Bottom):Soll- Strom ist kleiner 0A oder größer als Nennstrom des Geräts
+alWinCC3283;3283;13283;23283;4;DC Netzteil 232 Heizkreis 2 (Bottom) : Gerät meldet Internen Fehler
+alWinCC3284;3284;13284;23284;4;DC Netzteil 241 Heizkreis 1 (Top) : Kommunikationsfehler mit Gerät
+alWinCC3285;3285;13285;23285;4;DC Netzteil 241 Heizk1(Top):Soll- Spannung ist kleiner 0V oder größer als Nennspannung des Geräts
+alWinCC3286;3286;13286;23286;4;DC Netzteil 241 Heizk1(Top):Soll- Strom ist kleiner 0A oder größer als Nennstrom des Geräts
+alWinCC3287;3287;13287;23287;4;DC Netzteil 241 Heizkreis 1 (Top) : Gerät meldet Internen Fehler
+alWinCC3288;3288;13288;23288;4;DC Netzteil 241 Heizkreis 2 (Bottom) : Kommunikationsfehler mit Gerät
+alWinCC3289;3289;13289;23289;4;DC Netzteil 241 Heizk2(Bottom):Soll- Spannung ist kleiner 0V oder größer als Nennspannung des Geräts
+alWinCC3290;3290;13290;23290;4;DC Netzteil 241 Heizk2(Bottom):Soll- Strom ist kleiner 0A oder größer als Nennstrom des Geräts
+alWinCC3291;3291;13291;23291;4;DC Netzteil 241 Heizkreis 2 (Bottom) : Gerät meldet Internen Fehler
+alWinCC3292;3292;13292;23292;4;DC Netzteil 242 Heizkreis 1 (Top) : Kommunikationsfehler mit Gerät
+alWinCC3293;3293;13293;23293;4;DC Netzteil 242 Heizk1(Top):Soll- Spannung ist kleiner 0V oder größer als Nennspannung des Geräts
+alWinCC3294;3294;13294;23294;4;DC Netzteil 242 Heizk1(Top):Soll- Strom ist kleiner 0A oder größer als Nennstrom des Geräts
+alWinCC3295;3295;13295;23295;4;DC Netzteil 242 Heizkreis 1 (Top) : Gerät meldet Internen Fehler
+alWinCC3296;3296;13296;23296;4;DC Netzteil 242 Heizkreis 2 (Bottom) : Kommunikationsfehler mit Gerät
+alWinCC3297;3297;13297;23297;4;DC Netzteil 242 Heizk2(Bottom):Soll- Spannung ist kleiner 0V oder größer als Nennspannung des Geräts
+alWinCC3298;3298;13298;23298;4;DC Netzteil 242 Heizk2(Bottom):Soll- Strom ist kleiner 0A oder größer als Nennstrom des Geräts
+alWinCC3299;3299;13299;23299;4;DC Netzteil 242 Heizkreis 2 (Bottom) : Gerät meldet Internen Fehler
+alWinCC3300;3300;13300;23300;4;DC Netzteil 311 Heizkreis 1 (Top) : Kommunikationsfehler mit Gerät
+alWinCC3301;3301;13301;23301;4;DC Netzteil 311 Heizk1(Top):Soll- Spannung ist kleiner 0V oder größer als Nennspannung des Geräts
+alWinCC3302;3302;13302;23302;4;DC Netzteil 311 Heizk1(Top):Soll- Strom ist kleiner 0A oder größer als Nennstrom des Geräts
+alWinCC3303;3303;13303;23303;4;DC Netzteil 311 Heizkreis 1 (Top) : Gerät meldet Internen Fehler
+alWinCC3304;3304;13304;23304;4;DC Netzteil 311 Heizkreis 2 (Bottom) : Kommunikationsfehler mit Gerät
+alWinCC3305;3305;13305;23305;4;DC Netzteil 311 Heizk2(Bottom):Soll- Spannung ist kleiner 0V oder größer als Nennspannung des Geräts
+alWinCC3306;3306;13306;23306;4;DC Netzteil 311 Heizk2(Bottom):Soll- Strom ist kleiner 0A oder größer als Nennstrom des Geräts
+alWinCC3307;3307;13307;23307;4;DC Netzteil 311 Heizkreis 2 (Bottom) : Gerät meldet Internen Fehler
+alWinCC3308;3308;13308;23308;4;DC Netzteil 312 Heizkreis 1 (Top) : Kommunikationsfehler mit Gerät
+alWinCC3309;3309;13309;23309;4;DC Netzteil 312 Heizk1(Top):Soll- Spannung ist kleiner 0V oder größer als Nennspannung des Geräts
+alWinCC3310;3310;13310;23310;4;DC Netzteil 312 Heizk1(Top):Soll- Strom ist kleiner 0A oder größer als Nennstrom des Geräts
+alWinCC3311;3311;13311;23311;4;DC Netzteil 312 Heizkreis 1 (Top) : Gerät meldet Internen Fehler
+alWinCC3312;3312;13312;23312;4;DC Netzteil 312 Heizkreis 2 (Bottom) : Kommunikationsfehler mit Gerät
+alWinCC3313;3313;13313;23313;4;DC Netzteil 312 Heizk2(Bottom):Soll- Spannung ist kleiner 0V oder größer als Nennspannung des Geräts
+alWinCC3314;3314;13314;23314;4;DC Netzteil 312 Heizk2(Bottom):Soll- Strom ist kleiner 0A oder größer als Nennstrom des Geräts
+alWinCC3315;3315;13315;23315;4;DC Netzteil 312 Heizkreis 2 (Bottom) : Gerät meldet Internen Fehler
+alWinCC3316;3316;13316;23316;4;DC Netzteil 321 Heizkreis 1 (Top) : Kommunikationsfehler mit Gerät
+alWinCC3317;3317;13317;23317;4;DC Netzteil 321 Heizk1(Top):Soll- Spannung ist kleiner 0V oder größer als Nennspannung des Geräts
+alWinCC3318;3318;13318;23318;4;DC Netzteil 321 Heizk1(Top):Soll- Strom ist kleiner 0A oder größer als Nennstrom des Geräts
+alWinCC3319;3319;13319;23319;4;DC Netzteil 321 Heizkreis 1 (Top) : Gerät meldet Internen Fehler
+alWinCC3320;3320;13320;23320;4;DC Netzteil 321 Heizkreis 2 (Bottom) : Kommunikationsfehler mit Gerät
+alWinCC3321;3321;13321;23321;4;DC Netzteil 321 Heizk2(Bottom):Soll- Spannung ist kleiner 0V oder größer als Nennspannung des Geräts
+alWinCC3322;3322;13322;23322;4;DC Netzteil 321 Heizk2(Bottom):Soll- Strom ist kleiner 0A oder größer als Nennstromdes Geräts
+alWinCC3323;3323;13323;23323;4;DC Netzteil 321 Heizkreis 2 (Bottom) : Gerät meldet Internen Fehler
+alWinCC3324;3324;13324;23324;4;DC Netzteil 322 Heizkreis 1 (Top) : Kommunikationsfehler mit Gerät
+alWinCC3325;3325;13325;23325;4;DC Netzteil 322 Heizk1(Top):Soll- Spannung ist kleiner 0V oder größer als Nennspannung des Geräts
+alWinCC3326;3326;13326;23326;4;DC Netzteil 322 Heizk1(Top):Soll- Strom ist kleiner 0A oder größer als Nennstrom des Geräts
+alWinCC3327;3327;13327;23327;4;DC Netzteil 322 Heizkreis 1 (Top) : Gerät meldet Internen Fehler
+alWinCC3328;3328;13328;23328;4;DC Netzteil 322 Heizkreis 2 (Bottom) : Kommunikationsfehler mit Gerät
+alWinCC3329;3329;13329;23329;4;DC Netzteil 322 Heizk2(Bottom):Soll- Spannung ist kleiner 0V oder größer als Nennspannung des Geräts
+alWinCC3330;3330;13330;23330;4;DC Netzteil 322 Heizk2(Bottom):Soll- Strom ist kleiner 0A oder größer als Nennstrom des Geräts
+alWinCC3331;3331;13331;23331;4;DC Netzteil 322 Heizkreis 2 (Bottom) : Gerät meldet Internen Fehler
+alWinCC3332;3332;13332;23332;4;DC Netzteil 331 Heizkreis 1 (Top) : Kommunikationsfehler mit Gerät
+alWinCC3333;3333;13333;23333;4;DC Netzteil 331 Heizk1(Top):Soll- Spannung ist kleiner 0V oder größer als Nennspannung des Geräts
+alWinCC3334;3334;13334;23334;4;DC Netzteil 331 Heizk1(Top):Soll- Strom ist kleiner 0A oder größer als Nennstrom des Geräts
+alWinCC3335;3335;13335;23335;4;DC Netzteil 331 Heizkreis 1 (Top) : Gerät meldet Internen Fehler
+alWinCC3336;3336;13336;23336;4;DC Netzteil 331 Heizkreis 2 (Bottom) : Kommunikationsfehler mit Gerät
+alWinCC3337;3337;13337;23337;4;DC Netzteil 331 Heizk2(Bottom):Soll- Spannung ist kleiner 0V oder größer als Nennspannung des Geräts
+alWinCC3338;3338;13338;23338;4;DC Netzteil 331 Heizk2(Bottom):Soll- Strom ist kleiner 0A oder größer als Nennstrom des Geräts
+alWinCC3339;3339;13339;23339;4;DC Netzteil 331 Heizkreis 2 (Bottom) : Gerät meldet Internen Fehler
+alWinCC3340;3340;13340;23340;4;DC Netzteil 332 Heizkreis 1 (Top) : Kommunikationsfehler mit Gerät
+alWinCC3341;3341;13341;23341;4;DC Netzteil 332 Heizk1(Top):Soll- Spannung ist kleiner 0V oder größer als Nennspannung des Geräts
+alWinCC3342;3342;13342;23342;4;DC Netzteil 332 Heizk1(Top):Soll- Strom ist kleiner 0A oder größer als Nennstrom des Geräts
+alWinCC3343;3343;13343;23343;4;DC Netzteil 332 Heizkreis 1 (Top) : Gerät meldet Internen Fehler
+alWinCC3344;3344;13344;23344;4;DC Netzteil 332 Heizkreis 2 (Bottom) : Kommunikationsfehler mit Gerät
+alWinCC3345;3345;13345;23345;4;DC Netzteil 332 Heizk2(Bottom):Soll- Spannung ist kleiner 0V oder größer als Nennspannung des Geräts
+alWinCC3346;3346;13346;23346;4;DC Netzteil 332 Heizk2(Bottom):Soll- Strom ist kleiner 0A oder größer als Nennstrom des Geräts
+alWinCC3347;3347;13347;23347;4;DC Netzteil 332 Heizkreis 2 (Bottom) : Gerät meldet Internen Fehler
+alWinCC3348;3348;13348;23348;4;DC Netzteil 341 Heizkreis 1 (Top) : Kommunikationsfehler mit Gerät
+alWinCC3349;3349;13349;23349;4;DC Netzteil 341 Heizk1(Top):Soll- Spannung ist kleiner 0V oder größer als Nennspannung des Geräts
+alWinCC3350;3350;13350;23350;4;DC Netzteil 341 Heizk1(Top):Soll- Strom ist kleiner 0A oder größer als Nennstrom des Geräts
+alWinCC3351;3351;13351;23351;4;DC Netzteil 341 Heizkreis 1 (Top) : Gerät meldet Internen Fehler
+alWinCC3352;3352;13352;23352;4;DC Netzteil 341 Heizkreis 2 (Bottom) : Kommunikationsfehler mit Gerät
+alWinCC3353;3353;13353;23353;4;DC Netzteil 341 Heizk2(Bottom):Soll- Spannung ist kleiner 0V oder größer als Nennspannung des Geräts
+alWinCC3354;3354;13354;23354;4;DC Netzteil 341 Heizk2(Bottom):Soll- Strom ist kleiner 0A oder größer als Nennstrom des Geräts
+alWinCC3355;3355;13355;23355;4;DC Netzteil 341 Heizkreis 2 (Bottom) : Gerät meldet Internen Fehler
+alWinCC3356;3356;13356;23356;4;DC Netzteil 342 Heizkreis 1 (Top) : Kommunikationsfehler mit Gerät
+alWinCC3357;3357;13357;23357;4;DC Netzteil 342 Heizk1(Top):Soll- Spannung ist kleiner 0V oder größer als Nennspannung des Geräts
+alWinCC3358;3358;13358;23358;4;DC Netzteil 342 Heizk1(Top):Soll- Strom ist kleiner 0A oder größer als Nennstrom des Geräts
+alWinCC3359;3359;13359;23359;4;DC Netzteil 342 Heizkreis 1 (Top) : Gerät meldet Internen Fehler
+alWinCC3360;3360;13360;23360;4;DC Netzteil 342 Heizkreis 2 (Bottom) : Kommunikationsfehler mit Gerät
+alWinCC3361;3361;13361;23361;4;DC Netzteil 342 Heizk2(Bottom):Soll- Spannung ist kleiner 0V oder größer als Nennspannung des Geräts
+alWinCC3362;3362;13362;23362;4;DC Netzteil 342 Heizk2(Bottom):Soll- Strom ist kleiner 0A oder größer als Nennstrom des Geräts
+alWinCC3363;3363;13363;23363;4;DC Netzteil 342 Heizkreis 2 (Bottom) : Gerät meldet Internen Fehler
+alWinCC3364;3364;13364;23364;4;VE 3.1.1: Vakuumventil : Ventil öffnet nicht
+alWinCC3365;3365;13365;23365;4;VE 3.1.1: Vakuumventil : Ventil schließt nicht
+alWinCC3366;3366;13366;23366;4;VE 3.1.1: Vakuumventil : Ventil öffnen nicht möglich: Belüftung VG1.1 ist nicht zu
+alWinCC3367;3367;13367;23367;4;VE 3.1.1: Vakuumventil : Ventil öffnen nicht möglich: Vorpumpe PV3.1 ist noch nicht mind. 10sek an
+alWinCC3368;3368;13368;23368;4;VE 3.1.1: Vakuumventil : Ventil öffnen nicht möglich: Bedingung 3
+alWinCC3369;3369;13369;23369;4;VE 3.1.1: Vakuumventil : Ventil öffnen nicht möglich: Bedingung 4
+alWinCC3370;3370;13370;23370;4;VE 3.1.2: Vakuumventil : Ventil öffnet nicht
+alWinCC3371;3371;13371;23371;4;VE 3.1.2: Vakuumventil : Ventil schließt nicht
+alWinCC3372;3372;13372;23372;4;VE 3.1.2: Vakuumventil : Ventil öffnen nicht möglich: Walze ist heiss oder Belüftung VG1.1 ist offen
+alWinCC3373;3373;13373;23373;4;VE 3.1.2: Vakuumventil : Ventil öffnen nicht möglich: Vakuumleitung ist nicht evakuiert
+alWinCC3374;3374;13374;23374;4;VE 3.1.2: Vakuumventil : Ventil öffnen nicht möglich: VE3.2.1 ist nicht zu
+alWinCC3375;3375;13375;23375;4;VE 3.1.2: Vakuumventil : Ventil öffnen nicht möglich: VE3.2.2 und VE3.1.2 sind zeitgleich offen
+alWinCC3376;3376;13376;23376;4;VE 3.2.1: Vakuumventil : Ventil öffnet nicht
+alWinCC3377;3377;13377;23377;4;VE 3.2.1: Vakuumventil : Ventil schließt nicht
+alWinCC3378;3378;13378;23378;4;VE 3.2.1: Vakuumventil : Ventil öffnen nicht möglich: Walze ist heiss
+alWinCC3379;3379;13379;23379;4;VE 3.2.1: Vakuumventil : Ventil öffnen nicht möglich: VE3.1.1 ist nicht geschlossen
+alWinCC3380;3380;13380;23380;4;VE 3.2.1: Vakuumventil : Ventil öffnen nicht möglich: Kein Atmosphärendruck in Walze
+alWinCC3381;3381;13381;23381;4;VE 3.2.1: Vakuumventil : Ventil öffnen nicht möglich: VE3.2.1 ist nicht offen
+alWinCC3382;3382;13382;23382;4;VE 3.2.2: Vakuumventil : Ventil öffnet nicht
+alWinCC3383;3383;13383;23383;4;VE 3.2.2: Vakuumventil : Ventil schließt nicht
+alWinCC3384;3384;13384;23384;4;VE 3.2.2: Vakuumventil : Ventil öffnen nicht möglich: Bedingung 1
+alWinCC3385;3385;13385;23385;4;VE 3.2.2: Vakuumventil : Ventil öffnen nicht möglich: Bedingung 2
+alWinCC3386;3386;13386;23386;4;VE 3.2.2: Vakuumventil : Ventil öffnen nicht möglich: Kein Atmosphärendruck in Walze
+alWinCC3387;3387;13387;23387;4;VE 3.2.2: Vakuumventil : Ventil öffnen nicht möglich: Bedingung 4
+alWinCC3388;3388;13388;23388;4;VE 4.2.1: Vakuumventil : Ventil öffnet nicht
+alWinCC3389;3389;13389;23389;4;VE 4.2.1: Vakuumventil : Ventil schließt nicht
+alWinCC3390;3390;13390;23390;4;VE 4.2.1: Vakuumventil : Ventil öffnen nicht möglich: Walze ist heiss
+alWinCC3391;3391;13391;23391;4;VE 4.2.1: Vakuumventil : Ventil öffnen nicht möglich: VE4.1.1 ist nicht geschlossen
+alWinCC3392;3392;13392;23392;4;VE 4.2.1: Vakuumventil : Ventil öffnen nicht möglich: Kein Atmosphärendruck in Walze
+alWinCC3393;3393;13393;23393;4;VE 4.2.1: Vakuumventil : Ventil öffnen nicht möglich: VE4.2.1 ist nicht offen
+alWinCC3394;3394;13394;23394;4;VE 4.2.2: Vakuumventil : Ventil öffnet nicht
+alWinCC3395;3395;13395;23395;4;VE 4.2.2: Vakuumventil : Ventil schließt nicht
+alWinCC3396;3396;13396;23396;4;VE 4.2.2: Vakuumventil : Ventil öffnen nicht möglich: Bedingung 1
+alWinCC3397;3397;13397;23397;4;VE 4.2.2: Vakuumventil : Ventil öffnen nicht möglich: Bedingung 2
+alWinCC3398;3398;13398;23398;4;VE 4.2.2: Vakuumventil : Ventil öffnen nicht möglich: Kein Atmosphärendruck in Walze
+alWinCC3399;3399;13399;23399;4;VE 4.2.2: Vakuumventil : Ventil öffnen nicht möglich: Bedingung 4
+alWinCC3400;3400;13400;23400;4;VE 5.2.1: Vakuumventil : Ventil öffnet nicht
+alWinCC3401;3401;13401;23401;4;VE 5.2.1: Vakuumventil : Ventil schließt nicht
+alWinCC3402;3402;13402;23402;4;VE 5.2.1: Vakuumventil : Ventil öffnen nicht möglich: Walze ist heiss
+alWinCC3403;3403;13403;23403;4;VE 5.2.1: Vakuumventil : Ventil öffnen nicht möglich: VE5.1.1 ist nicht geschlossen
+alWinCC3404;3404;13404;23404;4;VE 5.2.1: Vakuumventil : Ventil öffnen nicht möglich: Kein Atmosphärendruck in Walze
+alWinCC3405;3405;13405;23405;4;VE 5.2.1: Vakuumventil : Ventil öffnen nicht möglich: VE5.2.1 ist nicht offen
+alWinCC3406;3406;13406;23406;4;VE 5.2.2: Vakuumventil : Ventil öffnet nicht
+alWinCC3407;3407;13407;23407;4;VE 5.2.2: Vakuumventil : Ventil schließt nicht
+alWinCC3408;3408;13408;23408;4;VE 5.2.2: Vakuumventil : Ventil öffnen nicht möglich: Bedingung 1
+alWinCC3409;3409;13409;23409;4;VE 5.2.2: Vakuumventil : Ventil öffnen nicht möglich: Bedingung 2
+alWinCC3410;3410;13410;23410;4;VE 5.2.2: Vakuumventil : Ventil öffnen nicht möglich: Kein Atmosphärendruck in Walze
+alWinCC3411;3411;13411;23411;4;VE 5.2.2: Vakuumventil : Ventil öffnen nicht möglich: Bedingung 4
+alWinCC3412;3412;13412;23412;4;VG1.1: Vakuumventil : Ventil öffnet nicht
+alWinCC3413;3413;13413;23413;4;VG1.1: Vakuumventil : Ventil schließt nicht
+alWinCC3414;3414;13414;23414;4;VG1.1: Vakuumventil : Ventil öffnen nicht möglich: VE3.1.2 ist nicht geschlossen
+alWinCC3415;3415;13415;23415;4;VG1.1: Vakuumventil : Ventil öffnen nicht möglich: Walze 1 ist heiß und VE3.1.1 ist nicht zu
+alWinCC3416;3416;13416;23416;4;VG1.1: Vakuumventil : Ventil öffnen nicht möglich: Walze 2 ist heiß und VE4.1.1 ist nicht zu
+alWinCC3417;3417;13417;23417;4;VG1.1: Vakuumventil : Ventil öffnen nicht möglich: Walze 3 ist heiß und VE5.1.1 ist nicht zu
+alWinCC3418;3418;13418;23418;4;B 1 H:Heizer darf nicht eingeschalt w:Kammer ist nicht verschlossen oder H ist nicht Verriegelt
+alWinCC3419;3419;13419;23419;4;Beschichtungswalze 1 Heizerregler:Heizer darf nicht eingeschaltet werden:Druck in Kammer ist zu hoch
+alWinCC3420;3420;13420;23420;4;Beschichtungswalze 1 Heizerregler : Maximal Temperatur erreicht
+alWinCC3421;3421;13421;23421;4;Beschichtungswalze 1 Heizerregler : Istwert ist nicht in Toleranz
+alWinCC3422;3422;13422;23422;4;Beschichtungswalze 1 Heizerregler : Maximal Temperatur erreicht
+alWinCC3423;3423;13423;23423;4;Beschichtungswalze 1 Heizerregler : Kein Kühlwasser
+alWinCC3424;3424;13424;23424;4;B 2 H:Heizer darf nicht eingeschalt w:Kammer ist nicht verschlossen oder H ist nicht Verriegelt
+alWinCC3425;3425;13425;23425;4;Beschichtungswalze 2 Heizerregler:Heizer darf nicht eingeschaltet werden:Druck in Kammer ist zu hoch
+alWinCC3426;3426;13426;23426;4;Beschichtungswalze 2 Heizerregler : Maximal Temperatur erreicht
+alWinCC3427;3427;13427;23427;4;Beschichtungswalze 2 Heizerregler : Istwert ist nicht in Toleranz
+alWinCC3428;3428;13428;23428;4;Beschichtungswalze 2 Heizerregler : Maximal Temperatur erreicht
+alWinCC3429;3429;13429;23429;4;Beschichtungswalze 2 Heizerregler : Kein Kühlwasser
+alWinCC3430;3430;13430;23430;4;B 3 H:Heizer darf nicht eingeschalt w:Kammer ist nicht verschlossen oder H ist nicht Verriegelt
+alWinCC3431;3431;13431;23431;4;Beschichtungswalze 3 Heizerregler:Heizer darf nicht eingeschaltet werden:Druck in Kammer ist zu hoch
+alWinCC3432;3432;13432;23432;4;Beschichtungswalze 3 Heizerregler : Maximal Temperatur erreicht
+alWinCC3433;3433;13433;23433;4;Beschichtungswalze 3 Heizerregler : Istwert ist nicht in Toleranz
+alWinCC3434;3434;13434;23434;4;Beschichtungswalze 3 Heizerregler : Maximal Temperatur erreicht
+alWinCC3435;3435;13435;23435;4;Beschichtungswalze 3 Heizerregler : Kein Kühlwasser
+alWinCC3436;3436;13436;23436;4;PV3.1: Vorpumpe Walzenvakuum : Pumpe schaltet nicht aus
+alWinCC3437;3437;13437;23437;4;PV3.1: Vorpumpe Walzenvakuum : Pump darf nicht eingeschalten werden: Bedingung 1
+alWinCC3438;3438;13438;23438;4;PV3.1: Vorpumpe Walzenvakuum : Pump darf nicht ausgeschalten werden: Bedingung 1
+alWinCC3439;3439;13439;23439;4;PV3.1: Vorpumpe Walzenvakuum : Überlastrelais des Motors hat ausgelöst
+alWinCC3440;3440;13440;23440;4;PV3.1: Vorpumpe Walzenvakuum : Inertgas Fluss ist zu niedrig
+alWinCC3441;3441;13441;23441;3;PV3.1: Vorpumpe Walzenvakuum : Übertemperatur Motor
+alWinCC3442;3442;13442;23442;4;PV3.1: Vorpumpe Walzenvakuum : Pumpen Controller (SP Guard) meldet eine Warnung
+alWinCC3443;3443;13443;23443;3;PV3.1: Vorpumpe Walzenvakuum : Wartung erforderlich
+alWinCC3444;3444;13444;23444;4;PV1.1: Vorpumpe : Pumpe schaltet nicht aus
+alWinCC3445;3445;13445;23445;4;PV1.1: Vorpumpe : Pump darf nicht eingeschalten werden: Bedingung 1
+alWinCC3446;3446;13446;23446;4;PV1.1: Vorpumpe : Pump darf nicht ausgeschalten werden: Bedingung 1
+alWinCC3447;3447;13447;23447;4;PV1.1: Vorpumpe : Überlastrelais des Motors hat ausgelöst
+alWinCC3448;3448;13448;23448;4;PV1.1: Vorpumpe : Inertgas Fluss ist zu niedrig
+alWinCC3449;3449;13449;23449;3;PV1.1: Vorpumpe : Übertemperatur Motor
+alWinCC3450;3450;13450;23450;4;PV1.1: Vorpumpe : Pumpen Controller (SP Guard) meldet eine Warnung
+alWinCC3451;3451;13451;23451;3;PV1.1: Vorpumpe : Wartung erforderlich
+alWinCC3452;3452;13452;23452;4;PR1.1: Rootspumpe : Pumpe schaltet nicht aus
+alWinCC3453;3453;13453;23453;4;PR1.1: Rootspumpe : Pump darf nicht eingeschalten werden: Bedingung 1
+alWinCC3454;3454;13454;23454;4;PR1.1: Rootspumpe : Pump darf nicht ausgeschalten werden: Bedingung 1
+alWinCC3455;3455;13455;23455;4;PR1.1: Rootspumpe : Überlastrelais des Motors hat ausgelöst
+alWinCC3456;3456;13456;23456;4;PR1.1: Rootspumpe : Inertgas Fluss ist zu niedrig
+alWinCC3457;3457;13457;23457;3;PR1.1: Rootspumpe : Übertemperatur Motor
+alWinCC3458;3458;13458;23458;4;PR1.1: Rootspumpe : Pumpen Controller (SP Guard) meldet eine Warnung
+alWinCC3459;3459;13459;23459;3;PR1.1: Rootspumpe : Wartung erforderlich
+alWinCC3460;3460;13460;23460;4;PR1.2: Rootspumpe : Pumpe schaltet nicht aus
+alWinCC3461;3461;13461;23461;4;PR1.2: Rootspumpe : Pump darf nicht eingeschalten werden: Bedingung 1
+alWinCC3462;3462;13462;23462;4;PR1.2: Rootspumpe : Pump darf nicht ausgeschalten werden: Bedingung 1
+alWinCC3463;3463;13463;23463;4;PR1.2: Rootspumpe : Überlastrelais des Motors hat ausgelöst
+alWinCC3464;3464;13464;23464;4;PR1.2: Rootspumpe : Inertgas Fluss ist zu niedrig
+alWinCC3465;3465;13465;23465;3;PR1.2: Rootspumpe : Übertemperatur Motor
+alWinCC3466;3466;13466;23466;4;PR1.2: Rootspumpe : Pumpen Controller (SP Guard) meldet eine Warnung
+alWinCC3467;3467;13467;23467;3;PR1.2: Rootspumpe : Wartung erforderlich
+alWinCC3468;3468;13468;23468;3;Beschichtungswalze 1 Heizsystem : Istwert Temperatur von Thermoelementgruppe 12Uhr ist nicht OK
+alWinCC3469;3469;13469;23469;3;Beschichtungswalze 1 Heizsystem : Istwert Temperatur von Thermoelementgruppe 4Uhr ist nicht OK
+alWinCC3470;3470;13470;23470;3;Beschichtungswalze 1 Heizsystem : Istwert Temperatur von Thermoelementgruppe 8Uhr ist nicht OK
+alWinCC3471;3471;13471;23471;4;Beschichtungswalze 1 Heizsystem : Sicherung Haupteinspeisung für Heizer im E01 hat ausgelöst
+alWinCC3472;3472;13472;23472;4;Beschichtungswalze 1 Heizsystem : Mindestens eine Sicherung einer Heizergruppe hat ausgelöst
+alWinCC3473;3473;13473;23473;3;Beschichtungswalze 2 Heizsystem : Istwert Temperatur von Thermoelementgruppe 12Uhr ist nicht OK
+alWinCC3474;3474;13474;23474;3;Beschichtungswalze 2 Heizsystem : Istwert Temperatur von Thermoelementgruppe 4Uhr ist nicht OK
+alWinCC3475;3475;13475;23475;3;Beschichtungswalze 2 Heizsystem : Istwert Temperatur von Thermoelementgruppe 8Uhr ist nicht OK
+alWinCC3476;3476;13476;23476;4;Beschichtungswalze 2 Heizsystem : Sicherung Haupteinspeisung für Heizer im E01 hat ausgelöst
+alWinCC3477;3477;13477;23477;4;Beschichtungswalze 2 Heizsystem : Mindestens eine Sicherung einer Heizergruppe hat ausgelöst
+alWinCC3478;3478;13478;23478;3;Beschichtungswalze 3 Heizsystem : Istwert Temperatur von Thermoelementgruppe 12Uhr ist nicht OK
+alWinCC3479;3479;13479;23479;3;Beschichtungswalze 3 Heizsystem : Istwert Temperatur von Thermoelementgruppe 4Uhr ist nicht OK
+alWinCC3480;3480;13480;23480;3;Beschichtungswalze 3 Heizsystem : Istwert Temperatur von Thermoelementgruppe 8Uhr ist nicht OK
+alWinCC3481;3481;13481;23481;4;Beschichtungswalze 3 Heizsystem : Sicherung Haupteinspeisung für Heizer im E01 hat ausgelöst
+alWinCC3482;3482;13482;23482;4;Beschichtungswalze 3 Heizsystem : Mindestens eine Sicherung einer Heizergruppe hat ausgelöst
+alWinCC3483;3483;13483;23483;4;Beschichtungswalze 1 : Thermoelement 1 Fühlerbruch
+alWinCC3484;3484;13484;23484;4;Beschichtungswalze 1 : Thermoelement 2 Fühlerbruch
+alWinCC3485;3485;13485;23485;4;Beschichtungswalze 1 : Thermoelement 3 Fühlerbruch
+alWinCC3486;3486;13486;23486;4;Beschichtungswalze 1 : Thermoelement 4 Fühlerbruch
+alWinCC3487;3487;13487;23487;4;Beschichtungswalze 1 : Thermoelement 5 Fühlerbruch
+alWinCC3488;3488;13488;23488;4;Beschichtungswalze 1 : Thermoelement 6 Fühlerbruch
+alWinCC3489;3489;13489;23489;4;Beschichtungswalze 1 : Thermoelement 7 Fühlerbruch
+alWinCC3490;3490;13490;23490;4;Beschichtungswalze 1 : Thermoelement 8 Fühlerbruch
+alWinCC3491;3491;13491;23491;4;Beschichtungswalze 1 : Thermoelement 9 Fühlerbruch
+alWinCC3492;3492;13492;23492;4;Beschichtungswalze 2 : Thermoelement 1 Fühlerbruch
+alWinCC3493;3493;13493;23493;4;Beschichtungswalze 2 : Thermoelement 2 Fühlerbruch
+alWinCC3494;3494;13494;23494;4;Beschichtungswalze 2 : Thermoelement 3 Fühlerbruch
+alWinCC3495;3495;13495;23495;4;Beschichtungswalze 2 : Thermoelement 4 Fühlerbruch
+alWinCC3496;3496;13496;23496;4;Beschichtungswalze 2 : Thermoelement 5 Fühlerbruch
+alWinCC3497;3497;13497;23497;4;Beschichtungswalze 2 : Thermoelement 6 Fühlerbruch
+alWinCC3498;3498;13498;23498;4;Beschichtungswalze 2 : Thermoelement 7 Fühlerbruch
+alWinCC3499;3499;13499;23499;4;Beschichtungswalze 2 : Thermoelement 8 Fühlerbruch
+alWinCC3500;3500;13500;23500;4;Beschichtungswalze 2 : Thermoelement 9 Fühlerbruch
+alWinCC3501;3501;13501;23501;4;Beschichtungswalze 3 : Thermoelement 1 Fühlerbruch
+alWinCC3502;3502;13502;23502;4;Beschichtungswalze 3 : Thermoelement 2 Fühlerbruch
+alWinCC3503;3503;13503;23503;4;Beschichtungswalze 3 : Thermoelement 3 Fühlerbruch
+alWinCC3504;3504;13504;23504;4;Beschichtungswalze 3 : Thermoelement 4 Fühlerbruch
+alWinCC3505;3505;13505;23505;4;Beschichtungswalze 3 : Thermoelement 5 Fühlerbruch
+alWinCC3506;3506;13506;23506;4;Beschichtungswalze 3 : Thermoelement 6 Fühlerbruch
+alWinCC3507;3507;13507;23507;4;Beschichtungswalze 3 : Thermoelement 7 Fühlerbruch
+alWinCC3508;3508;13508;23508;4;Beschichtungswalze 3 : Thermoelement 8 Fühlerbruch
+alWinCC3509;3509;13509;23509;4;Beschichtungswalze 3 : Thermoelement 9 Fühlerbruch
+alWinCC3510;3510;13510;23510;4;Motor Verstellung Breitstreckwalze W2 : Profibusmodul ist nicht aktiv
+alWinCC3511;3511;13511;23511;4;Motor Verstellung Breitstreckwalze W2 : Motor darf nicht eingeschaltet werden: Bedingung 1
+alWinCC3512;3512;13512;23512;4;Motor Verstellung Breitstreckwalze W2 : Motor darf nicht eingeschaltet werden: Bedingung 2
+alWinCC3513;3513;13513;23513;4;Motor Verstellung Breitstreckwalze W2 : Motor darf nicht ausgeschaltet werden: Bedingung 1
+alWinCC3514;3514;13514;23514;4;Motor Verstellung Breitstreckwalze W2 : Istwert außerhalb Toleranz
+alWinCC3515;3515;13515;23515;4;Motor Verstellung Breitstreckwalze W2 : Frequenzumrichter meldet Fehler
+alWinCC3516;3516;13516;23516;4;Motor Verstellung Breitstreckwalze W2 : Frequenzumrichter ist falsch angeschlossen
+alWinCC3517;3517;13517;23517;4;Motor Verstellung Breitstreckwalze W2 : Sollwert außerhalb der eingestellten Limits
+alWinCC3518;3518;13518;23518;4;Motor Verstellung Breitstreckwalze 1 : Profibusmodul ist nicht aktiv
+alWinCC3519;3519;13519;23519;4;Motor Verstellung Breitstreckwalze 1 : Motor darf nicht eingeschaltet werden: Bedingung 1
+alWinCC3520;3520;13520;23520;4;Motor Verstellung Breitstreckwalze 1 : Motor darf nicht eingeschaltet werden: Bedingung 2
+alWinCC3521;3521;13521;23521;4;Motor Verstellung Breitstreckwalze 1 : Motor darf nicht ausgeschaltet werden: Bedingung 1
+alWinCC3522;3522;13522;23522;4;Motor Verstellung Breitstreckwalze 1 : Istwert außerhalb Toleranz
+alWinCC3523;3523;13523;23523;4;Motor Verstellung Breitstreckwalze 1 : Frequenzumrichter meldet Fehler
+alWinCC3524;3524;13524;23524;4;Motor Verstellung Breitstreckwalze 1 : Frequenzumrichter ist falsch angeschlossen
+alWinCC3525;3525;13525;23525;4;Motor Verstellung Breitstreckwalze 1 : Sollwert außerhalb der eingestellten Limits
+alWinCC3526;3526;13526;23526;4;Motor Verstellung Breitstreckwalze 2 : Profibusmodul ist nicht aktiv
+alWinCC3527;3527;13527;23527;4;Motor Verstellung Breitstreckwalze 2 : Motor darf nicht eingeschaltet werden: Bedingung 1
+alWinCC3528;3528;13528;23528;4;Motor Verstellung Breitstreckwalze 2 : Motor darf nicht eingeschaltet werden: Bedingung 2
+alWinCC3529;3529;13529;23529;4;Motor Verstellung Breitstreckwalze 2 : Motor darf nicht ausgeschaltet werden: Bedingung 1
+alWinCC3530;3530;13530;23530;4;Motor Verstellung Breitstreckwalze 2 : Istwert außerhalb Toleranz
+alWinCC3531;3531;13531;23531;4;Motor Verstellung Breitstreckwalze 2 : Frequenzumrichter meldet Fehler
+alWinCC3532;3532;13532;23532;4;Motor Verstellung Breitstreckwalze 2 : Frequenzumrichter ist falsch angeschlossen
+alWinCC3533;3533;13533;23533;4;Motor Verstellung Breitstreckwalze 2 : Sollwert außerhalb der eingestellten Limits
+alWinCC3534;3534;13534;23534;4;Motor Verstellung Breitstreckwalze 3 : Profibusmodul ist nicht aktiv
+alWinCC3535;3535;13535;23535;4;Motor Verstellung Breitstreckwalze 3 : Motor darf nicht eingeschaltet werden: Bedingung 1
+alWinCC3536;3536;13536;23536;4;Motor Verstellung Breitstreckwalze 3 : Motor darf nicht eingeschaltet werden: Bedingung 2
+alWinCC3537;3537;13537;23537;4;Motor Verstellung Breitstreckwalze 3 : Motor darf nicht ausgeschaltet werden: Bedingung 1
+alWinCC3538;3538;13538;23538;4;Motor Verstellung Breitstreckwalze 3 : Istwert außerhalb Toleranz
+alWinCC3539;3539;13539;23539;4;Motor Verstellung Breitstreckwalze 3 : Frequenzumrichter meldet Fehler
+alWinCC3540;3540;13540;23540;4;Motor Verstellung Breitstreckwalze 3 : Frequenzumrichter ist falsch angeschlossen
+alWinCC3541;3541;13541;23541;4;Motor Verstellung Breitstreckwalze 3 : Sollwert außerhalb der eingestellten Limits
+alWinCC3542;3542;13542;23542;4;Motor Rotation Breitstreckwalze W2 : Motor dreht nicht
+alWinCC3543;3543;13543;23543;4;Motor Rotation Breitstreckwalze 1 : Motor dreht nicht
+alWinCC3544;3544;13544;23544;4;Motor Rotation Breitstreckwalze 2 : Motor dreht nicht
+alWinCC3545;3545;13545;23545;4;Motor Rotation Breitstreckwalze 3 : Motor dreht nicht

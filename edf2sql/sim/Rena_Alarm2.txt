@@ -1,0 +1,368 @@
+100000000;Einlauf Not Aus;2
+100000001;Einlauf Sicherung Antrieb;2
+100000002;Einlauf Moduldeckel offen;2
+100000003;Einlauf Lekagewaechter;2
+100000004;Einlauf Beleader nicht bereit;2
+100000014;Einlauf Antriebsgschwindigkeit maximal;2
+100000015;Einlauf Antriebsgschwindigkeit minimal;2
+100000016;Einlauf obere Wellen Geschwindigkeit maximal;2
+100000017;Einlauf obere Wellen Geschwindigkeit minimal;2
+100000048;Buerste Pressluft fehlt;2
+100000049;Buerste Sicherung Antriebsmotor;2
+100000050;Buerste Sicherung 24V Versorgung;2
+100000051;Buerste Deckel geoeffnet;2
+100000052;Buerste Durchfluss Buerstberieselung minimal;2
+100000053;Buerste Durchfluss Buerstberieselung maximal;2
+100000096;Spueler 1 Deckel offen;2
+100000097;Spueler 1 Filterdeckel Pumpe geoeffnet;2
+100000098;Spueler 1 Abluftsensor;2
+100000099;Spueler 1 Trockengehschutz;2
+100000101;Spueler 1 Wasserzulauf Durchfluss maximal.;2
+100000102;Spueler 1 Niveauausgleich Zeitueberschreitung;2
+100000103;Spueler 1 enltlerren Zeitueberschreitung;2
+100000104;Spueler 1 LeckageSensor;2
+100000106;Spueler 1 Durchfluss Pumpe maximal;2
+100000107;Spueler 1 Durchfluss Pumpe minimal;2
+100000108;Spueler 1 Durchfluss Wasserzulauf maximal;2
+100000109;Spueler 1 Durchfluss Wasserzulauf minimal;2
+100000120;Spueler 1 Fehler Sinamics Antrieb Pumpe;2
+100000144;CDS Abluft Durchfluss zu niedrig;2
+100000145;CDS Abluft Durchfluss zu hoch;2
+100000146;CDS Durchfluss Rolle zu niedrig;2
+100000147;CDS Durchfluss Rolle zu hoch;2
+100000148;CDS Durchfluss Outlet zu niedrig;2
+100000149;CDS Durchfluss Outlet zu hoch;2
+100000150;CDS Abluft Waesher;2
+100000151;CDS Abluft Ventilator Prozess;2
+100000152;CDS Abluft Ventilator Reinigung;2
+100000153;CDS Rampe Hardware Endschalter Oben;2
+100000154;CDS Rampe Hardware Endschalter Unten;2
+100000155;CDS Rampe Software Endschalter Oben;2
+100000156;CDS Rampe Software Endschalter Unten;2
+100000157;CDS Rampe Motor Error;2
+100000160;CDS Abluft Druckluft zu niedrig;2
+100000161;CDS Abluft Druckluft zu hoch;2
+100000162;CDS Rampe Position zu hoch;2
+100000192;CDS Temperatur Ausgiesser minimal;2
+100000193;CDS Temperatur Ausgiesser maximal;2
+100000194;CDS Temperaturmessung 1 Rampe Kammer 1 minimal;2
+100000195;CDS Temperaturmessung 1 Rampe Kammer 1 maximal;2
+100000196;CDS Temperaturmessung 2 Rampe Kammer 1 minimal;2
+100000197;CDS Temperaturmessung 2 Rampe Kammer 1 maximal;2
+100000198;CDS Temperaturmessung 3 Rampe Kammer 1 minimal;2
+100000199;CDS Temperaturmessung 3 Rampe Kammer 1 maximal;2
+100000200;CDS Temperaturmessung 1 Rampe Kammer 2 minimal;2
+100000201;CDS Temperaturmessung 1 Rampe Kammer 2 maximal;2
+100000202;CDS Temperaturmessung 2 Rampe Kammer 2 minimal;2
+100000203;CDS Temperaturmessung 2 Rampe Kammer 2 maximal;2
+100000204;CDS Temperaturmessung 3 Rampe Kammer 2 minimal;2
+100000205;CDS Temperaturmessung 3 Rampe Kammer 2 maximal;2
+100000206;CDS pH- Wert minimal;2
+100000207;CDS pH- Wert maximal;2
+100000210;CDS Temperature mixer zu niedrig;2
+100000211;CDS Temperature mixer zu hoch;2
+100000240;CDS Dosierpumpe CDS Durchfluss minimal;2
+100000241;CDS Dosierpumpe CDS Durchfluss maximal;2
+100000242;CDS Dosierpumpe THS Durchfluss minimal;2
+100000243;CDS Dosierpumpe THS Durchfluss maximal;2
+100000244;CDS Dosiertank CDS leer;2
+100000245;CDS Dosiertank THS leer;2
+100000246;CDS Dosierpumpe CD Stoerung;2
+100000247;CDS Dosierpumpe TH Stoerung;2
+100000248;CDS Dosierpumpe NH3 Stoerung;2
+100000249;CDS Dosierpumpe Reiniger Stoerung;2
+100000250;CDS Durchflusserhitzer CD uebertemperatur;2
+100000251;CDS Durchflusserhitzer CD uebertemperatur Gehaeuse;2
+100000252;CDS Durchflusserhitzer THS uebertemperatur;2
+100000253;CDS Durchflusserhitzer THS uebertemperatur Gehaeuse;2
+100000254;CDS Dosiertank NH3 leer;2
+100000255;CDS Dosiertank Reiniger leer leer;2
+100000256;CDS Durchlauferhitzer CDS Temperatur maximal;2
+100000257;CDS Durchlauferhitzer CDS Temperatur minimal;2
+100000258;CDS Durchlauferhitzer THS Temperatur maximal;2
+100000259;CDS Durchlauferhitzer THS Temperatur minimal;2
+100000260;CDS Dosierpumpe NH3 Durchfluss maximal;2
+100000261;CDS Dosierpumpe NH3 Durchfluss minimal;2
+100000262;CDS Dosierpumpe NH3 Durchfluss maximal;2
+100000264;CDS Durchflusserhitzer CDS Sicherung gefallen;2
+100000265;CDS Durchflusserhitzer THS Sicherung gefallen;2
+100000266;CDS Dosierpumpe Reiniger Durchfluss minimal;2
+100000267;CDS Dosierpumpe Reiniger Durchfluss maximal;2
+100000268;CDS Dosieren DI-Wasser Durchfluss minimal;2
+100000269;CDS Dosieren DI-Wasser Durchfluss maximal;2
+100000288;CDS Hebestation Abwasser nicht aktiviert;2
+100000289;CDS Hebestation Abwasser uebervoll;2
+100000290;CDS Hebestation Abwasser abpumpen Zeitueberschreitung;2
+100000292;CDS Hebestation CDS nicht aktiviert;2
+100000293;CDS Hebestation CDS uebervoll;2
+100000294;CDS Hebestation CDS abpumpen Zeitueberschreitung;2
+100000296;CDS Hebestation DI-Wasser nicht aktiviert;2
+100000297;CDS Hebestation DI-Wasser uebervoll;2
+100000298;CDS Hebestation DI-Wasser abpumpen Zeitueberschreitung;2
+100000336;Heisswassertank 1 Abdeckung offen;2
+100000339;Heisswassertank 1 Trockenlauf;2
+100000340;Heisswassertank 1 uebervoll;2
+100000341;Heiswassertank 1 Verdunstungsausgleich Zeitueberschreitung;2
+100000344;Heisswassertank 1 Temperatur minimal;2
+100000345;Heisswassertank 1 Temperatur maximal;2
+100000346;Heisswassertank 1 Leitwert minimal;2
+100000347;Heisswassertank 1 Leitwert maximal;2
+100000348;Heisswassertank 1 Frequenzumrichter Pumpe Geschwindigkeit minimal;2
+100000349;Heisswassertank 1 Frequenzumrichter Pumpe Geschwindigkeit maximal;2
+100000350;Heisswassertank 1 Sicherung Heizung 1;2
+100000351;Heisswassertank 1 Sicherung Heizung 2;2
+100000352;Heisswassertank 1 uebertemperatur;2
+100000360;Heisswassertank 1 Stoerung Sinamic Antrieb Pumpe;2
+100000361;Heisswassertank 1 Stoerung level Umwaelzung;2
+100000384;Heisswassertank 2 Abdeckung offen;2
+100000387;Heisswassertank 2 Trockenlauf;2
+100000388;Heisswassertank 2 uebervoll;2
+100000389;Heiswassertank 2 Verdunstungsausgleich Zeitueberschreitung;2
+100000392;Heisswassertank 2 Temperatur minimal;2
+100000393;Heisswassertank 2 Temperatur maximal;2
+100000394;Heisswassertank 2 Leitwert minimal;2
+100000395;Heisswassertank 2 Leitwert maximal;2
+100000396;Heisswassertank 2 Frequenzumrichter Pumpe Geschwindigkeit minimal;2
+100000397;Heisswassertank 2 Frequenzumrichter Pumpe Geschwindigkeit maximal;2
+100000398;Heisswassertank 2 Sicherung Heizung 1;2
+100000399;Heisswassertank 2 Sicherung Heizung 2;2
+100000400;Heisswassertank 2 uebertemperatur;2
+100000408;Heisswassertank 2 Stoerung Sinamic Antrieb Pumpe;2
+100000409;Heisswassertank 2 Stoerung level Umwaelzung;2
+100000480;Spueler 2 Moduldeckel offen;2
+100000481;Spueler 2 Filterdeckel Pumpe;2
+100000482;Spueler 2 Abluftsensor;2
+100000483;Spueler 2 Trockenlauf;2
+100000485;Spueler 2 Niveauausgleich Zeitueberschreitung;2
+100000486;Spueler 2 Schnellbefuellung Zeitueberschreitung;2
+100000487;Spueler 2 Modulentleerung Zeitueberschreitung;2
+100000488;Spueler 2 Lekagesensor;2
+100000489;Spueler 2 Niveauausgleich ueber Bypass Zeitueberschreitung;2
+100000490;Spueler 2 Durchfluss Pumpe minimal;2
+100000491;Spueler 2 Durchfluss Pumpe maximal;2
+100000492;Spueler 2 Durchfluss Zulauf maximal;2
+100000493;Spueler 2 Durchfluss Zulauf minimal;2
+100000496;Spueler 2 Not-Aus;2
+100000504;Spueler 2 Sinamik Antrieb Pumpe;2
+100000528;Spueler 3 Moduldeckel offen;2
+100000529;Spueler 3 Filterdeckel Pumpe Kammer 1;2
+100000530;Spueler 3 Filterdeckel Pumpe Kammer 2;2
+100000531;Spueler 3 Filterdeckel Pumpe Kammer 3;2
+100000532;Spueler 3 Trockenlauf;2
+100000533;Spueler 3 Niveauausgleich Zeitueberschreitung;2
+100000534;Spueler 3 Schnellbefuellung Zeitueberschreitung;2
+100000535;Spueler 3 Modulentleerung Kammer 1 Zeitueberschreitung;2
+100000536;Spueler 3 Modulentleerung Kammer 2 Zeitueberschreitung;2
+100000537;Spueler 3 Modulentleerung Kammer 3 Zeitueberschreitung;2
+100000538;Spueler 3 Durchfluss Pumpe Kammer 1 maximal;2
+100000539;Spueler 3 Durchfluss Pumpe Kammer 1 minimal;2
+100000540;Spueler 3 Durchfluss Zulauf maximal;2
+100000541;Spueler 3 Durchfluss Zulauf minimal;2
+100000542;Spueler 3 Durchfluss Pumpe Kammer 2 maximal;2
+100000543;Spueler 3 Durchfluss Pumpe Kammer 2 minimal;2
+100000544;Spueler 3 Durchfluss Pumpe Kammer 3 maximal;2
+100000545;Spueler 3 Durchfluss Pumpe Kammer 3 minimal;2
+100000546;Spueler 3 Leitwert maximal;2
+100000547;Spueler 3 Leitwert minimal;2
+100000548;Spueler 3 Durchfluss UV-Lampe maximal;2
+100000549;Spueler 3 Durchfluss UV-Lampe minimal;2
+100000551;Spueler 3 Zulauf UV-Lampe Zeitueberschreitung;2
+100000552;Spueler 3 Sinamik Antrieb Pumpe Kammer 1;2
+100000553;Spueler 3 Sinamik Antrieb Pumpe Kammer 2;2
+100000554;Spueler 3 Sinamcik Antrieb Pumpe Kammer 3;2
+100000576;Trockner Ablasen 1 Geblaese Stoerung;2
+100000577;Trockner Ablasen 1 Geblaese Filter;2
+100000578;Trockner Ablasen 1 Geblaese Sicherung;2
+100000579;Trockner Abblasen 1 Luftmenge maximal;2
+100000580;Trockner Abblasen 1 Luftmenge minimal;2
+100000581;Trockner Abblasen 1 Temperatur maximal;2
+100000582;Trockner Abblasen 1 Temperatur minimal;2
+100000583;Trockner Ablasen 2 Geblaese Stoerung;2
+100000584;Trockner Ablasen 2 Geblaese Filter;2
+100000585;Trockner Ablasen 2 Geblaese Sicherung;2
+100000586;Trockner Abblasen 2 Luftmenge maximal;2
+100000587;Trockner Abblasen 2 Luftmenge minimal;2
+100000588;Trockner Abblasen 2 Temperatur maximal;2
+100000589;Trockner Abblasen 2 Temperatur minimal;2
+100000590;Trockner Geblaese unten Stoerung;2
+100000591;Trockner Geblaese unten Filter;2
+100000592;Trockner Geblaese unten Sicherung;2
+100000593;Trockner Geblaese unten Luftmenge maximal;2
+100000594;Trockner Geblaese unten Luftmenge minimal;2
+100000595;Trockner Geblaese unten Temperatur maximal;2
+100000596;Trockner Geblaese unten Temperatur minimal;2
+100000597;Trockner Geblaese oben Stoerung;2
+100000598;Trockner Geblaese oben Filter;2
+100000599;Trockner Geblaese oben Sicherung;2
+100000600;Trockner Geblaese oben Luftmenge maximal;2
+100000601;Trockner Geblaese oben Luftmenge minimal;2
+100000602;Trockner Geblaese oben Temperatur maximal;2
+100000603;Trockner Geblaese oben Temperatur minimal;2
+100000604;Trockner Moduldeckel offen;2
+100000605;Trockner Abluftsensor;2
+100000606;Trockner Lekagesensor;2
+100000624;Auslauf Antriebsgeschwindigkeit maximal;2
+100000625;Auslauf Antriebsgeschwindigkeit minimal;2
+100000626;Auslauf Entlader nicht bereit;2
+100000627;Auslauf Moduldeckel offen;2
+100000628;Auslauf Ionenspruehstab gestoert;2
+100000632;Auslauf Bandsspannung zu hoch;2
+100000633;Auslauf Bandsgeschwindigkeit zu niedrig;2
+100000634;Auslauf Bandsgeschwindigkeit zu hoch;2
+100000672;Schrank 1 Sicherung Steuerspannung;2
+100000673;Schrank 1 Sicherung Busversorgung;2
+100000674;24V Sicherung Busknoten BB301;2
+100000675;Schrank 1 Reserve Sicherung 1;2
+100000676;24V Sicherung Busknoten BB182;2
+100000677;Schrank 1 Reserve Sicherung 2;2
+100000678;Schrank 1 Sicherung 24V Versorgung Ventile;2
+100000679;Schrank 1 Sicherung 24V Versorgung Medienversorgung;2
+100000680;Schrank 1 Sicherung Luefter;2
+100000681;Schrank 1 Sicherung 230V Versorgung;2
+100000682;Schrank 1 Sicherung Sinamics Versorgung;2
+100000683;Schrank 1 Sicherung Sinamics Steuerspannung;2
+100000684;Schrank 1 Sicherung Sinamics Controll Unit;2
+100000685;Schrank 1 Sicherung Gleichstromantrieb Antrieb;2
+100000686;Schrank 1 Sicherung Gleichstromantrieb obere Walzen;2
+100000687;Schrank 1 Sicherung Sinamics Achsen;2
+100000688;Schrank 1 Not-Aus;2
+100000689;Steuerspannung aus;2
+100000690;Schrank 2 Sicherung Einspeisung;2
+100000691;Schrank 2 Sicherung 24V Versorgung Ventile;2
+100000692;Schrank 2 Sicherung 24V Versorgung Medienversorgung;2
+100000693;Schrank 2 Sicherung Luefter;2
+100000694;Schrank 2 Sicherung Fasspumpen;2
+100000695;Schrank 2 Sicherung Steuerspannung;2
+100000696;Schrank 2 Sicherung Busknoten;2
+100000697;Schrank 2 Reserve Sicherung 1;2
+100000698;Schrank 2 Reserve Sicherung 2;2
+100000699;24V Sicherung Busknoten BB181;2
+100000704;Lekage Sensor bb183;2
+100000705;Lekage Sensor bb061;2
+100000706;Lekage Sensor bb181;2
+100000707;Lekage Sensor bb182;2
+100000708;Lekage Sensor bb301;2
+100000709;Lekage Sensor bb241;2
+100000710;Sinamics Einspeisung gestoert;2
+100000711;Pressluft Druck zu gering;2
+100000712;Not- Aus Bedienpult;2
+100000713;Not- Aus BB183;2
+100000714;Not- Aus BB241;2
+100000715;Not- Aus BB301;2
+100000716;Not- Aus BB182;2
+100000717;Druckluft Error;2
+100000718;Sinamics Control Unit gestoert;2
+100000719;Sinamics InFeed Modul gestoert;2
+100000720;Moduldeckel 1 oeffnen Rueckmeldung fehlt;2
+100000721;Moduldeckel 1 schliessen Rueckmeldung fehlt;2
+100000722;Moduldeckel 2 oeffnen Rueckmeldung fehlt;2
+100000723;Moduldeckel 2 schliessen Rueckmeldung fehlt;2
+100000724;Moduldeckel 3 oeffnen Rueckmeldung fehlt;2
+100000725;Moduldeckel 3 schliessen Rueckmeldung fehlt;2
+100008206;Einlauf Antrieb Geschwindigkeit maximal;1
+100008207;Einlauf Antrieb Geschwindigkeit minimal;1
+100008208;Einlauf obere Rollen Geschwindigkeit maximal;1
+100008209;Einlauf obere Rollen Geschwindigkeit minimal;1
+100008240;Buerste Buerstberieselung Durchfluss minimal;1
+100008241;Buerste Buerstberieselung Durchfluss maximal;1
+100008288;Spueler 1 Dosierpumpe 1;1
+100008289;Spueler 1 Dosierpumpe Durchfluss niedrig;1
+100008290;Spueler 1 Dosierpumpe Durchfluss hoch;1
+100008298;Spueler 1 Pumpe Durchfluss maximal;1
+100008299;Spueler 1 Pumpe Durchfluss minimal;1
+100008300;Spueler 1 Zulauf Durchfluss maximal;1
+100008301;Spueler 1 Zulauf Durchfluss minimal;1
+100008336;CDS Abluft Durchfluss minimal;1
+100008337;CDS Abluft Durchfluss maximal;1
+100008338;CDS Rollen Durchfluss minimal;1
+100008339;CDS Rollen Durchfluss maximal;1
+100008340;CDS Outlet Durchfluss minimal;1
+100008341;CDS Outlet Durchfluss maximal;1
+100008352;CDS Abluft Druckluft minimal;1
+100008353;CDS Abluft Druckluft maximal;1
+100008354;CDS Rampe Position maximal;1
+100008384;CDS Temperatur Ausgiesser minimal;1
+100008385;CDS Temperatur Ausgiesser maximal;1
+100008386;CDS Temperaturmessung 1 Rampe Kammer 1 minimal;1
+100008387;CDS Temperaturmessung 1 Rampe Kammer 1 maximal;1
+100008388;CDS Temperaturmessung 2 Rampe Kammer 1 minimal;1
+100008389;CDS Temperaturmessung 2 Rampe Kammer 1 maximal;1
+100008390;CDS Temperaturmessung 3 Rampe Kammer 1 minimal;1
+100008391;CDS Temperaturmessung 3 Rampe Kammer 1 maximal;1
+100008392;CDS Temperaturmessung 1 Rampe Kammer 2 minimal;1
+100008393;CDS Temperaturmessung 1 Rampe Kammer 2 maximal;1
+100008394;CDS Temperaturmessung 2 Rampe Kammer 2 minimal;1
+100008395;CDS Temperaturmessung 2 Rampe Kammer 2 maximal;1
+100008396;CDS Temperaturmessung 3 Rampe Kammer 2 minimal;1
+100008397;CDS Temperaturmessung 3 Rampe Kammer 2 maximal;1
+100008398;CDS pH- Wert minimal;1
+100008399;CDS pH- Wert maximal;1
+100008402;CDS Temperature Mixer minimal;1
+100008403;CDS Temperature Mixer maximal;1
+100008432;CDS Dosierpumpe CDS Durchfluss minimal;1
+100008433;CDS Dosierpumpe CDS Durchfluss maximal;1
+100008434;CDS Dosierpumpe THS Durchfluss minimal;1
+100008435;CDS Dosierpumpe THS Durchfluss maximal;1
+100008438;CDS Dosierpumpe CDS 1;1
+100008439;CDS Dosierpumpe THSS 1;1
+100008448;CDS Durchlauferhitzer CDS Temperatur maximal;1
+100008449;CDS Durchlauferhitzer CDS Temperatur minimal;1
+100008450;CDS Durchlauferhitzer THS Temperatur maximal;1
+100008451;CDS Durchlauferhitzer THS Temperatur minimal;1
+100008453;CDS Dosierpumpe NH3 Durchfluss minimal;1
+100008454;CDS Dosierpumpe NH3 Durchfluss maximal;1
+100008458;CDS Dosierpumpe Reiniger Durchfluss minimal;1
+100008459;CDS Dosierpumpe Reiniger Durchfluss maximal;1
+100008460;CDS Dosieren DI-Wasser Durchfluss minimal;1
+100008461;CDS Dosieren DI-Wasser Durchfluss maximal;1
+100008536;Heisswassertank 1 Temperatur minimal;1
+100008537;Heisswassertank 1 Temperatur maximal;1
+100008538;Heisswassertank 1 Leitwert minimal;1
+100008539;Heisswassertank 1 Leitwert maximal;1
+100008540;Heisswassertank 1 Frequenzumrichter Pumpe Geschwindigkeit minimal;1
+100008541;Heisswassertank 1 Frequenzumrichter Pumpe Geschwindigkeit maximal;1
+100008552;Heiswassertank 1 Pumpe Inverter 1;1
+100008584;Heisswassertank 2 Temperatur minimal;1
+100008585;Heisswassertank 2 Temperatur maximal;1
+100008586;Heisswassertank 2 Leitwert minimal;1
+100008587;Heisswassertank 2 Leitwert maximal;1
+100008588;Heisswassertank 2 Frequenzumrichter Pumpe Geschwindigkeit minimal;1
+100008589;Heisswassertank 2 Frequenzumrichter Pumpe Geschwindigkeit maximal;1
+100008600;Heiswassertank 2 Pumpe Inverter 1;1
+100008682;Spueler 2 Durchfluss Pumpe minimal;1
+100008683;Spueler 2 Durchfluss Pumpe maximal;1
+100008684;Spueler 2 Durchfluss Zulauf maximal;1
+100008685;Spueler 2 Durchfluss Zulauf minimal;1
+100008730;Spueler 3 Durchfluss Pumpe Kammer 1 maximal;1
+100008731;Spueler 3 Durchfluss Pumpe Kammer 1 minimal;1
+100008732;Spueler 3 Durchfluss Zulauf maximal;1
+100008733;Spueler 3 Durchfluss Zulauf minimal;1
+100008734;Spueler 3 Durchfluss Pumpe Kammer 2 maximal;1
+100008735;Spueler 3 Durchfluss Pumpe Kammer 2 minimal;1
+100008736;Spueler 3 Durchfluss Pumpe Kammer 3 maximal;1
+100008737;Spueler 3 Durchfluss Pumpe Kammer 3 minimal;1
+100008738;Spueler 3 Leitwert maximal;1
+100008739;Spueler 3 Leitwert minimal;1
+100008740;Spueler 3 Durchfluss UV-Lampe maximal;1
+100008741;Spueler 3 Durchfluss UV-Lampe minimal;1
+100008771;Trockner Abblasen 1 Luftmenge maximal;1
+100008772;Trockner Abblasen 1 Luftmenge minimal;1
+100008773;Trockner Abblasen 1 Temperatur maximal;1
+100008774;Trockner Abblasen 1 Temperatur minimal;1
+100008778;Trockner Abblasen 2 Luftmenge maximal;1
+100008779;Trockner Abblasen 2 Luftmenge minimal;1
+100008780;Trockner Abblasen 2 Temperatur maximal;1
+100008781;Trockner Abblasen 2 Temperatur minimal;1
+100008785;Trockner Geblaese unten Luftmenge maximal;1
+100008786;Trockner Geblaese unten Luftmenge minimal;1
+100008787;Trockner Geblaese unten Temperatur maximal;1
+100008788;Trockner Geblaese unten Temperatur minimal;1
+100008792;Trockner Geblaese oben Luftmenge maximal;1
+100008793;Trockner Geblaese oben Luftmenge minimal;1
+100008794;Trockner Geblaese oben Temperatur maximal;1
+100008795;Trockner Geblaese oben Temperatur minimal;1
+100008816;Auslauf Motor Geschwindigkeit maximal;1
+100008817;Auslauf Motor Geschwindigkeit minimal;1
+100008824;Auslauf Bandsspannung maximal;1
+100008826;Auslauf Bandsgeschwindichkeit minimal;1
+100008827;Auslauf Bandsgeschwindichkeit maximal;1
