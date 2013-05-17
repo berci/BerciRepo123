@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jaxb:bindings version="2.1" 
+	xmlns:jaxb="http://java.sun.com/xml/ns/jaxb"
+	xmlns:xjc="http://java.sun.com/xml/ns/jaxb/xjc"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/jaxb http://java.sun.com/xml/ns/jaxb/bindingschema_2_1.xsd">
+
+	<!-- jaxb:globalBindings optionalProperty="wrapper">
+		<jaxb:javaType name="java.util.Date" xmlType="xs:date"
+			parseMethod="com.camline.jumo.api.util.DateAdapter.parseDate"
+			printMethod="com.camline.jumo.api.util.DateAdapter.printDate" />
+		<jaxb:javaType name="java.util.Date" xmlType="xs:dateTime"
+			parseMethod="com.camline.jumo.api.util.DateAdapter.parseDateTime"
+			printMethod="com.camline.jumo.api.util.DateAdapter.printDateTime" />
+	</jaxb:globalBindings-->
+	
+	<jaxb:globalBindings>
+		<xjc:serializable/>
+	</jaxb:globalBindings>
+	
+	<!--
+	<jaxb:bindings schemaLocation="xsd/jumo-api.xsd">
+		<jaxb:schemaBindings>
+			<jaxb:package name="com.camline.jumo.api.jaxb" />
+		</jaxb:schemaBindings>
+	</jaxb:bindings>
+	-->
+
+	<!--
+		<javaType name="java.util.Date" xmlType="xs:date"
+		parseMethod="org.acme.foo.DateAadpter.parseDate"
+		printMethod="org.acme.foo.DateAdapter.printDate"/>
+		</globalBindings>
+	-->
+</jaxb:bindings>

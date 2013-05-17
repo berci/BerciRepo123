@@ -1,0 +1,15 @@
+// xml.idl
+
+module com {
+module berta {
+module xmlmessage {
+
+	interface Xml
+	{
+		typedef sequence <octet>  XmlDocument;
+		void process_request ( inout XmlDocument document );
+	};
+};
+};
+};
+

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<project name="API" basedir=".." default="jaxb-jar">
+
+	<property file="ant/build.properties"/>
+	<property file="../ant/local.properties"/>	
+
+	<import file="build-jaxb.xml"/>
+
+	<!--
+		We have some additional files which need to be copied into the api jar.
+	-->
+	<path id="jaxb.resources">
+		<fileset dir="${i18n}"/>
+	</path>
+	
+	<target name="compile-rmi">
+		<mkdir dir="${basedir}/build/tmp"/>
+
+		<javac debug="true" destdir="${basedir}/build/tmp" source="1.5" target="1.5">
+			<src path="${basedir}/src"/>
+			<src path="${basedir}/jaxbsrc"/>
+			<!--classpath refid="pks.compile.classpath"/-->
+		</javac>
+	</target>
+	
+	<target name="build-rmi-classes" depends="compile-rmi">  
+	    <rmic classname="com.berta.server.impl.HelloImpl" base="${basedir}/build/tmp" />  
+	</target>
+	
+	<target name="jar-rmi" depends="build-rmi-classes" description="JARs the project">
+		<tstamp>
+			<format property="BUILDDATE" pattern="d MMM yyyy HH:mm:ss Z"/>
+		</tstamp>
+		<jar destfile="${basedir}/build/server-api.jar" basedir="${basedir}/build/tmp">
+			<manifest>
+				<attribute name="Built-By" value="${user.name}" />
+				<attribute name="Specification-Title" value="${ant.project.name}" />
+				<attribute name="Specification-Version" value="Snapshot" />
+				<attribute name="Specification-Vendor" value="camLine" />
+				<attribute name="Implementation-Title" value="${ant.project.name}" />
+				<attribute name="Implementation-Version" value="Snapshot ${BUILDDATE}" />
+				<attribute name="Implementation-Vendor" value="Odevis" />
+			</manifest>
+		</jar>
+		<delete dir="${basedir}/build/tmp" failonerror="false"/>
+	</target>
+</project>
+

@@ -1,0 +1,33 @@
+<project name="Hibernate" basedir=".">
+
+	<property file="build.properties" />
+	<property name="server.src" value="${basedir}/idl" />
+	<property name="idl.src" value="${basedir}/idl" />
+
+	<path id="hibernate.classpath">
+		<fileset dir="${lib}">
+			<include name="*.jar" />
+		</fileset>
+	</path>
+	
+	<target name="gen-idl">
+		<echo message="delete generated classes" />
+		<delete dir="${server.src}/com/berta" verbose="false" />
+		<delete dir="${idl.src}/com" verbose="false" />
+
+		<echo message="generate server classes from idl" />
+		<java classname="org.jacorb.idl.parser" fork="yes" dir="${server.src}/messages">
+			<arg value="-nostub" />
+			<arg value="${idl.src}/xml.idl" />
+			<classpath refid="hibernate.classpath" />
+		</java>
+		<echo message="generate client classes from idl" />
+		<java classname="org.jacorb.idl.parser" fork="yes" dir="${idl.src}/messages">
+			<arg value="-noskel" />
+			<arg value="${idl.src}/xml.idl" />
+			<classpath refid="hibernate.classpath" />
+		</java>
+	</target>
+
+
+</project>
