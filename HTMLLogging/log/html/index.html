@@ -1,0 +1,33 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Log4J Log Messages</title>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="../../js/htmllogging.js"></script>
+<style type="text/css">
+	body, table {font-family: arial,sans-serif; font-size: small;}
+	th {background: #336699; color: #FFFFFF; text-align: left;}
+	td {padding-left:10px;padding-right:10px;}
+</style>
+
+</head>
+<body onload="initValue()" bgcolor="#FFFFFF">
+<br>
+<form>
+	<input id="TRACE" type="radio"  name="level" value="TRACE" onclick="call(this.value)">Trace
+	<input id="DEBUG" type="radio" name="level" value="DEBUG" onclick="call(this.value)" checked="checked">Debug
+	<input id="INFO" type="radio" name="level" value="INFO" onclick="call(this.value)">Info
+	<input id="WARN" type="radio" name="level" value="WARN" onclick="call(this.value)">Warn
+	<input id="ERROR" type="radio" name="level" value="ERROR" onclick="call(this.value)">Error
+	<input id="FATAL" type="radio" name="level" value="FATAL" onclick="call(this.value)">Fatal
+</form>
+<br>
+<div id="div1"></div>
+<table id="table" cellspacing="0" cellpadding="2" border="1" width="auto">
+
+
+</table>
+
+<br>
+</body>
+</html>
