@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+
+<project name="rmi" basedir=".">
+	
+	<path id="classpath">
+		<fileset dir="${lib}">
+			<include name="*.jar"/>
+		</fileset>
+		<fileset dir="${drlib}">
+			<include name="*.jar"/>
+		</fileset>		
+	</path>
+	
+	<target name="compile-rmi">
+		<mkdir dir="${basedir}/build/tmp"/>
+
+		<javac debug="true" destdir="${basedir}/build/tmp" source="1.5" target="1.5">
+			<src path="${basedir}/server"/>
+			<!--classpath refid="pks.compile.classpath"/-->
+		</javac>
+	</target>
+	
+	<target name="build-rmi-classes" depends="compile-rmi">  
+	    <rmic classname="rmi.test.impl.HelloImpl" base="${basedir}/build/tmp" />  
+	</target>
+	
+	<target name="jar-rmi" depends="build-rmi-classes" description="JARs the project">
+		<tstamp>
+			<format property="BUILDDATE" pattern="d MMM yyyy HH:mm:ss Z"/>
+		</tstamp>
+		<jar destfile="${basedir}/build/server.jar" basedir="${basedir}/build/tmp">
+			<manifest>
+				<attribute name="Built-By" value="${user.name}" />
+				<attribute name="Specification-Title" value="${ant.project.name}" />
+				<attribute name="Specification-Version" value="Snapshot" />
+				<attribute name="Specification-Vendor" value="camLine" />
+				<attribute name="Implementation-Title" value="${ant.project.name}" />
+				<attribute name="Implementation-Version" value="Snapshot ${BUILDDATE}" />
+				<attribute name="Implementation-Vendor" value="Odevis" />
+			</manifest>
+		</jar>
+		<delete dir="${basedir}/build/tmp" failonerror="false"/>
+	</target>
+	
+</project>
