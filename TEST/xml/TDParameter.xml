@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivl_ml1:TDParameters xmlns:ivl_ml1="http://www.camline.com/pks/td/ivl_ml1/config" xmlns:pafile="http://www.odevis.com/pks/protocoladapter/pafile/config" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.camline.com/pks/td/ivl_ml1/config ../xsd/TDParameter.xsd ">
+  <ToolDriver>
+    <EquipmentName>EquipmentName</EquipmentName>
+    <UNCPathName>UNCPathName</UNCPathName>
+    <DestinationPath>DestinationPath</DestinationPath>
+  </ToolDriver>
+  <TDFile>
+    <SubDirectory>SubDirectory</SubDirectory>
+    <CycleTime>0</CycleTime>
+    <SleepTimeBetweenEvents>0</SleepTimeBetweenEvents>
+    <FileNameDateFormat>FileNameDateFormat</FileNameDateFormat>
+    <FileNameDateStartsAt>0</FileNameDateStartsAt>
+    <XMLStartLevel>0</XMLStartLevel>
+    <DateFormatString>DateFormatString</DateFormatString>
+    <NaNValue>NaNValue</NaNValue>
+    <DecimalSeparator>.</DecimalSeparator>
+    <Filter>Filter</Filter>
+    <pagingSize>0</pagingSize>
+    <WriteStackTraceToFile>false</WriteStackTraceToFile>
+  </TDFile>
+</ivl_ml1:TDParameters>

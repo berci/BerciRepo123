@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" 
+	xmlns:pafile="http://www.odevis.com/pks/protocoladapter/pafile/config" 
+	targetNamespace="http://www.odevis.com/pks/protocoladapter/pafile/config">
+    <complexType name="PAFileType">
+        <sequence>
+            <element name="SubDirectory" minOccurs="1" maxOccurs="1" 
+            	type="string"  >
+            	<annotation>
+            		<documentation>
+            			Sub directory for this protocol adapter
+            		</documentation>
+            	</annotation></element>
+            <element name="CycleTime" maxOccurs="1" minOccurs="1"
+        		type="int" >
+            	<annotation>
+            		<documentation>
+            			Poll cycle in seconds for reading new created
+            			interface files
+            		</documentation>
+            	</annotation></element>
+            <element name="SleepTimeBetweenEvents" maxOccurs="1" minOccurs="1"
+        		type="int" >
+            	<annotation>
+            		<documentation>
+            			Time in milliseconds to wait after sending an event
+            		</documentation>
+            	</annotation></element>
+            <element name="FileNameDateFormat" minOccurs="1" maxOccurs="1" 
+        		type="pafile:MediumStringType" >
+            	<annotation>
+            		<documentation>
+            			Java compatible format string for parsing the
+            			date string in the filename
+            		</documentation>
+            	</annotation></element>
+        	<element name="FileNameDateStartsAt" minOccurs="1"
+        		maxOccurs="1">
+        		<annotation>
+        			<documentation>
+        				Gives the first position of the date in the
+        				filename
+        			</documentation>
+        		</annotation>
+        		<simpleType>
+        			<restriction base="int">
+        				<minInclusive value="1"></minInclusive>
+        			</restriction>
+        		</simpleType>
+        	</element>
+        	<element name="XMLStartLevel" minOccurs="1" maxOccurs="1"
+        		type="int" >
+        		<annotation>
+        			<documentation>
+        				Start parsing of XML file at this level. Min
+        				value is 1
+        			</documentation>
+        		</annotation></element>
+        	<element name="DateFormatString" maxOccurs="1" minOccurs="1"
+        		type="pafile:MediumStringType" >
+        		<annotation>
+        			<documentation>
+        				Java compatible format string for parsing date
+        				strings in the XML file
+        			</documentation>
+        		</annotation></element>
+        	<element name="NaNValue" maxOccurs="1" minOccurs="1"
+        		type="pafile:MediumStringType" >
+        		<annotation>
+        			<documentation>
+        				Has to equal the NaN representation in the XML
+        				interface files
+        			</documentation>
+        		</annotation></element>
+        	<element name="DecimalSeparator" maxOccurs="1" minOccurs="1">
+                <annotation>
+                	<documentation>
+                		Has to equal decimal separator in the interface
+                		file
+                	</documentation>
+                </annotation>
+                <simpleType>
+        			<restriction base="string">
+        				<length value="1"></length>
+        				<enumeration value="."></enumeration>
+        				<enumeration value=","></enumeration>
+        			</restriction>
+        		</simpleType>
+        	</element>
+        	<element name="Filter" type="string" maxOccurs="1" minOccurs="0">
+        	</element>
+        	<element name="pagingSize" type="int" maxOccurs="1" minOccurs="0">
+				<annotation>
+					<documentation>max number providing files per one dir loop. if less than 1, provide all files</documentation>
+				</annotation>
+			</element>
+        	<element name="WriteStackTraceToFile" type="boolean" default="false" maxOccurs="1" minOccurs="0">
+				<annotation>
+					<documentation>Flag to create an error log file if file parsing or BR processing fails</documentation>
+				</annotation>
+        	</element>
+        </sequence>
+    </complexType>
+
+    <simpleType name="MediumStringType">
+    	<restriction base="string">
+    		<minLength value="0"/>
+    		<maxLength value="128"/>
+    	</restriction>
+    </simpleType>
+</schema>

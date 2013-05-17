@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" 
+		xmlns:ivl_ml1="http://www.camline.com/pks/td/ivl_ml1/config"  
+		xmlns:pafile="http://www.odevis.com/pks/protocoladapter/pafile/config"
+targetNamespace="http://www.camline.com/pks/td/ivl_ml1/config">
+
+<import schemaLocation="./PAFile.xsd" namespace="http://www.odevis.com/pks/protocoladapter/pafile/config" />
+
+<element name="TDParameters">
+	<complexType>
+		<sequence>
+			<element name="ToolDriver" type="ivl_ml1:TDHeader"/>
+			<element name="TDFile" type="pafile:PAFileType"/>
+		</sequence>
+	</complexType>		
+</element>
+
+<complexType name="TDHeader">
+	<sequence>
+		<element name="EquipmentName" type="pafile:MediumStringType" maxOccurs="1" minOccurs="1"/>
+		<element name="UNCPathName" type="pafile:MediumStringType" maxOccurs="1" minOccurs="1"/>
+		<element name="DestinationPath" type="string" maxOccurs="1" minOccurs="1"/>
+	</sequence>
+</complexType>
+
+
+</schema>

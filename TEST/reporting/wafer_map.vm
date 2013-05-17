@@ -1,0 +1,66 @@
+$htmlFragments.getHTMLStart()
+
+#set ($m = $utility.newMap() ) 
+
+#set ($colors = ["#00d100","#AD0000"] )
+
+$componentMap.get("header_title").toHTML()
+
+#set($tabCellMap = $componentMap.get("table_cell_map"))
+#set ($m = $tabCellMap.getReportData().getMatrixMap("MODULE_POS_Y","MODULE_POS_X","CELL_ID") )
+
+#set ($module_id = $tabCellMap.getReportData().getValues("MODULE_ID").get(0))
+
+#set($tabDefectMap = $componentMap.get("table_defect_map"))
+#set ($d = $tabDefectMap.getReportData().getMatrixMap("CELL_Y","CELL_X","DEFECT") )
+
+#set ($i = 1)
+<table>
+<tr>
+<th style="font-size: 9px; font-weight: normal;">X\Y</th>
+#foreach ($col in $m.getColumns())
+ <th style="font-size: 9px; font-weight: normal;">$col</th>
+#end
+</tr>
+
+#foreach ($row in $m.getRows())
+ #set ($rowMap = $m.get($row))
+ <tr>
+  <th style="font-size: 9px; font-weight: normal; border-top:1px solid black; vertical-align: top">$row</th>
+ #foreach ($col in $m.getColumns())
+
+	#if ($rowMap.get($col))
+		
+		#set ($defect = 0)
+		
+		#foreach ($rowDef in $d.getRows())
+		 #set ($rowMapDef = $d.get($rowDef))
+		 #foreach ($colDef in $d.getColumns())
+		 	#if($col == $colDef && $row == $rowDef && $rowMapDef.get($colDef))
+				#set ($valuesDef = $rowMapDef.get($colDef))
+				#set ($defect = $valuesDef.get(0).getValue().intValue()) 
+		 	#end
+		 #end
+	 	#end
+
+ 	
+		#set ($values = $rowMap.get($col))
+		#set ($pp = $values.get(0).getValue())
+		#set ($c = $colors.get( $defect ))
+		<td style="background-color: $c; line-height: 10px; width:150px;" align="center" title="Position: ($row,$col) Cell Id: $pp">
+		 <a href="stdReport?file=sol_online_or_history_substrate_cell_defects.xml?cell_id=$pp?module_id=$module_id" 
+		 		style="display:block; text-decoration:none; color:#000000;">$i</a>
+		</td>
+	#else
+		<td style="line-height: 20px; width:50px;">
+		 
+		</td>
+	#end
+	#set ($i = $i + 1)
+ #end
+</tr>
+#end
+</table>
+
+
+$htmlFragments.getHTMLEnd()
