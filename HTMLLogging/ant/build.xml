@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<project name="HTML Logging" basedir="..">
+
+	<!--=====================================================================-->
+	<!--classpath needed to compile the iGate plugins                        -->
+	<!--=====================================================================-->
+	<path id="compile-classpath">
+		<fileset dir="${basedir}/lib">
+			<include name ="*.jar"/>
+		</fileset>
+	</path>
+
+	<!--=====================================================================-->
+	<!-- compiles the *.java files and put the classes into bin directory    -->
+	<!--=====================================================================-->
+	<target name="compile" description="Compiles the project" >
+		<delete dir="${basedir}/build/classes"/>
+		<mkdir dir="${basedir}/build/classes"/>
+
+		<javac debug="true" destdir="${basedir}/build/classes">
+			<src path="${basedir}/src"/>
+			<classpath refid="compile-classpath"/>
+		</javac>
+	</target>
+
+	<!--=====================================================================-->
+	<!-- compiles the *.java files and put the classes into bin directory    -->
+	<!--=====================================================================-->
+	<target name="jar" depends="compile" description="Create plugin jar" >
+		<mkdir dir="${basedir}/build"/>
+
+		<tstamp>
+			<format property="BUILDDATE" pattern="dd-MMM-yyyy hh:mm:ss aa" />
+		</tstamp>
+		<jar jarfile="${basedir}/build/htmllogging.jar">
+			<fileset dir="${basedir}/build/classes" />
+			<!--fileset dir="${basedir}/src" includes="com/**/*.properties"/-->
+			<manifest>
+				<attribute name="Built-By" value="${user.name}" />
+				<attribute name="Specification-Title" value="WebUI" />
+				<attribute name="Specification-Version" value="${stripedVersion}" />
+				<attribute name="Specification-Vendor" value="camLine" />
+				<attribute name="Implementation-Title" value="WebUI" />
+				<attribute name="Implementation-Version" value="${stripedVersion} ${BUILDDATE}" />
+				<attribute name="Implementation-Vendor" value="camLine" />
+			</manifest>
+		</jar>
+		<delete dir="${basedir}/build/classes"/>
+	</target>
+</project>
